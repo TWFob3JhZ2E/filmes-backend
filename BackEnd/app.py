@@ -1,16 +1,13 @@
 from flask import Flask
 from flask_cors import CORS
-from routes.filmes import filmes_bp
-from routes.series import series_bp
-from routes.codigos import codigos_bp
+from BackEnd.routes import blueprints  # importa a lista de blueprints
 
 app = Flask(__name__)
 CORS(app)
 
-# Registrar Blueprints
-app.register_blueprint(filmes_bp)
-app.register_blueprint(series_bp)
-app.register_blueprint(codigos_bp)
+# Registrar todos os blueprints definidos em routes/__init__.py
+for bp in blueprints:
+    app.register_blueprint(bp)
 
 @app.route('/')
 def home():

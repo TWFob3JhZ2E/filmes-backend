@@ -1,6 +1,10 @@
-from flask import Blueprint
+from BackEnd.routes.filmes import filmes_bp
+from BackEnd.routes.series import series_bp
+from BackEnd.routes.codigos import codigos_bp
 
-# Blueprints para cada grupo de rota
-filmes_bp = Blueprint('filmes', __name__)
-series_bp = Blueprint('series', __name__)
-codigos_bp = Blueprint('codigos', __name__)
+# Lista de blueprints para facilitar registro no app.py
+blueprints = [
+    filmes_bp,
+    series_bp,
+    codigos_bp
+]
