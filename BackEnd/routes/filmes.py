@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 import requests
 
 from BackEnd.utils import carregar_dados_json, salvar_dados_json, item_existe, caminho_json
-from routes import filmes_bp
+from BackEnd.routes.filmes import filmes_bp
+
 
 FILMES_JSON = caminho_json('Filmes.json')
 NOVOS_FILMES_JSON = caminho_json('Novosfilmes.json')
