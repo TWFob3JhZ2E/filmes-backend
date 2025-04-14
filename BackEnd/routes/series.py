@@ -1,28 +1,17 @@
-from flask import Blueprint, jsonify, request
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
+from flask import jsonify, request
+from threading import Thread
 from bs4 import BeautifulSoup
 import requests
-from threading import Thread
-from utils.helpers import carregar_dados_json, salvar_dados_json, item_existe
 
-series_bp = Blueprint('series', __name__)
+from utils import carregar_dados_json, salvar_dados_json, item_existe, caminho_json
+from routes import series_bp
 
-# Caminhos dos arquivos JSON
-SERIES_JSON_PATH = 'series.json'
-CODE_SERIES_NOMES_PATH = 'CodeSeriesNomes.json'
+SERIES_JSON = caminho_json('series.json')
+CODE_SERIES_NOMES_PATH = caminho_json('CodeSeriesNomes.json')
 
-# Configuração do rate limiting
-limiter = Limiter(
-    get_remote_address,
-    app=None  # Não precisa passar o app diretamente aqui, porque estamos no Blueprint
-)
-
-# Aplica rate limiting para a rota /series
 @series_bp.route('/series')
-@limiter.limit("150 per hour")  # Limite de 150 requisições por hora para séries
 def series():
-    series_cache = carregar_dados_json(SERIES_JSON_PATH)
+    series_cache = carregar_dados_json(SERIES_JSON)
     series_atualizadas = series_cache.copy()
 
     def atualizar_series():
@@ -52,24 +41,18 @@ def series():
 
                 if novas_series:
                     series_cache.extend(novas_series)
-                    salvar_dados_json(SERIES_JSON_PATH, series_cache)
-
-        except requests.exceptions.RequestException as e:
+                    salvar_dados_json(SERIES_JSON, series_cache)
+        except Exception as e:
             print(f"Erro ao atualizar séries: {e}")
 
     Thread(target=atualizar_series).start()
     return jsonify(series_atualizadas)
 
-# Aplica rate limiting para a rota /series/pagina
 @series_bp.route('/series/pagina')
-@limiter.limit("100 per hour")  # Limite de 100 requisições por hora para séries por página
 def series_pagina():
     series_cache = carregar_dados_json(CODE_SERIES_NOMES_PATH)
-
     pagina = int(request.args.get('pagina', 1))
     series_por_pagina = 50
     inicio = (pagina - 1) * series_por_pagina
     fim = inicio + series_por_pagina
-    series_paginadas = series_cache[inicio:fim]
-
-    return jsonify(series_paginadas)
+    return jsonify(series_cache[inicio:fim])

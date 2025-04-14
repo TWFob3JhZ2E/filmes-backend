@@ -1,5 +1,11 @@
 [
     {
+        "titulo": "A Influencer Divina",
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/saP1nYtwwp9umyHeUUSKNyuBLbj.jpg",
+        "id": "tt23032876"
+    },
+    {
         "titulo": "A Família Khumalo",
         "qualidade": "HD",
         "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/moYXQwN4Snyv6cpvA3FChPOJGXc.jpg",
@@ -232,17 +238,5 @@
         "qualidade": "HD",
         "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/pB9pQcMg8Wmq4jH4dqbPOd3grQ9.jpg",
         "id": "tt29579687"
-    },
-    {
-        "titulo": "We Don’t Know Love Yet",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ri4cJ9ldRC8iyjzVcdOr2Fqsic7.jpg",
-        "id": "tt32085996"
-    },
-    {
-        "titulo": "A Influencer Divina",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/saP1nYtwwp9umyHeUUSKNyuBLbj.jpg",
-        "id": "tt23032876"
     }
 ]
