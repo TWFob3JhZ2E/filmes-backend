@@ -3,7 +3,7 @@ from threading import Thread
 from bs4 import BeautifulSoup
 import requests
 
-from utils import carregar_dados_json, salvar_dados_json, item_existe, caminho_json
+from BackEnd.utils import carregar_dados_json, salvar_dados_json, item_existe, caminho_json
 from routes import filmes_bp
 
 FILMES_JSON = caminho_json('Filmes.json')
