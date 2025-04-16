@@ -185,7 +185,7 @@ def filmes_pagina_atualizar():
 
     return jsonify(filmes_atualizados)
 
-app.route('/buscar')
+@app.route('/buscar')
 def buscar_nomes():
     termo = request.args.get('q', '').lower()
     filmes = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
@@ -197,6 +197,7 @@ def buscar_nomes():
     resultados = resultados_filmes + resultados_series
 
     return jsonify(resultados[:10])  # Limita a 10 resultados
+
 
 
 @app.route('/series/pagina')
