@@ -201,7 +201,6 @@ def buscar_nomes():
 
 @app.route('/series/pagina')
 def series_pagina():
-    CODE_SERIES_NOMES_PATH = 'CodeSeriesNomes.json'
     series_cache = carregar_dados_json(CODE_SERIES_NOMES_PATH)
 
     # Paginação
