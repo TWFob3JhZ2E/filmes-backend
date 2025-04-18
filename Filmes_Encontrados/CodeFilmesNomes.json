@@ -10162,5 +10162,89 @@
             "Quirky Comedy",
             "Comedy"
         ]
+    },
+    {
+        "titulo": "Osmose Jones",
+        "titulo_original": null,
+        "id": "tt0181739",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYWRkZWE3M2YtMjI0MC00ODk2LThhYTktN2ZmM2RiMTJiZGYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Um glóbulo branco policial, com a ajuda de uma pílula para resfriado, deve impedir que um vírus mortal destrua Frank, o ser humano em que vivem.",
+        "generos": [
+            "Buddy Cop",
+            "Dark Comedy"
+        ]
+    },
+    {
+        "titulo": "O Grande Desafio",
+        "titulo_original": null,
+        "id": "tt0184526",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNmI1NWJiOTQtY2VjYi00ZmZjLWEzZTQtNWI2ODYyMTBjNmY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Em Hong Kong, um empresário rico e exímio lutador de artes marciais confunde uma jovem com a namorada de um mafioso de Taiwan. O milionário se apaixona pela moça ao mesmo tempo em que enfrenta um habilidoso lutador ocidental.",
+        "generos": [
+            "Dark Comedy",
+            "Action"
+        ]
+    },
+    {
+        "titulo": "RoboCop: O Policial do Futuro",
+        "titulo_original": null,
+        "id": "tt0093870",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNzFjYmFiMzMtNmY1My00ZDdkLWI3ZGEtOGZjYjY0YzYxMDBlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Em um Detroit distópico e assolado pelo crime, um policial terminalmente ferido retorna à força como um poderoso cyborg perseguido por memórias submersas.",
+        "generos": [
+            "Cyberpunk",
+            "Dark Comedy"
+        ]
+    },
+    {
+        "titulo": "RoboCop 2",
+        "titulo_original": null,
+        "id": "tt0100502",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNDM3ZDRhYTAtZjk2ZC00YzRmLTg2OWMtOTBmZmU1ODg5ZWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "O Robocop volta para proteger aos cidadãos de Detroit mas se enfrenta contra uma nova ameaça.",
+        "generos": [
+            "Cyberpunk",
+            "Superhero"
+        ]
+    },
+    {
+        "titulo": "RoboCop 3",
+        "titulo_original": null,
+        "id": "tt0107978",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNjExODhhZmItOWI1ZS00ZDVjLTg4ZmYtMjYyMGYyOTY5OTMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Robocop salva o dia mais uma vez. Desta vez, ele se confronta com desenvolvedores impiedosos que querem expulsar algumas pessoas de suas terras.",
+        "generos": [
+            "Cyberpunk",
+            "Superhero"
+        ]
+    },
+    {
+        "titulo": "Space Jam - O Jogo do Século",
+        "titulo_original": null,
+        "id": "tt0117705",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTZkNzMzNzQtMmZlOS00MzgzLTgzYWEtNDQ3YTlmNjQ5YWFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Os Looney Tunes procuram a ajuda da lenda do basquete Michael Jordan em uma tentativa desesperada de ganhar um jogo de basquete do qual depende sua liberdade",
+        "generos": [
+            "Animal Adventure",
+            "Basketball"
+        ]
+    },
+    {
+        "titulo": "Striptease",
+        "titulo_original": null,
+        "id": "tt0117765",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZjA4N2FjZDktYzFkMi00YzMzLWIyNTctNzY5OTA3ZTQ0OTVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Uma stripper e uma mãe solteira são levadas numa situação perigosa depois que um congressista se interessa por ela.",
+        "generos": [
+            "Dark Comedy",
+            "Erotic Thriller"
+        ]
     }
 ]
