@@ -49,12 +49,17 @@ def obter_dados_imdb(filme_id):
         elif "SD" in response.text:
             qualidade = "SD"
 
+        # Obtendo os dois primeiros gêneros
+        generos_tag = soup.find_all('span', class_='ipc-chip__text')
+        generos = [genero.get_text(strip=True) for genero in generos_tag][:2]  # Limita para os dois primeiros
+
         return {
             "titulo": titulo_texto,
             "titulo_original": titulo_original_texto,
             "capa": capa_url,
             "qualidade": qualidade,
-            "descricao": descricao
+            "descricao": descricao,
+            "generos": generos
         }
     else:
         print(f"Erro ao acessar {url}")
@@ -84,13 +89,17 @@ def buscar_dados_tmdb(serie_id):
         response = requests.get(url)
         if response.status_code == 200:
             dados = response.json()
+            # Obtendo os dois primeiros gêneros
+            generos = [genero['name'] for genero in dados.get('genres', [])][:2]  # Limita para os dois primeiros
+
             return {
                 "titulo": dados.get("name"),
                 "titulo_original": dados.get("original_name"),
                 "id": str(serie_id),
                 "capa": f"https://image.tmdb.org/t/p/w500{dados.get('poster_path')}" if dados.get("poster_path") else None,
                 "qualidade": "HD",
-                "descricao": dados.get("overview")
+                "descricao": dados.get("overview"),
+                "generos": generos  # Adicionando os gêneros
             }
         else:
             print(f"Erro ao buscar série {serie_id}: {response.status_code}")
@@ -147,7 +156,8 @@ def main():
                         "id": filme_id,
                         "capa": dados["capa"],
                         "qualidade": dados["qualidade"],
-                        "descricao": dados["descricao"]
+                        "descricao": dados["descricao"],
+                        "generos": dados["generos"]  # Adicionando os gêneros
                     }
                     filmes_nomes.append(novo_filme)
                     salvar_json_incremental('CodeFilmesNomes.json', filmes_nomes)

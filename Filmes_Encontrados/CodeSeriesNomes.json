@@ -5,7 +5,11 @@
         "id": "63174",
         "capa": "https://image.tmdb.org/t/p/w500/hdKxcoV5CFc3sGOmbGXDXbx1cTZ.jpg",
         "qualidade": "HD",
-        "descricao": "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos."
+        "descricao": "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.",
+        "generos": [
+            "Crime",
+            "Sci-Fi & Fantasy"
+        ]
     },
     {
         "titulo": "Motel Bates",
@@ -13,7 +17,11 @@
         "id": "46786",
         "capa": "https://image.tmdb.org/t/p/w500/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
         "qualidade": "HD",
-        "descricao": "Após a morte do pai, Norman Bates e sua mãe abrem um hotel. Mas o estado mental de Norman os leva por um caminho sombrio e violento."
+        "descricao": "Após a morte do pai, Norman Bates e sua mãe abrem um hotel. Mas o estado mental de Norman os leva por um caminho sombrio e violento.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
     },
     {
         "titulo": "De Férias com o Ex Brasil",
@@ -21,7 +29,10 @@
         "id": "68603",
         "capa": "https://image.tmdb.org/t/p/w500/vSYlNoUWagwR1jpftExIVeMm3Kc.jpg",
         "qualidade": "HD",
-        "descricao": "Dez solteiros vão passar férias em um paraíso tropical. Mas o sonho pode se transformar em pesadelo quando os exs do passado começam a assombrar os dias e noites dos participantes."
+        "descricao": "Dez solteiros vão passar férias em um paraíso tropical. Mas o sonho pode se transformar em pesadelo quando os exs do passado começam a assombrar os dias e noites dos participantes.",
+        "generos": [
+            "Reality"
+        ]
     },
     {
         "titulo": "Watchmen",
@@ -29,7 +40,11 @@
         "id": "79788",
         "capa": "https://image.tmdb.org/t/p/w500/m8rWq3j73ZGhDuSCZWMMoE9ePH1.jpg",
         "qualidade": "HD",
-        "descricao": "Uma visão atualizada do mundo, onde justiceiros mascarados transitam constantemente pela delicada linha que separa o bem do mal em uma sociedade que os despreza."
+        "descricao": "Uma visão atualizada do mundo, onde justiceiros mascarados transitam constantemente pela delicada linha que separa o bem do mal em uma sociedade que os despreza.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
     },
     {
         "titulo": "Big Bang: A Teoria",
@@ -37,7 +52,10 @@
         "id": "1418",
         "capa": "https://image.tmdb.org/t/p/w500/gXLGUSXp3ZLkjwX0x45NXCagiNH.jpg",
         "qualidade": "HD",
-        "descricao": "Leonard e Sheldon são dois jovens cientistas que moram juntos, sabem tudo de física, mas não parecem saber como se relacionar com mulheres. Seus únicos amigos são Howard e Rajesh, mas tudo pode mudar quando conhecem a nova vizinha, a bela Penny, que logo encanta Leonard."
+        "descricao": "Leonard e Sheldon são dois jovens cientistas que moram juntos, sabem tudo de física, mas não parecem saber como se relacionar com mulheres. Seus únicos amigos são Howard e Rajesh, mas tudo pode mudar quando conhecem a nova vizinha, a bela Penny, que logo encanta Leonard.",
+        "generos": [
+            "Comédia"
+        ]
     },
     {
         "titulo": "Legados",
@@ -45,7 +63,11 @@
         "id": "79460",
         "capa": "https://image.tmdb.org/t/p/w500/bS2ENepTMWxUPOkCXrPhplJfbcU.jpg",
         "qualidade": "HD",
-        "descricao": "Hope Mikaelson, descendente da linhagem mais poderosa de vampiros, lobisomens e bruxas, frequenta a Escola Salvatore para Jovens e Superdotados, um refúgio onde ela pode aprender a controlar suas habilidades e impulsos sobrenaturais."
+        "descricao": "Hope Mikaelson, descendente da linhagem mais poderosa de vampiros, lobisomens e bruxas, frequenta a Escola Salvatore para Jovens e Superdotados, um refúgio onde ela pode aprender a controlar suas habilidades e impulsos sobrenaturais.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
     },
     {
         "titulo": "Um Milhão de Coisas",
@@ -53,7 +75,10 @@
         "id": "81499",
         "capa": "https://image.tmdb.org/t/p/w500/tAXZvYajTRWEYcvc40w0SIwmyqi.jpg",
         "qualidade": "HD",
-        "descricao": "Um grupo de amigos percebe que precisa aproveitar mais a vida quando um deles morre de repente. No caminho, eles veem que a amizade pode ser o único modo de salvá-los deles mesmos."
+        "descricao": "Um grupo de amigos percebe que precisa aproveitar mais a vida quando um deles morre de repente. No caminho, eles veem que a amizade pode ser o único modo de salvá-los deles mesmos.",
+        "generos": [
+            "Drama"
+        ]
     },
     {
         "titulo": "Caçadores",
@@ -61,7 +86,11 @@
         "id": "79622",
         "capa": "https://image.tmdb.org/t/p/w500/mjsz10d1abJXZwT9b8CTgniRJh9.jpg",
         "qualidade": "HD",
-        "descricao": "No fim do anos 70, em Nova York, um grupo diversificado de caçadores de nazistas descobrem que centenas de oficiais nazistas de alto escalão estão vivendo entre nós e conspirando para criar um Quarto Reich nos EUA. A eclética equipe de Caçadores iniciará uma sangrenta busca para levar os nazistas à justiça e frustrar seus novos planos genocidas."
+        "descricao": "No fim do anos 70, em Nova York, um grupo diversificado de caçadores de nazistas descobrem que centenas de oficiais nazistas de alto escalão estão vivendo entre nós e conspirando para criar um Quarto Reich nos EUA. A eclética equipe de Caçadores iniciará uma sangrenta busca para levar os nazistas à justiça e frustrar seus novos planos genocidas.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
     },
     {
         "titulo": "Deuses Americanos",
@@ -69,7 +98,11 @@
         "id": "46639",
         "capa": "https://image.tmdb.org/t/p/w500/jPylofcSv0xhhXIPIlcciFfUOLT.jpg",
         "qualidade": "HD",
-        "descricao": "O drama é centrado em uma guerra entre os velhos e os novos deuses. Os seres bíblicos e mitológicos estão perdendo cada vez mais fiéis para novos deuses, que refletem o amor da sociedade por dinheiro, tecnologia, celebridades e drogas."
+        "descricao": "O drama é centrado em uma guerra entre os velhos e os novos deuses. Os seres bíblicos e mitológicos estão perdendo cada vez mais fiéis para novos deuses, que refletem o amor da sociedade por dinheiro, tecnologia, celebridades e drogas.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
     },
     {
         "titulo": "Glitch",
@@ -77,7 +110,11 @@
         "id": "63201",
         "capa": "https://image.tmdb.org/t/p/w500/po8xF3i0A3YbkXRDM64JdgFI8vd.jpg",
         "qualidade": "HD",
-        "descricao": "Um policial e uma médica encaram um mistério cheio de emoção quando sete pessoas da cidade voltam dos mortos em excelente forma. E sem explicação."
+        "descricao": "Um policial e uma médica encaram um mistério cheio de emoção quando sete pessoas da cidade voltam dos mortos em excelente forma. E sem explicação.",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
     },
     {
         "titulo": "Spectros",
@@ -85,7 +122,10 @@
         "id": "99573",
         "capa": "https://image.tmdb.org/t/p/w500/gXOKRYeo6V45d1JM0ich86F6LTe.jpg",
         "qualidade": "HD",
-        "descricao": "Espíritos centenários com sede de vingança assombram o bairro paulistano da Liberdade e envolvem um grupo de adolescentes em um confronto fantasmagórico."
+        "descricao": "Espíritos centenários com sede de vingança assombram o bairro paulistano da Liberdade e envolvem um grupo de adolescentes em um confronto fantasmagórico.",
+        "generos": [
+            "Sci-Fi & Fantasy"
+        ]
     },
     {
         "titulo": "The Circle: EUA",
@@ -93,7 +133,10 @@
         "id": "97083",
         "capa": "https://image.tmdb.org/t/p/w500/bQRxhfXXsH4ccScOBHs51bgwNe4.jpg",
         "qualidade": "HD",
-        "descricao": "Os participantes vivem em um mesmo predio mas nunca podem se ver frente a frente. Eles se comunicam por uma rede social chamada \"The Circle\". Eles podem criar seus proprios perfis ou escolher jogar ao jogo com um fake.Toda a competiçao é baseada nas interações dos competidores por meio da rede social."
+        "descricao": "Os participantes vivem em um mesmo predio mas nunca podem se ver frente a frente. Eles se comunicam por uma rede social chamada \"The Circle\". Eles podem criar seus proprios perfis ou escolher jogar ao jogo com um fake.Toda a competiçao é baseada nas interações dos competidores por meio da rede social.",
+        "generos": [
+            "Reality"
+        ]
     },
     {
         "titulo": "I Am Not Okay with This",
@@ -101,7 +144,11 @@
         "id": "90260",
         "capa": "https://image.tmdb.org/t/p/w500/kf3yX0ILNlLJ42X3lX2iYJ3QRp6.jpg",
         "qualidade": "HD",
-        "descricao": "Syd lida com as turbulências do ensino médio, um drama familiar e um crush não correspondido pela sua melhor amiga enquanto tenta controlar seus crescentes superpoderes."
+        "descricao": "Syd lida com as turbulências do ensino médio, um drama familiar e um crush não correspondido pela sua melhor amiga enquanto tenta controlar seus crescentes superpoderes.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
     },
     {
         "titulo": "The Outsider",
@@ -109,7 +156,11 @@
         "id": "84661",
         "capa": "https://image.tmdb.org/t/p/w500/sDT2ZU9Xd2dt0svfO4qYYtziVP5.jpg",
         "qualidade": "HD",
-        "descricao": "Baseado no romance de Stephen King, este thriller psicológico segue um detetive e uma investigadora particular que investigam o caso do macabro assassinato de um menino e a sinistra força sobrenatural que o ronda."
+        "descricao": "Baseado no romance de Stephen King, este thriller psicológico segue um detetive e uma investigadora particular que investigam o caso do macabro assassinato de um menino e a sinistra força sobrenatural que o ronda.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
     },
     {
         "titulo": "Seguidores",
@@ -117,7 +168,10 @@
         "id": "98772",
         "capa": "https://image.tmdb.org/t/p/w500/rvlLzHf8GhzJ7YSlClkgg0xGcaY.jpg",
         "qualidade": "HD",
-        "descricao": "Quando uma atriz desconhecida conquista a fama graças a uma postagem no Instagram, várias mulheres se cruzam na busca pela felicidade na vida real em Tóquio."
+        "descricao": "Quando uma atriz desconhecida conquista a fama graças a uma postagem no Instagram, várias mulheres se cruzam na busca pela felicidade na vida real em Tóquio.",
+        "generos": [
+            "Drama"
+        ]
     },
     {
         "titulo": "Cheers",
@@ -125,7 +179,10 @@
         "id": "141",
         "capa": "https://image.tmdb.org/t/p/w500/tO5TZBXfZddzepY6CaZIN519vHD.jpg",
         "qualidade": "HD",
-        "descricao": "Cheers é uma série de televisão americana que durou 11 temporadas entre 1982 e 1993. Foi produzida por Charles / Burrows / Charles Productions em associação com a Paramount Network Television para a NBC e criada pela equipe de James Burrows, Glen Charles e Les Charles. . O show é ambientado em um bar chamado Cheers em Boston, Massachusetts, onde um grupo de moradores se reúne para beber, relaxar e socializar. A música tema do show, escrita e interpretada por Gary Portnoy, e co-escrita com Judy Hart Angelo, emprestou seu famoso refrão, \"Where Everybody Knows Your Name\", como o slogan do programa.\n\nDepois de estrear em 30 de setembro de 1982, foi quase cancelado durante sua primeira temporada, quando ficou em último lugar nas classificações de sua estréia. Cheers, no entanto, acabou por se tornar um programa de televisão altamente cotado nos Estados Unidos, ganhando uma classificação no top-ten durante 8 de suas 11 temporadas, incluindo uma temporada em # 1. O show passou a maior parte de sua apresentação na programação de quinta-feira à noite da NBC \"Must See TV\". Seu final de série amplamente assistido foi transmitido em 20 de maio de 1993, e os 275 episódios do programa foram distribuídos com sucesso em todo o mundo. Indicado para o Outstanding Comedy Series por todas as 11 temporadas no ar, ganhou 28 prêmios Emmy de um número recorde de 117 indicações. O personagem Frasier Crane foi destaque em seu espetáculo de homônimo, que foi ao ar até 2004 e incluiu participações especiais de praticamente todos os principais e menores personagens de Cheers."
+        "descricao": "Cheers é uma série de televisão americana que durou 11 temporadas entre 1982 e 1993. Foi produzida por Charles / Burrows / Charles Productions em associação com a Paramount Network Television para a NBC e criada pela equipe de James Burrows, Glen Charles e Les Charles. . O show é ambientado em um bar chamado Cheers em Boston, Massachusetts, onde um grupo de moradores se reúne para beber, relaxar e socializar. A música tema do show, escrita e interpretada por Gary Portnoy, e co-escrita com Judy Hart Angelo, emprestou seu famoso refrão, \"Where Everybody Knows Your Name\", como o slogan do programa.\n\nDepois de estrear em 30 de setembro de 1982, foi quase cancelado durante sua primeira temporada, quando ficou em último lugar nas classificações de sua estréia. Cheers, no entanto, acabou por se tornar um programa de televisão altamente cotado nos Estados Unidos, ganhando uma classificação no top-ten durante 8 de suas 11 temporadas, incluindo uma temporada em # 1. O show passou a maior parte de sua apresentação na programação de quinta-feira à noite da NBC \"Must See TV\". Seu final de série amplamente assistido foi transmitido em 20 de maio de 1993, e os 275 episódios do programa foram distribuídos com sucesso em todo o mundo. Indicado para o Outstanding Comedy Series por todas as 11 temporadas no ar, ganhou 28 prêmios Emmy de um número recorde de 117 indicações. O personagem Frasier Crane foi destaque em seu espetáculo de homônimo, que foi ao ar até 2004 e incluiu participações especiais de praticamente todos os principais e menores personagens de Cheers.",
+        "generos": [
+            "Comédia"
+        ]
     },
     {
         "titulo": "Frasier",
@@ -133,7 +190,10 @@
         "id": "195241",
         "capa": "https://image.tmdb.org/t/p/w500/gQAjtgjgb5VAQXJog1bZgY5cjL2.jpg",
         "qualidade": "HD",
-        "descricao": "A nova série segue Frasier Crane em um novo capítulo da sua vida, quando ele retorna a Boston com novos desafios para enfrentar, novos relacionamentos para estabelecer e um ou dois sonhos antigos para finalmente realizar. Frasier entrou no prédio!"
+        "descricao": "A nova série segue Frasier Crane em um novo capítulo da sua vida, quando ele retorna a Boston com novos desafios para enfrentar, novos relacionamentos para estabelecer e um ou dois sonhos antigos para finalmente realizar. Frasier entrou no prédio!",
+        "generos": [
+            "Comédia"
+        ]
     },
     {
         "titulo": "Explosivos",
@@ -141,7 +201,11 @@
         "id": "94244",
         "capa": "https://image.tmdb.org/t/p/w500/taWbiDE71rJ6CdBoG7r6SR4eMlU.jpg",
         "qualidade": "HD",
-        "descricao": "Uma equipe de elite comemora para valer depois de impedir um atentado. Até que a verdadeira ameaça aparece, e aí eles precisam superar a bebedeira para salvar a cidade."
+        "descricao": "Uma equipe de elite comemora para valer depois de impedir um atentado. Até que a verdadeira ameaça aparece, e aí eles precisam superar a bebedeira para salvar a cidade.",
+        "generos": [
+            "Comédia",
+            "Action & Adventure"
+        ]
     },
     {
         "titulo": "Comedy Royale",
@@ -149,7 +213,11 @@
         "id": "238046",
         "capa": "https://image.tmdb.org/t/p/w500/gVZvET4bEsoLuPi0z4pLiF9Dt3m.jpg",
         "qualidade": "HD",
-        "descricao": "Vinte comediantes coreanos competem pela chance de apresentar um especial da Netflix, em uma batalha que vai fazer você rolar de rir."
+        "descricao": "Vinte comediantes coreanos competem pela chance de apresentar um especial da Netflix, em uma batalha que vai fazer você rolar de rir.",
+        "generos": [
+            "Reality",
+            "Comédia"
+        ]
     },
     {
         "titulo": "Swimming with Sharks",
@@ -157,7 +225,10 @@
         "id": "156822",
         "capa": "https://image.tmdb.org/t/p/w500/kiBuVgOdEYAx2kApt5FJ4SXiczz.jpg",
         "qualidade": "HD",
-        "descricao": "Quando Lou Simms(Kiernan Shipka) começa seu estágio na Fountain Pictures, ela parece uma ingênua recém-chegada a Hollywood, impressionada com a notória CEO do estúdio, Joyce Holt(Diane Kruger). Lou logo se mostra indispensável para Joyce, que não está apenas tentando manobrar seu chefe antiquado e nacionalista(Donald Sutherland), mas também ter um bebê depois de anos de tentativas. Na verdade, Lou fez uma extensa pesquisa sobre Joyce e conseguir este estágio não foi uma feliz coincidência. À medida que a obsessão de Lou cresce, ela fará de tudo para se aproximar de seu ídolo, até mesmo matar."
+        "descricao": "Quando Lou Simms(Kiernan Shipka) começa seu estágio na Fountain Pictures, ela parece uma ingênua recém-chegada a Hollywood, impressionada com a notória CEO do estúdio, Joyce Holt(Diane Kruger). Lou logo se mostra indispensável para Joyce, que não está apenas tentando manobrar seu chefe antiquado e nacionalista(Donald Sutherland), mas também ter um bebê depois de anos de tentativas. Na verdade, Lou fez uma extensa pesquisa sobre Joyce e conseguir este estágio não foi uma feliz coincidência. À medida que a obsessão de Lou cresce, ela fará de tudo para se aproximar de seu ídolo, até mesmo matar.",
+        "generos": [
+            "Drama"
+        ]
     },
     {
         "titulo": "Perdidos no Espaço",
@@ -165,7 +236,11 @@
         "id": "75758",
         "capa": "https://image.tmdb.org/t/p/w500/cQwuA5STmOG4TBwTZyukBFfyF5w.jpg",
         "qualidade": "HD",
-        "descricao": "Após um pouso forçado em um planeta desconhecido, a família Robinson tenta sobreviver aos perigos que encontra neste novo mundo."
+        "descricao": "Após um pouso forçado em um planeta desconhecido, a família Robinson tenta sobreviver aos perigos que encontra neste novo mundo.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ]
     },
     {
         "titulo": "Hanna",
@@ -173,7 +248,11 @@
         "id": "54155",
         "capa": "https://image.tmdb.org/t/p/w500/pe10EUjgO2jgwiu01MAv9l3IjxG.jpg",
         "qualidade": "HD",
-        "descricao": "Hanna é uma adolescente que mora na zona rural do norte da Finlândia ao lado do pai, e que vê sua vida mudar ao conhecer um ex-agente da CIA que planeja um plano para matar todos os agentes que desejam capturá-los. Hanna, então, passa por um pesado treinamento e não demora a se tornar uma hábil asssassina. Agora, ela embarca em uma missão contra a CIA que pode custar sua própria vida."
+        "descricao": "Hanna é uma adolescente que mora na zona rural do norte da Finlândia ao lado do pai, e que vê sua vida mudar ao conhecer um ex-agente da CIA que planeja um plano para matar todos os agentes que desejam capturá-los. Hanna, então, passa por um pesado treinamento e não demora a se tornar uma hábil asssassina. Agora, ela embarca em uma missão contra a CIA que pode custar sua própria vida.",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
     },
     {
         "titulo": "Control Z",
@@ -181,7 +260,10 @@
         "id": "102903",
         "capa": "https://image.tmdb.org/t/p/w500/8VNA0RdrPk8Ec7XVjpeT0Rnui79.jpg",
         "qualidade": "HD",
-        "descricao": "Um hacker começa a divulgar os segredos dos alunos para toda a escola, e Sofia, uma menina observadora e solitária, quer descobrir quem está por trás disso."
+        "descricao": "Um hacker começa a divulgar os segredos dos alunos para toda a escola, e Sofia, uma menina observadora e solitária, quer descobrir quem está por trás disso.",
+        "generos": [
+            "Drama"
+        ]
     },
     {
         "titulo": "Millie Black",
@@ -189,7 +271,11 @@
         "id": "201646",
         "capa": "https://image.tmdb.org/t/p/w500/ytXuD2ZP9Q82OzalMaGYoKUUPCG.jpg",
         "qualidade": "HD",
-        "descricao": "Acompanha Millie Black, uma ex-detetive da Scotland Yard que, ao voltar à sua casa em Kingston, Jamaica, se junta à polícia local em um caso de desaparecimento que revive fantasmas de seu passado."
+        "descricao": "Acompanha Millie Black, uma ex-detetive da Scotland Yard que, ao voltar à sua casa em Kingston, Jamaica, se junta à polícia local em um caso de desaparecimento que revive fantasmas de seu passado.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
     },
     {
         "titulo": "Reef Break",
@@ -197,7 +283,11 @@
         "id": "88561",
         "capa": "https://image.tmdb.org/t/p/w500/oZkIUk12jijhkqLI6fXWeLkTG1C.jpg",
         "qualidade": "HD",
-        "descricao": "Cat Chambers (Poppy Montgomery) é uma ladra que se transformou na governadora de um deslumbrante e sedutor paraíso numa ilha do Pacífice, é impulsiva, imprudente e irresistível. Porém, seu histórico lhe garante propriedade para saber onde e como os grandes crimes acontecem; fazendo de Cat uma governadora de \"sucesso\" e declínio ao mesmo tempo."
+        "descricao": "Cat Chambers (Poppy Montgomery) é uma ladra que se transformou na governadora de um deslumbrante e sedutor paraíso numa ilha do Pacífice, é impulsiva, imprudente e irresistível. Porém, seu histórico lhe garante propriedade para saber onde e como os grandes crimes acontecem; fazendo de Cat uma governadora de \"sucesso\" e declínio ao mesmo tempo.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
     },
     {
         "titulo": "Sob Pressão",
@@ -205,7 +295,10 @@
         "id": "73010",
         "capa": "https://image.tmdb.org/t/p/w500/lGWf1lqeHOhuKZX9bQPeAKttxnb.jpg",
         "qualidade": "HD",
-        "descricao": "Acompanhe a rotina de entrega, esforço e muita pressão pela qual os médicos de um hospital público passam todos os dias. Em comum, o desejo de salvar vidas."
+        "descricao": "Acompanhe a rotina de entrega, esforço e muita pressão pela qual os médicos de um hospital público passam todos os dias. Em comum, o desejo de salvar vidas.",
+        "generos": [
+            "Drama"
+        ]
     },
     {
         "titulo": "Maratón Candice Renoir",
@@ -213,7 +306,11 @@
         "id": "55866",
         "capa": "https://image.tmdb.org/t/p/w500/1andtN7XdVmu25HqNQE1JpwLNYy.jpg",
         "qualidade": "HD",
-        "descricao": "Candice Renoir deixou sua carreira de lado por 10 anos. Quando ela retorna de Cingapura para retomar o serviço em uma cidade portuária no sul da França, ela se sente um pouco “enferrujada”. Apesar do óbvio desafio de sua unidade e de um superior cínico que não torna seu trabalho mais fácil, ela está determinada a transformar suas chamadas fraquezas em forças, resolvendo os casos mais complexos com seu bom senso, sua observação aguda e sua prática natureza temperada por uma rotina diária movimentada. Só Candice pode pegar um assassino porque conhece a composição química de um limpador de vidros ou determina a hora de um assassinato a partir do tempo de cozimento dos kebabs … Candice só é ingênua por fora, e ninguém consegue resistir a ela!"
+        "descricao": "Candice Renoir deixou sua carreira de lado por 10 anos. Quando ela retorna de Cingapura para retomar o serviço em uma cidade portuária no sul da França, ela se sente um pouco “enferrujada”. Apesar do óbvio desafio de sua unidade e de um superior cínico que não torna seu trabalho mais fácil, ela está determinada a transformar suas chamadas fraquezas em forças, resolvendo os casos mais complexos com seu bom senso, sua observação aguda e sua prática natureza temperada por uma rotina diária movimentada. Só Candice pode pegar um assassino porque conhece a composição química de um limpador de vidros ou determina a hora de um assassinato a partir do tempo de cozimento dos kebabs … Candice só é ingênua por fora, e ninguém consegue resistir a ela!",
+        "generos": [
+            "Comédia",
+            "Crime"
+        ]
     },
     {
         "titulo": "Star Trek: Strange New Worlds",
@@ -221,7 +318,10 @@
         "id": "103516",
         "capa": "https://image.tmdb.org/t/p/w500/bxuUbcM9GqvmQY1EDm5sMtLdcTv.jpg",
         "qualidade": "HD",
-        "descricao": "Em Star Trek: Strange New Worlds, o capitão Christopher Pike (Anson Mount) lidera a equipe do USS Enterprise pelos confins do universo em aventuras perigosas e intensas. Passando-se antes da trama da série original, Strange New Worlds explora mais profundamente o universo Star Trek antes da chegada do icônico Capitão Kirk (William Shatner). Pike, ainda inexperiente em liderar toda a Enterprise por conta própria, se apoia na ajuda de seus companheiros da nave, em especial Una Chin-Riley (Rebecca Romjin), segunda em comando depois dele. Além disso, ele conta a inteligência ímpar do popular personagem Spock (Ethan Peck), um alienígena meio humano meio vulcano. Os passageiros da USS Enterprise irão se aventurar por lugares inimagináveis e viverão uma jornada intensa pela galáxica, encontrando aliados fiéis, mas também fazendo inúmeros inimigos perigosos pelo caminho. Mas com o apoio de cada um, poderão completar suas missões com sucesso."
+        "descricao": "Em Star Trek: Strange New Worlds, o capitão Christopher Pike (Anson Mount) lidera a equipe do USS Enterprise pelos confins do universo em aventuras perigosas e intensas. Passando-se antes da trama da série original, Strange New Worlds explora mais profundamente o universo Star Trek antes da chegada do icônico Capitão Kirk (William Shatner). Pike, ainda inexperiente em liderar toda a Enterprise por conta própria, se apoia na ajuda de seus companheiros da nave, em especial Una Chin-Riley (Rebecca Romjin), segunda em comando depois dele. Além disso, ele conta a inteligência ímpar do popular personagem Spock (Ethan Peck), um alienígena meio humano meio vulcano. Os passageiros da USS Enterprise irão se aventurar por lugares inimagináveis e viverão uma jornada intensa pela galáxica, encontrando aliados fiéis, mas também fazendo inúmeros inimigos perigosos pelo caminho. Mas com o apoio de cada um, poderão completar suas missões com sucesso.",
+        "generos": [
+            "Sci-Fi & Fantasy"
+        ]
     },
     {
         "titulo": "Dollface",
@@ -229,7 +329,10 @@
         "id": "84584",
         "capa": "https://image.tmdb.org/t/p/w500/oU38pfWG64mLQBPuFtr2uCm12rO.jpg",
         "qualidade": "HD",
-        "descricao": "Depois de levar um fora do namorado, Jules precisa lidar com sua própria imaginação ao reentrar, literal e metaforicamente, no mundo feminino. Ela quer reacender as amizades femininas que deixou para trás."
+        "descricao": "Depois de levar um fora do namorado, Jules precisa lidar com sua própria imaginação ao reentrar, literal e metaforicamente, no mundo feminino. Ela quer reacender as amizades femininas que deixou para trás.",
+        "generos": [
+            "Comédia"
+        ]
     },
     {
         "titulo": "Boo, Bitch",
@@ -237,7 +340,11 @@
         "id": "132188",
         "capa": "https://image.tmdb.org/t/p/w500/b3zagQAHUUePg29xjp9SYoxtsv7.jpg",
         "qualidade": "HD",
-        "descricao": "É o último ano da escola, e duas amigas estão prontas para curtir a vida ao máximo! O único problema é que agora uma delas é um fantasma..."
+        "descricao": "É o último ano da escola, e duas amigas estão prontas para curtir a vida ao máximo! O único problema é que agora uma delas é um fantasma...",
+        "generos": [
+            "Comédia",
+            "Sci-Fi & Fantasy"
+        ]
     },
     {
         "titulo": "Como Criar um Quarto do Sexo",
@@ -245,7 +352,10 @@
         "id": "204777",
         "capa": "https://image.tmdb.org/t/p/w500/b6IDmb5PdhgptLczAv9N9HtVZuY.jpg",
         "qualidade": "HD",
-        "descricao": "De um porão secreto bem rock 'n' roll a um spa luxuoso, a designer Melanie Rose cria espaços eróticos para casais neste reality show picante."
+        "descricao": "De um porão secreto bem rock 'n' roll a um spa luxuoso, a designer Melanie Rose cria espaços eróticos para casais neste reality show picante.",
+        "generos": [
+            "Reality"
+        ]
     },
     {
         "titulo": "Os Segredos de Manscheid",
@@ -253,7 +363,10 @@
         "id": "95638",
         "capa": "https://image.tmdb.org/t/p/w500/kb3wgQK3E0j0BDLq0g8uj7OaY2y.jpg",
         "qualidade": "HD",
-        "descricao": "Em um vilarejo de Luxemburgo onde todos guardam segredos, o rude inspetor de polícia Luc Capitani investiga a suspeita morte de uma garota de 15 anos."
+        "descricao": "Em um vilarejo de Luxemburgo onde todos guardam segredos, o rude inspetor de polícia Luc Capitani investiga a suspeita morte de uma garota de 15 anos.",
+        "generos": [
+            "Crime"
+        ]
     },
     {
         "titulo": "Prisioneiro da Madrugada",
@@ -261,7 +374,10 @@
         "id": "201331",
         "capa": "https://image.tmdb.org/t/p/w500/jU7a8gRJbt4FwaglqHDoie4cT8g.jpg",
         "qualidade": "HD",
-        "descricao": "Homens armados cercam uma prisão psiquiátrica e cortam todas as comunicações. O objetivo: capturar o serial killer Simón Lago. Seis episódios. Uma noite."
+        "descricao": "Homens armados cercam uma prisão psiquiátrica e cortam todas as comunicações. O objetivo: capturar o serial killer Simón Lago. Seis episódios. Uma noite.",
+        "generos": [
+            "Crime"
+        ]
     },
     {
         "titulo": "Lobo Adolescente",
@@ -269,7 +385,11 @@
         "id": "34524",
         "capa": "https://image.tmdb.org/t/p/w500/8Ij1O2nU8exLgwPXU8Eo6PZdCDC.jpg",
         "qualidade": "HD",
-        "descricao": "Após ser mordido por um animal, Scott vira lobisomem e é o cara adorado por todas na escola. Só que ele também ganha novos problemas."
+        "descricao": "Após ser mordido por um animal, Scott vira lobisomem e é o cara adorado por todas na escola. Só que ele também ganha novos problemas.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
     },
     {
         "titulo": "Ragdoll",
@@ -277,7 +397,11 @@
         "id": "135156",
         "capa": "https://image.tmdb.org/t/p/w500/4SuKe17gSnxResXsbOwL77SpNT5.jpg",
         "qualidade": "HD",
-        "descricao": "Com 6 episódios para seu primeiro ano, o drama vai acompanhar um grupo de detetives que perseguem um serial killer batizado de Assassino Ragdoll. Na trama, 6 pessoas foram assassinadas e tiverem seus membros cortados em diversas partes para formar um grotesco boneco apelidado de Ragdoll."
+        "descricao": "Com 6 episódios para seu primeiro ano, o drama vai acompanhar um grupo de detetives que perseguem um serial killer batizado de Assassino Ragdoll. Na trama, 6 pessoas foram assassinadas e tiverem seus membros cortados em diversas partes para formar um grotesco boneco apelidado de Ragdoll.",
+        "generos": [
+            "Mistério",
+            "Crime"
+        ]
     },
     {
         "titulo": "Casamento às Cegas: Habibi",
@@ -285,7 +409,10 @@
         "id": "247634",
         "capa": "https://image.tmdb.org/t/p/w500/noXP9CTBksASmsVzoUK2WcNy71z.jpg",
         "qualidade": "HD",
-        "descricao": "O casal de famosos Elham Ali e Khaled Saqer apresenta este experimento social em que solteiros e solteiras árabes se conhecem e decidem se casar sem nunca terem se visto."
+        "descricao": "O casal de famosos Elham Ali e Khaled Saqer apresenta este experimento social em que solteiros e solteiras árabes se conhecem e decidem se casar sem nunca terem se visto.",
+        "generos": [
+            "Reality"
+        ]
     },
     {
         "titulo": "Projeto Lázaro",
@@ -293,7 +420,11 @@
         "id": "194567",
         "capa": "https://image.tmdb.org/t/p/w500/xw7GkWtmPQDU8qzfKshFEN038sj.jpg",
         "qualidade": "HD",
-        "descricao": "George acorda uma manhã e descobre que o calendário foi rebobinado seis meses, mas nem sua namorada Sarah nem ninguém parece notar. George inadvertidamente tropeçou no Projeto Lazarus e, como seu mais novo agente, ele agora vive e trabalha em um mundo com ameaças apocalípticas contínuas e enfrenta uma experiência de mudança de vida."
+        "descricao": "George acorda uma manhã e descobre que o calendário foi rebobinado seis meses, mas nem sua namorada Sarah nem ninguém parece notar. George inadvertidamente tropeçou no Projeto Lazarus e, como seu mais novo agente, ele agora vive e trabalha em um mundo com ameaças apocalípticas contínuas e enfrenta uma experiência de mudança de vida.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
     },
     {
         "titulo": "O Jogo Que Mudou a História",
@@ -301,270 +432,10 @@
         "id": "198053",
         "capa": "https://image.tmdb.org/t/p/w500/trc7lqDTPpgvHLin4BDkWNJ6z6C.jpg",
         "qualidade": "HD",
-        "descricao": "Inspirada em fatos reais, a série retrata o surgimento das facções do narcotráfico no Rio de Janeiro nos anos 70 e a trajetória dos seus personagens."
-    },
-    {
-        "titulo": "The Resident",
-        "titulo_original": "The Resident",
-        "id": "74016",
-        "capa": "https://image.tmdb.org/t/p/w500/9hzirecGzlfxcLyrxPi1W6L5TtQ.jpg",
-        "qualidade": "HD",
-        "descricao": "Um médico arrogante abre os olhos de um residente idealista do primeiro ano para as realidades da vida hospitalar."
-    },
-    {
-        "titulo": "Ms. Marvel",
-        "titulo_original": "Ms. Marvel",
-        "id": "92782",
-        "capa": "https://image.tmdb.org/t/p/w500/8Rzkt43GnMyTN0srvn3Z4u7C7VU.jpg",
-        "qualidade": "HD",
-        "descricao": "Kamala Khan é uma adolescente muçulmana de Jersey City. Ela adora jogar videogames e escrever fanfictions, além de ser fã de super-heróis e ter uma imaginação sem limites – especialmente quando se trata da Capitã Marvel. Kamala sente que não se encaixa na escola e, às vezes, nem mesmo em casa. Mas um dia ela descobre que tem superpoderes como os heróis que sempre admirou... e a vida fica bem melhor com superpoderes, não é?"
-    },
-    {
-        "titulo": "Sintonia",
-        "titulo_original": "Sintonia",
-        "id": "78074",
-        "capa": "https://image.tmdb.org/t/p/w500/sTTxrKX9DzB5K6wdsfCs5bQ0r6r.jpg",
-        "qualidade": "HD",
-        "descricao": "Criados juntos na quebrada de São Paulo, três jovens amigos correm atrás de seus sonhos rodeados por música, drogas e religião."
-    },
-    {
-        "titulo": "Como Mudar sua Mente",
-        "titulo_original": "How to Change Your Mind",
-        "id": "204304",
-        "capa": "https://image.tmdb.org/t/p/w500/5DbHSxayqHVkXEvTG0fTaDVv7xU.jpg",
-        "qualidade": "HD",
-        "descricao": "O autor Michael Pollan apresenta esta série documental que explora a história e o uso de psicodélicos como LSD, psilocibina, MDMA e mescalina."
-    },
-    {
-        "titulo": "D.B. Cooper: Desaparecimento no Ar",
-        "titulo_original": "D.B. Cooper: Where Are You?!",
-        "id": "204302",
-        "capa": "https://image.tmdb.org/t/p/w500/lUuLpCdqQFIW197xGmmf5OK1HjE.jpg",
-        "qualidade": "HD",
-        "descricao": "Em 1971, um homem sequestrou um avião, saltou de paraquedas com todo o dinheiro roubado e saiu impune. Décadas depois, sua identidade continua sendo um mistério."
-    },
-    {
-        "titulo": "Soco no Estômago",
-        "titulo_original": "เจ็บเจียนตาย",
-        "id": "204129",
-        "capa": "https://image.tmdb.org/t/p/w500/diQWxcDkqWtO2oedilrV1xxQXep.jpg",
-        "qualidade": "HD",
-        "descricao": "Inspirada em eventos reais, esta série documental mostra os crimes e a corrupção do conturbado submundo do muay thai."
-    },
-    {
-        "titulo": "Resident Evil: A Série",
-        "titulo_original": "Resident Evil",
-        "id": "108296",
-        "capa": "https://image.tmdb.org/t/p/w500/q2IlzP9bQNDdGLlX9jtms5MaOCh.jpg",
-        "qualidade": "HD",
-        "descricao": "Quase três décadas após a descoberta de um vírus mortal, um surto revela os segredos obscuros da Umbrella Corporation. Baseado na franquia de terror."
-    },
-    {
-        "titulo": "O11ZE",
-        "titulo_original": "O11CE",
-        "id": "72637",
-        "capa": "https://image.tmdb.org/t/p/w500/5SLwlAinusyXIr6sWYhuPpCDfq0.jpg",
-        "qualidade": "HD",
-        "descricao": "O adolescente Gabo vive em uma cidade pequena na Argentina, até que tem uma grande oportunidade de viajar a Buenos Aires para jogar em um time de futebol."
-    },
-    {
-        "titulo": "Alba",
-        "titulo_original": "Alba",
-        "id": "115521",
-        "capa": "https://image.tmdb.org/t/p/w500/y3DKeKOhv7a2N7BzfxHPApTvzmr.jpg",
-        "qualidade": "HD",
-        "descricao": "Alba acorda na praia com sinais de que sofreu um estupro, mas não se lembra de nada. Até que ela descobre que os estupradores são amigos de seu namorado."
-    },
-    {
-        "titulo": "Erin & Aaron",
-        "titulo_original": "Erin & Aaron",
-        "id": "222024",
-        "capa": "https://image.tmdb.org/t/p/w500/aQ73bNBqci7qUJNVjlVFXsglFFx.jpg",
-        "qualidade": "HD",
-        "descricao": "Os novos meios-irmãos Erin e Aaron até têm nomes parecidos, mas não poderiam ser mais diferentes. Será que o poder da música vai ensiná-los a conviver em harmonia?"
-    },
-    {
-        "titulo": "Romanceiro",
-        "titulo_original": "Romancero",
-        "id": "225287",
-        "capa": "https://image.tmdb.org/t/p/w500/6U0yAl7QCxesaTzd8IL4fmLzkzB.jpg",
-        "qualidade": "HD",
-        "descricao": "Jordán e Cornelia são duas crianças indefesas que, na calada da noite, tentam escapar das pessoas enfurecidas que os acusam de assassinato. Apavorados e temendo por suas vidas, eles cuidarão um do outro e farão tudo o que for possível para não serem pegos por dois policiais violentos: Teodoro e Sorroche. Na fuga, eles também tentarão evitar os perigos sobrenaturais que encontram pelo caminho."
-    },
-    {
-        "titulo": "4 Blocks",
-        "titulo_original": "4 Blocks",
-        "id": "71641",
-        "capa": "https://image.tmdb.org/t/p/w500/n7TkQDUMSNba3pcffENFlMy9hB5.jpg",
-        "qualidade": "HD",
-        "descricao": "Toni Hamady quer deixar para trás a sua vida no crime, quando uma operação policial de consequências devastadoras estraga os seus planos. Toni deve mostrar mais uma vez que é o líder, já que ele não quer entregar o controle ao seu nervoso irmão Abbas. Quando um velho amigo aparece, o sonho do Toni parece ser novamente possível. Poderá ele escapar do caminho do crime?"
-    },
-    {
-        "titulo": "Match VIP",
-        "titulo_original": "블랙의신부",
-        "id": "133775",
-        "capa": "https://image.tmdb.org/t/p/w500/nl2IBDBsqeALCixAicZUPJ0sH6X.jpg",
-        "qualidade": "HD",
-        "descricao": "Homens e mulheres ambiciosos querem entrar para a alta sociedade. Uma agência especializada em encontros com pretendentes cobiçados vai ajudá-los. Será que vai dar match?"
-    },
-    {
-        "titulo": "Vida de Madeireiro",
-        "titulo_original": "Big Timber",
-        "id": "114992",
-        "capa": "https://image.tmdb.org/t/p/w500/nhaklAkFdKBPkbsCGCbMO5IrWfR.jpg",
-        "qualidade": "HD",
-        "descricao": "Na Ilha de Vancouver, um lenhador determinado e sua equipe enfrentam a natureza impiedosa e as máquinas barulhentas para derrubar e transportar um bem valioso: madeira."
-    },
-    {
-        "titulo": "Dr. House",
-        "titulo_original": "House",
-        "id": "1408",
-        "capa": "https://image.tmdb.org/t/p/w500/lW7MvZ4m49IUj2UrUu4z0xVVl81.jpg",
-        "qualidade": "HD",
-        "descricao": "Um médico dissidente e anti-social, que se especializou em medicina de diagnóstico. Faz o que for preciso para resolver casos intrigantes que estão no seu caminho, usando a sua equipe de médicos e sua inteligência."
-    },
-    {
-        "titulo": "A Filha de Deus: Dalma Maradona",
-        "titulo_original": "La hija de Dios: Dalma Maradona",
-        "id": "237727",
-        "capa": "https://image.tmdb.org/t/p/w500/Aef0XeUnXZ5tqJF4ysMuxmPqeJQ.jpg",
-        "qualidade": "HD",
-        "descricao": "Dalma Maradona resgata as histórias mais singulares e emocionantes de seu relacionamento com o pai. Por meio de arquivos familiares inéditos e personagens surpreendentes, ela descobre uma intimidade que nunca foi completamente exposta."
-    },
-    {
-        "titulo": "Dark Winds",
-        "titulo_original": "Dark Winds",
-        "id": "128904",
-        "capa": "https://image.tmdb.org/t/p/w500/kDlrMN0P9ByrEH2GoRbBFeZHbcf.jpg",
-        "qualidade": "HD",
-        "descricao": "Dois policiais da comunidade indígena Navajo, o xerife Joe Leaphorn e o novato Jim Chee, investigam um homícidio duplo em um motel de uma comunidade pacífica no sudeste dos Estados Unidos."
-    },
-    {
-        "titulo": "Insânia",
-        "titulo_original": "Insânia",
-        "id": "127509",
-        "capa": "https://image.tmdb.org/t/p/w500/5NYWx9VUwhAUbennLJ92ESNtUhv.jpg",
-        "qualidade": "HD",
-        "descricao": "Após uma tragédia familiar, Paula, uma policial científica, é internada em um hospital psiquiátrico. Lá, sua mente vagará por caminhos sombrios e duvidosos, enquanto ela investiga o real motivo de sua internação, desvendando com isso uma conspiração aterrorizante."
-    },
-    {
-        "titulo": "O Faz Nada",
-        "titulo_original": "Nada",
-        "id": "201413",
-        "capa": "https://image.tmdb.org/t/p/w500/4aO8Im1WR7Jg4BtAed11ETKwFW2.jpg",
-        "qualidade": "HD",
-        "descricao": "Manuel é um sofisticado crítico gastronômico de Buenos Aires, provocador e amante da arte, que, apesar de ser uma figura emblemática da cultura portenha, ficou sem dinheiro graças a uma vida de desperdício para manter seu estilo confortável."
-    },
-    {
-        "titulo": "Black Dog",
-        "titulo_original": "블랙독",
-        "id": "95067",
-        "capa": "https://image.tmdb.org/t/p/w500/aC4pcJhrVqX93cwg6L4t06FIwWL.jpg",
-        "qualidade": "HD",
-        "descricao": "Uma professora com um cargo temporário em uma escola particular enfrenta as políticas internas para ajudar os alunos a realizarem seus sonhos."
-    },
-    {
-        "titulo": "Amor Não Correspondido",
-        "titulo_original": "暗恋橘生淮南",
-        "id": "90729",
-        "capa": "https://image.tmdb.org/t/p/w500/vgnvMj3kXwLBGhxoPy7EhzZ2Jvp.jpg",
-        "qualidade": "HD",
-        "descricao": "Um amor secreto causa muita confusão na vida de uma jovem tímida e seu charmoso colega de classe."
-    },
-    {
-        "titulo": "Zack & Cody: Gêmeos em Ação",
-        "titulo_original": "The Suite Life of Zack & Cody",
-        "id": "4605",
-        "capa": "https://image.tmdb.org/t/p/w500/9eXwgS4CC9UZmEclWPNFlSZ0sDd.jpg",
-        "qualidade": "HD",
-        "descricao": "Os irmãos gêmeos Zack e Cody moram com sua mãe solteira no hotel mais chique de Boston. Os meninos têm dificuldade em ficar longe de problemas e gostam de tratar o hotel como seu próprio parque de diversões."
-    },
-    {
-        "titulo": "Anna",
-        "titulo_original": "Anna",
-        "id": "123925",
-        "capa": "https://image.tmdb.org/t/p/w500/957Zi8wV3Em9NDEiRLlkkF27dX6.jpg",
-        "qualidade": "HD",
-        "descricao": "O mundo como o conhecemos não existe mais. Um vírus devastou o planeta, acabando com os adultos.\n\nAs crianças, que são imunes até a puberdade, vivem em bandos selvagens, brigando pelos poucos restos comestíveis que os adultos lhes deixaram. Na Sicília, a natureza está tomando de volta o que já foi dela, sufocando as cidades com sua vegetação, sufocando os cascos de veículos antigos com hera. Não há eletricidade nem água encanada. Escondidos em uma fazenda familiar na floresta estão os irmãos Salemi."
-    },
-    {
-        "titulo": "Mayans M.C.",
-        "titulo_original": "Mayans M.C.",
-        "id": "76231",
-        "capa": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
-        "qualidade": "HD",
-        "descricao": "Ezekiel “EZ” Reyes deixa a prisão e logo se envolve com o negócio dos Mayans M.C., na fronteira do México com a Califórnia. Agora, ele deve criar uma identidade do zero."
-    },
-    {
-        "titulo": "Clube das Mães",
-        "titulo_original": "그린마더스클럽",
-        "id": "195747",
-        "capa": "https://image.tmdb.org/t/p/w500/UOpNwIeNAj9YzCgHoHuZb4JK6o.jpg",
-        "qualidade": "HD",
-        "descricao": "Cinco mães de uma comunidade escolar competitiva têm uma relação entre amizade e rivalidade, presas em uma teia de segredos e inveja."
-    },
-    {
-        "titulo": "Familiar Wife",
-        "titulo_original": "아는 와이프",
-        "id": "80741",
-        "capa": "https://image.tmdb.org/t/p/w500/fDmfvPG6EF9ySLe7D1aySKZEAYR.jpg",
-        "qualidade": "HD",
-        "descricao": "Ao conseguir a chance de voltar ao passado, um homem acorda com em outra vida. E com outra esposa."
-    },
-    {
-        "titulo": "Paixão O2O",
-        "titulo_original": "微微一笑很傾城",
-        "id": "66776",
-        "capa": "https://image.tmdb.org/t/p/w500/c4BAUtY9xqpNoRFD3DsEMQtDi3h.jpg",
-        "qualidade": "HD",
-        "descricao": "Xiao Nai é um especialista em jogos que graças às suas habilidades no basquete, excelência acadêmica, talentos na natação e presidência na empresa de jogos, também é o aluno mais popular no campus. Quando ele se depara com a deslumbrante graduanda em Ciência da Computação Bei Wei Wei, o garoto infinitamente talentoso se apaixona imediatamente. Mas não é a aparência da Wei Wei que ele percebe; é o domínio absurdo com o qual ela está comandando sua guilda e ganhando de todos em um jogo multiplayer online, que a torna impossível de se esquecer. Agora, Xiao Nai deve usar suas habilidades, tanto na vida real quanto online, para capturar o coração adorável, mas pateta da Bei Wei Wei. Mas o amor deles tem XP para ter sucesso ou esse relacionamento nunca vai subir de nível?"
-    },
-    {
-        "titulo": "Manual do Presidiário",
-        "titulo_original": "슬기로운 감빵생활",
-        "id": "74821",
-        "capa": "https://image.tmdb.org/t/p/w500/kFJGbprS495kguzVJGthBbnGmbX.jpg",
-        "qualidade": "HD",
-        "descricao": "Kim Je Hyuk, um famoso jogador de beisebol, é preso após usar força excessiva enquanto perseguia um homem que tentava agredir sexualmente sua irmã. Chocantemente para ele e para o resto da nação, ele foi condenado a um ano de prisão. Lá, ele conhece seu amigo de infância e colega jogador de beisebol, Lee Joon Ho, que desistiu do beisebol após um acidente de carro, mas agora é um guarda prisional e um dos maiores fãs de Je Hyuk. O drama gira em torno do tempo de Je Hyuk na prisão, bem como dos prisioneiros que ele encontra e dos eventos que acontecem lá."
-    },
-    {
-        "titulo": "Sombras do Passado",
-        "titulo_original": "Kimse Bilmez",
-        "id": "90210",
-        "capa": "https://image.tmdb.org/t/p/w500/16VpiP8RmsCWHeZOIowQW5R2cQP.jpg",
-        "qualidade": "HD",
-        "descricao": "Sevda é uma garota muito bonita e enérgica que sonha em ser uma estrela. Ali tem um passado misterioso. A extraordinária história de amor de Ali e Sevda."
-    },
-    {
-        "titulo": "Virgin River",
-        "titulo_original": "Virgin River",
-        "id": "88324",
-        "capa": "https://image.tmdb.org/t/p/w500/o3p55Ipc3lk42n8EHJzRm1kUCjw.jpg",
-        "qualidade": "HD",
-        "descricao": "Uma enfermeira se muda de Los Angeles para uma cidadezinha no norte da Califórnia em busca de um recomeço. Mas a nova vida vai ser bem diferente do que ela imagina."
-    },
-    {
-        "titulo": "Melodia de Esperança",
-        "titulo_original": "도도솔솔라라솔",
-        "id": "106465",
-        "capa": "https://image.tmdb.org/t/p/w500/13tT4EwltM3WefjkaBDmAvHIz5W.jpg",
-        "qualidade": "HD",
-        "descricao": "Depois de perder tudo, uma pianista chega a uma cidadezinha onde descobre esperança, amor, amizade e um novo lar."
-    },
-    {
-        "titulo": "Visitors",
-        "titulo_original": "Visitors",
-        "id": "127987",
-        "capa": "https://image.tmdb.org/t/p/w500/oYTetO99XH19bEA39KjuYeujuhM.jpg",
-        "qualidade": "HD",
-        "descricao": "Richard, Bob e Mitch, três amigos de infância, vivem em Pointe-Claire. Richard segue os passos de seu avô e se junta à polícia, mas a recepção que recebe não é a mais calorosa. Nessa mesma tarde, ao cair da noite, duas estranhas luzes chocam-se no céu. É então quando ocorrem misteriosos acontecimentos na cidade."
-    },
-    {
-        "titulo": "Caminantes: A Trilha do Medo",
-        "titulo_original": "Caminantes",
-        "id": "105849",
-        "capa": "https://image.tmdb.org/t/p/w500/guBNE8M4o4kaoQsp7qGW6sNdNvl.jpg",
-        "qualidade": "HD",
-        "descricao": "Duas garotas e três rapazes desaparecem enquanto fazem o Caminho de Santiago. Duas semanas depois, a polícia encontra seus celulares enterrados no meio da montanha e, neles, vídeos que os meninos gravaram que permitem reconstruir 40 horas de pesadelo."
+        "descricao": "Inspirada em fatos reais, a série retrata o surgimento das facções do narcotráfico no Rio de Janeiro nos anos 70 e a trajetória dos seus personagens.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
     }
 ]
