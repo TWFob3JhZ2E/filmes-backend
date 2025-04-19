@@ -53,11 +53,23 @@ def salvar_dados_json(caminho, dados):
     except Exception as e:
         print(f"Erro ao salvar o arquivo {caminho}: {e}")
 
-
 @app.route('/')
 def home():
     return jsonify({"mensagem": "API Superflix está online 🚀"})
 
+@app.route('/filme/detalhes')
+def detalhes_filme():
+    id_filme = request.args.get('id')
+    if not id_filme:
+        return jsonify({'erro': 'ID não fornecido'}), 400
+
+    filmes = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
+
+    for filme in filmes:
+        if filme['id'] == id_filme:
+            return jsonify(filme)
+
+    return jsonify({'erro': 'Filme não encontrado'}), 404
 
 
 @app.route('/codigos/series')
