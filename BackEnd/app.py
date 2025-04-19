@@ -54,6 +54,12 @@ def salvar_dados_json(caminho, dados):
         print(f"Erro ao salvar o arquivo {caminho}: {e}")
 
 
+@app.route('/')
+def home():
+    return jsonify({"mensagem": "API Superflix está online 🚀"})
+
+
+
 @app.route('/codigos/series')
 def codigos_series():
     codigos_series_cache = carregar_dados_json(CODE_SERIES_JSON_PATH)
