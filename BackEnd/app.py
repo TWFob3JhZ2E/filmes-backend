@@ -69,6 +69,19 @@ def filme_detalhes():
     return jsonify({'erro': 'Filme não encontrado'}), 404
 
 
+@app.route('/serie/detalhes')
+def serie_detalhes():
+    serie_id = request.args.get('id')
+    series = carregar_dados_json(CODE_SERIES_NOMES_PATH)
+    
+    for serie in series:
+        if serie['id'] == serie_id:
+            return jsonify(serie)
+    
+    return jsonify({'erro': 'Série não encontrada'}), 404
+
+
+
 @app.route('/codigos/series')
 def codigos_series():
     codigos_series_cache = carregar_dados_json(CODE_SERIES_JSON_PATH)
