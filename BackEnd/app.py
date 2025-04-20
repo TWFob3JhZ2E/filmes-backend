@@ -62,14 +62,20 @@ def home():
 @app.route('/filme/detalhes')
 def filme_detalhes():
     filme_id = request.args.get('id')
-    filmes = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
+    
+    # Carrega os filmes dos dois arquivos JSON
+    filmes_pagina = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
+    filmes_novos = carregar_dados_json(FILMES_NOVOS_JSON_PATH)
 
-    for filme in filmes:
+    # Junta os dois em uma única lista
+    todos_os_filmes = filmes_pagina + filmes_novos
+
+    # Procura pelo filme com o ID solicitado
+    for filme in todos_os_filmes:
         if filme['id'] == filme_id:
             return jsonify(filme)
 
     return jsonify({'erro': 'Filme não encontrado'}), 404
-
 
 @app.route('/filmes/novos')
 def filmes_novos():
