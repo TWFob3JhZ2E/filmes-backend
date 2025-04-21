@@ -59,26 +59,14 @@ def home():
 
 
 # Rotas de filmes
-@app.route('/filme/detalhes')
-def filme_detalhes():
-    filme_id = request.args.get('id')
-    filmes = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
-
-    for filme in filmes:
-        if filme['id'] == filme_id:
-            return jsonify(filme)
-
-    return jsonify({'erro': 'Filme não encontrado'}), 404
-
-
 @app.route('/filmes/novos')
 def filmes_novos():
     filmes_novos_cache = carregar_dados_json(FILMES_NOVOS_JSON_PATH)
     filmes_novos_atualizados = filmes_novos_cache.copy()
 
-    def atualizar_filmes_novos():
+    def atualizar_filmes_novos(filmes_novos_cache_local):
         try:
-            url = "https://superflixapi.co/filmes"
+            url = "https://superflix.cv"
             headers = {"User-Agent": "Mozilla/5.0"}
             response = requests.get(url, headers=headers)
 
@@ -86,33 +74,39 @@ def filmes_novos():
                 soup = BeautifulSoup(response.content, 'html.parser')
                 novos_filmes = []
 
-                for poster in soup.find_all('div', class_='poster'):
-                    titulo = poster.find('span', class_='title').get_text(strip=True)
-                    qualidade = poster.find('span', class_='year').get_text(strip=True)
-                    imagem = poster.find('img')['src']
-                    link = poster.find('a', class_='btn')['href']
-                    filme_id = link.split('/')[-1]
+                for poster in soup.find_all('div', class_='item'):
+                    link_tag = poster.find('a')
+                    imagem_tag = poster.find('img')
 
-                    if not item_existe(filmes_novos_cache, filme_id):
+                    if not link_tag or not imagem_tag:
+                        continue
+
+                    link = link_tag['href']
+                    imagem = imagem_tag['src']
+                    titulo = imagem_tag.get('alt', 'Sem título')
+                    qualidade = poster.find('span', class_='quality')
+
+                    filme_id = link.split('/')[-1].replace('.html', '')
+
+                    if not item_existe(filmes_novos_cache_local, filme_id):
                         novos_filmes.append({
-                            'titulo': titulo,
-                            'qualidade': qualidade,
+                            'titulo': titulo.strip(),
+                            'qualidade': qualidade.get_text(strip=True) if qualidade else '',
                             'capa': imagem,
                             'id': filme_id
                         })
 
                 if novos_filmes:
-                    filmes_novos_cache.extend(novos_filmes)
-                    salvar_dados_json(FILMES_NOVOS_JSON_PATH, filmes_novos_cache)
+                    filmes_novos_cache_local.extend(novos_filmes)
+                    salvar_dados_json(FILMES_NOVOS_JSON_PATH, filmes_novos_cache_local)
 
         except requests.exceptions.RequestException as e:
-            print(f"Erro ao fazer a requisição para a API de filmes: {e}")
+            print(f"Erro ao acessar o site SuperFlix: {e}")
 
-    thread = Thread(target=atualizar_filmes_novos)
+    thread = Thread(target=atualizar_filmes_novos, args=(filmes_novos_cache,))
     thread.start()
 
     return jsonify(filmes_novos_atualizados)
-
 
 @app.route('/filmes/home')
 def filmes_home():
