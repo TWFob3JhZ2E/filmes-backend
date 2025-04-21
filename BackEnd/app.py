@@ -7,7 +7,7 @@ from flask_cors import CORS
 from threading import Thread
 
 app = Flask(__name__)
-CORS(app)   
+CORS(app)
 
 # Diretórios e caminhos de arquivos
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
