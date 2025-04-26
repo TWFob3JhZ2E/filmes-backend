@@ -27,7 +27,7 @@ json_lock = Lock()
 
 # Configurações centralizadas (pode ser movido para .env com python-dotenv)
 CONFIG = {
-    'BASE_URL': 'https://superflixapi.in',
+    'BASE_URL': 'https://superflixapi.in/filmes',
     'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
     'ITEMS_PER_PAGE': 50,
     'JSON_INDENT': 4,
