@@ -91,7 +91,7 @@ def codigos_series():
         return jsonify({"codigos": codigos_formatados})
 
     try:
-        url = "https://superflixapi.co/series/lista/"
+        url = "https://superflixapi.in/series/lista/"
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers)
 
@@ -122,7 +122,7 @@ def filmes_novos():
 
     def atualizar_filmes_novos():
         try:
-            url = "https://superflixapi.co/filmes"
+            url = "https://superflixapi.in/filmes"
             headers = {"User-Agent": "Mozilla/5.0"}
             response = requests.get(url, headers=headers)
 
@@ -183,7 +183,7 @@ def filmes_pagina_atualizar():
 
     def atualizar_filmes():
         try:
-            url = "https://superflixapi.co/filmes"
+            url = "https://superflixapi.in/filmes"
             headers = {"User-Agent": "Mozilla/5.0"}
             response = requests.get(url, headers=headers)
 
@@ -253,7 +253,7 @@ def series():
 
     def atualizar_series():
         try:
-            url = "https://superflixapi.co/series"
+            url = "https://superflixapi.in/series"
             headers = {"User-Agent": "Mozilla/5.0"}
             response = requests.get(url, headers=headers)
 
@@ -298,7 +298,7 @@ def codigos_filmes():
         return jsonify({"codigos": codigos_formatados})
 
     try:
-        url = "https://superflixapi.co/filmes/lista/"
+        url = "https://superflixapi.in/filmes/lista/"
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers)
 
