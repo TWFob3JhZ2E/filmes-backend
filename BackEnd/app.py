@@ -300,16 +300,21 @@ def series():
     """Retorna séries, com atualização em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['series'])
+    if not isinstance(cache, list):
+        logger.warning(f"Cache de séries inválido, retornando array vazio")
+        cache = []
 
     thread = Thread(
         target=atualizar_dados,
-        args=(urljoin(CONFIG['BASE_URL'], '/series'), JSON_PATHS['series'], 'séries')
+        args=(urljoin('https://superflixapi.in', '/series'), JSON_PATHS['series'], 'séries')
     )
     thread.start()
 
     if wait:
         thread.join()
         cache = carregar_dados_json(JSON_PATHS['series'])
+        if not isinstance(cache, list):
+            cache = []
 
     return jsonify(cache)
 
