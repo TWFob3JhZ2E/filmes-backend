@@ -118,5 +118,195 @@
         "Psychological Drama",
         "Psychological Thriller"
     ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {
+    "titulo": "João de Deus: Cura e Crime",
+    "titulo_original": "João de Deus: Cura e Crime",
+    "id": "130119",
+    "capa": "https://image.tmdb.org/t/p/w500/kQaj9ZMRLW7n6qLIpTiBk748MIU.jpg",
+    "qualidade": "HD",
+    "descricao": "O idolatrado médium João de Deus alcança fama internacional, até que sobreviventes, procuradores e a mídia começam a denunciar seus abusos. Nesta série documental, vamos mergulhar por meio de entrevistas exclusivas e materiais inéditos, na tenebrosa trajetória de João de Deus, o líder de cirurgias espirituais e dono de um império econômico que se tornou protagonista do maior escândalo de assédio sexual do Brasil.",
+    "generos": [
+        "Documentário",
+        "Crime"
+    ]
+},
+{
+    "titulo": "Ted Lasso",
+    "titulo_original": "Ted Lasso",
+    "id": "97546",
+    "capa": "https://image.tmdb.org/t/p/w500/5fhZdwP1DVJ0FyVH6vrFdHwpXIn.jpg",
+    "qualidade": "HD",
+    "descricao": "Ted Lasso, um técnico de futebol americano que se muda para a Inglaterra para treinar um time de futebol, apesar da falta de experiência. Com jogadores e cidade desconfiados, será que ele vai conseguir conquistá-los?",
+    "generos": [
+        "Comédia",
+        "Drama"
+    ]
+},
+{
+    "titulo": "O Homem na Arena: Tom Brady",
+    "titulo_original": "Man in the Arena: Tom Brady",
+    "id": "128210",
+    "capa": "https://image.tmdb.org/t/p/w500/yIBsjhweVmcMhVZYfNdDfk1NLDs.jpg",
+    "qualidade": "HD",
+    "descricao": "Tom Brady divide, em primeira mão, suas melhores experiências em suas dez campanhas de Super Bowl. A série terá a presença de Brady e outros grandes do esporte, repassando os principais eventos de sua carreira lendária na NFL, abordando o furacão mental e emocional em cada vitória e derrota.",
+    "generos": [
+        "Documentário"
+    ]
+},
+{
+    "titulo": "Fakes",
+    "titulo_original": "फर्जी",
+    "id": "132117",
+    "capa": "https://image.tmdb.org/t/p/w500/lwA3QiiXJUvKBvJNk7cYcQTRvU3.jpg",
+    "qualidade": "HD",
+    "descricao": "Sunny, um artista pobre e brilhante, se envolve no mundo arriscado da falsificação quando cria uma cédula de dinheiro falso perfeita, enquanto Michael, um impetuoso e pouco ortodoxo policial de uma força-tarefa quer livrar o país da ameaça da falsificação. Nessa emocionante corrida de gato e rato, perder não é uma opção!",
+    "generos": [
+        "Drama",
+        "Crime"
+    ]
+},
+{
+    "titulo": "Peace Peace Now Now",
+    "titulo_original": "Peace Peace Now Now",
+    "id": "213173",
+    "capa": "https://image.tmdb.org/t/p/w500/moctiWNEaOmFUkWcjRpDPmNiVIO.jpg",
+    "qualidade": "HD",
+    "descricao": "As atrizes Daniela Vega, Yalitza Aparicio e Ester Expósito, além da cantora, compositora e atriz Shirley Manson, são as apresentadoras desta série documental que retrata quatro histórias sobre mulheres corajosas e determinadas que enfrentaram conflitos armados na América Latina.",
+    "generos": [
+        "Documentário"
+    ]
+},
+{
+    "titulo": "Planeta Sexo com Cara Delevingne",
+    "titulo_original": "Planet Sex with Cara Delevingne",
+    "id": "208550",
+    "capa": "https://image.tmdb.org/t/p/w500/pgNVMxQ6OvSyVlZ1zEKIpSIFOv3.jpg",
+    "qualidade": "HD",
+    "descricao": "Cara é atriz, uma das pessoas mais fotografadas do mundo e ícone LGBTQ+ premiada. Nesta jornada imersiva, ela coloca seu corpo e sua mente em jogo para buscar respostas sobre a sexualidade humana, suas alegrias, mistérios e natureza em constante mudança. Em cada episódio, ela compartilha suas próprias experiências. Sem filtros e extremamente autêntica, Cara está disposta a tudo para explorar o que nos torna humanos.",
+    "generos": [
+        "Documentário"
+    ]
+},
+{
+    "titulo": "O Grito das Mariposas",
+    "titulo_original": "El grito de las mariposas",
+    "id": "128300",
+    "capa": "https://image.tmdb.org/t/p/w500/nIL4TX7gugNRi9pi2M6Pz2rmdzh.jpg",
+    "qualidade": "HD",
+    "descricao": "A história narra a vida de Minerva Mirabal, a advogada e ativista dominicana assassinada junto com suas irmãs, por ordem do ditador Rafael Leónidas Trujillo em 25 de novembro de 1960. Suas mortes foram consideradas como crimes de violência de gênero, feminicídios, em todo o mundo e as Nações Unidas agora comemoram esse dia trágico como o Dia Internacional para a Eliminação da Violência Contra as Mulheres.",
+    "generos": [
+        "Drama"
+    ]
+},
+{
+    "titulo": "Sombra e Ossos",
+    "titulo_original": "Shadow and Bone",
+    "id": "85720",
+    "capa": "https://image.tmdb.org/t/p/w500/7tm1T7frzADXN3YPY2XRRbvAicY.jpg",
+    "qualidade": "HD",
+    "descricao": "Em um mundo destruído pela guerra, a órfã Alina Starkov descobre que tem poderes extraordinários e vira alvo de forças sombrias.",
+    "generos": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+    ]
+},
+{
+    "titulo": "Superman e Lois",
+    "titulo_original": "Superman & Lois",
+    "id": "95057",
+    "capa": "https://image.tmdb.org/t/p/w500/qyCwyFztdccvu1Y62INkLFKp2Pp.jpg",
+    "qualidade": "HD",
+    "descricao": "Clark Kent, o Superman, maior herói do mundo, e sua companheira Lois Lane, uma famosa jornalista, se esforçam para lidar com o estresse e as complexidades cotidianas de serem pais que trabalham na sociedade contemporânea.",
+    "generos": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+    ]
+},
+{
+    "titulo": "Power Book II: Ghost",
+    "titulo_original": "Power Book II: Ghost",
+    "id": "97890",
+    "capa": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+    "qualidade": "HD",
+    "descricao": "\"Ghost\" segue a vida de Tariq tentando balancear sua operação de tráfico, notas, vida amorosa e família. Para evitar ter o mesmo destino que seu pai, a solução é ser uma versão melhor dele.",
+    "generos": [
+        "Crime",
+        "Drama"
+    ]
+},
+{
+    "titulo": "Gotham Knights: A Série",
+    "titulo_original": "Gotham Knights",
+    "id": "195868",
+    "capa": "https://image.tmdb.org/t/p/w500/kShT1yzQlqRZtlW6S9ByXfqeF5R.jpg",
+    "qualidade": "HD",
+    "descricao": "No rescaldo do assassinato de Bruce Wayne, seu filho adotivo rebelde forja uma aliança improvável com os filhos dos inimigos de Batman quando todos eles são enquadrados por matar o Cruzado Encapuzado.",
+    "generos": [
+        "Action & Adventure",
+        "Drama"
+    ]
+},
+{
+    "titulo": "Dom",
+    "titulo_original": "Dom",
+    "id": "123377",
+    "capa": "https://image.tmdb.org/t/p/w500/70HC9Nl6JH3tuT64xw6yOHXHzJ5.jpg",
+    "qualidade": "HD",
+    "descricao": "A jornada de pai e filho que seguiram caminhos totalmente opostos, frequentemente espelhando e complementando um ao outro, enquanto ambos lidam com situações que deixam a linha entre certo e errado cada vez mais tênue.",
+    "generos": [
+        "Crime",
+        "Drama"
+    ]
+},
+{
+    "titulo": "Espíritos na Escola",
+    "titulo_original": "School Spirits",
+    "id": "208397",
+    "capa": "https://image.tmdb.org/t/p/w500/y3mmy2IJvLu7InRlXqGtraIB19y.jpg",
+    "qualidade": "HD",
+    "descricao": "Uma adolescente presa na vida após a morte decide investigar seu desaparecimento com um grupo de outros alunos que também estão presos no limbo em sua escola.",
+    "generos": [
+        "Mistério",
+        "Drama"
+    ]
+},
+{
+    "titulo": "A Cabeça de Joaquín Murrieta",
+    "titulo_original": "La cabeza de Joaquín Murrieta",
+    "id": "135502",
+    "capa": "https://image.tmdb.org/t/p/w500/b4cRVn14ISRIxczusriGZKq2tbT.jpg",
+    "qualidade": "HD",
+    "descricao": "A ganância tomou conta da Califórnia por causa da corrida do ouro, tornando as pessoas sedentas por riqueza e terras. Na recém-traçada fronteira entre o México e os EUA, uma guerra sem lei pelo controle, alimentada pela raiva e xenofobia da guerra passada, é liderada por um grupo de imigrantes que unem forças para criar o mito do Robin Hood latino: Joaquín Murrieta.",
+    "generos": [
+        "Drama",
+        "Faroeste"
+    ]
 }
 ]
