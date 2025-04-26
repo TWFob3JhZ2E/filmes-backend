@@ -265,7 +265,7 @@ def filmes_pagina():
     except ValueError:
         return jsonify({'erro': 'Página deve ser um número'}), 400
     
-    filmes_cache = carregar_dados_json(JSON_PATHS"['data']
+    filmes_cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])['data']
     filmes_por_pagina = 50
     inicio = (pagina - 1) * filmes_por_pagina
     fim = inicio + filmes_por_pagina
