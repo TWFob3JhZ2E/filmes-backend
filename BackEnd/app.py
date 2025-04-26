@@ -1,332 +1,341 @@
 import os
+import json
+import logging
 import requests
 from bs4 import BeautifulSoup
-import json
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from threading import Thread
+from threading import Thread, Lock
+from urllib.parse import urljoin
+
+# Configuração de logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('superflix_api.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 CORS(app)
 
-# Pasta onde os JSONs serão armazenados
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-TEMP_DIR = os.path.join(BASE_DIR, 'temp')
-FILMES_ENCONTRADOS_DIR = os.path.join(BASE_DIR, 'Filmes_Encontrados')
+# Lock para sincronizar acesso a arquivos JSON
+json_lock = Lock()
 
-# Garante que a pasta temp existe
+# Configurações centralizadas (pode ser movido para .env com python-dotenv)
+CONFIG = {
+    'BASE_URL': 'https://superflixapi.in',
+    'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    'ITEMS_PER_PAGE': 50,
+    'JSON_INDENT': 4,
+    'BASE_DIR': os.path.abspath(os.path.join(os.path.dirname(__file__), '..')),
+    'TEMP_DIR': 'temp',
+    'FILMES_ENCONTRADOS_DIR': 'Filmes_Encontrados'
+}
+
+# Caminhos para diretórios
+TEMP_DIR = os.path.join(CONFIG['BASE_DIR'], CONFIG['TEMP_DIR'])
+FILMES_ENCONTRADOS_DIR = os.path.join(CONFIG['BASE_DIR'], CONFIG['FILMES_ENCONTRADOS_DIR'])
+
+# Garante que os diretórios existem
 os.makedirs(TEMP_DIR, exist_ok=True)
+os.makedirs(FILMES_ENCONTRADOS_DIR, exist_ok=True)
 
-# Caminhos para os arquivos JSON dentro da pasta temp
-FILMES_PAGINA_JSON_PATH = os.path.join(FILMES_ENCONTRADOS_DIR, 'CodeFilmesNomes.json')
-CODE_SERIES_NOMES_PATH = os.path.join(FILMES_ENCONTRADOS_DIR, 'CodeSeriesNomes.json')
-
-FILMES_NOVOS_JSON_PATH = os.path.join(TEMP_DIR, 'Novosfilmes.json')
-SERIES_JSON_PATH = os.path.join(TEMP_DIR, 'series.json')
-FILMES_HOME_JSON_PATH = os.path.join(TEMP_DIR, 'Filmes.json')
-
-CODE_FILMES_JSON_PATH = os.path.join(TEMP_DIR, 'CodeFilmes.json')
-CODE_SERIES_JSON_PATH = os.path.join(TEMP_DIR, 'CodeSeries.json')
-
-
+# Caminhos para arquivos JSON
+JSON_PATHS = {
+    'filmes_pagina': os.path.join(FILMES_ENCONTRADOS_DIR, 'CodeFilmesNomes.json'),
+    'series_nomes': os.path.join(FILMES_ENCONTRADOS_DIR, 'CodeSeriesNomes.json'),
+    'filmes_novos': os.path.join(TEMP_DIR, 'Novosfilmes.json'),
+    'series': os.path.join(TEMP_DIR, 'series.json'),
+    'filmes_home': os.path.join(TEMP_DIR, 'Filmes.json'),
+    'code_filmes': os.path.join(TEMP_DIR, 'CodeFilmes.json'),
+    'code_series': os.path.join(TEMP_DIR, 'CodeSeries.json')
+}
 
 def carregar_dados_json(caminho):
-    if os.path.exists(caminho):
-        try:
-            with open(caminho, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except json.JSONDecodeError:
-            print(f"Erro ao decodificar o arquivo JSON {caminho}, criando um novo arquivo.")
-            return []
-    return []
-
-
-def item_existe(lista, item_id):
-    return any(item['id'] == item_id for item in lista)
-
+    """Carrega dados de um arquivo JSON com sincronização."""
+    with json_lock:
+        if os.path.exists(caminho):
+            try:
+                with open(caminho, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except json.JSONDecodeError as e:
+                logger.error(f"Erro ao decodificar {caminho}: {e}")
+                return []
+        return []
 
 def salvar_dados_json(caminho, dados):
+    """Salva dados em um arquivo JSON com sincronização."""
+    with json_lock:
+        try:
+            with open(caminho, 'w', encoding='utf-8') as f:
+                json.dump(dados, f, ensure_ascii=False, indent=CONFIG['JSON_INDENT'])
+            logger.info(f"Arquivo {caminho} salvo com sucesso")
+        except Exception as e:
+            logger.error(f"Erro ao salvar {caminho}: {e}")
+
+def item_existe(lista, item_id):
+    """Verifica se um item com o ID existe na lista."""
+    return any(item.get('id') == item_id for item in lista)
+
+def atualizar_dados(url, cache_path, tipo='filmes'):
+    """Função genérica para atualizar filmes ou séries via scraping."""
+    cache = carregar_dados_json(cache_path)
     try:
-        with open(caminho, 'w', encoding='utf-8') as f:
-            json.dump(dados, f, ensure_ascii=False, indent=4)
-        print(f"Arquivo {caminho} salvo com sucesso!")
-    except Exception as e:
-        print(f"Erro ao salvar o arquivo {caminho}: {e}")
+        headers = {'User-Agent': CONFIG['USER_AGENT']}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+        novos_itens = []
+
+        for poster in soup.find_all('div', class_='poster'):
+            try:
+                titulo = poster.find('span', Uclass_='title')
+                qualidade = poster.find('span', class_='year')
+                imagem = poster.find('img')
+                link = poster.find('a', class_='btn')
+
+                if not all([titulo, qualidade, imagem, link]):
+                    continue
+
+                titulo = titulo.get_text(strip=True)
+                qualidade = qualidade.get_text(strip=True)
+                imagem = urljoin(CONFIG['BASE_URL'], imagem['src'])
+                item_id = link['href'].split('/')[-1]
+
+                if not item_existe(cache, item_id):
+                    novos_itens.append({
+                        'titulo': titulo,
+                        'qualidade': qualidade,
+                        'capa': imagem,
+                        'id': item_id
+                    })
+            except (AttributeError, KeyError) as e:
+                logger.warning(f"Erro ao processar item em {url}: {e}")
+                continue
+
+        if novos_itens:
+            cache.extend(novos_itens)
+            salvar_dados_json(cache_path, cache)
+            logger.info(f"{len(novos_itens)} novos {tipo} adicionados ao cache")
+        else:
+            logger.info(f"Nenhum novo {tipo} encontrado")
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Erro ao atualizar {tipo} de {url}: {e}")
+
+def validar_id(item_id):
+    """Valida se o ID é alfanumérico e não vazio."""
+    return item_id and item_id.isalnum()
+
+def validar_pagina(pagina):
+    """Valida e converte o número da página."""
+    try:
+        return max(1, int(pagina))
+    except (ValueError, TypeError):
+        return 1
 
 @app.route('/')
 def home():
+    """Endpoint inicial da API."""
     return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
 def filme_detalhes():
+    """Retorna detalhes de um filme pelo ID."""
     filme_id = request.args.get('id')
-    filmes = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
-    
-    for filme in filmes:
-        if filme['id'] == filme_id:
-            return jsonify(filme)
-    
-    return jsonify({'erro': 'Filme não encontrado'}), 404
+    if not validar_id(filme_id):
+        logger.warning(f"ID de filme inválido: {filme_id}")
+        return jsonify({'erro': 'ID inválido'}), 400
 
+    filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
+    for filme in filmes:
+        if filme.get('id') == filme_id:
+            return jsonify(filme)
+
+    logger.info(f"Filme com ID {filme_id} não encontrado")
+    return jsonify({'erro': 'Filme não encontrado'}), 404
 
 @app.route('/serie/detalhes')
 def serie_detalhes():
+    """Retorna detalhes de uma série pelo ID."""
     serie_id = request.args.get('id')
-    series = carregar_dados_json(CODE_SERIES_NOMES_PATH)
-    
+    if not validar_id(serie_id):
+        logger.warning(f"ID de série inválido: {serie_id}")
+        return jsonify({'erro': 'ID inválido'}), 400
+
+    series = carregar_dados_json(JSON_PATHS['series_nomes'])
     for serie in series:
-        if serie['id'] == serie_id:
+        if serie.get('id') == serie_id:
             return jsonify(serie)
-    
+
+    logger.info(f"Série com ID {serie_id} não encontrada")
     return jsonify({'erro': 'Série não encontrada'}), 404
-
-
 
 @app.route('/codigos/series')
 def codigos_series():
-    codigos_series_cache = carregar_dados_json(CODE_SERIES_JSON_PATH)
-
-    if codigos_series_cache:
-        codigos_formatados = ", ".join(codigos_series_cache.get("codigos", []))
-        return jsonify({"codigos": codigos_formatados})
+    """Retorna códigos de séries, com cache."""
+    cache = carregar_dados_json(JSON_PATHS['code_series'])
+    if cache:
+        return jsonify({"codigos": ", ".join(cache.get("codigos", []))})
 
     try:
-        url = "https://superflixapi.in/series/lista/"
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers)
+        url = urljoin(CONFIG['BASE_URL'], '/series/lista/')
+        headers = {'User-Agent': CONFIG['USER_AGENT']}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
 
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.content, 'html.parser')
+        soup = BeautifulSoup(response.content, 'html.parser')
+        raw_codigos = soup.decode_contents().split('<br/>')
+        codigos = [codigo.strip() for codigo in raw_codigos if codigo.strip().isdigit()]
 
-            # Quebrar pelos <br> e limpar espaços
-            raw_codigos = soup.decode_contents().split('<br/>')
-            codigos = [codigo.strip() for codigo in raw_codigos if codigo.strip().isdigit()]
-
-            codigos_series_cache = {"codigos": codigos}
-            salvar_dados_json(CODE_SERIES_JSON_PATH, codigos_series_cache)
-
-            codigos_formatados = ", ".join(codigos)
-            return jsonify({"codigos": codigos_formatados})
-        else:
-            return jsonify({'error': 'Não foi possível carregar os códigos de séries'}), 500
+        cache = {"codigos": codigos}
+        salvar_dados_json(JSON_PATHS['code_series'], cache)
+        logger.info("Códigos de séries atualizados")
+        return jsonify({"codigos": ", ".join(codigos)})
 
     except requests.exceptions.RequestException as e:
-        print(f"Erro ao fazer a requisição para os códigos de séries: {e}")
-        return jsonify({'error': 'Erro ao tentar carregar os códigos de séries'}), 500
+        logger.error(f"Erro ao carregar códigos de séries: {e}")
+        return jsonify({'error': 'Erro ao carregar códigos de séries'}), 500
 
+@app.route('/codigos/filmes')
+def codigos_filmes():
+    """Retorna códigos de filmes, com cache."""
+    cache = carregar_dados_json(JSON_PATHS['code_filmes'])
+    if cache:
+        return jsonify({"codigos": ", ".join(cache.get("codigos", []))})
+
+    try:
+        url = urljoin(CONFIG['BASE_URL'], '/filmes/lista/')
+        headers = {'User-Agent': CONFIG['USER_AGENT']}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+        dados = soup.get_text()
+        import re
+        codigos = re.findall(r'tt\d+', dados)
+
+        cache = {"codigos": codigos}
+        salvar_dados_json(JSON_PATHS['code_filmes'], cache)
+        logger.info("Códigos de filmes atualizados")
+        return jsonify({"codigos": ", ".join(codigos)})
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Erro ao carregar códigos de filmes: {e}")
+        return jsonify({'error': 'Erro ao carregar códigos de filmes'}), 500
 
 @app.route('/filmes/novos')
 def filmes_novos():
-    filmes_novos_cache = carregar_dados_json(FILMES_NOVOS_JSON_PATH)
-    filmes_novos_atualizados = filmes_novos_cache.copy()
+    """Retorna novos filmes, com atualização em segundo plano."""
+    wait = request.args.get('wait', 'false').lower() == 'true'
+    cache = carregar_dados_json(JSON_PATHS['filmes_novos'])
 
-    def atualizar_filmes_novos():
-        try:
-            url = "https://superflixapi.in/filmes"
-            headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(url, headers=headers)
-
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.content, 'html.parser')
-                novos_filmes = []
-
-                for poster in soup.find_all('div', class_='poster'):
-                    titulo = poster.find('span', class_='title').get_text(strip=True)
-                    qualidade = poster.find('span', class_='year').get_text(strip=True)
-                    imagem = poster.find('img')['src']
-                    link = poster.find('a', class_='btn')['href']
-                    filme_id = link.split('/')[-1]
-
-                    if not item_existe(filmes_novos_cache, filme_id):
-                        novos_filmes.append({
-                            'titulo': titulo,
-                            'qualidade': qualidade,
-                            'capa': imagem,
-                            'id': filme_id
-                        })
-
-                if novos_filmes:
-                    filmes_novos_cache.extend(novos_filmes)
-                    salvar_dados_json(FILMES_NOVOS_JSON_PATH, filmes_novos_cache)
-
-        except requests.exceptions.RequestException as e:
-            print(f"Erro ao fazer a requisição para a API de filmes: {e}")
-
-    thread = Thread(target=atualizar_filmes_novos)
+    thread = Thread(
+        target=atualizar_dados,
+        args=(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_novos'], 'filmes')
+    )
     thread.start()
 
-    return jsonify(filmes_novos_atualizados)
+    if wait:
+        thread.join()
+        cache = carregar_dados_json(JSON_PATHS['filmes_novos'])
 
+    return jsonify(cache)
 
 @app.route('/filmes/home')
 def filmes_home():
-    filmes_cache = carregar_dados_json(FILMES_HOME_JSON_PATH)
-    return jsonify(filmes_cache)
-
+    """Retorna filmes da página inicial."""
+    cache = carregar_dados_json(JSON_PATHS['filmes_home'])
+    return jsonify(cache)
 
 @app.route('/filmes/pagina')
 def filmes_pagina():
-    filmes_cache = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
-    pagina = int(request.args.get('pagina', 1))
-    filmes_por_pagina = 50
-    inicio = (pagina - 1) * filmes_por_pagina
-    fim = inicio + filmes_por_pagina
-    filmes_paginados = filmes_cache[inicio:fim]
+    """Retorna filmes paginados."""
+    pagina = validar_pagina(request.args.get('pagina', 1))
+    cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
+
+    inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
+    fim = inicio + CONFIG['ITEMS_PER_PAGE']
+    filmes_paginados = cache[inicio:fim]
+
     return jsonify(filmes_paginados)
-
-
 
 @app.route('/filmes/pagina/atualizar')
 def filmes_pagina_atualizar():
-    filmes_cache = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
-    filmes_atualizados = filmes_cache.copy()
+    """Atualiza a lista de filmes em segundo plano."""
+    wait = request.args.get('wait', 'false').lower() == 'true'
+    cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
-    def atualizar_filmes():
-        try:
-            url = "https://superflixapi.in/filmes"
-            headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(url, headers=headers)
-
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.content, 'html.parser')
-                novos_filmes = []
-
-                for poster in soup.find_all('div', class_='poster'):
-                    titulo = poster.find('span', class_='title').get_text(strip=True)
-                    qualidade = poster.find('span', class_='year').get_text(strip=True)
-                    imagem = poster.find('img')['src']
-                    link = poster.find('a', class_='btn')['href']
-                    filme_id = link.split('/')[-1]
-
-                    if not item_existe(filmes_cache, filme_id):
-                        novos_filmes.append({
-                            'titulo': titulo,
-                            'qualidade': qualidade,
-                            'capa': imagem,
-                            'id': filme_id
-                        })
-
-                if novos_filmes:
-                    filmes_cache.extend(novos_filmes)
-                    salvar_dados_json(FILMES_PAGINA_JSON_PATH, filmes_cache)
-
-        except requests.exceptions.RequestException as e:
-            print(f"Erro ao fazer a requisição para a API de filmes: {e}")
-
-    thread = Thread(target=atualizar_filmes)
+    thread = Thread(
+        target=atualizar_dados,
+        args=(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_pagina'], 'filmes')
+    )
     thread.start()
 
-    return jsonify(filmes_atualizados)
+    if wait:
+        thread.join()
+        cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
-@app.route('/buscar')
-def buscar_nomes():
-    termo = request.args.get('q', '').lower()
-    filmes = carregar_dados_json(FILMES_PAGINA_JSON_PATH)
-    series = carregar_dados_json(CODE_SERIES_NOMES_PATH)
-
-    resultados_filmes = [f for f in filmes if termo in f['titulo'].lower()]
-    resultados_series = [s for s in series if termo in s['titulo'].lower()]
-
-    resultados = resultados_filmes + resultados_series
-
-    return jsonify(resultados[:10])  # Limita a 10 resultados
-
-
+    return jsonify(cache)
 
 @app.route('/series/pagina')
 def series_pagina():
-    series_cache = carregar_dados_json(CODE_SERIES_NOMES_PATH)
+    """Retorna séries paginadas."""
+    pagina = validar_pagina(request.args.get('pagina', 1))
+    cache = carregar_dados_json(JSON_PATHS['series_nomes'])
 
-    # Paginação
-    pagina = int(request.args.get('pagina', 1))
-    series_por_pagina = 50
-    inicio = (pagina - 1) * series_por_pagina
-    fim = inicio + series_por_pagina
-    series_paginadas = series_cache[inicio:fim]
+    inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
+    fim = inicio + CONFIG['ITEMS_PER_PAGE']
+    series_paginadas = cache[inicio:fim]
 
     return jsonify(series_paginadas)
 
 @app.route('/series')
 def series():
-    series_cache = carregar_dados_json(SERIES_JSON_PATH)
-    series_atualizadas = series_cache.copy()
+    """Retorna séries, com atualização em segundo plano."""
+    wait = request.args.get('wait', 'false').lower() == 'true'
+    cache = carregar_dados_json(JSON_PATHS['series'])
 
-    def atualizar_series():
-        try:
-            url = "https://superflixapi.in/series"
-            headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.get(url, headers=headers)
-
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.content, 'html.parser')
-                novas_series = []
-
-                for poster in soup.find_all('div', class_='poster'):
-                    titulo = poster.find('span', class_='title').get_text(strip=True)
-                    qualidade = poster.find('span', class_='year').get_text(strip=True)
-                    imagem = poster.find('img')['src']
-                    link = poster.find('a', class_='btn')['href']
-                    serie_id = link.split('/')[-1]
-
-                    if not item_existe(series_cache, serie_id):
-                        novas_series.append({
-                            'titulo': titulo,
-                            'qualidade': qualidade,
-                            'capa': imagem,
-                            'id': serie_id
-                        })
-
-                if novas_series:
-                    series_cache.extend(novas_series)
-                    salvar_dados_json(SERIES_JSON_PATH, series_cache)
-
-        except requests.exceptions.RequestException as e:
-            print(f"Erro ao fazer a requisição para a API de séries: {e}")
-
-    thread = Thread(target=atualizar_series)
+    thread = Thread(
+        target=atualizar_dados,
+        args=(urljoin(CONFIG['BASE_URL'], '/series'), JSON_PATHS['series'], 'séries')
+    )
     thread.start()
 
-    return jsonify(series_atualizadas)
+    if wait:
+        thread.join()
+        cache = carregar_dados_json(JSON_PATHS['series'])
 
+    return jsonify(cache)
 
-@app.route('/codigos/filmes')
-def codigos_filmes():
-    codigos_filmes_cache = carregar_dados_json(CODE_FILMES_JSON_PATH)
+@app.route('/buscar')
+def buscar_nomes():
+    """Busca filmes e séries por termo."""
+    termo = request.args.get('q', '').lower()
+    if not termo or len(termo) < 2:
+        logger.warning(f"Termo de busca inválido: {termo}")
+        return jsonify({'erro': 'Termo de busca inválido ou muito curto'}), 400
 
-    if codigos_filmes_cache:
-        codigos_formatados = ", ".join(codigos_filmes_cache.get("codigos", []))
-        return jsonify({"codigos": codigos_formatados})
+    filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
+    series = carregar_dados_json(JSON_PATHS['series_nomes'])
 
-    try:
-        url = "https://superflixapi.in/filmes/lista/"
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers)
+    resultados_filmes = [f for f in filmes if termo in f.get('titulo', '').lower()]
+    resultados_series = [s for s in series if termo in s.get('titulo', '').lower()]
+    resultados = resultados_filmes + resultados_series
 
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.content, 'html.parser')
-            dados_bagunçados = soup.get_text()
-
-            import re
-            codigos = re.findall(r'tt\d+', dados_bagunçados)
-
-            codigos_filmes_cache = {"codigos": codigos}
-            salvar_dados_json(CODE_FILMES_JSON_PATH, codigos_filmes_cache)
-
-            codigos_formatados = ", ".join(codigos)
-            return jsonify({"codigos": codigos_formatados})
-        else:
-            return jsonify({'error': 'Não foi possível carregar os códigos de filmes'}), 500
-
-    except requests.exceptions.RequestException as e:
-        print(f"Erro ao fazer a requisição para os códigos de filmes: {e}")
-        return jsonify({'error': 'Erro ao tentar carregar os códigos de filmes'}), 500
-
+    return jsonify(resultados[:10])
 
 def atualizar_codigos_inicial():
+    """Atualiza códigos de filmes e séries na inicialização."""
     with app.app_context():
         codigos_filmes()
         codigos_series()
-
+        logger.info("Códigos iniciais atualizados")
 
 if __name__ == '__main__':
     atualizar_codigos_inicial()
