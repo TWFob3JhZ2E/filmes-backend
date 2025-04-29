@@ -33072,5 +33072,2099 @@
             "Comédia",
             "Drama"
         ]
+    },
+    {
+        "titulo": "Kingdom",
+        "titulo_original": "킹덤",
+        "id": "70593",
+        "capa": "https://image.tmdb.org/t/p/w500/nFan35eF9xGHBsro3U9YbEKsfmV.jpg",
+        "qualidade": "HD",
+        "descricao": "Estranhos rumores sobre a doença do rei deixam todos aterrorizados. Agora, o príncipe herdeiro é a única esperança contra a misteriosa epidemia.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "RU",
+        "titulo_original": "RU",
+        "id": "253645",
+        "capa": "https://image.tmdb.org/t/p/w500/cz517rOCRnRvpRZmcgEQnlRMFBK.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "ARJEN – Caminho da Perdição",
+        "titulo_original": "Arjen: Azap Yolu",
+        "id": "252766",
+        "capa": "https://image.tmdb.org/t/p/w500/rUZFMcDpKCs3wDqmU9YQHCFb56x.jpg",
+        "qualidade": "HD",
+        "descricao": "Arjen, um dos assassinos mais perigosos do mundo, é testado com a sua consciência na sua última missão.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Peões do Amor",
+        "titulo_original": "墨雨云间",
+        "id": "236033",
+        "capa": "https://image.tmdb.org/t/p/w500/nLzLnyY8GjBgw1pxvJEWlrdlPlF.jpg",
+        "qualidade": "HD",
+        "descricao": "Em meio a uma instabilidade política, um magistrado é preso injustamente através de um golpe. Sua filha, Xue Fang Fei, escapa por pouco com a ajuda de Jiang Li, a filha de um diretor. Em busca de justiça, Fang Fei promete libertar seu pai e, assumindo a identidade de Jiang Ji, ela planeja um retorno à capital. Com o apoio do duque Xiao Heng, e lutando contra as adversidades e os desejos do coração, ela precisará abrir espaço para a coragem e a determinação para superar os desafios que estão à sua frente.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Medici: Mestres de Florença",
+        "titulo_original": "I Medici",
+        "id": "66761",
+        "capa": "https://image.tmdb.org/t/p/w500/cf53kVO4coQIwvu4RV6FTk8edlk.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanhe a série baseada na história dos Medici de Florença, uma família influente que governou a cidade no século 15, promovendo a vida artística, cultural, espiritual e científica da época.",
+        "generos": [
+            "Drama",
+            "War & Politics"
+        ]
+    },
+    {
+        "titulo": "Pirates: Behind the Legends",
+        "titulo_original": "Pirates: Behind the Legends",
+        "id": "256657",
+        "capa": "https://image.tmdb.org/t/p/w500/ojxDHzrMSAmIdhsuOeYn62J14ig.jpg",
+        "qualidade": "HD",
+        "descricao": "Do lendário John Ward, imortalizado na ficção como Jack Sparrow, e do explorador inglês Francis Drake, considerados piratas por seus inimigos, mas heróis por seus camaradas, aos notórios Piratas do Caribe, envoltos em mitos.",
+        "generos": [
+            "Drama",
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Dossiê Chapecó: O Jogo por Trás da Tragédia",
+        "titulo_original": "Dossiê Chapecó: O Jogo por Trás da Tragédia",
+        "id": "196768",
+        "capa": "https://image.tmdb.org/t/p/w500/uOihR7ODsWOhji9FvHl4NLnBFGk.jpg",
+        "qualidade": "HD",
+        "descricao": "A minissérie busca respostas sobre o desastre aéreo que ficou conhecido como a ‘Tragédia da Chapecoense’. Cinco anos após o acidente, as famílias das 71 vítimas fatais e os 6 sobreviventes ainda convivem com as consequências da queda da aeronave que fazia o voo fretado LaMia 2933, a serviço da Associação Chapecoense de Futebol.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Down and Dirty with Jim Norton",
+        "titulo_original": "Down and Dirty with Jim Norton",
+        "id": "23431",
+        "capa": "https://image.tmdb.org/t/p/w500/zdj0KHSeMAdWfLJAdLj9QkDo7Zz.jpg",
+        "qualidade": "HD",
+        "descricao": "O astro da comédia Jim Norton apresenta esta série de stand-up.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "O Assassinato de Yara Gambirasio",
+        "titulo_original": "Il caso Yara: oltre ogni ragionevole dubbio",
+        "id": "258558",
+        "capa": "https://image.tmdb.org/t/p/w500/ctFYydd0gbkeP6KG2sp8ohxUqXz.jpg",
+        "qualidade": "HD",
+        "descricao": "Esta série documental analisa o desaparecimento de Yara, uma garota de 13 anos, e a investigação perturbadora que abalou a cidadezinha onde ela morava.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "The Madame Blanc Mysteries",
+        "titulo_original": "The Madame Blanc Mysteries",
+        "id": "136275",
+        "capa": "https://image.tmdb.org/t/p/w500/xq5fDpCoxvKs5kIfuvUZRYj8Ycs.jpg",
+        "qualidade": "HD",
+        "descricao": "Jean White é uma negociante de antiguidades que administra um negócio bem-sucedido com seu marido, Rory. Mas quando ele morre repentinamente, deixando-a quase sem dinheiro, Jean se muda para seu único bem restante, uma casa de campo.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "LALIGA: Além do Campo",
+        "titulo_original": "LALIGA: Más allá del gol",
+        "id": "255345",
+        "capa": "https://image.tmdb.org/t/p/w500/8L8bExLMjYbMeuG2iKKs1pB0N6J.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanhe os bastidores do futebol espanhol nesta envolvente série documental sobre a LaLiga e veja de tudo, desde vitórias épicas até derrotas devastadoras.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "LOVE - A História de Lisey",
+        "titulo_original": "Lisey's Story",
+        "id": "95839",
+        "capa": "https://image.tmdb.org/t/p/w500/3wh5Dwggf0EQOBgxPUvXcCdMtpZ.jpg",
+        "qualidade": "HD",
+        "descricao": "Esta série aterrorizante conta a história da viúva Lisey Landon e os eventos perturbadores que reacendem suas memórias do seu casamento com o escritor Scott Landon e as trevas que o atormentavam.",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "City Beats",
+        "titulo_original": "City Beats",
+        "id": "258344",
+        "capa": "https://image.tmdb.org/t/p/w500/ebiJEeHFIZWbm4rOEkZ3ntyZCHG.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Caçadores de Fantasmas",
+        "titulo_original": "Ghost Hunters",
+        "id": "92820",
+        "capa": "https://image.tmdb.org/t/p/w500/dIgp40WMwl7XmcPMiFBgGQgwVpU.jpg",
+        "qualidade": "HD",
+        "descricao": "Grant Wilson e seu seleto time de investigadores paranormais caçam assombrações por todo o país.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Oz",
+        "titulo_original": "Oz",
+        "id": "3322",
+        "capa": "https://image.tmdb.org/t/p/w500/CwqqwYWnMOLUwsqAqveHNnwTGC.jpg",
+        "qualidade": "HD",
+        "descricao": "Atrás dos muros da prisão de segurança máxima Oswald Maximum, apelidada pelos prisioneiros de OZ, está um bloco de reabilitação experimental, Emerald City, com alguns dos criminosos mais perigosos do estado. Em Emerald City a tensão é constante e os conflitos são gerados pelas várias facções e grupos étnicos que ali estão confinados. Sob a direção de Tim McManus e Leo Glynn, os internos em Emerald City lutam para satisfazer suas necessidades. Alguns buscam poder, seja poder sobre o tráfico de drogas ou sobre facções rivais. Outros querem dinheiro, obtido com as drogas e apostas. E ainda há outros, carcereiros e prisioneiros, que querem apenas sobreviver o suficiente para conseguir a liberdade condicional, ou mesmo apenas ver o dia de amanhã. A série mostra sem censuras a vida na prisão, com todos os conflitos sendo explicados pelo narrador, Augustus Hill.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Retorno de Simone Biles",
+        "titulo_original": "Simone Biles Rising",
+        "id": "254930",
+        "capa": "https://image.tmdb.org/t/p/w500/vMV7c31sTIvG6XHnClpUfB5QkkY.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanhe a ginasta Simone Biles em sua jornada para achar o equilíbrio ideal entre treinamento, vida pessoal e saúde mental antes do tão aguardado retorno às Olimpíadas.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "A Mulher no Lago",
+        "titulo_original": "Lady in the Lake",
+        "id": "120549",
+        "capa": "https://image.tmdb.org/t/p/w500/a4uoG1kYoMCf8rqPak0hDmcljPC.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando o desaparecimento de uma menina atinge a cidade de Baltimore em 1966, as vidas de duas mulheres convergem em uma rota de colisão fatal.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "RBD: A Família",
+        "titulo_original": "RBD: La Familia",
+        "id": "3500",
+        "capa": "https://image.tmdb.org/t/p/w500/v3bH1I62J7LW5NNy9MhDJ82ux2K.jpg",
+        "qualidade": "HD",
+        "descricao": "A série mostra, de forma fictícia, a vida dos integrantes da famosa banda RBD - Annie, Dul, Poncho, Ucker, Chris e May. Entre os compromissos profissionais e o assédio da imprensa e do público, eles se envolvem em diversas confusões amorosas e tentam levar uma vida normal. Mas, no final, a amizade entre os 6 é a resposta para todos os problemas.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Tailândia: O Paraíso Tropical da Terra",
+        "titulo_original": "Thailand: Earth's Tropical Paradise",
+        "id": "77314",
+        "capa": "https://image.tmdb.org/t/p/w500/zms5ycGhxVzZRcIjoJjtR1JvZvt.jpg",
+        "qualidade": "HD",
+        "descricao": "Vá além das praias da Tailândia para descobrir um reino sagrado de beleza inspiradora. Esta série aborda os imponentes penhascos de calcário, os arrozais, os templos escondidos e a fervilhante cidade de Bangkok, antes de visitar as florestas do norte, onde antigas tribos praticam tradições consagradas pelo tempo e tigres ainda perseguem as florestas. Tailândia: O Paraíso Tropical da Terra revela uma terra que está a mundos de distância das conhecidas trilhas turísticas.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "The Jetty",
+        "titulo_original": "The Jetty",
+        "id": "233324",
+        "capa": "https://image.tmdb.org/t/p/w500/8NFkGx0L6tobGOeoHohO6ycXt6G.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanha a detetive Ember Manning, que precisa descobrir como um incêndio em uma casa de férias está ligado a um jornalista de podcast que investiga o caso de uma pessoa desaparecida e um triângulo amoroso ilícito.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Terror",
+        "titulo_original": "The Terror",
+        "id": "75191",
+        "capa": "https://image.tmdb.org/t/p/w500/bKkOcso0YuCBK7dixkn3VSd0dUr.jpg",
+        "qualidade": "HD",
+        "descricao": "Assombroso, cheio de suspense e baseado em fatos, centra-se em uma perigosa viagem ao Ártico pela Marinha Real Britânica. É uma história extrema de sobrevivência numa paisagem totalmente implacável, com os medos da tripulação exacerbados por uma ameaça desconhecida.",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Those About to Die",
+        "titulo_original": "Those About to Die",
+        "id": "218589",
+        "capa": "https://image.tmdb.org/t/p/w500/gvz0m4MJ8sAj6yMcQdwN07bNjRY.jpg",
+        "qualidade": "HD",
+        "descricao": "Roma, 79 d.C. A população, aborrecida, inquieta e cada vez mais violenta, é controlada com duas coisas: comida gratuita e entretenimento espetacular. À medida que o povo procura um entretenimento mais excessivo e sanguinário, é necessário um estádio criado para o combate de gladiadores, o Coliseu. Por baixo dele vivem e trabalham milhares de pessoas, incluindo milhares que morrerão pelos jogos.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Dark Hole",
+        "titulo_original": "다크홀",
+        "id": "120314",
+        "capa": "https://image.tmdb.org/t/p/w500/1EiKcnpOjgnaUNShAgYiwBhKLQ7.jpg",
+        "qualidade": "HD",
+        "descricao": "Um grupo de sobreviventes lutam por suas vidas contra mutantes que são criados quando humanos respiram uma misteriosa fumaça negra vinda de um buraco.",
+        "generos": [
+            "Action & Adventure",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "No Olho da Tempestade",
+        "titulo_original": "In the Eye of the Storm",
+        "id": "258731",
+        "capa": "https://image.tmdb.org/t/p/w500/ivmNixhlBKXG8BukpVIMkhjAgbo.jpg",
+        "qualidade": "HD",
+        "descricao": "Esta série mostra imagens impressionantes de desastres naturais recentes. As testemunhas desses eventos registram vídeos arrepiantes com seus celulares, revelando a natureza em toda a sua fúria.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Despedaçado",
+        "titulo_original": "Broken",
+        "id": "71705",
+        "capa": "https://image.tmdb.org/t/p/w500/xvwcRQiE7aanggwKgwj9T3x4pdt.jpg",
+        "qualidade": "HD",
+        "descricao": "O padre Michael Kerrigan é um padre católico moderno e ousado. Enquanto enfrenta seus próprios fantasmas, ele ajuda sua pequena comunidade no norte da Inglaterra, muito afetada pela crise econômica.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Sangue Novo",
+        "titulo_original": "New Blood",
+        "id": "66604",
+        "capa": "https://image.tmdb.org/t/p/w500/1VZ3kUF8AET7L3AXcEiuRHTS1m.jpg",
+        "qualidade": "HD",
+        "descricao": "Dois investigadores juniores se unem contra uma nova geração de criminosos, as super-ricas e poderosas corporações, indivíduos e governos que se escondem atrás de fachadas legítimas.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Que Houve com a Secretária Kim?",
+        "titulo_original": "김비서가 왜 그럴까",
+        "id": "79434",
+        "capa": "https://image.tmdb.org/t/p/w500/kyOJoLaTxVV5pPrHwBQMtIqfKR8.jpg",
+        "qualidade": "HD",
+        "descricao": "A família de Lee Young-Joon dirige uma grande empresa e ele trabalha como vice-presidente da empresa. Ele é inteligente, rico e bonito, mas é arrogante. Sua secretária é Kim Mi-So. Ela trabalhou por muitos anos e é perfeita para ele, mas Kim Mi-So decide deixar o emprego.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Lenda do Mar Azul",
+        "titulo_original": "푸른 바다의 전설",
+        "id": "67018",
+        "capa": "https://image.tmdb.org/t/p/w500/lI5ngBpdH2hOiXNpJTn96lgdnGB.jpg",
+        "qualidade": "HD",
+        "descricao": "Como uma sereia da era Joseon pode sobreviver na Seul dos dias de hoje? Shim Chung (Jun Ji Hyun) é uma sereia que se vê transportada para os tempos modernos. Ela é capturada por Heo Joon Jae (Lee Min Ho), um charmoso, porém insensível golpista que é sósia de Kim Moon, o filho de um nobre da Dinastia Joseon. Mas no presente, Joon Jae trabalha com Jo Nam Doo (Lee Hee Joon), um habilidoso malandro que está ensinando Joon Jae a se tornar um golpista genial. Contudo, Cha Shi Ah (Shin Hye Sun), uma amiga de Joon Jae que trabalha como pesquisadora no Instituto Avançado de Ciência e Tecnologia da Coreia, pode ser a única esperança de sobrevivência de Chung nesse estranho mundo novo.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Três Corpos",
+        "titulo_original": "三体",
+        "id": "204541",
+        "capa": "https://image.tmdb.org/t/p/w500/q2sNliRi4j0ncXKUO1x0MldR20A.jpg",
+        "qualidade": "HD",
+        "descricao": "Um especialista em nanomateriais vê uma misteriosa contagem regressiva superposta em seu campo de visão e se vê sob investigação militar. Para desvendar o mistério, ele entra no jogo VR \"Three Body\" desenvolvido por uma organização secreta ETO, e descobre a verdade por trás da morte de dezenas de cientistas e uma tragédia dos dias da Revolução Cultural.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "A História do Contrato de Casamento de Park",
+        "titulo_original": "열녀박씨 계약결혼뎐",
+        "id": "220076",
+        "capa": "https://image.tmdb.org/t/p/w500/f7GLHoUe9BhxyPfX4vk1bfuUPL2.jpg",
+        "qualidade": "HD",
+        "descricao": "No século 19, na noite do dia de seu casamento, o marido de Park Yeon Woo morreu após revelar que sofria de um problema cardíaco há muito tempo. Ela fica arrasada, mas antes mesmo de poder chorar pelo marido, ela é sequestrada por um homem e jogada em um poço. No momento em que abriu os olhos, viu o marido diante dela. Transcendendo o tempo, o espaço e a morte, ela está agora na atual Seul, na Coreia do Sul, e o homem que a salva da piscina é Kang Tae Ha, que se parece muito com seu falecido marido do século XIX. Kang Tae Ha é o sucessor da SH Seoul Corporation. Ele não gosta de se abrir para os outros por causa de sua doença cardíaca e do trauma que sofreu na infância. Ele prioriza a lógica sobre as emoções e não tem interesse em ter um relacionamento amoroso, mas seu avô doente lhe diz que deseja ver seu casamento antes de morrer. Na esperança de realizar o desejo de seu avô, Kang Tae Ha pede a Park Yeon Woo para celebrar um contrato de casamento com ele.",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "As Amazonas",
+        "titulo_original": "Las Amazonas",
+        "id": "91621",
+        "capa": "https://image.tmdb.org/t/p/w500/7MpuNNfRBsRBaOqr6mYcSIuEXGV.jpg",
+        "qualidade": "HD",
+        "descricao": "Las Amazonas é uma telenovela mexicana produzida por Salvador Mejía exibida pelo Las Estrellas entre 16 de maio a 7 de agosto de 2016, sucedendo Corazón que miente, e antecedendo Vino el amor.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Os Filhos de Sam: Loucura e Conspiração",
+        "titulo_original": "The Sons of Sam: A Descent Into Darkness",
+        "id": "122672",
+        "capa": "https://image.tmdb.org/t/p/w500/qpu7dSBQtTZv3FrdnoBnkraimPU.jpg",
+        "qualidade": "HD",
+        "descricao": "O caso do Filho de Sam tornou-se uma obsessão vitalícia para o jornalista Maury Terry, que se convenceu de que os assassinatos estavam ligados a um culto satânico.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Blackshore",
+        "titulo_original": "Blackshore",
+        "id": "245547",
+        "capa": "https://image.tmdb.org/t/p/w500/wK8yhGy6aAbBeqCgv4GHzf5REiy.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma detetive de polícia retorna à sua cidade natal e se envolve em um caso de pessoa desaparecida, que está ligado ao seu passado traumático e à história sombria da cidade.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Vingança Sabor Cereja",
+        "titulo_original": "Brand New Cherry Flavor",
+        "id": "129418",
+        "capa": "https://image.tmdb.org/t/p/w500/7Uiczm9MGJmTUyhO0Dh1tENr39G.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma cineasta vai para Hollywood no começo dos anos 1990 para fazer seu filme, mas se depara com um mundo alucinante de sexo, magia, vingança…. e gatinhos.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Chefe da Casa",
+        "titulo_original": "สืบสันดาน",
+        "id": "250850",
+        "capa": "https://image.tmdb.org/t/p/w500/dgKQUPdhoEDusLLq1nZmK74xLrV.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma família briga pelo poder após a morte do patriarca, que deixa para trás um império de diamantes e a nova esposa, uma antiga empregada.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Mudando de Campo",
+        "titulo_original": "オールドルーキー",
+        "id": "203935",
+        "capa": "https://image.tmdb.org/t/p/w500/x2evAcdEMGgscGGQtRI32RKpc1A.jpg",
+        "qualidade": "HD",
+        "descricao": "Forçado a se aposentar, um jogador de futebol profissional embarca em uma carreira nova em uma empresa de gestão esportiva.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Em Defesa de Jacob",
+        "titulo_original": "Defending Jacob",
+        "id": "87784",
+        "capa": "https://image.tmdb.org/t/p/w500/ukrsz8nGWf5GkYwk0AIlppPGHk7.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma família sofre um grande baque quando o filho é acusado de matar um colega de classe.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Os Bandidos do Tempo",
+        "titulo_original": "Time Bandits",
+        "id": "114924",
+        "capa": "https://image.tmdb.org/t/p/w500/8U8ujdMfqUEqJPyzDC2RrlljNUp.jpg",
+        "qualidade": "HD",
+        "descricao": "A paixão de Kevin, de onze anos, pela história é testada quando ele se junta a um grupo de bandidos que viajam no tempo em uma aventura hilária e de alto risco.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Messiah",
+        "titulo_original": "Messiah",
+        "id": "81292",
+        "capa": "https://image.tmdb.org/t/p/w500/psem2jK9GGC0g7dcjb4N5SCYb1u.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma agente da CIA investiga uma figura carismática que inicia um movimento espiritual e provoca instabilidade política. Uma história de ficção não baseada em fatos reais.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Bandeira Vermelha",
+        "titulo_original": "Al Sancak",
+        "id": "218477",
+        "capa": "https://image.tmdb.org/t/p/w500/vlyQk1qV85ivpCJvt3EVTs9Egw.jpg",
+        "qualidade": "HD",
+        "descricao": "O ano é 2025 e as crises de clima, migração, fome e energia estão mais fortes do que nunca. Potências globais usam organizações terroristas para controlar as pressões energéticas. Há apenas uma luz no fim do túnel, a Turquia. Fazendo um grande desenvolvimento na indústria de defesa, a Turquia cria novas políticas militares apropriadas para essa nova ordem. Assim, os soldados mais competentes são reunidos em equipes especiais sob a Divisão das Forças Armadas Turcas.",
+        "generos": [
+            "War & Politics",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Do Dia Para a Noite",
+        "titulo_original": "낮과 밤이 다른 그녀",
+        "id": "231749",
+        "capa": "https://image.tmdb.org/t/p/w500/qoMMZewrhU2TWMswpsNGEFpm7C4.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma mulher que oscila magicamente entre os 20 e os 50 anos consegue um estágio. Agora, ela precisa lidar com um chefe difícil e o fato de estar presa entre duas gerações.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Decameron",
+        "titulo_original": "The Decameron",
+        "id": "250162",
+        "capa": "https://image.tmdb.org/t/p/w500/7jxX4EQLeGMQb8SA4YgiaUowz8n.jpg",
+        "qualidade": "HD",
+        "descricao": "Para fugir da peste bubônica que assola a Itália, um grupo de nobres se hospeda em uma mansão com seus servos. Mas essa escapada luxuosa acaba virando um caos.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Oderbruch",
+        "titulo_original": "Oderbruch",
+        "id": "228866",
+        "capa": "https://image.tmdb.org/t/p/w500/sdIL94YiH8s2nwukJyqFg87Upt9.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Bandida",
+        "titulo_original": "La bandida",
+        "id": "115689",
+        "capa": "https://image.tmdb.org/t/p/w500/iCAGBp2p6ip7jbUi1P0in3K3U9L.jpg",
+        "qualidade": "HD",
+        "descricao": "Graciela Olmos, \"A Bandida\", se tornou uma das mulheres mais influentes da arte e política mexicanas. Foi órfã, doméstica, revolucionária, ladra, apostadora, traficante, cantora, compositora e, finalmente, a dona do prostíbulo mais importante da Cidade do México. Graciela Olmos, valente e decidida, descobriu como ser dona de seu destino e mudar a vida de outras pessoas.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Efeito Carbonaro",
+        "titulo_original": "The Carbonaro Effect",
+        "id": "60913",
+        "capa": "https://image.tmdb.org/t/p/w500/am9aBRY0ZuUi2wEEUUySNp7ewjT.jpg",
+        "qualidade": "HD",
+        "descricao": "Michael Carbonaro é um mágico de profissão, mas um palhaço de coração. Ele prega peças desconcertantes em pessoas desprevenidas, registradas com câmeras escondidas. Uma explosão de reações que combinam admiração, surpresa e alegria.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "O Mistério do Triângulo das Bermudas",
+        "titulo_original": "The Triangle",
+        "id": "9026",
+        "capa": "https://image.tmdb.org/t/p/w500/mOASmvCKDOtUtZLxG4er4bDfycq.jpg",
+        "qualidade": "HD",
+        "descricao": "O Triângulo é uma minissérie de ficção científica EUA-Britânico-Alemão em três partes sobre o Triângulo das Bermudas, que foi ao ar pela primeira vez no Sci-Fi Channel nos EUA entre 5 de dezembro e 7 de dezembro de 2005. Foi escrito por Dean Devlin, Bryan Singer e Rockne. S. O'Bannon, dirigido por Craig R. Baxley, e produzido pelos especialistas em efeitos especiais Volker Engel e Marc Weigert, juntamente com Kelly Van Horn, para as produtoras Devlin's e Singer, Electric Entertainment e Bad Hat Harry Productions, a BBC e a Engel's e a empresa de produção de Weigert Uncharted Territory.",
+        "generos": [
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Titanic",
+        "titulo_original": "Titanic",
+        "id": "20455",
+        "capa": "https://image.tmdb.org/t/p/w500/gad7CZAWlyGJAcMunwX2I5Jm12e.jpg",
+        "qualidade": "HD",
+        "descricao": "Em 1912, o luxuoso e imponente Titanic iniciava sua primeira e única viagem pelo oceano. A bordo, estava Isabella Paradine, uma jovem da alta sociedade, que, assim que entra no navio, reencontra seu ex-amante, o milionário Wynn Park. A partir deste encontro, a jovem passa a reviver lembranças e sentimentos do passado, e precisa escolher entre seu antigo amor e seu atual marido.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "As Portas do Tempo",
+        "titulo_original": "Zamanın Kapıları",
+        "id": "253808",
+        "capa": "https://image.tmdb.org/t/p/w500/lc5Auyq4F8QK6yeMCCpvdwJIIve.jpg",
+        "qualidade": "HD",
+        "descricao": "As portas do passado se abrem uma a uma quando o caminho do gênio da computação Sinan, que vive uma vida antissocial sem se comunicar o máximo possível com as pessoas apesar das oportunidades que tem, cruza com Nevra, a atraente e bela filha de um dos empresários mais importantes da Turquia. Com os segredos revelados, Nevra também encontra sua própria realidade. Juntos, eles embarcam em uma tensa jornada em direção às suas raízes. O confronto e o amor apaixonado que eles experimentarão trarão muitos desastres e mortes",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Louco Por Elas",
+        "titulo_original": "Louco Por Elas",
+        "id": "125382",
+        "capa": "https://image.tmdb.org/t/p/w500/yKsAkKmtS5Y53BlTSVauXzW2crg.jpg",
+        "qualidade": "HD",
+        "descricao": "A vida de Leo é cor de rosa. E essa é a sua \"crise\". Uma comédia sobre um treinador de um time feminino de futebol de areia que vive cercado de mulheres.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Em Busca de Anselmo",
+        "titulo_original": "Em Busca de Anselmo",
+        "id": "197096",
+        "capa": "https://image.tmdb.org/t/p/w500/89sr20ExyTSPK0WoT5Sq0quURU4.jpg",
+        "qualidade": "HD",
+        "descricao": "Conheça a jornada do ex-marinheiro José Anselmo dos Santos. Figura emblemática no período da ditadura civil-militar brasileira, Anselmo foi protagonista de um dos capítulos mais significativos da luta contra o regime dos generais.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Enlightened",
+        "titulo_original": "Enlightened",
+        "id": "34594",
+        "capa": "https://image.tmdb.org/t/p/w500/aPd6u1Y5odygxtuxdfGD8TV3Uhw.jpg",
+        "qualidade": "HD",
+        "descricao": "Prepotente executiva é transformada após um período num centro de terapia integral no Havaí e quer mudar a empresa com seus novos conceitos.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Troppo",
+        "titulo_original": "Troppo",
+        "id": "130578",
+        "capa": "https://image.tmdb.org/t/p/w500/vN0fzJVKB0ofdywQvOm1sVw32zx.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Epitáfios",
+        "titulo_original": "Epitafios",
+        "id": "12838",
+        "capa": "https://image.tmdb.org/t/p/w500/rlg3fLGmCMgeOrCE69mFRsMtRG3.jpg",
+        "qualidade": "HD",
+        "descricao": "O detetive Renzo Márquez teve sua carreira abreviada porque não conseguiu evitar a ação de um assassino em série, que matou várias crianças em uma escola. No entanto, cinco anos após o seu desligamento da polícia, ele está de volta para desvendar o mistério e capturar o criminoso, que anuncia suas vítimas por meio de um epitáfio e promete agir novamente.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Hope Street",
+        "titulo_original": "Hope Street",
+        "id": "139492",
+        "capa": "https://image.tmdb.org/t/p/w500/dC8CpDwcj9l9tD8XwQoWHK5cNn.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Escravidão – Século XXI",
+        "titulo_original": "Escravidão – Século XXI",
+        "id": "124359",
+        "capa": "https://image.tmdb.org/t/p/w500/28tSnwGI2KoYzkQjql2ledsXUJB.jpg",
+        "qualidade": "HD",
+        "descricao": "Mais de 130 anos após a abolição da escravatura no País, celebrada no dia 13 de maio, e apesar dos avanços legislativos ao combate à prática, reconhecidos entre os mais evoluídos no mundo, novos casos são denunciados e descobertos constantemente em todo o território nacional.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Espião/Mestre",
+        "titulo_original": "Spy/Master",
+        "id": "219600",
+        "capa": "https://image.tmdb.org/t/p/w500/1AL66790I4k6g8F5KnE03TnzXsJ.jpg",
+        "qualidade": "HD",
+        "descricao": "Victor Godeanu, o braço direito do presidente Nicolae Ceaucescu, leva uma vida dupla como agente secreto dos soviéticos... e tem apenas uma chance de escapar da Romênia antes que seu disfarce seja descoberto.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Mulheres de Azul",
+        "titulo_original": "Las azules",
+        "id": "253983",
+        "capa": "https://image.tmdb.org/t/p/w500/mkIP7D6BVtI2o2Oj81WKVUv7pId.jpg",
+        "qualidade": "HD",
+        "descricao": "Em 1971, quatro mulheres desafiam as normas ultraconservadoras e juntam-se à primeira força policial feminina do México, o que acaba sendo uma jogada publicitária para distrair a imprensa de um assassino em série. Conforme o número de vítimas aumenta, elas fazem um pacto para levar o assassino à justiça.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Heróis Cotidianos",
+        "titulo_original": "Héroes Cotidianos",
+        "id": "85656",
+        "capa": "https://image.tmdb.org/t/p/w500/cbdb2I15wO0Q2sCYsfqFCehCmDQ.jpg",
+        "qualidade": "HD",
+        "descricao": "Série em seis episódios que resgata as histórias de personagens reais, cujas ações têm um impacto real sobre aqueles que\n\nos rodeiam.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Expecting Amy",
+        "titulo_original": "Expecting Amy",
+        "id": "105282",
+        "capa": "https://image.tmdb.org/t/p/w500/9eFfNSYDSnLmxOPOGT5C4rxEcvH.jpg",
+        "qualidade": "HD",
+        "descricao": "Expecting Amy apresenta uma nova etapa na vida de Amy Schumer de uma maneira hilária e sem filtros. Esse\n\ndocumentário de três partes mostra a luta, a força e a ambição que fizeram de Schumer uma das vozes cômicas e\n\nsingulares de todos os tempos. A série documental leva os espectadores aos bastidores enquanto Amy se esforça com uma\n\ngravidez extraordinariamente difícil, documentando a formação de seu mais recente especial de comédia. Mostrando\n\nhospitalizações, aparições na frente de milhares de pessoas e momentos tranquilos em casa com a família, Amy não\n\nesconde nada. Com a família e os amigos juntos para apoiá-la e mantê-la sã e equilibrada, Amy faz tudo com perseverança,\n\ncarinho e o senso de humor inestimável pelo qual é conhecida.",
+        "generos": [
+            "Documentário",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "A Confidente",
+        "titulo_original": "Une amie dévouée",
+        "id": "224011",
+        "capa": "https://image.tmdb.org/t/p/w500/nEgz67qxEVq3VFScfRMOZTLovOG.jpg",
+        "qualidade": "HD",
+        "descricao": "Após os ataques de Paris, uma mulher se junta a um grupo de sobreviventes, mas sua conexão com a tragédia esconde um segredo sombrio.",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Renascido para o Asfalto",
+        "titulo_original": "Resurrected Rides",
+        "id": "257168",
+        "capa": "https://image.tmdb.org/t/p/w500/zvKJGYwO8VpUFgWjTKM0JAjLRge.jpg",
+        "qualidade": "HD",
+        "descricao": "O comediante Chris Redd trabalha com um time de experts para dar vida nova a carros antigos, que passam por transformações personalizadas.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Em Terapia",
+        "titulo_original": "In Treatment",
+        "id": "14069",
+        "capa": "https://image.tmdb.org/t/p/w500/gytzjthKWMji7olvAnBGohbGmWS.jpg",
+        "qualidade": "HD",
+        "descricao": "Na esteira de sua tão necessária autoanálise, Brooke contempla como revelações surpreendentes podem impactar seu futuro com seu filho e impactar seu relacionamento com Adam.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Maria Mercedes",
+        "titulo_original": "María Mercedes",
+        "id": "6547",
+        "capa": "https://image.tmdb.org/t/p/w500/3sMyQjtS7H9Vxxo6vCMPoHz6vHD.jpg",
+        "qualidade": "HD",
+        "descricao": "Santiago del Olmo, primo de Jorge Luís, está muito doente e sabe que está morrendo. Uma manhã, quando está no jardim, vê Maria Mercedes vendendo bilhetes de loteria na rua. Ele surge com a ideia de se casar com ela só para perturbar Malvina após a sua morte, como uma vingança pessoal. Ele ganha sua confiança e amizade e a propõe casamento. Esta, depois de hesitar, aceita.",
+        "generos": [
+            "Drama",
+            "Soap"
+        ]
+    },
+    {
+        "titulo": "Schitt's Creek",
+        "titulo_original": "Schitt's Creek",
+        "id": "61662",
+        "capa": "https://image.tmdb.org/t/p/w500/bqSgt3OZDvHnOfoZEr7l0jVrSqB.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando a super-rica família Rose descobre que está falida, eles são forçados a deixar suas vidas, reconstruir seu império e redescobrir o que significa estar em Schitt´s Creek.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "O Bravo e a Bela",
+        "titulo_original": "Cesur ve Güzel",
+        "id": "68848",
+        "capa": "https://image.tmdb.org/t/p/w500/wtcZbtl0EiCXgFBmAWB4dYV1hJB.jpg",
+        "qualidade": "HD",
+        "descricao": "Cesur retorna à aldeia de seu pai com um elaborado plano para vingar a morte de seu dele. A única coisa que ele não planejou foi Sühan, a filha do homem que ele acredita ser o responsável pelo assassinato de seu pai.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Yago",
+        "titulo_original": "Yago",
+        "id": "66517",
+        "capa": "https://image.tmdb.org/t/p/w500/fCkqI49iexou6yNBnQeSPmnDxCT.jpg",
+        "qualidade": "HD",
+        "descricao": "Omar, um jovem da Cidade do México, é traído por sua noiva, Sara, e dois amigos próximos, em uma trama de roubo fracassada, onde ele ficou famoso como o autor do crime. Depois de ser preso injustamente por 11 anos e posteriormente libertado, ele passa por uma cirurgia plástica para alterar sua aparência e planeja vingança sob sua nova identidade, \"Yago\".",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Último Verão",
+        "titulo_original": "Son Yaz",
+        "id": "115464",
+        "capa": "https://image.tmdb.org/t/p/w500/A14O4xFcXPqA3PhYz7CzfzXBnx1.jpg",
+        "qualidade": "HD",
+        "descricao": "Selim, um idealista promotor público, recebe uma oferta irrecusável de Selcuk Taskin, líder do crime organizado, que ele enviou para a prisão há 8 anos. Selcuk testemunhará no caso do promotor, mas em troca, ele pede ao promotor para proteger seu filho, Akgün, um jovem temperamental que cresceu no mundo do crime.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Um Contador no Mundo do Crime",
+        "titulo_original": "त्रिभुवन मिश्रा - सीए टॉपर",
+        "id": "258035",
+        "capa": "https://image.tmdb.org/t/p/w500/jkWMRTlTDkRPRkr89b2uasG4qTU.jpg",
+        "qualidade": "HD",
+        "descricao": "Após uma crise bancária, o contador Tribhuvan Mishra começa a fazer bico como profissional do sexo. Mas será que essa vida dupla vai causar ainda mais problemas?",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Manhãs de Setembro",
+        "titulo_original": "Manhãs de Setembro",
+        "id": "118102",
+        "capa": "https://image.tmdb.org/t/p/w500/tJ1XKPR4C3jTQKVgO9zu5ENtTla.jpg",
+        "qualidade": "HD",
+        "descricao": "Cassandra deixa a própria cidade para trás, decidida a não fazer concessões para se tornar uma mulher trans livre e independente. Tudo muda quando Leide, uma ex-namorada, reaparece com um menino que diz ser filho de Cassandra.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Paraíso e a Serpente",
+        "titulo_original": "The Serpent",
+        "id": "93454",
+        "capa": "https://image.tmdb.org/t/p/w500/vbaen62LtRtEmrQjE7EkZ1pnQyI.jpg",
+        "qualidade": "HD",
+        "descricao": "Charles Sobrhaj (Tahar Rahim) é um dos criminosos mais detestáveis do século XX. Ele foi o principal suspeito dos assassinatos não resolvidos de até 20 jovens viajantes na Índia, Tailândia e 'Hippie Trail' do Nepal em 1975 e 1976. Psicopata, vigarista, ladrão e mestre do disfarce, tendo escapado repetidamente do alcance das autoridades em todo o mundo. Em 1976, o serial killer Sobhraj era o homem mais procurado da Interpol e tinha mandados de prisão em três continentes diferentes. - Série original Netflix de oito episódios.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Snowdrop",
+        "titulo_original": "설강화",
+        "id": "108291",
+        "capa": "https://image.tmdb.org/t/p/w500/85BjTrjcDKvavLnbmMV9T6GJgRo.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma história de um amor proibido nos anos 80 em Seul. Youngro, uma estudante universitária, cuida dos ferimentos de Suho, um estudante de uma universidade de prestígio, que um dia pula em um dormitório universitário feminino, apesar da vigilância estrita e da situação perigosa.",
+        "generos": [
+            "Drama",
+            "War & Politics"
+        ]
+    },
+    {
+        "titulo": "A Negociadora",
+        "titulo_original": "La Negociadora",
+        "id": "118630",
+        "capa": "https://image.tmdb.org/t/p/w500/r5jG1H9EmizetqzsMQCGvolQYfL.jpg",
+        "qualidade": "HD",
+        "descricao": "Diante da possibilidade de uma catástrofe nunca vista antes, Eugenia cria uma nova estratégia para acabar com o perigo que ameaça a cidade. Mas o grupo de criminosos não pretende ceder. Deixarão claro que a torre foi apenas o começo.",
+        "generos": [
+            "Crime",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Alev Alev",
+        "titulo_original": "Alev Alev",
+        "id": "111414",
+        "capa": "https://image.tmdb.org/t/p/w500/hIIuHSyYpD3lSOj197ujHookMWI.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Volta Pra Mim",
+        "titulo_original": "Vuelve a mí",
+        "id": "236921",
+        "capa": "https://image.tmdb.org/t/p/w500/sGgYl7voI8T34azn5biA0MRpG3c.jpg",
+        "qualidade": "HD",
+        "descricao": "O sequestro do filho desencadeia uma tempestade na vida de Nuria García que, no momento mais difícil, conhece Santiago Zepeda; juntos, eles encontram a redenção diante da adversidade.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Lalola",
+        "titulo_original": "Lalola",
+        "id": "5430",
+        "capa": "https://image.tmdb.org/t/p/w500/aBdogIjuZ53RsAgUQy9FkLuEu6m.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Pequenos Gigantes da Natureza",
+        "titulo_original": "Little Giants",
+        "id": "96983",
+        "capa": "https://image.tmdb.org/t/p/w500/8ImmshQCC4wZNsQzbmwQ0Ah4ox4.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando se pensa nos animais dominantes que vagam pela Terra, grandes predadores, leões, ursos pardos e sucuris vêm à mente. Mas as criaturas mais poderosas e intimidadoras são os esquivos Pequenos Gigantes.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Uma Segunda Chance",
+        "titulo_original": "하이바이, 마마!",
+        "id": "97219",
+        "capa": "https://image.tmdb.org/t/p/w500/1LnYFzCitgbDkkapc1tRILK8FbQ.jpg",
+        "qualidade": "HD",
+        "descricao": "Ela morreu e virou um fantasma. Mas, quando tem a chance de voltar à vida por 49 dias, logo não perde tempo e reaparece para o marido e a filha. Yu-ri conhece o médico Jo Kang-hwa ainda quando ele era universitário e é amor a primeira vista.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "AlRawabi School for Girls",
+        "titulo_original": "مدرسة الروابي للبنات",
+        "id": "88516",
+        "capa": "https://image.tmdb.org/t/p/w500/xukMnWHsuKGLpRDclvL3usnZa39.jpg",
+        "qualidade": "HD",
+        "descricao": "Nesta prestigiosa escola só para meninas, um grupo bola planos arriscados para se vingar do bullying que sofrem.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Onde Está Meu Coração",
+        "titulo_original": "Onde Está Meu Coração",
+        "id": "124831",
+        "capa": "https://image.tmdb.org/t/p/w500/nmnRgU0HvfsTHcc9LfI1YlExCJc.jpg",
+        "qualidade": "HD",
+        "descricao": "Amanda enfrenta sua própria guerra particular, diante da relação íntima e destrutiva com as drogas, de uma pressão familiar constante e da fragilidade de seu casamento com Miguel.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Cachito do Ceu",
+        "titulo_original": "Cachito de Cielo",
+        "id": "54613",
+        "capa": "https://image.tmdb.org/t/p/w500/zJEAaiH7G3W7Z7fRAlW7wuPLWD0.jpg",
+        "qualidade": "HD",
+        "descricao": "Renata Landeros de Franco é uma jovem jornalista que está apaixonada por Adrian Gomes \"Cachito\". Ambos estão felizes, até que durante uma partida de futebol, Cachito é atingido por um raio e morre. O problema é que Cachito não estava programado para morrer. Ao chegar lá no céu, Cachito se encontra com três anjos. Dois deles são anjos executivos (Ezequiel e Ariel), que rodam a Sala de Espera do Celestial, que é como uma sala de espera do aeroporto celestial para pessoas vinculadas para o céu. O espírito de Cachito foi tirado de seu corpo por erro, sendo assim ele tinha autorização pra poder voltar à Terra.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Quem Segura a Minha Família?",
+        "titulo_original": "¿Qué le pasa a mi familia?",
+        "id": "118640",
+        "capa": "https://image.tmdb.org/t/p/w500/x6kkYT4lAvLmWmTNIhx7bp5TyrG.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando Dona Luz, viúva e com três filhos, recebe o diagnóstico de câncer terminal, decide tomar medidas extremas para reunir os filhos adultos e dar-lhes uma lição; absortos no trabalho e nas ambições pessoais, distanciaram-se da mãe e querem herdar a sua casa e o seu restaurante. Sabendo que não tem muito tempo, ela os processa para obrigá-los a mudar e deixar-lhes a melhor herança que uma mãe pode lhes dar: a união entre irmãos.",
+        "generos": [
+            "Crime",
+            "Soap"
+        ]
+    },
+    {
+        "titulo": "Extermine Todos os Brutos",
+        "titulo_original": "Exterminate All the Brutes",
+        "id": "117909",
+        "capa": "https://image.tmdb.org/t/p/w500/hOMpxYQhxLFZJGqd6mEe8qCOnTy.jpg",
+        "qualidade": "HD",
+        "descricao": "Um olhar inabalável e desconstruído sobre o colonialismo europeu ao longo da história e seu impacto persistente na sociedade hoje.",
+        "generos": [
+            "Documentário",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Manual de Assassinato para Boas Garotas",
+        "titulo_original": "A Good Girl's Guide to Murder",
+        "id": "218342",
+        "capa": "https://image.tmdb.org/t/p/w500/vVngL07lpZOqcA6k5RjQON2j8L2.jpg",
+        "qualidade": "HD",
+        "descricao": "Cinco anos após o assassinato de uma adolescente de 17 anos em uma cidadezinha inglesa pacata, uma estudante decide investigar o caso.",
+        "generos": [
+            "Crime",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "George Carlin: O Sonho Americano",
+        "titulo_original": "George Carlin's American Dream",
+        "id": "201123",
+        "capa": "https://image.tmdb.org/t/p/w500/3J1AenTzRHbRRuhbfrwBjDILUrK.jpg",
+        "qualidade": "HD",
+        "descricao": "Este documentário dirigido por Judd Apatow e Michael Bonfiglio narra a vida e obra do lendário comediante George Carlin.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Hello Ladies",
+        "titulo_original": "Hello Ladies",
+        "id": "53300",
+        "capa": "https://image.tmdb.org/t/p/w500/2jUOzE8pcwn0bDGfbX7GtTqSqsT.jpg",
+        "qualidade": "HD",
+        "descricao": "Stuart revela algo do seu passado que pode explicar sua obsessão por modelos e em bancar o babaca com as mulheres. Quando uma ex-namorada visita Los Angeles, ele tenta fazer ciúmes nela. Jessica faz 30 anos inconformada por nunca ter conseguido trabalhar como atriz em nada de destaque e continua saindo com Glenn, que ainda não quer nada sério.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Garfunkel and Oates",
+        "titulo_original": "Garfunkel and Oates",
+        "id": "108329",
+        "capa": "https://image.tmdb.org/t/p/w500/rKA1VRobH4qsD7k9J1icyFV1nDR.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Casamento às Cegas: México",
+        "titulo_original": "Love is Blind: México",
+        "id": "253028",
+        "capa": "https://image.tmdb.org/t/p/w500/zBb0ZbSOHI37SSDdydzqVTwXd2J.jpg",
+        "qualidade": "HD",
+        "descricao": "Estes solteiros topam ficar noivos... sem nunca terem se visto cara a cara. O reality indicado ao Emmy® que busca descobrir se o amor é mesmo cego chega ao México.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Funny or Die",
+        "titulo_original": "Funny or Die Presents",
+        "id": "32656",
+        "capa": "https://image.tmdb.org/t/p/w500/p1PaO1kMsLNkkw15zWsp97KN4Ez.jpg",
+        "qualidade": "HD",
+        "descricao": "Programa de esquetes variadas, com um humor descarado e elenco que mescla comediantes consagrados e novas\n\npromessas do meio.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Funk.Doc: Popular & Proibido",
+        "titulo_original": "Funk.Doc: Popular & Proibido",
+        "id": "208853",
+        "capa": "https://image.tmdb.org/t/p/w500/a1XizO958bYhDeLX9N5xcqxXeNN.jpg",
+        "qualidade": "HD",
+        "descricao": "A série conta a trajetória do Funk e aborda questões essenciais do gênero, desde as suas múltiplas raízes até seu impacto mundial,  tornando-se um fenômeno nas paradas de sucesso.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Flight of the Conchords",
+        "titulo_original": "Flight of the Conchords",
+        "id": "2742",
+        "capa": "https://image.tmdb.org/t/p/w500/ynboK8qiOTz0X44r59LpfF8jBP5.jpg",
+        "qualidade": "HD",
+        "descricao": "Os julgamentos e tribulações de uma banda de dois homens, digi-folk, que se mudaram da Nova Zelândia para Nova York na esperança de forjar uma carreira musical de sucesso. Até agora eles conseguiram encontrar um gerente (cujo \"outro\" trabalho é no Consulado da Nova Zelândia), um fã (um casado obsessivo) e um amigo (dono da loja de penhores local) - mas não muito mais.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "A Princesa Real",
+        "titulo_original": "度华年",
+        "id": "254474",
+        "capa": "https://image.tmdb.org/t/p/w500/bLUeel4bnwcVAQhyBAS3dFIsmsE.jpg",
+        "qualidade": "HD",
+        "descricao": "Li Rong e Pei Wenxuan se casaram aos 18 anos. Li Rong usou a história familiar de Pei Wenxuan para evitar o desastre, e Pei Wenxuan usou a identidade de Li Rong como princesa para se estabelecer. Casaram-se por motivos políticos, sem o menor carinho. Mais tarde, ela se perdeu no meio do vinho, da música e da dança. Quanto a ele, ele tinha um lar, mas não se preocupava em voltar para casa porque já tinha alguém em seu coração… Marido e mulher há 30 anos, mas nada entre eles além de poder. No final, não foi de surpreender que alguém os virasse um contra o outro, levando-os a morrer sob os esquemas um do outro. Porém, quando acordaram, na verdade voltaram ao ano em que tinham 18 anos, voltando ao momento mais difícil de suas vidas. Então Pei Wenxuan foi procurar Li Rong. Casar novamente, mas com o divórcio em mente.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Family Bonds",
+        "titulo_original": "Family Bonds",
+        "id": "27793",
+        "capa": null,
+        "qualidade": "HD",
+        "descricao": "Um 'reality show' sobre os Evangelista, donos de um negócio dedicado a caça de recompensas em Long Island.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "FBOY Island Espanha",
+        "titulo_original": "FBOY Island España",
+        "id": "202247",
+        "capa": "https://image.tmdb.org/t/p/w500/yGVBGFE6Sfpj8GAWnMtEaCVZIkW.jpg",
+        "qualidade": "HD",
+        "descricao": "Em uma ilha paradisíaca, três garotas fartas de cafajestes buscam caras com boas intenções. Elas conviverão com onze homens que realmente acreditam no amor e onze \"Fboys\" que querem só se divertir. Será que elas farão a decisão certa?",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Superdetetives",
+        "titulo_original": "The InBESTigators",
+        "id": "91348",
+        "capa": "https://image.tmdb.org/t/p/w500/7QBEGiRDzRsVu2VQrc8FsIFqMBa.jpg",
+        "qualidade": "HD",
+        "descricao": "Quatro estudantes muito espertos compartilham a aventura da sua agência de detetives em um vlog e ficam ainda mais amigos.",
+        "generos": [
+            "Comédia",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Hierro",
+        "titulo_original": "Hierro",
+        "id": "89586",
+        "capa": "https://image.tmdb.org/t/p/w500/mPCtR4myjwWtrlEoKDn3eOZ2yDf.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando ocorre um assassinato na ilha de El Hierro, uma juíza e um empresário local iniciam uma feroz investigação em\n\nlados opostos da lei.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "A Casa de Saddam",
+        "titulo_original": "House of Saddam",
+        "id": "7597",
+        "capa": "https://image.tmdb.org/t/p/w500/4nCvfzcMWHjMoOdhhKc0Tigm3px.jpg",
+        "qualidade": "HD",
+        "descricao": "Minissérie produzida em parceria entre a BBC e a HBO, que tem o foco na vida de Saddam Hussein, presidente do Iraque por cerca de 24 anos. Dividido em quatro partes, o programa mostra a ascensão e queda de um dos ditadores mais desprezados de nossa geração, bem como sua relação com a família e com os conselheiros mais próximos.",
+        "generos": [
+            "War & Politics",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Devolva-me a Vida",
+        "titulo_original": "Devuélveme la vida",
+        "id": "252020",
+        "capa": "https://image.tmdb.org/t/p/w500/oD9LhXvRW7wQtJtELLV2wq20nbK.jpg",
+        "qualidade": "HD",
+        "descricao": "A filha de um rico proprietário de terras se apaixona por um jovem trabalhador, mas eles vão ter que enfrentar suas famílias que querem separá-los.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Deslumbrada",
+        "titulo_original": "Too Good to Be True",
+        "id": "245996",
+        "capa": "https://image.tmdb.org/t/p/w500/6yQzw3oe9LXJ0u130uawrKW8Ohd.jpg",
+        "qualidade": "HD",
+        "descricao": "Rachel, uma mãe solteira e faxineira, recebe uma oferta de emprego melhor de um rico empresário. Ela aceita, mas começa a desconfiar de seus motivos à medida que se envolve mais em seus negócios.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Numero 309",
+        "titulo_original": "No: 309",
+        "id": "69306",
+        "capa": "https://image.tmdb.org/t/p/w500/jYOcAeNQgSj7gff73Lmc2Pdd1QU.jpg",
+        "qualidade": "HD",
+        "descricao": "Onur (Furkan Palali) é um cara jovem e bonito que vem de uma família rica. Ele é o herdeiro de seu negócio de família, juntamente com seu primo, Erol. Ambos Onur e ele gostam de suas vidas e não consideram se casar em breve. Entretanto, seus planos futuros mudam completamente quando seu avô morre. Seu avô deixa uma carta e afirma que quem se casar primeiro e tem um bebê seria elegível para herdar o negócio da família.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Fácil",
+        "titulo_original": "Fácil",
+        "id": "214617",
+        "capa": "https://image.tmdb.org/t/p/w500/qFp3HCdLrOLBSvOLxbVd6KEXHrv.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Nebula-75",
+        "titulo_original": "Nebula-75",
+        "id": "104190",
+        "capa": "https://image.tmdb.org/t/p/w500/9rJw9zYjEI5fd8B3sQHl4Bb1YAe.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Jett",
+        "titulo_original": "Jett",
+        "id": "84303",
+        "capa": "https://image.tmdb.org/t/p/w500/oVG2Cjk0qlZKpcRLMNaq5c7KWec.jpg",
+        "qualidade": "HD",
+        "descricao": "Daisy “Jett” Kowalksi é uma ladra reconhecida internacionalmente, e pretende colocar sua carreira no crime de lado após o nascimento de sua filha, mas se vê envolvida em um último roubo.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "What's Wrong with That House?",
+        "titulo_original": "What's Wrong with That House?",
+        "id": "232759",
+        "capa": "https://image.tmdb.org/t/p/w500/ftg95Bm04hY5aUfpYIBpRkjfGeq.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Love Has Won: O Culto da Mãe Deusa",
+        "titulo_original": "Love Has Won: The Cult of Mother God",
+        "id": "238179",
+        "capa": "https://image.tmdb.org/t/p/w500/5Fhwxraw524dZPnM3GmM7JJhPYR.jpg",
+        "qualidade": "HD",
+        "descricao": "A história de Amy Carlson e do obscuro grupo religioso \"Love Has Won\" liderado por ela.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "O Mito de Sísifo",
+        "titulo_original": "시지프스 : the myth",
+        "id": "113622",
+        "capa": "https://image.tmdb.org/t/p/w500/pnM9ENKOtqztN2mTSvjowyMWpEr.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois de um incidente misterioso, um engenheiro genial é exposto a segredos perigosos – e à mulher do futuro que está atrás dele.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Sozinhos",
+        "titulo_original": "Solos",
+        "id": "119279",
+        "capa": "https://image.tmdb.org/t/p/w500/xNHv64BlAPpG3XmdV1kkpLLX8Kt.jpg",
+        "qualidade": "HD",
+        "descricao": "Sete histórias únicas. Cada personagem embarcará em uma aventura emocionante em um futuro incerto e eles passarão a acreditar que mesmo em nossos momentos mais isolados, estamos todos conectados através da experiência humana.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Shakespeare & Hathaway - Private Investigators",
+        "titulo_original": "Shakespeare & Hathaway - Private Investigators",
+        "id": "77493",
+        "capa": "https://image.tmdb.org/t/p/w500/tYH31SwQ7UVlg7wZScgdRGhVYjR.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Teresa",
+        "titulo_original": "Teresa",
+        "id": "12926",
+        "capa": "https://image.tmdb.org/t/p/w500/5U8eEPG2ESPOsjDB0J9aXMelctc.jpg",
+        "qualidade": "HD",
+        "descricao": "Teresa Chavez é uma jovem ambiciosa obcecada por dinheiro. Apesar de ser muito bonita e de ter crescido em uma família amorosa, ela está sempre amargurada e só pensa em deixar o bairro pobre onde vive.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Batalha de Influencers",
+        "titulo_original": "더 인플루언서",
+        "id": "243149",
+        "capa": "https://image.tmdb.org/t/p/w500/ee2b9lDgdcQcZ8yPa6bMsH7j32Z.jpg",
+        "qualidade": "HD",
+        "descricao": "Nesta série de sobrevivência social, 77 influencers do YouTube, TikTok e Instagram colocam suas habilidades em prática para ver quem chama mais atenção.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Laços de Estrelas Cadentes",
+        "titulo_original": "流星の絆",
+        "id": "7803",
+        "capa": "https://image.tmdb.org/t/p/w500/8c6TMWSv6cxQoVHRKX5kf66hEZ.jpg",
+        "qualidade": "HD",
+        "descricao": "Koichi, Taisuke, e Shizuna são três irmãos cujo os pais foram brutalmente assassinados quando eles ainda eram crianças, e juraram vingar as suas mortes. Quatorze anos depois, devido à ocorrência de inúmeros fatores, o plano de vingança é posto em prática. Uma surpreendente revelação os levará a um final emocionante! O que acontecerá com os irmãos que cresceram sozinhos, e cujos laços baseiam-se exclusivamente nessa vingança?",
+        "generos": [
+            "Comédia",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "O Misterioso Mundo dos Sons com David Attenborough",
+        "titulo_original": "Secret World of Sound",
+        "id": "245782",
+        "capa": "https://image.tmdb.org/t/p/w500/8uGdYsxrN77de7CHHKAfd1zaMsj.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma tecnologia avançada de áudio captura o som da natureza de forma inédita nesta série documental envolvente narrada por David Attenborough.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Casamento às Cegas: Reino Unido",
+        "titulo_original": "Love Is Blind: UK",
+        "id": "237316",
+        "capa": "https://image.tmdb.org/t/p/w500/1EPL2e0fon7P1GK1HlPXdeNMOY9.jpg",
+        "qualidade": "HD",
+        "descricao": "Emma e Matt Willis apresentam a versão britânica deste experimento social no qual homens e mulheres buscam o amor e ficam noivos antes de se conhecerem cara a cara.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "A Batalha dos Chefs Raiz",
+        "titulo_original": "Blue Ribbon Baking Championship",
+        "id": "258923",
+        "capa": "https://image.tmdb.org/t/p/w500/xzSLJB0FWBKevAr7UtO4Fw2KVoE.jpg",
+        "qualidade": "HD",
+        "descricao": "Confeiteiros vencedores da fita azul em feiras estaduais dos EUA se enfrentam pela primeira vez em uma competição épica, em busca do prêmio de 100 mil dólares.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Especialistas em Tumor",
+        "titulo_original": "Take My Tumor",
+        "id": "251029",
+        "capa": "https://image.tmdb.org/t/p/w500/ohiqb1xEbbE7On7l9iJfASyiD8V.jpg",
+        "qualidade": "HD",
+        "descricao": "Os Drs. Kimberly Moore Dalal, Jason Cohen e Ryan F. Osborne assumem alguns dos casos mais desafiadores de suas carreiras ao remover tumores de pacientes com casos extremos.",
+        "generos": [
+            "Documentário",
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Muquiranas Brasil",
+        "titulo_original": "Muquiranas Brasil",
+        "id": "246872",
+        "capa": "https://image.tmdb.org/t/p/w500/8PbzR9zZLFxSMm9V9Dc8Y6PLSnZ.jpg",
+        "qualidade": "HD",
+        "descricao": "Muquiranas Brasil mostra táticas de economia extremas e excêntricas que brasileiros de diferentes regiões do país seguem como rotina. Com dinheiro na conta ou até casa própria, poupar é mais que uma necessidade para essas pessoas, é um estilo de vida.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "O Ultimo Dia",
+        "titulo_original": "El último día",
+        "id": "255582",
+        "capa": "https://image.tmdb.org/t/p/w500/i7oja1aZdQvqUd5yEE2Lj51pMnl.jpg",
+        "qualidade": "HD",
+        "descricao": "A história de uma possível tentativa de suicídio em massa – e se a operação policial resultante foi uma tentativa para salvar vidas… ou uma armação.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Expedição Amazônia",
+        "titulo_original": "Expedition from Hell: The Lost Tapes",
+        "id": "252287",
+        "capa": "https://image.tmdb.org/t/p/w500/gIlWO5Dz7Z0lT98MNXvQKv1cFse.jpg",
+        "qualidade": "HD",
+        "descricao": "O ex-especialista militar em demolição Mickey Grosman lidera um grupo de aspirantes a sobreviventes em uma jornada quase impossível de 8.000 quilômetros pelo coração de um dos cantos mais selvagens da América do Sul.",
+        "generos": [
+            "Documentário",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Hora da Justiça",
+        "titulo_original": "Crimefeed",
+        "id": "236979",
+        "capa": "https://image.tmdb.org/t/p/w500/lpgDxU6uJkkwTkV1aTaG8QDGmgP.jpg",
+        "qualidade": "HD",
+        "descricao": "Nancy Grace, Derrick Levasseur e Mara S. Campo analisam evidências e pistas, exigindo justiça para as vítimas das maiores histórias de crimes nesta exposição semanal.",
+        "generos": [
+            "Crime",
+            "News"
+        ]
+    },
+    {
+        "titulo": "24 em 24: O Último Chef de Pé",
+        "titulo_original": "24 in 24: Last Chef Standing",
+        "id": "248021",
+        "capa": "https://image.tmdb.org/t/p/w500/fDzXYck2NmFFnV9TpRrMfCbt6KL.jpg",
+        "qualidade": "HD",
+        "descricao": "Os chefs costumam descrever seu trabalho como sendo 24 horas por dia e agora Michael e Esther colocam isso à prova enquanto 24 chefs enfrentam 24 desafios em 24 horas ininterruptas. Os chefs fazem oito turnos, cada um testando uma habilidade diferente.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Confissões de um Crime",
+        "titulo_original": "Bail Jumpers",
+        "id": "248358",
+        "capa": "https://image.tmdb.org/t/p/w500/f1PU458M3AcnnkFN0oUXtEeBnoD.jpg",
+        "qualidade": "HD",
+        "descricao": "As duplas de caçadores de recompensas mais interessantes do país mergulham em conversas sem filtros, inesperadas e inesquecíveis com seus fugitivos no caminho de volta para a prisão.",
+        "generos": [
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Os Golpistas de Tóquio",
+        "titulo_original": "地面師たち",
+        "id": "249906",
+        "capa": "https://image.tmdb.org/t/p/w500/wjHt1RVKEMnvMPTvSFcD8IIcsYL.jpg",
+        "qualidade": "HD",
+        "descricao": "Um grupo de golpistas descobre um imóvel no valor de 10 bilhões de ienes e faz de tudo para colocar em prática uma falcatrua ambiciosa.",
+        "generos": [
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "O Amor Volta para Casa",
+        "titulo_original": "가족X멜로",
+        "id": "258707",
+        "capa": "https://image.tmdb.org/t/p/w500/4p2MVh0bSaweWwaBV9aFG4t7hww.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois de falir, um homem desaparece sem deixar vestígios. Anos depois, ele dá as caras como um bilionário, provocando um reencontro conturbado.",
+        "generos": [
+            "Família",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Meu Grande Amor",
+        "titulo_original": "연인",
+        "id": "206693",
+        "capa": "https://image.tmdb.org/t/p/w500/rrPCrCRyjdQ8igXIVNcIuL5KcIA.jpg",
+        "qualidade": "HD",
+        "descricao": "Um homem e uma mulher, profundamente apaixonados, desejam intensamente um ao outro à medida que seus destinos se entrelaçam em uma guerra.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Felicidade",
+        "titulo_original": "해피니스",
+        "id": "135340",
+        "capa": "https://image.tmdb.org/t/p/w500/go3l8u9cyZXotJWqorI8jWW2Jn7.jpg",
+        "qualidade": "HD",
+        "descricao": "Um novo tipo de vírus mortal se espalhou por toda a cidade, e o apartamento onde tem diferentes classes sociais de pessoas é isolado. Com o medo do vírus e os conflitos das diferentes classes, os moradores têm que gastar e sobreviver na nova habitação.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Fogos de Artifício do Meu Coração",
+        "titulo_original": "我的人间烟火",
+        "id": "216445",
+        "capa": "https://image.tmdb.org/t/p/w500/7eWgQuzsbgwUCKbwOWchLIf54XQ.jpg",
+        "qualidade": "HD",
+        "descricao": "O chefe dos bombeiros Song Yan e a médica de emergência Xu Qin foram separados pela oposição da família dela quando eram mais jovens. Agora, dez anos depois, eles se reencontram devido às suas profissões. Depois de viverem juntos a vida e a morte, eles conseguem encontrar o caminho de volta, trabalhando juntos e encorajando um ao outro. Eles reconhecem o crescimento individual um do outro após anos separados, mas serão capazes de superar os obstáculos em seu caminho desta vez para ficarem juntos?",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Crime em Tempo Real",
+        "titulo_original": "Real Time Crime",
+        "id": "216516",
+        "capa": "https://image.tmdb.org/t/p/w500/l1FkdVhded2l4qLa16PSU9Z7EU7.jpg",
+        "qualidade": "HD",
+        "descricao": "Com a tecnologia moderna ao alcance de todos, a possibilidade de resolver os casos aumentou e este show provará exatamente o porquê. Apresentando histórias verdadeiras de alta octanagem com riscos de vida e morte, cada episódio inclui imagens de CCTV e entrevistas com a polícia resolvendo os crimes, testemunhas e as famílias das vítimas.",
+        "generos": [
+            "Crime",
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "The Plot Against America",
+        "titulo_original": "The Plot Against America",
+        "id": "83870",
+        "capa": "https://image.tmdb.org/t/p/w500/rC5GUHvKxlk3WPyCh4mQ5q6HDxG.jpg",
+        "qualidade": "HD",
+        "descricao": "Baseada no romance homônimo de Philip Roth e contada através dos olhos de uma família judia em Nova Jersey, a série apresenta uma história alternativa arrepiante onde o antissemitismo faz parte da vida americana durante a Segunda Guerra Mundial.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Conan O'Brien Vai Nessa",
+        "titulo_original": "Conan O'Brien Must Go",
+        "id": "226698",
+        "capa": "https://image.tmdb.org/t/p/w500/tCyoXW3xcrgkvmqyk0mnxx2cP2h.jpg",
+        "qualidade": "HD",
+        "descricao": "Conan O’Brien vivencia as culturas locais e se conecta com fãs que conheceu anteriormente em seu podcast.",
+        "generos": [
+            "Documentário",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Bad Monkey",
+        "titulo_original": "Bad Monkey",
+        "id": "130853",
+        "capa": "https://image.tmdb.org/t/p/w500/sDbpr5VoxlcQvzvWFECr7bXCAwg.jpg",
+        "qualidade": "HD",
+        "descricao": "Um investigador que se tornou vigilante sanitário no sul da Flórida é arrastado para um mundo de ganância e corrupção após um turista encontrar um braço decepado durante uma pescaria. E sim, há um macaco.",
+        "generos": [
+            "Comédia",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Dopesick",
+        "titulo_original": "Dopesick",
+        "id": "110695",
+        "capa": "https://image.tmdb.org/t/p/w500/qW8Gpddy29faTcD7VuyKjwLXbKU.jpg",
+        "qualidade": "HD",
+        "descricao": "A história de como uma empresa desencadeou a pior epidemia de drogas da história americana. Veja o epicentro da luta dos Estados Unidos contra o vício de opioides: desde as salas de reunião da Big Pharma, passando uma comunidade mineira angustiada da Virgínia, até os corredores do DEA.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Special",
+        "titulo_original": "Special",
+        "id": "87194",
+        "capa": "https://image.tmdb.org/t/p/w500/rc6jiKt7R4rwpeUdEXhhUK0WYA8.jpg",
+        "qualidade": "HD",
+        "descricao": "Um jovem gay com paralisia cerebral deixa para trás os tempos de isolamento na busca da vida que sempre quis.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Homicídio nos EUA: Laci Peterson",
+        "titulo_original": "American Murder: Laci Peterson",
+        "id": "261034",
+        "capa": "https://image.tmdb.org/t/p/w500/v7YgRx5aBpw5OBpzPayZz6iunlZ.jpg",
+        "qualidade": "HD",
+        "descricao": "Laci Peterson estava grávida de oito meses quando desapareceu, iniciando uma busca que terminou em tragédia. Esta série documental aborda o assassinato ocorrido em 2002.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Bulgasal: Almas Imortais",
+        "titulo_original": "불가살",
+        "id": "137520",
+        "capa": "https://image.tmdb.org/t/p/w500/aF0gyWdlAUKSqKTHo4OuHmvLOK8.jpg",
+        "qualidade": "HD",
+        "descricao": "Amaldiçoado desde o dia em que nasceu, um imortal é movido pelo desejo de recuperar sua alma e finalmente se vingar depois de 600 anos.",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "The Underground Railroad: Os Caminhos para a Liberdade",
+        "titulo_original": "The Underground Railroad",
+        "id": "80039",
+        "capa": "https://image.tmdb.org/t/p/w500/x0i5uyhmVecgCLbIuas83D7sq2G.jpg",
+        "qualidade": "HD",
+        "descricao": "Cora é uma jovem escrava em uma jornada comovente e cheia de história pela liberdade, enquanto é perseguida por um perigoso caçador de escravos, Ridgeway. Em sua árdua jornada de crescimento e perseverança, Cora encontra uma misteriosa ferrovia subterrânea e as verdades atemporais sobre o que significa ser negro na América.",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Amor Entre Línguas",
+        "titulo_original": "Love & Translation",
+        "id": "242317",
+        "capa": "https://image.tmdb.org/t/p/w500/p3MxuRU3yZbEHJrhu5F0h5BpFJF.jpg",
+        "qualidade": "HD",
+        "descricao": "Norte-americanos embarcam em uma aventura para encontrar a mulher de seus sonhos, mas há um porém: nenhuma delas fala ou entende inglês.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "A Little Thing Called First Love",
+        "titulo_original": "初恋那件小事",
+        "id": "95100",
+        "capa": "https://image.tmdb.org/t/p/w500/1TC7SEVW2i7XiegAO4i1OUjJ4Nu.jpg",
+        "qualidade": "HD",
+        "descricao": "Xia Miao Miao é uma estudante tímida e artística que se apaixona por um bonito e talentoso veterano de sua escola e embarca em uma jornada de autodescoberta durante a faculdade. Por causa de Liang You Nian, Xia Miao Miao decide fazer uma mudança. Com a ajuda de suas amigas, ela começa a aprender sobre moda, entrar em clubes escolares e estudar muito para melhorar suas notas. Sua vida cotidiana torna-se mais colorida a cada dia.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Lenda: Um Luxo de Sonhar",
+        "titulo_original": "그녀의 신화",
+        "id": "64826",
+        "capa": "https://image.tmdb.org/t/p/w500/gq8j27c1UfKlN2VfbX9oHJZyvJM.jpg",
+        "qualidade": "HD",
+        "descricao": "Apesar de sua pobreza e falta de educação ou conexões, a brilhante e corajosa Eun Jung-soo abre caminho na indústria de bolsas de luxo com base apenas em seu talento. Ela encontra Do Jin-hoo, o inteligente e bonito herdeiro chaebol de uma empresa de moda, e Kim Seo-hyun, que tem que esconder sua verdadeira identidade para realizar seus sonhos.",
+        "generos": [
+            "Drama",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "Entre a Razão e a Emoção",
+        "titulo_original": "理智派生活",
+        "id": "122206",
+        "capa": "https://image.tmdb.org/t/p/w500/l6W9M8QOxa5e959yJUku8t8h97d.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma mulher de carreira com mais de 30 anos se levanta contra práticas desleais no local de trabalho. Ela está presa entre dois homens - seu assistente de confiança e seu chefe, que é um solteiro elegível. Sempre aquela que escolhe a razão em vez da emoção, Shen Ruo Xin, que é considerada uma 'mulher residual', será corajosa o suficiente para buscar um romance com um homem mais jovem ou se casará com o homem que a sociedade dita?",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Aroma do Tempo",
+        "titulo_original": "为有暗香来",
+        "id": "236809",
+        "capa": "https://image.tmdb.org/t/p/w500/qbe7E4iDxCEeAXKPjHOy9Mm0Pas.jpg",
+        "qualidade": "HD",
+        "descricao": "Situado na antiga China, este drama romântico acompanha Hua Qian, uma jovem astuta cujo plano de se casar com o herdeiro de um império do incenso chinês leva sua família à ruína... até que o destino lhe dá uma segunda chance.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "SurrealEstate",
+        "titulo_original": "SurrealEstate",
+        "id": "106148",
+        "capa": "https://image.tmdb.org/t/p/w500/yrwNLzth5FjydiXJK1I1tOKdAFs.jpg",
+        "qualidade": "HD",
+        "descricao": "Nick Roman, um agente imobiliário, se junta a uma equipe de especialistas com o objetivo de vender casas assombradas que ninguém mais consegue.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Fiel ao Amor",
+        "titulo_original": "보라! 데보라",
+        "id": "210586",
+        "capa": "https://image.tmdb.org/t/p/w500/rcZWU4PFTpchF15nliEwaIw2PWp.jpg",
+        "qualidade": "HD",
+        "descricao": "A coach de relacionamentos Bo-ra, cujo namoro está fracassando, e o irritadiço editor Su-hyeok se unem para salvar a vida amorosa de Bo-ra, pelo bem de seu próximo livro sobre namoro. A colaboração resulta no jogo mental do romance.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Find Yourself",
+        "titulo_original": "下一站是幸福",
+        "id": "98830",
+        "capa": "https://image.tmdb.org/t/p/w500/lbzLCc99wxtSs4UJSW1rwdweqle.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma história de amor entre uma mulher de carreira realizada e um homem mais jovem. A empresa de He Fan Xing corre o risco de ser adquirida enquanto seu relacionamento com Yuan Song enfrenta pressões sociais devido à diferença de idade.  Os golpes consecutivos em seu trabalho e vida amorosa a empurram para um atoleiro emocional e é nesse período que Ye Lu Ming entra em sua vida. Sendo mais velho, ele é maduro, estável e experiente. Ele se torna o treinador da vida de He Fan Xing e a fonte de conflito entre o casal. Para He Fan Xing, não se trata apenas de escolher o homem que ela ama, mas considerando as contradições de adotar a mentalidade tradicional do casamento.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Caminho do Destino",
+        "titulo_original": "해피엔딩",
+        "id": "98104",
+        "capa": "https://image.tmdb.org/t/p/w500/dFkfro3lVb1lm8hDRncSGNvT2Zq.jpg",
+        "qualidade": "HD",
+        "descricao": "Happy Ending conta história de uma família desestruturada, que depois da descoberta da morte eminente do patriarca, Kim Doo Soo reúne a família para resolver os problemas do passado e passam a conviverem juntos.",
+        "generos": [
+            "Drama",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "O Dia do Sequestro",
+        "titulo_original": "유괴의 날",
+        "id": "212203",
+        "capa": "https://image.tmdb.org/t/p/w500/giEShy1A3ZUN5LqkRSVd9otHHuH.jpg",
+        "qualidade": "HD",
+        "descricao": "Myeong-jun decide sequestrar Ro-hee para pagar as contas hospitalares da filha. No caminho, alguém cai na frente do carro dele e, por acaso, é Ro-hee. Ela não se lembra de nada, e Myeong-jun diz ser o pai dela. Ele liga para os pais dela pedindo resgate, mas não consegue. Ele vê os corpos dos pais dela sendo levados da casa e abandona a cena. Ro-hee desconfia de Myeong-jun.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Labirinto Verde",
+        "titulo_original": "Zone blanche",
+        "id": "70613",
+        "capa": "https://image.tmdb.org/t/p/w500/vSXpE549yyHqhcxsvjBAVfTDTzK.jpg",
+        "qualidade": "HD",
+        "descricao": "Villefranche, uma pequena cidade isolada em meio a floresta e às montanhas, vem se transformando aos poucos num local de alta criminalidade. Quando o corpo de uma mulher é encontrado pendurado em uma misteriosa árvore, a inspetora policial Laurène inicia uma minuciosa investigação.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Adolescentes: Tortura e Abuso",
+        "titulo_original": "Teen Torture, Inc.",
+        "id": "258342",
+        "capa": "https://image.tmdb.org/t/p/w500/sAOeAnMM4D9XIISvvZ771NkbPWM.jpg",
+        "qualidade": "HD",
+        "descricao": "Em 2021, sobreviventes e advogados ativistas uniram esforços para acabar com os abusos cometidos pela indústria de adolescentes problemáticos nos EUA.",
+        "generos": [
+            "Drama",
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Máxima",
+        "titulo_original": "Máxima",
+        "id": "241889",
+        "capa": "https://image.tmdb.org/t/p/w500/fBG4YjMZk4wRpYOtr3uSlBM5dx0.jpg",
+        "qualidade": "HD",
+        "descricao": "A partir do momento em que Máxima Zorreguieta aparece ao lado do príncipe herdeiro holandês, ela se vê no centro das atenções. Quando Willem-Alexander a pede em casamento, o passado a alcança. Surge uma discussão acalorada sobre a carreira política do seu pai no regime de Videla – uma discussão que ela nunca enfrentou nos seus próprios círculos. O que permite a este argentino prosperar finalmente numa antiga corte europeia? E como Máxima pode permanecer fiel a si mesma sem abrir mão da família – ou essas coisas não andam juntas?",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Duas Semanas",
+        "titulo_original": "투윅스",
+        "id": "53095",
+        "capa": "https://image.tmdb.org/t/p/w500/iZmxh5WZKZ6t4WaKG2yc6vAtQdG.jpg",
+        "qualidade": "HD",
+        "descricao": "Jang Tae San trabalha em uma loja de penhores durante o dia e se prostitui com mulheres mais velhas à noite. Um dia, ele é informado por sua ex-namorada que é o pai de sua filha com leucemia, e ele é a última chance de doar medula óssea e salvar a vida de sua filha. Nesse mesmo dia, ele é acusado de assassinato, mas consegue escapar e foge. Sem ninguém em quem confiar, Jang Tae San tem duas semanas para tentar provar sua inocência e sobreviver até a cirurgia de sua filha.\n\nPark Jae Kyung é um promotor em busca de evidências para derrubar Moon Il Suk, o homem que esfaqueou seu pai, e Jo Seo Hee, uma amada senadora que está trabalhando com Moon Il Suk. Juntamente com o detetive Im Seung Woo, ela trabalha para descobrir a verdade por trás do assassinato e suas conexões com Moon Il Suk e Jo Seo Hee.",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Classe dos Heróis Fracos",
+        "titulo_original": "약한영웅",
+        "id": "200709",
+        "capa": "https://image.tmdb.org/t/p/w500/kZeJeV8L3WlVp3L6DZS0WaDelfj.jpg",
+        "qualidade": "HD",
+        "descricao": "Com a ajuda de amigos inesperados, um aluno talentoso e introvertido decide enfrentar os valentões do colégio, sem fazer ideia do perigo que está correndo.",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Vencer o Desamor",
+        "titulo_original": "Vencer el Desamor",
+        "id": "110637",
+        "capa": "https://image.tmdb.org/t/p/w500/xaGSnkK4qDB8l9SIM9N5mKeU3eM.jpg",
+        "qualidade": "HD",
+        "descricao": "Quatro mulheres de diferentes idades e camadas sociais devem viver juntas sob o mesmo teto e, embora seja difícil no início, a fraternidade e a solidariedade prevalecem.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Casamento Impossível",
+        "titulo_original": "웨딩 임파서블",
+        "id": "230198",
+        "capa": "https://image.tmdb.org/t/p/w500/pwYE1YcUXYPKnXbAQNv4NVvYTGs.jpg",
+        "qualidade": "HD",
+        "descricao": "A atriz em dificuldades Na Ah Jeong (Jeon Jong Seo) aceita um contrato de casamento com seu amigo de longa data, Lee Do Han (Kim Do Wan), neto mais velho da família chaebol do Grupo LJ. Em troca do pagamento, ela ajuda a manter o maior segredo do amigo longe de sua família autoritária. O único problema? O irmão mais novo de Do Han, Lee Ji Han (Moon Sang Min), se recusa a aceitá-la como noiva de seu irmão e a desafia a todo momento. Com Ji Han determinado a sabotar o “casamento” deles desde o início, quanto tempo levará para que a verdade seja revelada?",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Operação Tyrant",
+        "titulo_original": "폭군",
+        "id": "246748",
+        "capa": "https://image.tmdb.org/t/p/w500/nsnHc9nQ9W1Iy9QvmGThmgYRNo.jpg",
+        "qualidade": "HD",
+        "descricao": "Um projeto secreto da Coreia do Sul é revelado para os EUA. O projeto é cancelado, e a amostra seria entregue, mas ocorre um acidente na entrega. O diretor Choe tenta escondê-la, Paul tenta encontrá-la, mas ambos acabam no mesmo lugar que a Jagyeong e o Lim Sang. Quem ficará com a amostra no final?",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Segredo de Feriha",
+        "titulo_original": "Adını Feriha Koydum",
+        "id": "47711",
+        "capa": "https://image.tmdb.org/t/p/w500/y7CfkfP41R1aXOJmS3MMYKQ3OTT.jpg",
+        "qualidade": "HD",
+        "descricao": "Feriha Yılmaz mora com a família como inquilinos no porão de um prédio de luxo em Etiler, um bairro de alta classe em Istambul. Muito bela jovem, ela recebe uma bolsa de estudos integral para estudar em uma universidade particular e rapidamente se torna o centro das atenções, até mesmo o garoto mais popular e bem conhecido da universidade, Emir Sarrafoğlu, está interessado nela. Feriha mentirá sobre sua vida e se apresentará como uma jovem milionária, presa em suas próprias mentiras.",
+        "generos": [
+            "Família",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Rainha por Sete Dias",
+        "titulo_original": "7일의 왕비",
+        "id": "71748",
+        "capa": "https://image.tmdb.org/t/p/w500/80MeoIEoKNptFBowYNZiUXAUI28.jpg",
+        "qualidade": "HD",
+        "descricao": "No período Joseon, uma nobre de um clã poderoso se casa com o príncipe herdeiro, mas é deposta depois de apenas sete dias como rainha quando ele se torna rei.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Sabor do Destino",
+        "titulo_original": "珍馐记",
+        "id": "197107",
+        "capa": "https://image.tmdb.org/t/p/w500/rXGIUAnRCREyvSnMWUH0tXaD3ST.jpg",
+        "qualidade": "HD",
+        "descricao": "A chefe talentosa e gentil, Ling Xiaoxiao, é aceita para o cargo de chefe em um palácio imperial graças ao apetite aprimorado do príncipe herdeiro, Zhu Shoukui. Decidida a se tornar a melhor Chefe Imperial que já existiu, Ling tenta navegar pelas armadilhas da vida no palácio com a ajuda do príncipe, enquanto permanece fiel a seus objetivos em face ao amor proibido.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "dr4g0n",
+        "titulo_original": "dr4g0n",
+        "id": "23330",
+        "capa": "https://image.tmdb.org/t/p/w500/ikt7ZQhKKM9qkEpc6FTjjqhYbK9.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma família passa a ser sustentada pela equipe de eSports dos filhos. O time tem como principal jogador o filho mais novo, Daniel – ou, como é conhecido na internet, dr4g0n.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Duzentos Anos de Amor",
+        "titulo_original": "흑기사",
+        "id": "75066",
+        "capa": "https://image.tmdb.org/t/p/w500/jJ0DVJ2vAbAcCsrxiesPlLLbkuG.jpg",
+        "qualidade": "HD",
+        "descricao": "O cavaleiro preto é uma história de amor entre uma mulher que espera pelo amor de sua vida e um homem que quer proteger o seu amor. Soo Ho e Hae Ra se conhecem por acaso e o amor os pega como se fosse por destino. Soo Ho volta no tempo e arrisca tudo por Hae Ra. Será que esse amor vai sobreviver apesar de todos os maus acontecimentos?",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Irmãs Revolucionárias",
+        "titulo_original": "오케이 광자매",
+        "id": "119878",
+        "capa": "https://image.tmdb.org/t/p/w500/jnFiyMNYrId6BJzK5U9xP43oZot.jpg",
+        "qualidade": "HD",
+        "descricao": "Durante o processo de divórcio, uma mãe é assassinada. Imediatamente todos os familiares se tornam suspeitos.",
+        "generos": [
+            "Comédia",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "Laços de Família",
+        "titulo_original": "Laços de Família",
+        "id": "34957",
+        "capa": "https://image.tmdb.org/t/p/w500/kxcSIEVA1zcpO1XGQsczIpMZfT1.jpg",
+        "qualidade": "HD",
+        "descricao": "O amor incondicional de uma mãe pela filha direciona a crônica urbana na qual o autor Manoel Carlos fala de temas universais com doses equilibradas de folhetim e realismo.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Preço do Silêncio",
+        "titulo_original": "청담국제고등학교",
+        "id": "214994",
+        "capa": "https://image.tmdb.org/t/p/w500/7Wlxdu6Z1sYcti7xgbtLLmxRFOk.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois de testemunhar um assassinato em uma escola de prestígio, uma garota de origem humilde tem a chance de estudar no local em troca de silêncio.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "You Are Wanted",
+        "titulo_original": "You Are Wanted",
+        "id": "70048",
+        "capa": "https://image.tmdb.org/t/p/w500/jEsOoAjGf13pQU5JY3uidU4PEHA.jpg",
+        "qualidade": "HD",
+        "descricao": "Lukas Franke se vê vítima de um ataque de hacking, com suas informações online implicando-o como o idealizador de um cyber attack em Berlim que deixa a cidade sem luz. Suspeito por terrorismo, Lukas tenta achar uma maneira de descobrir por que foi escolhido como alvo, enquanto até sua família e amigos começam a duvidar de sua inocência.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Minha Vida de Ouro",
+        "titulo_original": "황금빛 내 인생",
+        "id": "72707",
+        "capa": "https://image.tmdb.org/t/p/w500/dxseoIiZ2HiGJb7LOAg9Uh78qO5.jpg",
+        "qualidade": "HD",
+        "descricao": "Não faz muito tempo que as pessoas começaram a discutir sobre diferentes posições sociais dentro da sociedade. As classes das crianças são decididas desde o nascimento conforme o poder e a riqueza dos pais delas. Todo mundo sonha em se tornar bem-sucedido e levar uma vida maravilhosa, mas a barreira a se quebrar é ainda mais forte hoje em dia. Aqui está uma moça que luta para subir a escada da hierarquia. No processo, ela percebe como buscar a verdadeira felicidade à sua maneira. Este drama consolará aqueles que ainda esperam e sonham em escapar do fundo do poço.",
+        "generos": [
+            "Drama",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "Terça do Terror",
+        "titulo_original": "อังคารคลุมโปง: เอ็กซ์ตรีม",
+        "id": "258306",
+        "capa": "https://image.tmdb.org/t/p/w500/4rrRbG56DK2daha5xiYZhQ1XBS4.jpg",
+        "qualidade": "HD",
+        "descricao": "Inspirada no programa de rádio tailandês Angkhan Khlumpong, esta série apresenta oito histórias baseadas nas experiências reais contadas pelos ouvintes.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Selena + Restaurante",
+        "titulo_original": "Selena + Restaurant",
+        "id": "250590",
+        "capa": "https://image.tmdb.org/t/p/w500/kHorWbe2Sule1KOpGCkdAEHeie9.jpg",
+        "qualidade": "HD",
+        "descricao": "Selena Gomez cozinha nos restaurantes mais badalados de Los Angeles, onde será testada e terá que apresentar um prato bom o bastante para o cardápio!",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Brasil Visto de Cima",
+        "titulo_original": "Brasil Visto de Cima",
+        "id": "77692",
+        "capa": "https://image.tmdb.org/t/p/w500/1eCFwJDcyghwWTEdJLwojQUgoeS.jpg",
+        "qualidade": "HD",
+        "descricao": "O Brasil Visto de Cima decola para mais uma temporada. Serra da Mantiqueira, Zona da Mata Mineira, Floresta Amazônica e o Arquipélago Fernando de Noronha são os destinos dessa nova rota de voo.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "The Millers",
+        "titulo_original": "The Millers",
+        "id": "51320",
+        "capa": "https://image.tmdb.org/t/p/w500/y3d7thiGCbYfFCJfKNyVX9GrqQo.jpg",
+        "qualidade": "HD",
+        "descricao": "Um repórter divorciado, ansioso pela vida de solteiro, descobre que os problemas conjugais de seus pais atrapalham seus planos.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Breathe: Pelas Sombras",
+        "titulo_original": "Breathe: Into the Shadows",
+        "id": "105521",
+        "capa": "https://image.tmdb.org/t/p/w500/ydvQscsnsQZnztraiwWpG6saF6Q.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma menina de 6 anos é sequestrada por um misterioso homem mascarado, que exige um resgate incomum. Para salvar sua filha, o Dr. Avinash Sabharwal deve matar alguém! Enquanto isso, a jornada de Kabir Sawant continua no ambiente hostil do ramo do crime em Delhi. Mentiras, enganos e jogos mentais começam quando Kabir é encarregado da investigação e conhece Avinash.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "A Voz Ausente",
+        "titulo_original": "La voz ausente",
+        "id": "260877",
+        "capa": "https://image.tmdb.org/t/p/w500/27lzViIwcOv3IjczmDlgfCbMzVO.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando seu irmão mais velho é encontrado morto, aparentemente por suicídio, o renomado psicanalista Pablo Rouviot é o único convencido de que, na realidade, ele foi vítima de um assassinato. Com a ajuda da oficial Cecilia Bermúdez como sua única aliada, Pablo assumirá a investigação, que em breve revelará um esquema muito maior, envolvendo um assassino em série.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Vidas Bandidas",
+        "titulo_original": "Vidas Bandidas",
+        "id": "221392",
+        "capa": "https://image.tmdb.org/t/p/w500/qpbxBtMPmxFe4iVhK5eEtMjPDMc.jpg",
+        "qualidade": "HD",
+        "descricao": "Serginho e Raimundo são parceiros no crime que trabalham para a quadrilha de Bruna assaltando turistas no Rio de Janeiro. Um assalto ambicioso que dá muito errado é o ponto de partida de muitos planos de vingança para vidas que não seguem plano nenhum.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Depois do Acidente",
+        "titulo_original": "Accidente",
+        "id": "259730",
+        "capa": "https://image.tmdb.org/t/p/w500/cf5kuuhJhXATnpyr46PbRN1hwLZ.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma festa de aniversário acaba em tragédia, para o desespero de uma comunidade rica e unida. O resultado? Famílias, amizades e corações destruídos.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "De Repente Pais",
+        "titulo_original": "Papá a Toda Madre",
+        "id": "74801",
+        "capa": "https://image.tmdb.org/t/p/w500/A90x0Jf8VxkQzfHTnpLUsdkOgOi.jpg",
+        "qualidade": "HD",
+        "descricao": "Após ir à falência, o mulherengo Maurício conhece uma criança que diz ser sua filha. Agora ele precisa morar em uma vizinhança humilde, onde conhece a batalhadora e focada Reneé.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "O Hipnotizador",
+        "titulo_original": "El Hipnotizador",
+        "id": "63733",
+        "capa": "https://image.tmdb.org/t/p/w500/t47NPirCkqcH7yiaDQeUBk98MxN.jpg",
+        "qualidade": "HD",
+        "descricao": "Arenas é um hipnotizador que se dedica a adormecer pessoas e a desenterrar seus segredos mais profundos. Misterioso, solitário e distante, ele sofre de insônia eterna, por trás da qual se esconde um grande segredo.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Simplemente María",
+        "titulo_original": "Simplemente María",
+        "id": "81823",
+        "capa": "https://image.tmdb.org/t/p/w500/dfC45GeAi4lIfpHtRXBz3pHPHAv.jpg",
+        "qualidade": "HD",
+        "descricao": "María Flores, uma bela aldeã, sai de casa em busca de uma vida melhor na cidade, consegue um emprego como empregada doméstica e se apaixona por Alejandro, filho de seus patrões. María fica grávida, mas Alejandro a abandona e todos os seus sonhos desaparecem.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Desejo Proibido",
+        "titulo_original": "Desejo Proibido",
+        "id": "17108",
+        "capa": "https://image.tmdb.org/t/p/w500/s6IBzXXVr9tRixT7v16e6qCp95R.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Cheaters: Amor e Traição",
+        "titulo_original": "Cheaters",
+        "id": "157181",
+        "capa": "https://image.tmdb.org/t/p/w500/otS5xLOuxpdc4VyZwc7LKWzjUdf.jpg",
+        "qualidade": "HD",
+        "descricao": "﻿﻿Em uma viagem, Josh e Fola traem seus respectivos parceiros. Porém, ao chegar em casa, descobrem que serão vizinhos e precisam lidar com a culpa e o medo de serem descobertos.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Novamente Apaixonados",
+        "titulo_original": "Aşk Yeniden",
+        "id": "62630",
+        "capa": "https://image.tmdb.org/t/p/w500/8yQ5dLh5a74xtfeQhfe2wtK6wic.jpg",
+        "qualidade": "HD",
+        "descricao": "Zeynep se casa com um homem sem a aprovação de sua família e se muda para os Estados Unidos. Eles têm um filho, mas o casamento fracassa e ela decide voltar para a Turquia. Fatih é um jovem bonito e rico que é enviado por sua família para estudar nos Estados Unidos, mas ele se decepciona com a experiência e decide voltar para a Turquia. Esses dois jovens se conhecem no avião de Nova York para Istambul e logo descobrem o desejo em comum de levar uma nova vida, livre de interferências familiares.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Garotas Malvadas",
+        "titulo_original": "Mean Girl Murders",
+        "id": "221121",
+        "capa": "https://image.tmdb.org/t/p/w500/hlHrXnEQiwf1N65oVMmKrC6ra0L.jpg",
+        "qualidade": "HD",
+        "descricao": "Esta série explora o lado sombrio da conexão entre as mulheres e sua rivalidade. Vamos conhecer rainhas, aspirantes, saber quem prospera com inveja e fofoca e por que essa dinâmica pode levar a atos chocantes.",
+        "generos": [
+            "Crime",
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Bob Burnquist: A Lenda do Skate",
+        "titulo_original": "Bob Burnquist: A Lenda do Skate",
+        "id": "260703",
+        "capa": "https://image.tmdb.org/t/p/w500/pIdw0q4WUSPzG0KLJK6GJLeT8VN.jpg",
+        "qualidade": "HD",
+        "descricao": "Docusérie que explora os 30 anos de carreira do skatista brasileiro Bob Burnquist, destacando seu impacto global, sua incrível capacidade de se reerguer após cada queda e seu reconhecimento entre nomes como Tony Hawk e Ben Harper.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "OceanXplorers",
+        "titulo_original": "OceanXplorers",
+        "id": "118477",
+        "capa": "https://image.tmdb.org/t/p/w500/ftrhUtFMrNI0MlJOs3XEe3rmWA3.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanha as missões do OceanXplorer, o navio de pesquisa científica e exploração de última geração da OceanX. A embarcação investiga as fronteiras mais distantes dos oceanos do mundo, 80% das quais são totalmente desconhecidas.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Pop Star Academy: KATSEYE",
+        "titulo_original": "Pop Star Academy: KATSEYE",
+        "id": "260264",
+        "capa": "https://image.tmdb.org/t/p/w500/eWPe0nRouV0JHgld0aMXgNbuOV8.jpg",
+        "qualidade": "HD",
+        "descricao": "Nesta série documental sobre a criação do primeiro grupo feminino internacional da HYBE x Geffen, vinte garotas passam por um programa de treinamento do K-pop.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "A Princesa Espanhola",
+        "titulo_original": "The Spanish Princess",
+        "id": "86428",
+        "capa": "https://image.tmdb.org/t/p/w500/eRa9wsrvRiutt1xocfX2Wzf47sN.jpg",
+        "qualidade": "HD",
+        "descricao": "Catarina de Aragão, a princesa da Espanha, chega à Inglaterra ao lado de sua dama-de-companhia Lina, a fim de se casar com o príncipe Artur, com quem está prometida em casamento desde pequena. No entanto, a morte inesperada de seu marido a coloca em uma acirrada disputa pelo trono. Mas para que seus poderes estejam garantidos, ela agora precisa se casar com o Príncipe Harry, que um dia governará como o Rei Henrique VIII. Série baseada nos romances \"A Princesa Leal\" e \"A Maldição do Rei\", de Philippa Gregory.",
+        "generos": [
+            "Drama"
+        ]
     }
 ]
