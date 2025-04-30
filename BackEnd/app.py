@@ -293,7 +293,7 @@ def filmes_pagina_atualizar():
 
 @app.route('/series/pagina')
 def series_pagina():
-    """Retorna séries paginadas."""
+    """Retorna séries paginadas com metadados."""
     pagina = validar_pagina(request.args.get('pagina', 1))
     cache = carregar_dados_json(JSON_PATHS['series_nomes'])
 
@@ -301,7 +301,15 @@ def series_pagina():
     fim = inicio + CONFIG['ITEMS_PER_PAGE']
     series_paginadas = cache[inicio:fim]
 
-    return jsonify(series_paginadas)
+    total_itens = len(cache)
+    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
+
+    return jsonify({
+        'series': series_paginadas,
+        'total_itens': total_itens,
+        'total_paginas': total_paginas,
+        'pagina_atual': pagina
+    })
 
 @app.route('/series')
 def series():
