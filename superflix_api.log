@@ -30,3 +30,13 @@
 2025-04-29 15:31:15,106 - INFO - Códigos iniciais atualizados
 2025-04-29 15:31:15,164 - WARNING -  * Debugger is active!
 2025-04-29 15:31:15,171 - INFO -  * Debugger PIN: 464-886-906
+2025-05-01 16:45:49,699 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json salvo com sucesso
+2025-05-01 16:45:49,705 - INFO - Códigos de filmes atualizados
+2025-05-01 16:45:49,710 - INFO - Códigos iniciais atualizados
+2025-05-01 16:45:49,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-05-01 16:45:49,892 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-01 16:45:49,892 - INFO -  * Restarting with stat
+2025-05-01 16:45:52,103 - INFO - Códigos iniciais atualizados
+2025-05-01 16:45:52,166 - WARNING -  * Debugger is active!
+2025-05-01 16:45:52,179 - INFO -  * Debugger PIN: 464-886-906
