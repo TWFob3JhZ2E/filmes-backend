@@ -3,7 +3,7 @@ import json
 import logging
 import requests
 from bs4 import BeautifulSoup
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from threading import Thread, Lock
 from urllib.parse import urljoin
@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')  # Define a pasta estática
 CORS(app)
 
 # Lock para sincronizar acesso a arquivos JSON
@@ -302,7 +302,7 @@ def series_pagina():
     series_paginadas = cache[inicio:fim]
 
     total_itens = len(cache)
-    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
+    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG[' ITEMS_PER_PAGE']
 
     return jsonify({
         'series': series_paginadas,
@@ -348,8 +348,10 @@ def buscar_nomes():
 
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
-    """Busca filmes e séries por gênero."""
+    """Busca filmes e séries por gênero, com paginação."""
     genero = request.args.get('genero', '').lower()
+    pagina = validar_pagina(request.args.get('pagina', 1))
+
     if not genero:
         logger.warning("Gênero não fornecido")
         return jsonify({'erro': 'Gênero não fornecido'}), 400
@@ -371,11 +373,27 @@ def buscar_por_genero():
 
     if not resultados:
         logger.info(f"Nenhum filme ou série encontrado para o gênero: {genero}")
-        return jsonify({'mensagem': f'Nenhum resultado para o gênero {genero}'}), 200
+        return jsonify({
+            'mensagem': f'Nenhum resultado para o gênero {genero}',
+            'resultados': [],
+            'total': 0,
+            'total_paginas': 0,
+            'pagina_atual': pagina
+        }), 200
+
+    # Paginação
+    inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
+    fim = inicio + CONFIG['ITEMS_PER_PAGE']
+    resultados_paginados = resultados[inicio:fim]
+
+    total_itens = len(resultados)
+    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
 
     return jsonify({
-        'resultados': resultados,
-        'total': len(resultados)
+        'resultados': resultados_paginados,
+        'total': total_itens,
+        'total_paginas': total_paginas,
+        'pagina_atual': pagina
     })
 
 @app.route('/buscar_generos')
@@ -383,16 +401,21 @@ def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
     termo = request.args.get('q', '').lower()
     generos = [
-        "Action", "Animação", "Aventura", "Comédia", "Crime", "Drama", "Família",
+        "Ação", "Animação", "Aventura", "Comédia", "Crime", "Drama", "Família",
         "Fantasia", "Faroeste", "Ficção Científica", "Guerra", "História",
         "Lançamentos", "Mistério", "Música", "Nacional", "Romance", "Suspense", "Terror"
     ]
 
     if not termo:
-        return jsonify(generos)  # Retorna todos os gêneros se não houver termo
+        return jsonify(generos)
 
     sugestoes = [g for g in generos if termo in g.lower()]
     return jsonify(sugestoes)
+
+@app.route('/resultados.html')
+def resultados_page():
+    """Serve a página resultados.html."""
+    return send_from_directory(app.static_folder, 'PAGES/resultados.html')
 
 def atualizar_codigos_inicial():
     """Atualiza códigos de filmes e séries na inicialização."""
