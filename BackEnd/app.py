@@ -25,7 +25,7 @@ CORS(app)
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
 
-# Configurações centralizadas (pode ser movido para .env com python-dotenv)
+# Configurações centralizadas
 CONFIG = {
     'BASE_URL': 'https://superflixapi.in/filmes',
     'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -94,7 +94,7 @@ def atualizar_dados(url, cache_path, tipo='filmes'):
 
         for poster in soup.find_all('div', class_='poster'):
             try:
-                titulo = poster.find('span', Uclass_='title')
+                titulo = poster.find('span', class_='title')
                 qualidade = poster.find('span', class_='year')
                 imagem = poster.find('img')
                 link = poster.find('a', class_='btn')
@@ -345,6 +345,54 @@ def buscar_nomes():
     resultados = resultados_filmes + resultados_series
 
     return jsonify(resultados[:10])
+
+@app.route('/buscar_por_genero')
+def buscar_por_genero():
+    """Busca filmes e séries por gênero."""
+    genero = request.args.get('genero', '').lower()
+    if not genero:
+        logger.warning("Gênero não fornecido")
+        return jsonify({'erro': 'Gênero não fornecido'}), 400
+
+    filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
+    series = carregar_dados_json(JSON_PATHS['series_nomes'])
+
+    # Filtra filmes e séries onde o gênero está na lista de gêneros
+    resultados_filmes = [
+        filme for filme in filmes
+        if any(genero.lower() in g.lower() for g in filme.get('generos', []))
+    ]
+    resultados_series = [
+        serie for serie in series
+        if any(genero.lower() in g.lower() for g in serie.get('generos', []))
+    ]
+
+    resultados = resultados_filmes + resultados_series
+
+    if not resultados:
+        logger.info(f"Nenhum filme ou série encontrado para o gênero: {genero}")
+        return jsonify({'mensagem': f'Nenhum resultado para o gênero {genero}'}), 200
+
+    return jsonify({
+        'resultados': resultados,
+        'total': len(resultados)
+    })
+
+@app.route('/buscar_generos')
+def buscar_generos():
+    """Retorna sugestões de gêneros com base no termo de busca."""
+    termo = request.args.get('q', '').lower()
+    generos = [
+        "Ação", "Animação", "Aventura", "Comédia", "Crime", "Drama", "Família",
+        "Fantasia", "Faroeste", "Ficção Científica", "Guerra", "História",
+        "Lançamentos", "Mistério", "Música", "Nacional", "Romance", "Suspense", "Terror"
+    ]
+
+    if not termo:
+        return jsonify(generos)  # Retorna todos os gêneros se não houver termo
+
+    sugestoes = [g for g in generos if termo in g.lower()]
+    return jsonify(sugestoes)
 
 def atualizar_codigos_inicial():
     """Atualiza códigos de filmes e séries na inicialização."""
