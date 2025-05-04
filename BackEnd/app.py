@@ -401,7 +401,7 @@ def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
     termo = request.args.get('q', '').lower()
     generos = [
-        "Ação", "Animação", "Aventura", "Comédia", "Crime", "Drama", "Família",
+        "Action", "Animação", "Aventura", "Comédia", "Crime", "Drama", "Família",
         "Fantasia", "Faroeste", "Ficção Científica", "Guerra", "História",
         "Lançamentos", "Mistério", "Música", "Nacional", "Romance", "Suspense", "Terror"
     ]
