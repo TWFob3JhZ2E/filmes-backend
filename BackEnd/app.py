@@ -19,8 +19,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__, static_folder='static')  # Define a pasta estática
-CORS(app)
+app = Flask(__name__, static_folder='static')
+CORS(app, resources={r"/*": {"origins": "*"}})  # Permite CORS para o frontend no Vercel
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -65,6 +65,7 @@ def carregar_dados_json(caminho):
             except json.JSONDecodeError as e:
                 logger.error(f"Erro ao decodificar {caminho}: {e}")
                 return []
+        logger.warning(f"Arquivo {caminho} não encontrado")
         return []
 
 def salvar_dados_json(caminho, dados):
@@ -302,7 +303,7 @@ def series_pagina():
     series_paginadas = cache[inicio:fim]
 
     total_itens = len(cache)
-    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG[' ITEMS_PER_PAGE']
+    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
 
     return jsonify({
         'series': series_paginadas,
@@ -348,7 +349,7 @@ def buscar_nomes():
 
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
-    """Busca filmes e séries por gênero, com paginação."""
+    """Busca filmes e séries por gênero, com paginação, apenas de CodeFilmesNomes.json e CodeSeriesNomes.json."""
     genero = request.args.get('genero', '').lower()
     pagina = validar_pagina(request.args.get('pagina', 1))
 
@@ -359,14 +360,24 @@ def buscar_por_genero():
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
 
-    # Filtra filmes e séries onde o gênero está na lista de gêneros
+    # Log para itens sem gêneros
+    for filme in filmes:
+        if 'generos' not in filme or not filme['generos']:
+            logger.warning(f"Filme sem gêneros: {filme.get('titulo', 'Desconhecido')} (ID: {filme.get('id', 'N/A')})")
+    for serie in series:
+        if 'generos' not in serie or not serie['generos']:
+            logger.warning(f"Série sem gêneros: {serie.get('titulo', 'Desconhecido')} (ID: {serie.get('id', 'N/A')})")
+
+    # Filtra filmes e séries considerando gêneros como lista ou string
     resultados_filmes = [
         filme for filme in filmes
-        if any(genero.lower() in g.lower() for g in filme.get('generos', []))
+        if (isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', [])))
+        or (isinstance(filme.get('generos'), str) and genero.lower() in filme.get('generos', '').lower())
     ]
     resultados_series = [
         serie for serie in series
-        if any(genero.lower() in g.lower() for g in serie.get('generos', []))
+        if (isinstance(serie.get('generos'), list) and any(genero.lower() in g.lower() for g in serie.get('generos', [])))
+        or (isinstance(serie.get('generos'), str) and genero.lower() in serie.get('generos', '').lower())
     ]
 
     resultados = resultados_filmes + resultados_series
@@ -401,7 +412,7 @@ def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
     termo = request.args.get('q', '').lower()
     generos = [
-        "Action", "Animação", "Aventura", "Comédia", "Crime", "Drama", "Família",
+        "Ação", "Animação", "Aventura", "Comédia", "Crime", "Drama", "Família",
         "Fantasia", "Faroeste", "Ficção Científica", "Guerra", "História",
         "Lançamentos", "Mistério", "Música", "Nacional", "Romance", "Suspense", "Terror"
     ]
@@ -412,10 +423,10 @@ def buscar_generos():
     sugestoes = [g for g in generos if termo in g.lower()]
     return jsonify(sugestoes)
 
-@app.route('/resultados.html')
-def resultados_page():
-    """Serve a página resultados.html."""
-    return send_from_directory(app.static_folder, 'PAGES/resultados.html')
+@app.route('/<path:path>')
+def serve_static(path):
+    """Serve arquivos estáticos."""
+    return send_from_directory(app.static_folder, path)
 
 def atualizar_codigos_inicial():
     """Atualiza códigos de filmes e séries na inicialização."""
