@@ -20,7 +20,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
-CORS(app, resources={r"/*": {"origins": "*"}})  # Permite CORS para o frontend no Vercel
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -87,7 +87,7 @@ def atualizar_dados(url, cache_path, tipo='filmes'):
     cache = carregar_dados_json(cache_path)
     try:
         headers = {'User-Agent': CONFIG['USER_AGENT']}
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=5)  # Timeout de 5 segundos
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -126,6 +126,8 @@ def atualizar_dados(url, cache_path, tipo='filmes'):
         else:
             logger.info(f"Nenhum novo {tipo} encontrado")
 
+    except requests.exceptions.Timeout:
+        logger.error(f"Timeout ao atualizar {tipo} de {url}")
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao atualizar {tipo} de {url}: {e}")
 
@@ -187,7 +189,7 @@ def codigos_series():
     try:
         url = urljoin(CONFIG['BASE_URL'], '/series/lista/')
         headers = {'User-Agent': CONFIG['USER_AGENT']}
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=5)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -213,7 +215,7 @@ def codigos_filmes():
     try:
         url = urljoin(CONFIG['BASE_URL'], '/filmes/lista/')
         headers = {'User-Agent': CONFIG['USER_AGENT']}
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=5)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -349,7 +351,7 @@ def buscar_nomes():
 
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
-    """Busca filmes e séries por gênero, com paginação, apenas de CodeFilmesNomes.json e CodeSeriesNomes.json."""
+    """Busca filmes e séries por gênero, com paginação."""
     genero = request.args.get('genero', '').lower()
     pagina = validar_pagina(request.args.get('pagina', 1))
 
@@ -360,7 +362,6 @@ def buscar_por_genero():
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
 
-    # Log para itens sem gêneros
     for filme in filmes:
         if 'generos' not in filme or not filme['generos']:
             logger.warning(f"Filme sem gêneros: {filme.get('titulo', 'Desconhecido')} (ID: {filme.get('id', 'N/A')})")
@@ -368,7 +369,6 @@ def buscar_por_genero():
         if 'generos' not in serie or not serie['generos']:
             logger.warning(f"Série sem gêneros: {serie.get('titulo', 'Desconhecido')} (ID: {serie.get('id', 'N/A')})")
 
-    # Filtra filmes e séries considerando gêneros como lista ou string
     resultados_filmes = [
         filme for filme in filmes
         if (isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', [])))
@@ -392,7 +392,6 @@ def buscar_por_genero():
             'pagina_atual': pagina
         }), 200
 
-    # Paginação
     inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
     fim = inicio + CONFIG['ITEMS_PER_PAGE']
     resultados_paginados = resultados[inicio:fim]
@@ -429,11 +428,22 @@ def serve_static(path):
     return send_from_directory(app.static_folder, path)
 
 def atualizar_codigos_inicial():
-    """Atualiza códigos de filmes e séries na inicialização."""
+    """Atualiza códigos de filmes e séries na inicialização e pré-carrega filmes populares."""
     with app.app_context():
         codigos_filmes()
         codigos_series()
-        logger.info("Códigos iniciais atualizados")
+        # Pré-carregar filmes populares
+        atualizar_dados(
+            urljoin(CONFIG['BASE_URL'], '/filmes'),
+            JSON_PATHS['filmes_pagina'],
+            'filmes'
+        )
+        atualizar_dados(
+            urljoin(CONFIG['BASE_URL'], '/series'),
+            JSON_PATHS['series_nomes'],
+            'séries'
+        )
+        logger.info("Códigos iniciais e filmes/séries populares atualizados")
 
 if __name__ == '__main__':
     atualizar_codigos_inicial()
