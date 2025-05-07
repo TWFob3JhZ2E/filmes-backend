@@ -1,122 +1,83 @@
 [
     {
-    "titulo": "Striptease",
-    "titulo_original": null,
-    "id": "tt0117765",
-    "capa": "https://m.media-amazon.com/images/M/MV5BZjA4N2FjZDktYzFkMi00YzMzLWIyNTctNzY5OTA3ZTQ0OTVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "4K",
-    "descricao": "Uma stripper e uma mãe solteira são levadas numa situação perigosa depois que um congressista se interessa por ela.",
-    "generos": [
-        "Dark Comedy",
-        "Erotic Thriller"
-    ]
-},
-{
-    "titulo": "A Hora do Espanto 2",
-    "titulo_original": null,
-    "id": "tt2486630",
-    "capa": "https://m.media-amazon.com/images/M/MV5BMjMyMTc5NTQzOV5BMl5BanBnXkFtZTgwMzk2MjgwMDE@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "4K",
-    "descricao": "Na Romênia, Charley e seus amigos descobrem que sua sedutora professora de arte é uma vampira, determinada a completar um antigo ritual.",
-    "generos": [
-        "Vampire Horror",
-        "Action"
-    ]
-},
-{
-    "titulo": "Top Gang! Ases Muito Loucos",
-    "titulo_original": null,
-    "id": "tt0102059",
-    "capa": "https://m.media-amazon.com/images/M/MV5BZjZmNTg3ZjAtN2Q0OS00ZDRiLTkyNWUtMjBjZGJkMWJhOTQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "HD",
-    "descricao": "Uma paródia de Top Gun na qual um piloto de caça talentoso, porém instável, deve derrotar os fantasmas de seu pai e salvar uma missão sabotada pelos fabricantes de armas.",
-    "generos": [
-        "Parody",
-        "Slapstick"
-    ]
-},
-{
-    "titulo": "Top Gang 2! A Missão",
-    "titulo_original": null,
-    "id": "tt0107144",
-    "capa": "https://m.media-amazon.com/images/M/MV5BNGU5ZTUzMmQtZDI3Yy00Y2ZlLTg1MmMtYWZiNDYyYmI4YmE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "HD",
-    "descricao": "Paródia de \"Rambo\" na qual Topper Harley lidera uma equipe de resgate no Iraque para salvar prisioneiros de guerra iraquianos e todas as suas equipes de resgate anteriores.",
-    "generos": [
-        "Parody",
-        "Slapstick"
-    ]
-},
-{
-    "titulo": "Um Diabo Diferente",
-    "titulo_original": null,
-    "id": "tt0185431",
-    "capa": "https://m.media-amazon.com/images/M/MV5BMTY5NGVkMDgtZjIzNS00YjNiLTljZDItMGQzYjRjM2E2Mjk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "4K",
-    "descricao": "Dois dos três filhos do diabo se fugem do inferno para causar danhos na Terra. Satanás envia a seu filho Nicky, para os trazer de volta.",
-    "generos": [
-        "Supernatural Fantasy",
-        "Comedy"
-    ]
-},
-{
-    "titulo": "Um Maluco no Golfe",
-    "titulo_original": null,
-    "id": "tt0116483",
-    "capa": "https://m.media-amazon.com/images/M/MV5BMWVmZTNkNjUtZjBmZS00YTY5LWJlMDQtZWE3NTc5ZDA4NTkyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "4K",
-    "descricao": "Um rejeitado jogador de hóquei usa suas habilidades no campo de golfe para salvar a casa de sua avó.",
-    "generos": [
-        "High-Concept Comedy",
-        "Slapstick"
-    ]
-},
-{
-    "titulo": "O Primeiro Passo",
-    "titulo_original": null,
-    "id": "tt4237208",
-    "capa": "https://m.media-amazon.com/images/M/MV5BYjY1NGMzZWItN2Q1Ni00ZDE5LWJhZGEtZjNmMDhhMDg0ZDY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "HD",
-    "descricao": "Depois de treinar o astro de futebol do ensino médio, Austin, é afastado pelo seu treinador, iniciando uma cadeia de eventos.",
-    "generos": [
-        "Comedy",
-        "Drama"
-    ]
-},
-{
-    "titulo": "O Quebra-Nozes e os Quatro Reinos",
-    "titulo_original": null,
-    "id": "tt5523010",
-    "capa": "https://m.media-amazon.com/images/M/MV5BNWM3ZTBhNmYtMjkyZi00ZWRjLWJlYmMtYzQzNzdkZWI1MTZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "4K",
-    "descricao": "Clara, jovem esperta e independente, perde a única chave mágica capaz de abrir um presente de valor incalculável dado por seu padrinho. Ela decide então iniciar uma jornada de resgate que a leva por quatro reinos fantásticos.",
-    "generos": [
-        "Holiday Family",
-        "Quest"
-    ]
-},
-{
-    "titulo": "O Rei",
-    "titulo_original": null,
-    "id": "tt7984766",
-    "capa": "https://m.media-amazon.com/images/M/MV5BOTFhZTY4YWUtMmJjMy00OTE0LTlmZjctMDg5MTk4N2ZjZWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "4K",
-    "descricao": "Hal, um príncipe rebelde, sobe ao trono inglês após a morte do seu pai, e deve lidar cpm o palácio, o caos e a guerra contra a França.",
-    "generos": [
-        "Historical Epic",
-        "Period Drama"
-    ]
-},
-{
-    "titulo": "O Sexto Sentido",
-    "titulo_original": null,
-    "id": "tt0167404",
-    "capa": "https://m.media-amazon.com/images/M/MV5BMjEzOWVhMGMtYjdmYi00MTk1LWFhNjMtNDYzNjNlOGFmMDQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "qualidade": "4K",
-    "descricao": "Um menino que consegue se comunicar com espíritos encontra ajuda de um psicólogo.",
-    "generos": [
-        "Psychological Drama",
-        "Psychological Thriller"
-    ]
-}
+        "titulo": "O Núcleo: Missão ao Centro da Terra",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8fgCPqrF94rfXw4cSJjexxcGL8l.jpg",
+        "id": "tt0298814",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Desastre no Voo US57",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ycMecYeceyoXrXzQqjyiSHJXQVA.jpg",
+        "id": "tt8239736",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "A Incrível História de Mario Capecchi",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/72wOmD7phuSYvun5NrYA8Js7VDk.jpg",
+        "id": "tt13848274",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "A Rainha dos Meus Sonhos",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/bywcb4cITWSZ3kdTliP78O8lgEE.jpg",
+        "id": "tt21876438",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Fã ou Hater?",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/e9iG3bhtXqS3SH4wR9PJdvBYXAZ.jpg",
+        "id": "tt31227132",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "The Last Stand of Ellen Cole",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/oq1pGVQ2t3Cy4v7sA4LRhNjtZuJ.jpg",
+        "id": "1411773",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Thunderbolts*",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/eKD2p840nsRXLUR25ciVsNMJgOB.jpg",
+        "id": "tt20969586",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Freeway Speedway 6 MAX",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ew5SfSLA5bzzeeKc6YHmxhakB7d.jpg",
+        "id": "108657",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Freeway Speedway 5",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/woHnfeKgBQqxoWLeucwiIOAWO20.jpg",
+        "id": "tt4900382",
+        "descricao": "",
+        "generos": []
+    }
 ]

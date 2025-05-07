@@ -46208,5 +46208,86 @@
             "Família",
             "Comédia"
         ]
+    },
+    {
+        "titulo": "Parks and Recreation",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/5onJu1lfvbKgzJ35b2Qjrt2xjSD.jpg",
+        "id": "8592",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Sekunnit",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ueSS95Be0uDQ55NGEms5K0wUA02.jpg",
+        "id": "251121",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "As Quatro Estações do Ano",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/w09XeYl096pwES8riRMZwEA9rnh.jpg",
+        "id": "243316",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Caso Jean Charles: Um Brasileiro Morto Por Engano",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/wur6FPgqQGbHwQ1zMRfh5vSK9Bw.jpg",
+        "id": "229236",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Até Onde Ela Vai",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/rRRI4oJngp8LKEZ2kkgTxo7Ih0C.jpg",
+        "id": "244033",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "O Eternauta",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/79Fg59KO493PUEsX9RMMldkEYIU.jpg",
+        "id": "226362",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Sob o Cair da Neve",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/34V643cxdRfMlkIiRB5MoiWlimS.jpg",
+        "id": "213086",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Carême - O Rebelde da Culinária",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/4RfFUZqH2jQ6QFl5NQZ0zrk2d3G.jpg",
+        "id": "231001",
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "This City Is Ours",
+        "titulo_original": null,
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/53XOoTGPTVG5EmciGx8e2wpDOk0.jpg",
+        "id": "255570",
+        "descricao": "",
+        "generos": []
     }
 ]

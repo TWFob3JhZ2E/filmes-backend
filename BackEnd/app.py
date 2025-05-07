@@ -82,12 +82,49 @@ def item_existe(lista, item_id):
     """Verifica se um item com o ID existe na lista."""
     return any(item.get('id') == item_id for item in lista)
 
+def extrair_detalhes_item(url_detalhes):
+    """Extrai detalhes adicionais de um filme ou série a partir da página de detalhes."""
+    try:
+        headers = {'User-Agent': CONFIG['USER_AGENT']}
+        response = requests.get(url_detalhes, headers=headers, timeout=5)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+
+        # Extrair título original (ajustar seletor conforme o site)
+        titulo_original_elem = soup.find('span', class_='original-title') or soup.find('h2', class_='original-title')
+        titulo_original = titulo_original_elem.get_text(strip=True) if titulo_original_elem else None
+
+        # Extrair descrição (ajustar seletor conforme o site)
+        descricao_elem = soup.find('div', class_='description') or soup.find('p', class_='synopsis')
+        descricao = descricao_elem.get_text(strip=True) if descricao_elem else ""
+
+        # Extrair gêneros (ajustar seletor conforme o site)
+        generos_elem = soup.find('div', class_='genres') or soup.find('ul', class_='genres-list')
+        generos = []
+        if generos_elem:
+            generos = [g.get_text(strip=True) for g in generos_elem.find_all(['span', 'li'])]
+        generos = generos if generos else []
+
+        return {
+            'titulo_original': titulo_original,
+            'descricao': descricao,
+            'generos': generos
+        }
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Erro ao extrair detalhes de {url_detalhes}: {e}")
+        return {
+            'titulo_original': None,
+            'descricao': "",
+            'generos': []
+        }
+
 def atualizar_dados(url, cache_path, tipo='filmes'):
-    """Função genérica para atualizar filmes ou séries via scraping."""
+    """Função genérica para atualizar filmes ou séries via scraping, incluindo detalhes completos."""
     cache = carregar_dados_json(cache_path)
     try:
         headers = {'User-Agent': CONFIG['USER_AGENT']}
-        response = requests.get(url, headers=headers, timeout=5)  # Timeout de 5 segundos
+        response = requests.get(url, headers=headers, timeout=5)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -107,13 +144,19 @@ def atualizar_dados(url, cache_path, tipo='filmes'):
                 qualidade = qualidade.get_text(strip=True)
                 imagem = urljoin(CONFIG['BASE_URL'], imagem['src'])
                 item_id = link['href'].split('/')[-1]
+                url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
 
                 if not item_existe(cache, item_id):
+                    # Extrair detalhes adicionais
+                    detalhes = extrair_detalhes_item(url_detalhes)
                     novos_itens.append({
                         'titulo': titulo,
+                        'titulo_original': detalhes['titulo_original'],
                         'qualidade': qualidade,
                         'capa': imagem,
-                        'id': item_id
+                        'id': item_id,
+                        'descricao': detalhes['descricao'],
+                        'generos': detalhes['generos']
                     })
             except (AttributeError, KeyError) as e:
                 logger.warning(f"Erro ao processar item em {url}: {e}")
