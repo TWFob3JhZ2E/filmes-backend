@@ -1,7 +1,10 @@
 import os
 import json
 import logging
+import asyncio
+import aiohttp
 import requests
+from aiohttp_client_rate_limiter import RateLimiter, RateLimitConfig
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
@@ -33,7 +36,9 @@ CONFIG = {
     'JSON_INDENT': 4,
     'BASE_DIR': os.path.abspath(os.path.join(os.path.dirname(__file__), '..')),
     'TEMP_DIR': 'temp',
-    'FILMES_ENCONTRADOS_DIR': 'Filmes_Encontrados'
+    'FILMES_ENCONTRADOS_DIR': 'Filmes_Encontrados',
+    'RATE_LIMIT_REQUESTS': 5,  # Máximo de 5 requisições por segundo
+    'RATE_LIMIT_PERIOD': 1.0  # Período de 1 segundo
 }
 
 # Caminhos para diretórios
@@ -82,24 +87,25 @@ def item_existe(lista, item_id):
     """Verifica se um item com o ID existe na lista."""
     return any(item.get('id') == item_id for item in lista)
 
-def extrair_detalhes_item(url_detalhes):
-    """Extrai detalhes adicionais de um filme ou série a partir da página de detalhes."""
+async def extrair_detalhes_item(session, url_detalhes):
+    """Extrai detalhes adicionais de um filme ou série a partir da página de detalhes (assíncrono)."""
     try:
         headers = {'User-Agent': CONFIG['USER_AGENT']}
-        response = requests.get(url_detalhes, headers=headers, timeout=5)
-        response.raise_for_status()
+        async with session.get(url_detalhes, headers=headers) as response:
+            response.raise_for_status()
+            content = await response.text()
 
-        soup = BeautifulSoup(response.content, 'html.parser')
+        soup = BeautifulSoup(content, 'html.parser')
 
-        # Extrair título original (ajustar seletor conforme o site)
+        # Extrair título original
         titulo_original_elem = soup.find('span', class_='original-title') or soup.find('h2', class_='original-title')
         titulo_original = titulo_original_elem.get_text(strip=True) if titulo_original_elem else None
 
-        # Extrair descrição (ajustar seletor conforme o site)
+        # Extrair descrição
         descricao_elem = soup.find('div', class_='description') or soup.find('p', class_='synopsis')
         descricao = descricao_elem.get_text(strip=True) if descricao_elem else ""
 
-        # Extrair gêneros (ajustar seletor conforme o site)
+        # Extrair gêneros
         generos_elem = soup.find('div', class_='genres') or soup.find('ul', class_='genres-list')
         generos = []
         if generos_elem:
@@ -111,7 +117,7 @@ def extrair_detalhes_item(url_detalhes):
             'descricao': descricao,
             'generos': generos
         }
-    except requests.exceptions.RequestException as e:
+    except aiohttp.ClientError as e:
         logger.error(f"Erro ao extrair detalhes de {url_detalhes}: {e}")
         return {
             'titulo_original': None,
@@ -119,60 +125,83 @@ def extrair_detalhes_item(url_detalhes):
             'generos': []
         }
 
-def atualizar_dados(url, cache_path, tipo='filmes'):
-    """Função genérica para atualizar filmes ou séries via scraping, incluindo detalhes completos."""
+async def atualizar_dados(url, cache_path, tipo='filmes'):
+    """Função genérica para atualizar filmes ou séries via scraping assíncrono."""
     cache = carregar_dados_json(cache_path)
     try:
-        headers = {'User-Agent': CONFIG['USER_AGENT']}
-        response = requests.get(url, headers=headers, timeout=5)
-        response.raise_for_status()
+        # Configurar rate limiting
+        rate_limit_config = RateLimitConfig(
+            max_requests=CONFIG['RATE_LIMIT_REQUESTS'],
+            period=CONFIG['RATE_LIMIT_PERIOD']
+        )
+        async with aiohttp.ClientSession() as session:
+            session = RateLimiter(session, rate_limit_config)
+            headers = {'User-Agent': CONFIG['USER_AGENT']}
+            async with session.get(url, headers=headers) as response:
+                response.raise_for_status()
+                content = await response.text()
 
-        soup = BeautifulSoup(response.content, 'html.parser')
-        novos_itens = []
+            soup = BeautifulSoup(content, 'html.parser')
+            novos_itens = []
+            detalhes_tasks = []
 
-        for poster in soup.find_all('div', class_='poster'):
-            try:
-                titulo = poster.find('span', class_='title')
-                qualidade = poster.find('span', class_='year')
-                imagem = poster.find('img')
-                link = poster.find('a', class_='btn')
+            for poster in soup.find_all('div', class_='poster'):
+                try:
+                    titulo = poster.find('span', class_='title')
+                    qualidade = poster.find('span', class_='year')
+                    imagem = poster.find('img')
+                    link = poster.find('a', class_='btn')
 
-                if not all([titulo, qualidade, imagem, link]):
+                    if not all([titulo, qualidade, imagem, link]):
+                        continue
+
+                    titulo = titulo.get_text(strip=True)
+                    qualidade = qualidade.get_text(strip=True)
+                    imagem = urljoin(CONFIG['BASE_URL'], imagem['src'])
+                    item_id = link['href'].split('/')[-1]
+                    url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
+
+                    if not item_existe(cache, item_id):
+                        # Agendar a extração de detalhes
+                        detalhes_tasks.append(extrair_detalhes_item(session, url_detalhes))
+                        novos_itens.append({
+                            'titulo': titulo,
+                            'qualidade': qualidade,
+                            'capa': imagem,
+                            'id': item_id
+                        })
+                except (AttributeError, KeyError) as e:
+                    logger.warning(f"Erro ao processar item em {url}: {e}")
                     continue
 
-                titulo = titulo.get_text(strip=True)
-                qualidade = qualidade.get_text(strip=True)
-                imagem = urljoin(CONFIG['BASE_URL'], imagem['src'])
-                item_id = link['href'].split('/')[-1]
-                url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
+            if novos_itens:
+                # Executar todas as tarefas de detalhes em paralelo
+                detalhes_results = await asyncio.gather(*detalhes_tasks, return_exceptions=True)
+                for i, detalhes in enumerate(detalhes_results):
+                    if isinstance(detalhes, dict):
+                        novos_itens[i].update({
+                            'titulo_original': detalhes['titulo_original'],
+                            'descricao': detalhes['descricao'],
+                            'generos': detalhes['generos']
+                        })
 
-                if not item_existe(cache, item_id):
-                    # Extrair detalhes adicionais
-                    detalhes = extrair_detalhes_item(url_detalhes)
-                    novos_itens.append({
-                        'titulo': titulo,
-                        'titulo_original': detalhes['titulo_original'],
-                        'qualidade': qualidade,
-                        'capa': imagem,
-                        'id': item_id,
-                        'descricao': detalhes['descricao'],
-                        'generos': detalhes['generos']
-                    })
-            except (AttributeError, KeyError) as e:
-                logger.warning(f"Erro ao processar item em {url}: {e}")
-                continue
+                cache.extend(novos_itens)
+                salvar_dados_json(cache_path, cache)
+                logger.info(f"{len(novos_itens)} novos {tipo} adicionados ao cache")
+            else:
+                logger.info(f"Nenhum novo {tipo} encontrado")
 
-        if novos_itens:
-            cache.extend(novos_itens)
-            salvar_dados_json(cache_path, cache)
-            logger.info(f"{len(novos_itens)} novos {tipo} adicionados ao cache")
-        else:
-            logger.info(f"Nenhum novo {tipo} encontrado")
-
-    except requests.exceptions.Timeout:
-        logger.error(f"Timeout ao atualizar {tipo} de {url}")
-    except requests.exceptions.RequestException as e:
+    except aiohttp.ClientError as e:
         logger.error(f"Erro ao atualizar {tipo} de {url}: {e}")
+
+def run_async_in_thread(coro):
+    """Executa uma corrotina assíncrona em uma thread."""
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    try:
+        loop.run_until_complete(coro)
+    finally:
+        loop.close()
 
 def validar_id(item_id):
     """Valida se o ID é alfanumérico e não vazio."""
@@ -282,8 +311,8 @@ def filmes_novos():
     cache = carregar_dados_json(JSON_PATHS['filmes_novos'])
 
     thread = Thread(
-        target=atualizar_dados,
-        args=(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_novos'], 'filmes')
+        target=run_async_in_thread,
+        args=(atualizar_dados(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_novos'], 'filmes'),)
     )
     thread.start()
 
@@ -326,8 +355,8 @@ def filmes_pagina_atualizar():
     cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
     thread = Thread(
-        target=atualizar_dados,
-        args=(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_pagina'], 'filmes')
+        target=run_async_in_thread,
+        args=(atualizar_dados(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_pagina'], 'filmes'),)
     )
     thread.start()
 
@@ -364,8 +393,8 @@ def series():
     cache = carregar_dados_json(JSON_PATHS['series'])
 
     thread = Thread(
-        target=atualizar_dados,
-        args=(urljoin(CONFIG['BASE_URL'], '/series'), JSON_PATHS['series'], 'séries')
+        target=run_async_in_thread,
+        args=(atualizar_dados(urljoin(CONFIG['BASE_URL'], '/series'), JSON_PATHS['series'], 'séries'),)
     )
     thread.start()
 
@@ -476,15 +505,19 @@ def atualizar_codigos_inicial():
         codigos_filmes()
         codigos_series()
         # Pré-carregar filmes populares
-        atualizar_dados(
-            urljoin(CONFIG['BASE_URL'], '/filmes'),
-            JSON_PATHS['filmes_pagina'],
-            'filmes'
+        run_async_in_thread(
+            atualizar_dados(
+                urljoin(CONFIG['BASE_URL'], '/filmes'),
+                JSON_PATHS['filmes_pagina'],
+                'filmes'
+            )
         )
-        atualizar_dados(
-            urljoin(CONFIG['BASE_URL'], '/series'),
-            JSON_PATHS['series_nomes'],
-            'séries'
+        run_async_in_thread(
+            atualizar_dados(
+                urljoin(CONFIG['BASE_URL'], '/series'),
+                JSON_PATHS['series_nomes'],
+                'séries'
+            )
         )
         logger.info("Códigos iniciais e filmes/séries populares atualizados")
 
