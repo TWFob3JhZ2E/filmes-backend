@@ -5,8 +5,9 @@ import asyncio
 import aiohttp
 import requests
 from bs4 import BeautifulSoup
-from flask import Flask, jsonify, request, send_from_directory, redirect
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
+from flask_jwt_extended import JWTManager, jwt_required, create_access_token
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from threading import Lock
@@ -26,7 +27,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
-CORS(app, resources={r"/*": {"origins": ["https://seu-frontend.com", "http://localhost:3000"]}})
+CORS(app, resources={r"/*": {"origins": ["https://filmes-frontend.vercel.app", "http://localhost:3000"]}})
+app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY')
+if not app.config['JWT_SECRET_KEY']:
+    raise ValueError("JWT_SECRET_KEY não está configurada no ambiente")
+jwt = JWTManager(app)
 limiter = Limiter(
     app,
     key_func=get_remote_address,
@@ -71,6 +76,24 @@ JSON_PATHS = {
     'code_filmes': os.path.join(TEMP_DIR, 'CodeFilmes.json'),
     'code_series': os.path.join(TEMP_DIR, 'CodeSeries.json')
 }
+
+@app.before_request
+def block_suspicious_user_agents():
+    """Bloqueia requisições de User-Agents suspeitos."""
+    user_agent = request.headers.get('User-Agent', '').lower()
+    blocked_agents = ['python-requests', 'curl', 'bot', 'spider', 'scanner', 'googlebot', 'bingbot']
+    if any(agent in user_agent for agent in blocked_agents):
+        logger.warning(f"Requisição bloqueada de User-Agent: {user_agent}")
+        return jsonify({"erro": "Acesso não autorizado"}), 403
+
+@app.errorhandler(404)
+def not_found(error):
+    return jsonify({"erro": "Recurso não disponível"}), 404
+
+@app.errorhandler(500)
+def server_error(error):
+    logger.error(f"Erro interno: {str(error)}")
+    return jsonify({"erro": "Erro interno do servidor"}), 500
 
 def carregar_dados_json(caminho):
     """Carrega dados de um arquivo JSON com sincronização."""
@@ -162,9 +185,9 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
 
                     titulo = clean(titulo.get_text(strip=True), tags=[], strip=True)
                     qualidade = clean(qualidade.get_text(strip=True), tags=[], strip=True)
-                    imagem = urljoin(CONFIG['BASE_URL'], imagem['src'])
-                    item_id = link['href'].split('/')[-1]
-                    url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
+                    imagem = urljoin(CONFIG['BASE_URL'], clean(imagem['src'], tags=[], strip=True))
+                    item_id = clean(link['href'].split('/')[-1], tags=[], strip=True)
+                    url_detalhes = urljoin(CONFIG['BASE_URL'], clean(link['href'], tags=[], strip=True))
 
                     if not item_existe(cache, item_id):
                         detalhes_tasks.append(extrair_detalhes_item(session, url_detalhes, semaphore))
@@ -217,34 +240,37 @@ def validar_pagina(pagina):
     except (ValueError, TypeError):
         return 1
 
-@app.before_request
-def force_https():
-    """Força HTTPS em produção."""
-    if not request.is_secure and os.getenv('FLASK_ENV') == 'production':
-        return redirect(request.url.replace('http://', 'https://'), code=301)
-
-@app.after_request
-def add_security_headers(response):
-    """Adiciona cabeçalhos de segurança."""
-    response.headers['Content-Security-Policy'] = "default-src 'self'"
-    response.headers['X-Content-Type-Options'] = 'nosniff'
-    response.headers['X-Frame-Options'] = 'DENY'
-    response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
-    return response
+@app.route('/login', methods=['POST'])
+def login():
+    """Gera um token JWT para autenticação."""
+    if not request.is_json:
+        return jsonify({"erro": "JSON requerido"}), 400
+    username = request.json.get('username')
+    password = request.json.get('password')
+    admin_username = os.getenv('ADMIN_USERNAME', 'admin')
+    admin_password = os.getenv('ADMIN_PASSWORD')
+    if not admin_password:
+        raise ValueError("ADMIN_PASSWORD não está configurada no ambiente")
+    if username == admin_username and password == admin_password:
+        return jsonify({"access_token": create_access_token(identity=username)})
+    return jsonify({"erro": "Credenciais inválidas"}), 401
 
 @app.route('/')
+@jwt_required()
+@limiter.limit("10 per minute")
 def home():
     """Endpoint inicial da API."""
     return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
+@jwt_required()
 @limiter.limit("10 per minute")
 def filme_detalhes():
     """Retorna detalhes de um filme pelo ID."""
     filme_id = clean(request.args.get('id', ''), tags=[], strip=True)
     if not validar_id(filme_id):
         logger.warning(f"ID de filme inválido: {filme_id}")
-        return jsonify({'erro': 'ID inválido'}), 400
+        return jsonify({'erro': 'Recurso não disponível'}), 400
 
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     for filme in filmes:
@@ -252,16 +278,17 @@ def filme_detalhes():
             return jsonify(filme)
 
     logger.info(f"Filme com ID {filme_id} não encontrado")
-    return jsonify({'erro': 'Filme não encontrado'}), 404
+    return jsonify({'erro': 'Recurso não disponível'}), 404
 
 @app.route('/serie/detalhes')
+@jwt_required()
 @limiter.limit("10 per minute")
 def serie_detalhes():
     """Retorna detalhes de uma série pelo ID."""
     serie_id = clean(request.args.get('id', ''), tags=[], strip=True)
     if not validar_id(serie_id):
         logger.warning(f"ID de série inválido: {serie_id}")
-        return jsonify({'erro': 'ID inválido'}), 400
+        return jsonify({'erro': 'Recurso não disponível'}), 400
 
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
     for serie in series:
@@ -269,9 +296,10 @@ def serie_detalhes():
             return jsonify(serie)
 
     logger.info(f"Série com ID {serie_id} não encontrada")
-    return jsonify({'erro': 'Série não encontrada'}), 404
+    return jsonify({'erro': 'Recurso não disponível'}), 404
 
 @app.route('/codigos/series')
+@jwt_required()
 @limiter.limit("5 per minute")
 def codigos_series():
     """Retorna códigos de séries, com cache."""
@@ -296,9 +324,10 @@ def codigos_series():
 
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao carregar códigos de séries: {e}")
-        return jsonify({'error': 'Erro ao carregar códigos de séries'}), 500
+        return jsonify({'erro': 'Erro interno do servidor'}), 500
 
 @app.route('/codigos/filmes')
+@jwt_required()
 @limiter.limit("5 per minute")
 def codigos_filmes():
     """Retorna códigos de filmes, com cache."""
@@ -315,7 +344,7 @@ def codigos_filmes():
         soup = BeautifulSoup(response.content, 'html.parser')
         dados = soup.get_text()
         import re
-        codigos = [clean(codigo, tags=[], strip=True) for codigo in re.findall(r'tt\d+', dados)]
+        codigos = [clean(cod, tags=[], strip=True) for cod in re.findall(r'tt\d+', dados)]
 
         cache = {"codigos": codigos}
         salvar_dados_json(JSON_PATHS['code_filmes'], cache)
@@ -324,9 +353,10 @@ def codigos_filmes():
 
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao carregar códigos de filmes: {e}")
-        return jsonify({'error': 'Erro ao carregar códigos de filmes'}), 500
+        return jsonify({'erro': 'Erro interno do servidor'}), 500
 
 @app.route('/filmes/novos')
+@jwt_required()
 @limiter.limit("5 per minute")
 def filmes_novos():
     """Retorna novos filmes, com atualização em segundo plano."""
@@ -345,6 +375,7 @@ def filmes_novos():
     return jsonify(cache)
 
 @app.route('/filmes/home')
+@jwt_required()
 @limiter.limit("10 per minute")
 def filmes_home():
     """Retorna filmes da página inicial."""
@@ -352,6 +383,7 @@ def filmes_home():
     return jsonify(cache)
 
 @app.route('/filmes/pagina')
+@jwt_required()
 @limiter.limit("10 per minute")
 def filmes_pagina():
     """Retorna filmes paginados com metadados."""
@@ -373,6 +405,7 @@ def filmes_pagina():
     })
 
 @app.route('/filmes/pagina/atualizar')
+@jwt_required()
 @limiter.limit("5 per minute")
 def filmes_pagina_atualizar():
     """Atualiza a lista de filmes em segundo plano."""
@@ -391,6 +424,7 @@ def filmes_pagina_atualizar():
     return jsonify(cache)
 
 @app.route('/series/pagina')
+@jwt_required()
 @limiter.limit("10 per minute")
 def series_pagina():
     """Retorna séries paginadas com metadados."""
@@ -412,6 +446,7 @@ def series_pagina():
     })
 
 @app.route('/series')
+@jwt_required()
 @limiter.limit("5 per minute")
 def series():
     """Retorna séries, com atualização em segundo plano."""
@@ -430,13 +465,14 @@ def series():
     return jsonify(cache)
 
 @app.route('/buscar')
+@jwt_required()
 @limiter.limit("10 per minute")
 def buscar_nomes():
     """Busca filmes e séries por termo."""
     termo = clean(request.args.get('q', '').lower(), tags=[], strip=True)
     if not termo or len(termo) < 2:
         logger.warning(f"Termo de busca inválido: {termo}")
-        return jsonify({'erro': 'Termo de busca inválido ou muito curto'}), 400
+        return jsonify({'erro': 'Recurso não disponível'}), 400
 
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
@@ -448,6 +484,7 @@ def buscar_nomes():
     return jsonify(resultados[:10])
 
 @app.route('/buscar_por_genero')
+@jwt_required()
 @limiter.limit("10 per minute")
 def buscar_por_genero():
     """Busca filmes e séries por gênero, com paginação."""
@@ -456,7 +493,7 @@ def buscar_por_genero():
 
     if not genero:
         logger.warning("Gênero não fornecido")
-        return jsonify({'erro': 'Gênero não fornecido'}), 400
+        return jsonify({'erro': 'Recurso não disponível'}), 400
 
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
@@ -482,7 +519,7 @@ def buscar_por_genero():
     if not resultados:
         logger.info(f"Nenhum filme ou série encontrado para o gênero: {genero}")
         return jsonify({
-            'mensagem': f'Nenhum resultado para o gênero {genero}',
+            'mensagem': 'Recurso não disponível',
             'resultados': [],
             'total': 0,
             'total_paginas': 0,
@@ -504,6 +541,7 @@ def buscar_por_genero():
     })
 
 @app.route('/buscar_generos')
+@jwt_required()
 @limiter.limit("10 per minute")
 def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
