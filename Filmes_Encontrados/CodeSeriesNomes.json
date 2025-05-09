@@ -46289,5 +46289,32 @@
         "id": "255570",
         "descricao": "",
         "generos": []
+    },
+    {
+        "titulo": "Realeza",
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/9m8s1YXtkyioGl1jOxey9PCLDAD.jpg",
+        "id": "261545",
+        "titulo_original": null,
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "On My Block",
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/w6oviv65UEducvjAdH3sYYaxdu2.jpg",
+        "id": "76747",
+        "titulo_original": null,
+        "descricao": "",
+        "generos": []
+    },
+    {
+        "titulo": "Para Sempre",
+        "qualidade": "HD",
+        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/98UiKiaQV5paB1EpZa3XDUxmGki.jpg",
+        "id": "248394",
+        "titulo_original": null,
+        "descricao": "",
+        "generos": []
     }
 ]
