@@ -10,10 +10,8 @@ from flask_cors import CORS
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-from threading import Lock
-from concurrent.futures import ThreadPoolExecutor
+from threading import Thread, Lock
 from urllib.parse import urljoin
-from bleach import clean
 
 # Configuração de logging
 logging.basicConfig(
@@ -28,22 +26,17 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
 CORS(app, resources={r"/*": {"origins": ["https://filmes-frontend.vercel.app", "http://localhost:3000"]}})
-app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY')
-if not app.config['JWT_SECRET_KEY']:
-    raise ValueError("JWT_SECRET_KEY não está configurada no ambiente")
+app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY', 'Xj9kL2mPqRtYvWzBHSJKDHAKJSDcNfHsD2343hhhHSKAStM4U.')
 jwt = JWTManager(app)
 limiter = Limiter(
     app,
     key_func=get_remote_address,
     default_limits=["200 per day", "50 per hour"],
-    storage_uri=os.getenv('REDIS_URL', 'memory://')
+    storage_uri=os.getenv('redis://red-d0f3prs9c44c73cav8ag:6379', 'memory://')
 )
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
-
-# Pool de threads
-thread_pool = ThreadPoolExecutor(max_workers=4)
 
 # Configurações centralizadas
 CONFIG = {
@@ -134,13 +127,16 @@ async def extrair_detalhes_item(session, url_detalhes, semaphore):
             soup = BeautifulSoup(content, 'html.parser')
 
             titulo_original_elem = soup.find('span', class_='original-title') or soup.find('h2', class_='original-title')
-            titulo_original = clean(titulo_original_elem.get_text(strip=True), tags=[], strip=True) if titulo_original_elem else None
+            titulo_original = titulo_original_elem.get_text(strip=True) if titulo_original_elem else None
 
             descricao_elem = soup.find('div', class_='description') or soup.find('p', class_='synopsis')
-            descricao = clean(descricao_elem.get_text(strip=True), tags=[], strip=True) if descricao_elem else ""
+            descricao = descricao_elem.get_text(strip=True) if descricao_elem else ""
 
             generos_elem = soup.find('div', class_='genres') or soup.find('ul', class_='genres-list')
-            generos = [clean(g.get_text(strip=True), tags=[], strip=True) for g in generos_elem.find_all(['span', 'li'])] if generos_elem else []
+            generos = []
+            if generos_elem:
+                generos = [g.get_text(strip=True) for g in generos_elem.find_all(['span', 'li'])]
+            generos = generos if generos else []
 
             await asyncio.sleep(CONFIG['RATE_LIMIT_PERIOD'] / CONFIG['RATE_LIMIT_REQUESTS'])
 
@@ -183,11 +179,11 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
                     if not all([titulo, qualidade, imagem, link]):
                         continue
 
-                    titulo = clean(titulo.get_text(strip=True), tags=[], strip=True)
-                    qualidade = clean(qualidade.get_text(strip=True), tags=[], strip=True)
-                    imagem = urljoin(CONFIG['BASE_URL'], clean(imagem['src'], tags=[], strip=True))
-                    item_id = clean(link['href'].split('/')[-1], tags=[], strip=True)
-                    url_detalhes = urljoin(CONFIG['BASE_URL'], clean(link['href'], tags=[], strip=True))
+                    titulo = titulo.get_text(strip=True)
+                    qualidade = qualidade.get_text(strip=True)
+                    imagem = urljoin(CONFIG['BASE_URL'], imagem['src'])
+                    item_id = link['href'].split('/')[-1]
+                    url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
 
                     if not item_existe(cache, item_id):
                         detalhes_tasks.append(extrair_detalhes_item(session, url_detalhes, semaphore))
@@ -247,11 +243,7 @@ def login():
         return jsonify({"erro": "JSON requerido"}), 400
     username = request.json.get('username')
     password = request.json.get('password')
-    admin_username = os.getenv('ADMIN_USERNAME', 'admin')
-    admin_password = os.getenv('ADMIN_PASSWORD')
-    if not admin_password:
-        raise ValueError("ADMIN_PASSWORD não está configurada no ambiente")
-    if username == admin_username and password == admin_password:
+    if username == 'admin' and password == 'sua-senha-secreta':
         return jsonify({"access_token": create_access_token(identity=username)})
     return jsonify({"erro": "Credenciais inválidas"}), 401
 
@@ -267,7 +259,7 @@ def home():
 @limiter.limit("10 per minute")
 def filme_detalhes():
     """Retorna detalhes de um filme pelo ID."""
-    filme_id = clean(request.args.get('id', ''), tags=[], strip=True)
+    filme_id = request.args.get('id')
     if not validar_id(filme_id):
         logger.warning(f"ID de filme inválido: {filme_id}")
         return jsonify({'erro': 'Recurso não disponível'}), 400
@@ -285,7 +277,7 @@ def filme_detalhes():
 @limiter.limit("10 per minute")
 def serie_detalhes():
     """Retorna detalhes de uma série pelo ID."""
-    serie_id = clean(request.args.get('id', ''), tags=[], strip=True)
+    serie_id = request.args.get('id')
     if not validar_id(serie_id):
         logger.warning(f"ID de série inválido: {serie_id}")
         return jsonify({'erro': 'Recurso não disponível'}), 400
@@ -315,7 +307,7 @@ def codigos_series():
 
         soup = BeautifulSoup(response.content, 'html.parser')
         raw_codigos = soup.decode_contents().split('<br/>')
-        codigos = [clean(codigo.strip(), tags=[], strip=True) for codigo in raw_codigos if codigo.strip().isdigit()]
+        codigos = [codigo.strip() for codigo in raw_codigos if codigo.strip().isdigit()]
 
         cache = {"codigos": codigos}
         salvar_dados_json(JSON_PATHS['code_series'], cache)
@@ -344,7 +336,7 @@ def codigos_filmes():
         soup = BeautifulSoup(response.content, 'html.parser')
         dados = soup.get_text()
         import re
-        codigos = [clean(cod, tags=[], strip=True) for cod in re.findall(r'tt\d+', dados)]
+        codigos = re.findall(r'tt\d+', dados)
 
         cache = {"codigos": codigos}
         salvar_dados_json(JSON_PATHS['code_filmes'], cache)
@@ -363,13 +355,14 @@ def filmes_novos():
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['filmes_novos'])
 
-    thread_pool.submit(
-        run_async_in_thread,
-        atualizar_dados(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_novos'], 'filmes')
+    thread = Thread(
+        target=run_async_in_thread,
+        args=(atualizar_dados(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_novos'], 'filmes'),)
     )
+    thread.start()
 
     if wait:
-        thread_pool._threads[-1].result(timeout=30)
+        thread.join()
         cache = carregar_dados_json(JSON_PATHS['filmes_novos'])
 
     return jsonify(cache)
@@ -412,13 +405,14 @@ def filmes_pagina_atualizar():
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
-    thread_pool.submit(
-        run_async_in_thread,
-        atualizar_dados(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_pagina'], 'filmes')
+    thread = Thread(
+        target=run_async_in_thread,
+        args=(atualizar_dados(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_pagina'], 'filmes'),)
     )
+    thread.start()
 
     if wait:
-        thread_pool._threads[-1].result(timeout=30)
+        thread.join()
         cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
     return jsonify(cache)
@@ -453,13 +447,14 @@ def series():
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['series'])
 
-    thread_pool.submit(
-        run_async_in_thread,
-        atualizar_dados(urljoin(CONFIG['BASE_URL'], '/series'), JSON_PATHS['series'], 'séries')
+    thread = Thread(
+        target=run_async_in_thread,
+        args=(atualizar_dados(urljoin(CONFIG['BASE_URL'], '/series'), JSON_PATHS['series'], 'séries'),)
     )
+    thread.start()
 
     if wait:
-        thread_pool._threads[-1].result(timeout=30)
+        thread.join()
         cache = carregar_dados_json(JSON_PATHS['series'])
 
     return jsonify(cache)
@@ -469,7 +464,7 @@ def series():
 @limiter.limit("10 per minute")
 def buscar_nomes():
     """Busca filmes e séries por termo."""
-    termo = clean(request.args.get('q', '').lower(), tags=[], strip=True)
+    termo = request.args.get('q', '').lower()
     if not termo or len(termo) < 2:
         logger.warning(f"Termo de busca inválido: {termo}")
         return jsonify({'erro': 'Recurso não disponível'}), 400
@@ -488,7 +483,7 @@ def buscar_nomes():
 @limiter.limit("10 per minute")
 def buscar_por_genero():
     """Busca filmes e séries por gênero, com paginação."""
-    genero = clean(request.args.get('genero', '').lower(), tags=[], strip=True)
+    genero = request.args.get('genero', '').lower()
     pagina = validar_pagina(request.args.get('pagina', 1))
 
     if not genero:
@@ -545,7 +540,7 @@ def buscar_por_genero():
 @limiter.limit("10 per minute")
 def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
-    termo = clean(request.args.get('q', '').lower(), tags=[], strip=True)
+    termo = request.args.get('q', '').lower()
     generos = [
         "Action", "Animation", "Adventure", "Comedy", "Crime", "Drama", "Family",
         "Fantasy", "Western", "Science", "war", "History",
@@ -569,13 +564,19 @@ def atualizar_codigos_inicial():
     with app.app_context():
         codigos_filmes()
         codigos_series()
-        thread_pool.submit(
-            run_async_in_thread,
-            atualizar_dados(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_pagina'], 'filmes')
+        run_async_in_thread(
+            atualizar_dados(
+                urljoin(CONFIG['BASE_URL'], '/filmes'),
+                JSON_PATHS['filmes_pagina'],
+                'filmes'
+            )
         )
-        thread_pool.submit(
-            run_async_in_thread,
-            atualizar_dados(urljoin(CONFIG['BASE_URL'], '/series'), JSON_PATHS['series_nomes'], 'séries')
+        run_async_in_thread(
+            atualizar_dados(
+                urljoin(CONFIG['BASE_URL'], '/series'),
+                JSON_PATHS['series_nomes'],
+                'séries'
+            )
         )
         logger.info("Códigos iniciais e filmes/séries populares atualizados")
 
