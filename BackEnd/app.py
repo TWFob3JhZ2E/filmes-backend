@@ -22,7 +22,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
-CORS(app, resources={r"/*": {"origins": "*"}})
+
+CORS(app, resources={r"/*": {
+    "origins": "https://filmes-frontend.vercel.app",
+    "methods": ["GET", "POST", "OPTIONS"],
+    "allow_headers": ["Content-Type", "Authorization"]
+}})
+
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
