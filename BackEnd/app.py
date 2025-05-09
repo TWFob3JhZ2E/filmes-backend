@@ -4,7 +4,6 @@ import logging
 import asyncio
 import aiohttp
 import requests
-from aiohttp_client_rate_limiter import RateLimiter, RateLimitConfig
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
@@ -87,55 +86,53 @@ def item_existe(lista, item_id):
     """Verifica se um item com o ID existe na lista."""
     return any(item.get('id') == item_id for item in lista)
 
-async def extrair_detalhes_item(session, url_detalhes):
+async def extrair_detalhes_item(session, url_detalhes, semaphore):
     """Extrai detalhes adicionais de um filme ou série a partir da página de detalhes (assíncrono)."""
-    try:
-        headers = {'User-Agent': CONFIG['USER_AGENT']}
-        async with session.get(url_detalhes, headers=headers) as response:
-            response.raise_for_status()
-            content = await response.text()
+    async with semaphore:
+        try:
+            headers = {'User-Agent': CONFIG['USER_AGENT']}
+            async with session.get(url_detalhes, headers=headers) as response:
+                response.raise_for_status()
+                content = await response.text()
 
-        soup = BeautifulSoup(content, 'html.parser')
+            soup = BeautifulSoup(content, 'html.parser')
 
-        # Extrair título original
-        titulo_original_elem = soup.find('span', class_='original-title') or soup.find('h2', class_='original-title')
-        titulo_original = titulo_original_elem.get_text(strip=True) if titulo_original_elem else None
+            # Extrair título original
+            titulo_original_elem = soup.find('span', class_='original-title') or soup.find('h2', class_='original-title')
+            titulo_original = titulo_original_elem.get_text(strip=True) if titulo_original_elem else None
 
-        # Extrair descrição
-        descricao_elem = soup.find('div', class_='description') or soup.find('p', class_='synopsis')
-        descricao = descricao_elem.get_text(strip=True) if descricao_elem else ""
+            # Extrair descrição
+            descricao_elem = soup.find('div', class_='description') or soup.find('p', class_='synopsis')
+            descricao = descricao_elem.get_text(strip=True) if descricao_elem else ""
 
-        # Extrair gêneros
-        generos_elem = soup.find('div', class_='genres') or soup.find('ul', class_='genres-list')
-        generos = []
-        if generos_elem:
-            generos = [g.get_text(strip=True) for g in generos_elem.find_all(['span', 'li'])]
-        generos = generos if generos else []
+            # Extrair gêneros
+            generos_elem = soup.find('div', class_='genres') or soup.find('ul', class_='genres-list')
+            generos = []
+            if generos_elem:
+                generos = [g.get_text(strip=True) for g in generos_elem.find_all(['span', 'li'])]
+            generos = generos if generos else []
 
-        return {
-            'titulo_original': titulo_original,
-            'descricao': descricao,
-            'generos': generos
-        }
-    except aiohttp.ClientError as e:
-        logger.error(f"Erro ao extrair detalhes de {url_detalhes}: {e}")
-        return {
-            'titulo_original': None,
-            'descricao': "",
-            'generos': []
-        }
+            # Atraso para respeitar o rate limit
+            await asyncio.sleep(CONFIG['RATE_LIMIT_PERIOD'] / CONFIG['RATE_LIMIT_REQUESTS'])
+
+            return {
+                'titulo_original': titulo_original,
+                'descricao': descricao,
+                'generos': generos
+            }
+        except aiohttp.ClientError as e:
+            logger.error(f"Erro ao extrair detalhes de {url_detalhes}: {e}")
+            return {
+                'titulo_original': None,
+                'descricao': "",
+                'generos': []
+            }
 
 async def atualizar_dados(url, cache_path, tipo='filmes'):
     """Função genérica para atualizar filmes ou séries via scraping assíncrono."""
     cache = carregar_dados_json(cache_path)
     try:
-        # Configurar rate limiting
-        rate_limit_config = RateLimitConfig(
-            max_requests=CONFIG['RATE_LIMIT_REQUESTS'],
-            period=CONFIG['RATE_LIMIT_PERIOD']
-        )
         async with aiohttp.ClientSession() as session:
-            session = RateLimiter(session, rate_limit_config)
             headers = {'User-Agent': CONFIG['USER_AGENT']}
             async with session.get(url, headers=headers) as response:
                 response.raise_for_status()
@@ -144,6 +141,9 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
             soup = BeautifulSoup(content, 'html.parser')
             novos_itens = []
             detalhes_tasks = []
+
+            # Criar um semáforo para limitar requisições simultâneas
+            semaphore = asyncio.Semaphore(CONFIG['RATE_LIMIT_REQUESTS'])
 
             for poster in soup.find_all('div', class_='poster'):
                 try:
@@ -163,7 +163,7 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
 
                     if not item_existe(cache, item_id):
                         # Agendar a extração de detalhes
-                        detalhes_tasks.append(extrair_detalhes_item(session, url_detalhes))
+                        detalhes_tasks.append(extrair_detalhes_item(session, url_detalhes, semaphore))
                         novos_itens.append({
                             'titulo': titulo,
                             'qualidade': qualidade,
@@ -443,13 +443,11 @@ def buscar_por_genero():
 
     resultados_filmes = [
         filme for filme in filmes
-        if (isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', [])))
-        or (isinstance(filme.get('generos'), str) and genero.lower() in filme.get('generos', '').lower())
+        if isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', []))
     ]
     resultados_series = [
         serie for serie in series
-        if (isinstance(serie.get('generos'), list) and any(genero.lower() in g.lower() for g in serie.get('generos', [])))
-        or (isinstance(serie.get('generos'), str) and genero.lower() in serie.get('generos', '').lower())
+        if isinstance(serie.get('generos'), list) and any(genero.lower() in g.lower() for g in serie.get('generos', []))
     ]
 
     resultados = resultados_filmes + resultados_series
