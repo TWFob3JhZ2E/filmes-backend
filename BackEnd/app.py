@@ -7,9 +7,6 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
-from flask_jwt_extended import JWTManager, jwt_required, create_access_token
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
 from threading import Thread, Lock
 from urllib.parse import urljoin
 
@@ -25,15 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
-CORS(app, resources={r"/*": {"origins": ["https://filmes-frontend.vercel.app", "http://localhost:3000"]}})
-app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY', 'Xj9kL2mPqRtYvWzBHSJKDHAKJSDcNfHsD2343hhhHSKAStM4U.')
-jwt = JWTManager(app)
-limiter = Limiter(
-    app,
-    key_func=get_remote_address,
-    default_limits=["200 per day", "50 per hour"],
-    storage_uri=os.getenv('redis://red-d0f3prs9c44c73cav8ag:6379', 'memory://')
-)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -47,8 +36,8 @@ CONFIG = {
     'BASE_DIR': os.path.abspath(os.path.join(os.path.dirname(__file__), '..')),
     'TEMP_DIR': 'temp',
     'FILMES_ENCONTRADOS_DIR': 'Filmes_Encontrados',
-    'RATE_LIMIT_REQUESTS': 5,
-    'RATE_LIMIT_PERIOD': 1.0
+    'RATE_LIMIT_REQUESTS': 5,  # Máximo de 5 requisições por segundo
+    'RATE_LIMIT_PERIOD': 1.0  # Período de 1 segundo
 }
 
 # Caminhos para diretórios
@@ -69,24 +58,6 @@ JSON_PATHS = {
     'code_filmes': os.path.join(TEMP_DIR, 'CodeFilmes.json'),
     'code_series': os.path.join(TEMP_DIR, 'CodeSeries.json')
 }
-
-@app.before_request
-def block_suspicious_user_agents():
-    """Bloqueia requisições de User-Agents suspeitos."""
-    user_agent = request.headers.get('User-Agent', '').lower()
-    blocked_agents = ['python-requests', 'curl', 'bot', 'spider', 'scanner', 'googlebot', 'bingbot']
-    if any(agent in user_agent for agent in blocked_agents):
-        logger.warning(f"Requisição bloqueada de User-Agent: {user_agent}")
-        return jsonify({"erro": "Acesso não autorizado"}), 403
-
-@app.errorhandler(404)
-def not_found(error):
-    return jsonify({"erro": "Recurso não disponível"}), 404
-
-@app.errorhandler(500)
-def server_error(error):
-    logger.error(f"Erro interno: {str(error)}")
-    return jsonify({"erro": "Erro interno do servidor"}), 500
 
 def carregar_dados_json(caminho):
     """Carrega dados de um arquivo JSON com sincronização."""
@@ -126,18 +97,22 @@ async def extrair_detalhes_item(session, url_detalhes, semaphore):
 
             soup = BeautifulSoup(content, 'html.parser')
 
+            # Extrair título original
             titulo_original_elem = soup.find('span', class_='original-title') or soup.find('h2', class_='original-title')
             titulo_original = titulo_original_elem.get_text(strip=True) if titulo_original_elem else None
 
+            # Extrair descrição
             descricao_elem = soup.find('div', class_='description') or soup.find('p', class_='synopsis')
             descricao = descricao_elem.get_text(strip=True) if descricao_elem else ""
 
+            # Extrair gêneros
             generos_elem = soup.find('div', class_='genres') or soup.find('ul', class_='genres-list')
             generos = []
             if generos_elem:
                 generos = [g.get_text(strip=True) for g in generos_elem.find_all(['span', 'li'])]
             generos = generos if generos else []
 
+            # Atraso para respeitar o rate limit
             await asyncio.sleep(CONFIG['RATE_LIMIT_PERIOD'] / CONFIG['RATE_LIMIT_REQUESTS'])
 
             return {
@@ -167,6 +142,7 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
             novos_itens = []
             detalhes_tasks = []
 
+            # Criar um semáforo para limitar requisições simultâneas
             semaphore = asyncio.Semaphore(CONFIG['RATE_LIMIT_REQUESTS'])
 
             for poster in soup.find_all('div', class_='poster'):
@@ -186,6 +162,7 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
                     url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
 
                     if not item_existe(cache, item_id):
+                        # Agendar a extração de detalhes
                         detalhes_tasks.append(extrair_detalhes_item(session, url_detalhes, semaphore))
                         novos_itens.append({
                             'titulo': titulo,
@@ -198,6 +175,7 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
                     continue
 
             if novos_itens:
+                # Executar todas as tarefas de detalhes em paralelo
                 detalhes_results = await asyncio.gather(*detalhes_tasks, return_exceptions=True)
                 for i, detalhes in enumerate(detalhes_results):
                     if isinstance(detalhes, dict):
@@ -236,33 +214,18 @@ def validar_pagina(pagina):
     except (ValueError, TypeError):
         return 1
 
-@app.route('/login', methods=['POST'])
-def login():
-    """Gera um token JWT para autenticação."""
-    if not request.is_json:
-        return jsonify({"erro": "JSON requerido"}), 400
-    username = request.json.get('username')
-    password = request.json.get('password')
-    if username == 'admin' and password == 'sua-senha-secreta':
-        return jsonify({"access_token": create_access_token(identity=username)})
-    return jsonify({"erro": "Credenciais inválidas"}), 401
-
 @app.route('/')
-@jwt_required()
-@limiter.limit("10 per minute")
 def home():
     """Endpoint inicial da API."""
     return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
-@jwt_required()
-@limiter.limit("10 per minute")
 def filme_detalhes():
     """Retorna detalhes de um filme pelo ID."""
     filme_id = request.args.get('id')
     if not validar_id(filme_id):
         logger.warning(f"ID de filme inválido: {filme_id}")
-        return jsonify({'erro': 'Recurso não disponível'}), 400
+        return jsonify({'erro': 'ID inválido'}), 400
 
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     for filme in filmes:
@@ -270,17 +233,15 @@ def filme_detalhes():
             return jsonify(filme)
 
     logger.info(f"Filme com ID {filme_id} não encontrado")
-    return jsonify({'erro': 'Recurso não disponível'}), 404
+    return jsonify({'erro': 'Filme não encontrado'}), 404
 
 @app.route('/serie/detalhes')
-@jwt_required()
-@limiter.limit("10 per minute")
 def serie_detalhes():
     """Retorna detalhes de uma série pelo ID."""
     serie_id = request.args.get('id')
     if not validar_id(serie_id):
         logger.warning(f"ID de série inválido: {serie_id}")
-        return jsonify({'erro': 'Recurso não disponível'}), 400
+        return jsonify({'erro': 'ID inválido'}), 400
 
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
     for serie in series:
@@ -288,11 +249,9 @@ def serie_detalhes():
             return jsonify(serie)
 
     logger.info(f"Série com ID {serie_id} não encontrada")
-    return jsonify({'erro': 'Recurso não disponível'}), 404
+    return jsonify({'erro': 'Série não encontrada'}), 404
 
 @app.route('/codigos/series')
-@jwt_required()
-@limiter.limit("5 per minute")
 def codigos_series():
     """Retorna códigos de séries, com cache."""
     cache = carregar_dados_json(JSON_PATHS['code_series'])
@@ -316,11 +275,9 @@ def codigos_series():
 
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao carregar códigos de séries: {e}")
-        return jsonify({'erro': 'Erro interno do servidor'}), 500
+        return jsonify({'error': 'Erro ao carregar códigos de séries'}), 500
 
 @app.route('/codigos/filmes')
-@jwt_required()
-@limiter.limit("5 per minute")
 def codigos_filmes():
     """Retorna códigos de filmes, com cache."""
     cache = carregar_dados_json(JSON_PATHS['code_filmes'])
@@ -345,11 +302,9 @@ def codigos_filmes():
 
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao carregar códigos de filmes: {e}")
-        return jsonify({'erro': 'Erro interno do servidor'}), 500
+        return jsonify({'error': 'Erro ao carregar códigos de filmes'}), 500
 
 @app.route('/filmes/novos')
-@jwt_required()
-@limiter.limit("5 per minute")
 def filmes_novos():
     """Retorna novos filmes, com atualização em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
@@ -368,16 +323,12 @@ def filmes_novos():
     return jsonify(cache)
 
 @app.route('/filmes/home')
-@jwt_required()
-@limiter.limit("10 per minute")
 def filmes_home():
     """Retorna filmes da página inicial."""
     cache = carregar_dados_json(JSON_PATHS['filmes_home'])
     return jsonify(cache)
 
 @app.route('/filmes/pagina')
-@jwt_required()
-@limiter.limit("10 per minute")
 def filmes_pagina():
     """Retorna filmes paginados com metadados."""
     pagina = validar_pagina(request.args.get('pagina', 1))
@@ -398,8 +349,6 @@ def filmes_pagina():
     })
 
 @app.route('/filmes/pagina/atualizar')
-@jwt_required()
-@limiter.limit("5 per minute")
 def filmes_pagina_atualizar():
     """Atualiza a lista de filmes em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
@@ -418,8 +367,6 @@ def filmes_pagina_atualizar():
     return jsonify(cache)
 
 @app.route('/series/pagina')
-@jwt_required()
-@limiter.limit("10 per minute")
 def series_pagina():
     """Retorna séries paginadas com metadados."""
     pagina = validar_pagina(request.args.get('pagina', 1))
@@ -440,8 +387,6 @@ def series_pagina():
     })
 
 @app.route('/series')
-@jwt_required()
-@limiter.limit("5 per minute")
 def series():
     """Retorna séries, com atualização em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
@@ -460,14 +405,12 @@ def series():
     return jsonify(cache)
 
 @app.route('/buscar')
-@jwt_required()
-@limiter.limit("10 per minute")
 def buscar_nomes():
     """Busca filmes e séries por termo."""
     termo = request.args.get('q', '').lower()
     if not termo or len(termo) < 2:
         logger.warning(f"Termo de busca inválido: {termo}")
-        return jsonify({'erro': 'Recurso não disponível'}), 400
+        return jsonify({'erro': 'Termo de busca inválido ou muito curto'}), 400
 
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
@@ -479,8 +422,6 @@ def buscar_nomes():
     return jsonify(resultados[:10])
 
 @app.route('/buscar_por_genero')
-@jwt_required()
-@limiter.limit("10 per minute")
 def buscar_por_genero():
     """Busca filmes e séries por gênero, com paginação."""
     genero = request.args.get('genero', '').lower()
@@ -488,7 +429,7 @@ def buscar_por_genero():
 
     if not genero:
         logger.warning("Gênero não fornecido")
-        return jsonify({'erro': 'Recurso não disponível'}), 400
+        return jsonify({'erro': 'Gênero não fornecido'}), 400
 
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
@@ -514,7 +455,7 @@ def buscar_por_genero():
     if not resultados:
         logger.info(f"Nenhum filme ou série encontrado para o gênero: {genero}")
         return jsonify({
-            'mensagem': 'Recurso não disponível',
+            'mensagem': f'Nenhum resultado para o gênero {genero}',
             'resultados': [],
             'total': 0,
             'total_paginas': 0,
@@ -536,8 +477,6 @@ def buscar_por_genero():
     })
 
 @app.route('/buscar_generos')
-@jwt_required()
-@limiter.limit("10 per minute")
 def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
     termo = request.args.get('q', '').lower()
@@ -554,7 +493,6 @@ def buscar_generos():
     return jsonify(sugestoes)
 
 @app.route('/<path:path>')
-@limiter.limit("10 per minute")
 def serve_static(path):
     """Serve arquivos estáticos."""
     return send_from_directory(app.static_folder, path)
@@ -564,6 +502,7 @@ def atualizar_codigos_inicial():
     with app.app_context():
         codigos_filmes()
         codigos_series()
+        # Pré-carregar filmes populares
         run_async_in_thread(
             atualizar_dados(
                 urljoin(CONFIG['BASE_URL'], '/filmes'),
@@ -581,7 +520,5 @@ def atualizar_codigos_inicial():
         logger.info("Códigos iniciais e filmes/séries populares atualizados")
 
 if __name__ == '__main__':
-    if os.getenv('FLASK_ENV') == 'production':
-        raise RuntimeError("Modo debug não permitido em produção")
     atualizar_codigos_inicial()
     app.run(debug=True, port=5001)
