@@ -6,7 +6,11 @@ from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from threading import Thread, Lock
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
+import bleach
+from functools import wraps
+from collections import defaultdict
+from time import time
 
 # Configuração de logging
 logging.basicConfig(
@@ -20,7 +24,40 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
-CORS(app, resources={r"/*": {"origins": "*"}})
+app.config.update(
+    SESSION_COOKIE_SECURE=True,  # Cookies only sent over HTTPS
+    SESSION_COOKIE_HTTPONLY=True,  # Prevent JavaScript access
+    SESSION_COOKIE_SAMESITE='Lax'  # Mitigate CSRF
+)
+
+# Restrict CORS to specific origins
+ALLOWED_ORIGINS = [
+    "https://filmes-flask.onrender.com",  # Your Render frontend URL
+    "http://localhost:3000",  # Local development
+    "http://127.0.0.1:3000"
+]
+CORS(app, resources={r"/*": {"origins": ALLOWED_ORIGINS}})
+
+# In-memory rate limit storage
+RATE_LIMITS = defaultdict(list)
+REQUEST_LIMIT = 50  # Max requests per IP
+TIME_WINDOW = 60  # 60 seconds
+
+def rate_limit(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        client_ip = request.remote_addr
+        now = time()
+        # Remove requests older than TIME_WINDOW
+        RATE_LIMITS[client_ip] = [t for t in RATE_LIMITS[client_ip] if now - t < TIME_WINDOW]
+        # Check if limit is exceeded
+        if len(RATE_LIMITS[client_ip]) >= REQUEST_LIMIT:
+            logger.warning(f"Rate limit exceeded for IP: {client_ip}")
+            return jsonify({'erro': 'Limite de requisições excedido. Tente novamente mais tarde.'}), 429
+        # Add current request timestamp
+        RATE_LIMITS[client_ip].append(now)
+        return f(*args, **kwargs)
+    return decorated_function
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -40,9 +77,9 @@ CONFIG = {
 TEMP_DIR = os.path.join(CONFIG['BASE_DIR'], CONFIG['TEMP_DIR'])
 FILMES_ENCONTRADOS_DIR = os.path.join(CONFIG['BASE_DIR'], CONFIG['FILMES_ENCONTRADOS_DIR'])
 
-# Garante que os diretórios existem
-os.makedirs(TEMP_DIR, exist_ok=True)
-os.makedirs(FILMES_ENCONTRADOS_DIR, exist_ok=True)
+# Garante que os diretórios existem com permissões seguras
+os.makedirs(TEMP_DIR, mode=0o700, exist_ok=True)
+os.makedirs(FILMES_ENCONTRADOS_DIR, mode=0o700, exist_ok=True)
 
 # Caminhos para arquivos JSON
 JSON_PATHS = {
@@ -55,8 +92,17 @@ JSON_PATHS = {
     'code_series': os.path.join(TEMP_DIR, 'CodeSeries.json')
 }
 
+def is_safe_path(filepath):
+    """Verifica se o caminho está dentro do diretório base."""
+    base_dir = CONFIG['BASE_DIR']
+    abs_filepath = os.path.abspath(filepath)
+    return abs_filepath.startswith(os.path.abspath(base_dir))
+
 def carregar_dados_json(caminho):
     """Carrega dados de um arquivo JSON com sincronização."""
+    if not is_safe_path(caminho):
+        logger.error(f"Tentativa de acesso a caminho inválido: {caminho}")
+        return []
     with json_lock:
         if os.path.exists(caminho):
             try:
@@ -70,10 +116,14 @@ def carregar_dados_json(caminho):
 
 def salvar_dados_json(caminho, dados):
     """Salva dados em um arquivo JSON com sincronização."""
+    if not is_safe_path(caminho):
+        logger.error(f"Tentativa de escrita em caminho inválido: {caminho}")
+        return
     with json_lock:
         try:
             with open(caminho, 'w', encoding='utf-8') as f:
                 json.dump(dados, f, ensure_ascii=False, indent=CONFIG['JSON_INDENT'])
+            os.chmod(caminho, 0o600)  # Read/write for owner only
             logger.info(f"Arquivo {caminho} salvo com sucesso")
         except Exception as e:
             logger.error(f"Erro ao salvar {caminho}: {e}")
@@ -84,27 +134,28 @@ def item_existe(lista, item_id):
 
 def extrair_detalhes_item(url_detalhes):
     """Extrai detalhes adicionais de um filme ou série a partir da página de detalhes."""
+    parsed_url = urlparse(url_detalhes)
+    expected_netloc = urlparse(CONFIG['BASE_URL']).netloc
+    if parsed_url.netloc != expected_netloc:
+        logger.error(f"URL inválida para detalhes: {url_detalhes}")
+        return {'titulo_original': None, 'descricao': "", 'generos': []}
+
     try:
         headers = {'User-Agent': CONFIG['USER_AGENT']}
         response = requests.get(url_detalhes, headers=headers, timeout=5)
         response.raise_for_status()
 
-        soup = BeautifulSoup(response.content, 'html.parser')
+        if 'text/html' not in response.headers.get('Content-Type', ''):
+            logger.error(f"Resposta não é HTML: {url_detalhes}")
+            return {'titulo_original': None, 'descricao': "", 'generos': []}
 
-        # Extrair título original (ajustar seletor conforme o site)
+        soup = BeautifulSoup(response.content, 'html.parser')
         titulo_original_elem = soup.find('span', class_='original-title') or soup.find('h2', class_='original-title')
         titulo_original = titulo_original_elem.get_text(strip=True) if titulo_original_elem else None
-
-        # Extrair descrição (ajustar seletor conforme o site)
         descricao_elem = soup.find('div', class_='description') or soup.find('p', class_='synopsis')
         descricao = descricao_elem.get_text(strip=True) if descricao_elem else ""
-
-        # Extrair gêneros (ajustar seletor conforme o site)
         generos_elem = soup.find('div', class_='genres') or soup.find('ul', class_='genres-list')
-        generos = []
-        if generos_elem:
-            generos = [g.get_text(strip=True) for g in generos_elem.find_all(['span', 'li'])]
-        generos = generos if generos else []
+        generos = [g.get_text(strip=True) for g in generos_elem.find_all(['span', 'li'])] if generos_elem else []
 
         return {
             'titulo_original': titulo_original,
@@ -113,14 +164,10 @@ def extrair_detalhes_item(url_detalhes):
         }
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao extrair detalhes de {url_detalhes}: {e}")
-        return {
-            'titulo_original': None,
-            'descricao': "",
-            'generos': []
-        }
+        return {'titulo_original': None, 'descricao': "", 'generos': []}
 
 def atualizar_dados(url, cache_path, tipo='filmes'):
-    """Função genérica para atualizar filmes ou séries via scraping, incluindo detalhes completos."""
+    """Função genérica para atualizar filmes ou séries via scraping."""
     cache = carregar_dados_json(cache_path)
     try:
         headers = {'User-Agent': CONFIG['USER_AGENT']}
@@ -147,7 +194,6 @@ def atualizar_dados(url, cache_path, tipo='filmes'):
                 url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
 
                 if not item_existe(cache, item_id):
-                    # Extrair detalhes adicionais
                     detalhes = extrair_detalhes_item(url_detalhes)
                     novos_itens.append({
                         'titulo': titulo,
@@ -175,8 +221,8 @@ def atualizar_dados(url, cache_path, tipo='filmes'):
         logger.error(f"Erro ao atualizar {tipo} de {url}: {e}")
 
 def validar_id(item_id):
-    """Valida se o ID é alfanumérico e não vazio."""
-    return item_id and item_id.isalnum()
+    """Valida se o ID é alfanumérico, não vazio e tem comprimento razoável."""
+    return bool(item_id and item_id.isalnum() and len(item_id) <= 50)
 
 def validar_pagina(pagina):
     """Valida e converte o número da página."""
@@ -185,14 +231,25 @@ def validar_pagina(pagina):
     except (ValueError, TypeError):
         return 1
 
+@app.after_request
+def add_security_headers(response):
+    response.headers['X-Frame-Options'] = 'DENY'
+    response.headers['X-Content-Type-Options'] = 'nosniff'
+    response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
+    return response
+
+@app.errorhandler(Exception)
+def handle_error(error):
+    logger.error(f"Erro não tratado: {str(error)}", exc_info=True)
+    return jsonify({'erro': 'Erro interno do servidor. Tente novamente mais tarde.'}), 500
+
 @app.route('/')
 def home():
-    """Endpoint inicial da API."""
     return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
+@rate_limit
 def filme_detalhes():
-    """Retorna detalhes de um filme pelo ID."""
     filme_id = request.args.get('id')
     if not validar_id(filme_id):
         logger.warning(f"ID de filme inválido: {filme_id}")
@@ -207,8 +264,8 @@ def filme_detalhes():
     return jsonify({'erro': 'Filme não encontrado'}), 404
 
 @app.route('/serie/detalhes')
+@rate_limit
 def serie_detalhes():
-    """Retorna detalhes de uma série pelo ID."""
     serie_id = request.args.get('id')
     if not validar_id(serie_id):
         logger.warning(f"ID de série inválido: {serie_id}")
@@ -223,8 +280,8 @@ def serie_detalhes():
     return jsonify({'erro': 'Série não encontrada'}), 404
 
 @app.route('/codigos/series')
+@rate_limit
 def codigos_series():
-    """Retorna códigos de séries, com cache."""
     cache = carregar_dados_json(JSON_PATHS['code_series'])
     if cache:
         return jsonify({"codigos": ", ".join(cache.get("codigos", []))})
@@ -246,11 +303,11 @@ def codigos_series():
 
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao carregar códigos de séries: {e}")
-        return jsonify({'error': 'Erro ao carregar códigos de séries'}), 500
+        return jsonify({'erro': 'Não foi possível carregar os códigos de séries'}), 500
 
 @app.route('/codigos/filmes')
+@rate_limit
 def codigos_filmes():
-    """Retorna códigos de filmes, com cache."""
     cache = carregar_dados_json(JSON_PATHS['code_filmes'])
     if cache:
         return jsonify({"codigos": ", ".join(cache.get("codigos", []))})
@@ -273,11 +330,11 @@ def codigos_filmes():
 
     except requests.exceptions.RequestException as e:
         logger.error(f"Erro ao carregar códigos de filmes: {e}")
-        return jsonify({'error': 'Erro ao carregar códigos de filmes'}), 500
+        return jsonify({'erro': 'Não foi possível carregar os códigos de filmes'}), 500
 
 @app.route('/filmes/novos')
+@rate_limit
 def filmes_novos():
-    """Retorna novos filmes, com atualização em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['filmes_novos'])
 
@@ -294,14 +351,14 @@ def filmes_novos():
     return jsonify(cache)
 
 @app.route('/filmes/home')
+@rate_limit
 def filmes_home():
-    """Retorna filmes da página inicial."""
     cache = carregar_dados_json(JSON_PATHS['filmes_home'])
     return jsonify(cache)
 
 @app.route('/filmes/pagina')
+@rate_limit
 def filmes_pagina():
-    """Retorna filmes paginados com metadados."""
     pagina = validar_pagina(request.args.get('pagina', 1))
     cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
@@ -320,11 +377,10 @@ def filmes_pagina():
     })
 
 @app.route('/filmes/pagina/atualizar')
+@rate_limit
 def filmes_pagina_atualizar():
-    """Atualiza a lista de filmes em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
-
     thread = Thread(
         target=atualizar_dados,
         args=(urljoin(CONFIG['BASE_URL'], '/filmes'), JSON_PATHS['filmes_pagina'], 'filmes')
@@ -338,8 +394,8 @@ def filmes_pagina_atualizar():
     return jsonify(cache)
 
 @app.route('/series/pagina')
+@rate_limit
 def series_pagina():
-    """Retorna séries paginadas com metadados."""
     pagina = validar_pagina(request.args.get('pagina', 1))
     cache = carregar_dados_json(JSON_PATHS['series_nomes'])
 
@@ -358,8 +414,8 @@ def series_pagina():
     })
 
 @app.route('/series')
+@rate_limit
 def series():
-    """Retorna séries, com atualização em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['series'])
 
@@ -376,9 +432,10 @@ def series():
     return jsonify(cache)
 
 @app.route('/buscar')
+@rate_limit
 def buscar_nomes():
-    """Busca filmes e séries por termo."""
     termo = request.args.get('q', '').lower()
+    termo = bleach.clean(termo, tags=[], strip=True)
     if not termo or len(termo) < 2:
         logger.warning(f"Termo de busca inválido: {termo}")
         return jsonify({'erro': 'Termo de busca inválido ou muito curto'}), 400
@@ -393,9 +450,10 @@ def buscar_nomes():
     return jsonify(resultados[:10])
 
 @app.route('/buscar_por_genero')
+@rate_limit
 def buscar_por_genero():
-    """Busca filmes e séries por gênero, com paginação."""
     genero = request.args.get('genero', '').lower()
+    genero = bleach.clean(genero, tags=[], strip=True)
     pagina = validar_pagina(request.args.get('pagina', 1))
 
     if not genero:
@@ -450,8 +508,8 @@ def buscar_por_genero():
     })
 
 @app.route('/buscar_generos')
+@rate_limit
 def buscar_generos():
-    """Retorna sugestões de gêneros com base no termo de busca."""
     termo = request.args.get('q', '').lower()
     generos = [
         "Action", "Animation", "Adventure", "Comedy", "Crime", "Drama", "Family",
@@ -467,15 +525,12 @@ def buscar_generos():
 
 @app.route('/<path:path>')
 def serve_static(path):
-    """Serve arquivos estáticos."""
     return send_from_directory(app.static_folder, path)
 
 def atualizar_codigos_inicial():
-    """Atualiza códigos de filmes e séries na inicialização e pré-carrega filmes populares."""
     with app.app_context():
         codigos_filmes()
         codigos_series()
-        # Pré-carregar filmes populares
         atualizar_dados(
             urljoin(CONFIG['BASE_URL'], '/filmes'),
             JSON_PATHS['filmes_pagina'],
@@ -489,5 +544,6 @@ def atualizar_codigos_inicial():
         logger.info("Códigos iniciais e filmes/séries populares atualizados")
 
 if __name__ == '__main__':
+    debug = os.getenv('FLASK_ENV') == 'development'
     atualizar_codigos_inicial()
-    app.run(debug=True, port=5001)
+    app.run(debug=debug, port=5001)
