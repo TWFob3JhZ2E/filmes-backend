@@ -46,7 +46,7 @@ CONFIG = {
     'FILMES_ENCONTRADOS_DIR': 'Filmes_Encontrados',
     'RATE_LIMIT_REQUESTS': 5,  # Máximo de 5 requisições por segundo
     'RATE_LIMIT_PERIOD': 1.0,  # Período de 1 segundo
-    'API_KEY': os.getenv('SUPERFLIX_API_KEY', 'aW9!7sd9e8e98jzK$p3Rt6yU*IUHhusdhibH2nCvE8q') 
+    'API_KEY': os.getenv('SUPERFLIX_API_KEY', 'aW97sd9e8e98jzK$p3Rt6yUIUHhusdhibH2nCvE8q') 
 }
 
 def require_api_key(f):
