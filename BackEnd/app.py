@@ -4,7 +4,6 @@ import logging
 import asyncio
 import aiohttp
 import requests
-from flask_wtf.csrf import CSRFProtect, generate_csrf
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
@@ -494,16 +493,6 @@ def buscar_generos():
     sugestoes = [g for g in generos if termo in g.lower()]
     return jsonify(sugestoes)
 
-
-
-
-@app.route('/get-csrf-token', methods=['GET'])
-def get_csrf_token():
-    """Retorna um token CSRF para o frontend."""
-    return jsonify({'csrf_token': generate_csrf()})
-
-
-
 @app.route('/<path:path>')
 def serve_static(path):
     """Serve arquivos estáticos."""
@@ -532,9 +521,5 @@ def atualizar_codigos_inicial():
         logger.info("Códigos iniciais e filmes/séries populares atualizados")
 
 if __name__ == '__main__':
-
-    app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'super-secret-key-123')  # Fallback for local testing
-    csrf = CSRFProtect(app)
-
     atualizar_codigos_inicial()
     app.run(debug=True, port=5001)
