@@ -9,7 +9,6 @@ from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from threading import Thread, Lock
 from urllib.parse import urljoin
-from Segun import require_api_key, check_origin  # Importe os decoradores
 
 # Configuração de logging
 logging.basicConfig(
@@ -27,8 +26,9 @@ app = Flask(__name__, static_folder='static')
 CORS(app, resources={r"/*": {
     "origins": "https://filmes-frontend.vercel.app",
     "methods": ["GET", "POST", "OPTIONS"],
-    "allow_headers": ["Content-Type", "Authorization", "X-API-Key"]  # Adicione X-API-Key
+    "allow_headers": ["Content-Type", "Authorization"]
 }})
+
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -221,11 +221,8 @@ def validar_pagina(pagina):
         return 1
 
 @app.route('/')
-@require_api_key
-@check_origin
 def home():
-    """Endpoint inicial da API, agora protegido."""
-    logger.info("Acesso autorizado ao endpoint inicial")
+    """Endpoint inicial da API."""
     return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
@@ -469,7 +466,7 @@ def buscar_por_genero():
             'total': 0,
             'total_paginas': 0,
             'pagina_atual': pagina
-        })
+        }), 200
 
     inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
     fim = inicio + CONFIG['ITEMS_PER_PAGE']
@@ -480,7 +477,7 @@ def buscar_por_genero():
 
     return jsonify({
         'resultados': resultados_paginados,
-        'total_itens': total_itens,
+        'total': total_itens,
         'total_paginas': total_paginas,
         'pagina_atual': pagina
     })
