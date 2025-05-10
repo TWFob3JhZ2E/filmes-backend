@@ -4,6 +4,7 @@ import logging
 import asyncio
 import aiohttp
 import requests
+from flask_wtf.csrf import CSRFProtect
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
@@ -219,11 +220,6 @@ def validar_pagina(pagina):
         return max(1, int(pagina))
     except (ValueError, TypeError):
         return 1
-
-#@app.route('/')
-#def home():
-#    """Endpoint inicial da API."""
-#    return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
 def filme_detalhes():
@@ -498,6 +494,11 @@ def buscar_generos():
     sugestoes = [g for g in generos if termo in g.lower()]
     return jsonify(sugestoes)
 
+@app.route('/get-csrf-token', methods=['GET'])
+def get_csrf_token():
+    """Retorna um token CSRF para o frontend."""
+    return jsonify({'csrf_token': csrf._get_token()})
+
 @app.route('/<path:path>')
 def serve_static(path):
     """Serve arquivos estáticos."""
@@ -526,5 +527,7 @@ def atualizar_codigos_inicial():
         logger.info("Códigos iniciais e filmes/séries populares atualizados")
 
 if __name__ == '__main__':
+    app.config['SECRET_KEY'] = 'super-secret-key-123'
+    csrf = CSRFProtect(app)
     atualizar_codigos_inicial()
     app.run(debug=True, port=5001)
