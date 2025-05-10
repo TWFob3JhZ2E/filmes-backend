@@ -7,8 +7,10 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
+from flask import abort
 from threading import Thread, Lock
 from urllib.parse import urljoin
+from functools import wraps
 
 # Configuração de logging
 logging.basicConfig(
@@ -43,8 +45,19 @@ CONFIG = {
     'TEMP_DIR': 'temp',
     'FILMES_ENCONTRADOS_DIR': 'Filmes_Encontrados',
     'RATE_LIMIT_REQUESTS': 5,  # Máximo de 5 requisições por segundo
-    'RATE_LIMIT_PERIOD': 1.0  # Período de 1 segundo
+    'RATE_LIMIT_PERIOD': 1.0,  # Período de 1 segundo
+    'API_KEY': os.getenv('SUPERFLIX_API_KEY', 'aW9!7sd9e8e98jzK$p3Rt6yU*IUHhusdhibH2nCvE8q') 
 }
+
+def require_api_key(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        key = request.headers.get('Authorization') or request.args.get('key')
+        if key != CONFIG['API_KEY']:
+            logger.warning("Acesso negado: chave de API inválida")
+            abort(401, description="Chave de API inválida ou ausente")
+        return f(*args, **kwargs)
+    return decorated
 
 # Caminhos para diretórios
 TEMP_DIR = os.path.join(CONFIG['BASE_DIR'], CONFIG['TEMP_DIR'])
@@ -226,6 +239,7 @@ def home():
     return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
+@require_api_key
 def filme_detalhes():
     """Retorna detalhes de um filme pelo ID."""
     filme_id = request.args.get('id')
@@ -242,6 +256,7 @@ def filme_detalhes():
     return jsonify({'erro': 'Filme não encontrado'}), 404
 
 @app.route('/serie/detalhes')
+@require_api_key
 def serie_detalhes():
     """Retorna detalhes de uma série pelo ID."""
     serie_id = request.args.get('id')
@@ -258,6 +273,7 @@ def serie_detalhes():
     return jsonify({'erro': 'Série não encontrada'}), 404
 
 @app.route('/codigos/series')
+@require_api_key
 def codigos_series():
     """Retorna códigos de séries, com cache."""
     cache = carregar_dados_json(JSON_PATHS['code_series'])
@@ -284,6 +300,7 @@ def codigos_series():
         return jsonify({'error': 'Erro ao carregar códigos de séries'}), 500
 
 @app.route('/codigos/filmes')
+@require_api_key
 def codigos_filmes():
     """Retorna códigos de filmes, com cache."""
     cache = carregar_dados_json(JSON_PATHS['code_filmes'])
@@ -311,6 +328,7 @@ def codigos_filmes():
         return jsonify({'error': 'Erro ao carregar códigos de filmes'}), 500
 
 @app.route('/filmes/novos')
+@require_api_key
 def filmes_novos():
     """Retorna novos filmes, com atualização em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
@@ -329,12 +347,14 @@ def filmes_novos():
     return jsonify(cache)
 
 @app.route('/filmes/home')
+@require_api_key
 def filmes_home():
     """Retorna filmes da página inicial."""
     cache = carregar_dados_json(JSON_PATHS['filmes_home'])
     return jsonify(cache)
 
 @app.route('/filmes/pagina')
+@require_api_key
 def filmes_pagina():
     """Retorna filmes paginados com metadados."""
     pagina = validar_pagina(request.args.get('pagina', 1))
@@ -355,6 +375,7 @@ def filmes_pagina():
     })
 
 @app.route('/filmes/pagina/atualizar')
+@require_api_key
 def filmes_pagina_atualizar():
     """Atualiza a lista de filmes em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
@@ -373,6 +394,7 @@ def filmes_pagina_atualizar():
     return jsonify(cache)
 
 @app.route('/series/pagina')
+@require_api_key
 def series_pagina():
     """Retorna séries paginadas com metadados."""
     pagina = validar_pagina(request.args.get('pagina', 1))
@@ -393,6 +415,7 @@ def series_pagina():
     })
 
 @app.route('/series')
+@require_api_key
 def series():
     """Retorna séries, com atualização em segundo plano."""
     wait = request.args.get('wait', 'false').lower() == 'true'
@@ -411,6 +434,7 @@ def series():
     return jsonify(cache)
 
 @app.route('/buscar')
+@require_api_key
 def buscar_nomes():
     """Busca filmes e séries por termo."""
     termo = request.args.get('q', '').lower()
@@ -428,6 +452,7 @@ def buscar_nomes():
     return jsonify(resultados[:10])
 
 @app.route('/buscar_por_genero')
+@require_api_key
 def buscar_por_genero():
     """Busca filmes e séries por gênero, com paginação."""
     genero = request.args.get('genero', '').lower()
@@ -483,6 +508,7 @@ def buscar_por_genero():
     })
 
 @app.route('/buscar_generos')
+@require_api_key
 def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
     termo = request.args.get('q', '').lower()
@@ -499,6 +525,7 @@ def buscar_generos():
     return jsonify(sugestoes)
 
 @app.route('/<path:path>')
+@require_api_key
 def serve_static(path):
     """Serve arquivos estáticos."""
     return send_from_directory(app.static_folder, path)
