@@ -220,10 +220,10 @@ def validar_pagina(pagina):
     except (ValueError, TypeError):
         return 1
 
-@app.route('/')
-def home():
-    """Endpoint inicial da API."""
-    return jsonify({"mensagem": "API Superflix está online 🚀"})
+#@app.route('/')
+#def home():
+#    """Endpoint inicial da API."""
+#    return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
 def filme_detalhes():
