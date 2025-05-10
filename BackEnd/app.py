@@ -6,9 +6,14 @@ import aiohttp
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
+from functools import wraps
 from flask_cors import CORS
 from threading import Thread, Lock
 from urllib.parse import urljoin
+from dotenv import load_dotenv
+
+# Carregar variáveis de ambiente
+load_dotenv()
 
 # Configuração de logging
 logging.basicConfig(
@@ -23,12 +28,32 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
 
+# Chave de API (armazenada em variável de ambiente)
+API_KEY = os.getenv('API_KEY', 'MnsKsLolHhaHAHahjop9898yHSSHKjbKGugsu001100KB')  # Fallback para desenvolvimento
+
+# Decorador para verificar a API Key
+def require_api_key(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        api_key = request.headers.get('Authorization', '').replace('Bearer ', '')
+        if not api_key or api_key != API_KEY:
+            logger.warning(f"Tentativa de acesso ao endpoint sem API Key válida: {request.remote_addr}")
+            return jsonify({"erro": "Acesso não autorizado. Chave de API inválida."}), 401
+        return f(*args, **kwargs)
+    return decorated
+
+# Endpoint raiz protegido
+@app.route('/')
+@require_api_key
+def home():
+    """Endpoint inicial da API, acessível apenas com API Key válida."""
+    return jsonify({"mensagem": "API Superflix está online 🚀"})
+
 CORS(app, resources={r"/*": {
     "origins": "https://filmes-frontend.vercel.app",
     "methods": ["GET", "POST", "OPTIONS"],
     "allow_headers": ["Content-Type", "Authorization"]
 }})
-
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -219,11 +244,6 @@ def validar_pagina(pagina):
         return max(1, int(pagina))
     except (ValueError, TypeError):
         return 1
-
-@app.route('/')
-def home():
-    """Endpoint inicial da API."""
-    return jsonify({"mensagem": "API Superflix está online 🚀"})
 
 @app.route('/filme/detalhes')
 def filme_detalhes():
@@ -527,4 +547,4 @@ def atualizar_codigos_inicial():
 
 if __name__ == '__main__':
     atualizar_codigos_inicial()
-    app.run(debug=True, port=5001)
+    app.run(debug=False, port=5001)  # Desativado debug para produção
