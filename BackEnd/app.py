@@ -7,6 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
+from flask_wtf.csrf import CSRFProtect
 from threading import Thread, Lock
 from urllib.parse import urljoin
 
@@ -23,12 +24,17 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
 
+# Configurar chave secreta para CSRF e sessões
+app.config['SECRET_KEY'] = os.environ.get('FLASK_SECRET_KEY', 'default-secret-key-for-testing')
+
+# Inicializar CSRF protection
+csrf = CSRFProtect(app)
+
 CORS(app, resources={r"/*": {
     "origins": "https://filmes-frontend.vercel.app",
     "methods": ["GET", "POST", "OPTIONS"],
-    "allow_headers": ["Content-Type", "Authorization"]
+    "allow_headers": ["Content-Type", "Authorization", "X-CSRF-Token"]
 }})
-
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -219,6 +225,11 @@ def validar_pagina(pagina):
         return max(1, int(pagina))
     except (ValueError, TypeError):
         return 1
+
+@app.route('/get-csrf-token', methods=['GET'])
+def get_csrf_token():
+    """Retorna um token CSRF para o frontend."""
+    return jsonify({'csrf_token': csrf._get_token()})
 
 @app.route('/filme/detalhes')
 def filme_detalhes():
