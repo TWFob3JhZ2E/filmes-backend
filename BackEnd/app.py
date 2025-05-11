@@ -24,8 +24,9 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__, static_folder='static')
 
-# Configurar chave secreta para CSRF e sessões
-app.config['SECRET_KEY'] = os.environ.get('FLASK_SECRET_KEY', 'default-secret-key-for-testing')
+# Configurar chaves secretas
+app.config['SECRET_KEY'] = os.environ.get('FLASK_SECRET_KEY')
+API_KEY = os.environ.get('API_KEY')
 
 # Inicializar CSRF protection
 csrf = CSRFProtect(app)
@@ -33,8 +34,24 @@ csrf = CSRFProtect(app)
 CORS(app, resources={r"/*": {
     "origins": "https://filmes-frontend.vercel.app",
     "methods": ["GET", "POST", "OPTIONS"],
-    "allow_headers": ["Content-Type", "Authorization", "X-CSRF-Token"]
+    "allow_headers": ["Content-Type", "Authorization", "X-CSRF-Token", "X-API-Key"]
 }})
+
+# Middleware para verificar a API key
+def check_api_key():
+    if request.path == '/get-csrf-token':
+        return  # Não exige API key para obter CSRF token
+    api_key = request.headers.get('X-API-Key')
+    if not api_key or api_key != API_KEY:
+        logger.warning(f"Requisição não autorizada: API key inválida ou ausente")
+        return jsonify({'error': 'Chave API inválida ou ausente'}), 401
+
+# Aplicar verificação de API key antes de cada requisição
+@app.before_request
+def before_request():
+    result = check_api_key()
+    if result:
+        return result
 
 # Lock para sincronizar acesso a arquivos JSON
 json_lock = Lock()
@@ -48,8 +65,8 @@ CONFIG = {
     'BASE_DIR': os.path.abspath(os.path.join(os.path.dirname(__file__), '..')),
     'TEMP_DIR': 'temp',
     'FILMES_ENCONTRADOS_DIR': 'Filmes_Encontrados',
-    'RATE_LIMIT_REQUESTS': 5,  # Máximo de 5 requisições por segundo
-    'RATE_LIMIT_PERIOD': 1.0  # Período de 1 segundo
+    'RATE_LIMIT_REQUESTS': 5,
+    'RATE_LIMIT_PERIOD': 1.0
 }
 
 # Caminhos para diretórios
