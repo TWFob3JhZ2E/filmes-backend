@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
-from flask_wtf.csrf import CSRFProtect
+from flask_wtf.csrf import CSRFProtect, generate_csrf
 from threading import Thread, Lock
 from urllib.parse import urljoin
 
@@ -229,7 +229,8 @@ def validar_pagina(pagina):
 @app.route('/get-csrf-token', methods=['GET'])
 def get_csrf_token():
     """Retorna um token CSRF para o frontend."""
-    return jsonify({'csrf_token': csrf._get_token()})
+    token = generate_csrf()
+    return jsonify({'csrf_token': token})
 
 @app.route('/filme/detalhes')
 def filme_detalhes():
