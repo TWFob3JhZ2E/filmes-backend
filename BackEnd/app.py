@@ -5,7 +5,7 @@ import asyncio
 import aiohttp
 import requests
 from bs4 import BeautifulSoup
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory, has_request_context
 from flask_cors import CORS
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 from threading import Thread, Lock
@@ -27,13 +27,16 @@ app = Flask(__name__, static_folder='static')
 # Configurar chave secreta para CSRF e sessões
 app.config['SECRET_KEY'] = os.environ.get('FLASK_SECRET_KEY', 'default-secret-key-for-testing')
 
+# Configurar chave de API
+API_KEY = os.environ.get('API_KEY', 'x9k3m7p2q8w4z6t1')  # Valor padrão para testes locais
+
 # Inicializar CSRF protection
 csrf = CSRFProtect(app)
 
 CORS(app, resources={r"/*": {
     "origins": "https://filmes-frontend.vercel.app",
     "methods": ["GET", "POST", "OPTIONS"],
-    "allow_headers": ["Content-Type", "Authorization", "X-CSRF-Token"]
+    "allow_headers": ["Content-Type", "Authorization", "X-CSRF-Token", "X-API-Key"]
 }})
 
 # Lock para sincronizar acesso a arquivos JSON
@@ -70,6 +73,17 @@ JSON_PATHS = {
     'code_filmes': os.path.join(TEMP_DIR, 'CodeFilmes.json'),
     'code_series': os.path.join(TEMP_DIR, 'CodeSeries.json')
 }
+
+# Função para verificar a chave de API
+def check_api_key():
+    # Pular verificação se não houver contexto de requisição (ex.: inicialização)
+    if not has_request_context():
+        return None
+    api_key = request.headers.get('X-API-Key')
+    if not api_key or api_key != API_KEY:
+        logger.warning(f"Chave de API inválida ou ausente: {api_key}")
+        return jsonify({'erro': 'Chave de API inválida ou ausente'}), 401
+    return None
 
 def carregar_dados_json(caminho):
     """Carrega dados de um arquivo JSON com sincronização."""
@@ -235,6 +249,10 @@ def get_csrf_token():
 @app.route('/filme/detalhes')
 def filme_detalhes():
     """Retorna detalhes de um filme pelo ID."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     filme_id = request.args.get('id')
     if not validar_id(filme_id):
         logger.warning(f"ID de filme inválido: {filme_id}")
@@ -251,6 +269,10 @@ def filme_detalhes():
 @app.route('/serie/detalhes')
 def serie_detalhes():
     """Retorna detalhes de uma série pelo ID."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     serie_id = request.args.get('id')
     if not validar_id(serie_id):
         logger.warning(f"ID de série inválido: {serie_id}")
@@ -267,6 +289,10 @@ def serie_detalhes():
 @app.route('/codigos/series')
 def codigos_series():
     """Retorna códigos de séries, com cache."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     cache = carregar_dados_json(JSON_PATHS['code_series'])
     if cache:
         return jsonify({"codigos": ", ".join(cache.get("codigos", []))})
@@ -293,6 +319,10 @@ def codigos_series():
 @app.route('/codigos/filmes')
 def codigos_filmes():
     """Retorna códigos de filmes, com cache."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     cache = carregar_dados_json(JSON_PATHS['code_filmes'])
     if cache:
         return jsonify({"codigos": ", ".join(cache.get("codigos", []))})
@@ -320,6 +350,10 @@ def codigos_filmes():
 @app.route('/filmes/novos')
 def filmes_novos():
     """Retorna novos filmes, com atualização em segundo plano."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['filmes_novos'])
 
@@ -338,12 +372,20 @@ def filmes_novos():
 @app.route('/filmes/home')
 def filmes_home():
     """Retorna filmes da página inicial."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     cache = carregar_dados_json(JSON_PATHS['filmes_home'])
     return jsonify(cache)
 
 @app.route('/filmes/pagina')
 def filmes_pagina():
     """Retorna filmes paginados com metadados."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     pagina = validar_pagina(request.args.get('pagina', 1))
     cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
@@ -364,6 +406,10 @@ def filmes_pagina():
 @app.route('/filmes/pagina/atualizar')
 def filmes_pagina_atualizar():
     """Atualiza a lista de filmes em segundo plano."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['filmes_pagina'])
 
@@ -382,6 +428,10 @@ def filmes_pagina_atualizar():
 @app.route('/series/pagina')
 def series_pagina():
     """Retorna séries paginadas com metadados."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     pagina = validar_pagina(request.args.get('pagina', 1))
     cache = carregar_dados_json(JSON_PATHS['series_nomes'])
 
@@ -402,6 +452,10 @@ def series_pagina():
 @app.route('/series')
 def series():
     """Retorna séries, com atualização em segundo plano."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     wait = request.args.get('wait', 'false').lower() == 'true'
     cache = carregar_dados_json(JSON_PATHS['series'])
 
@@ -420,6 +474,10 @@ def series():
 @app.route('/buscar')
 def buscar_nomes():
     """Busca filmes e séries por termo."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     termo = request.args.get('q', '').lower()
     if not termo or len(termo) < 2:
         logger.warning(f"Termo de busca inválido: {termo}")
@@ -437,6 +495,10 @@ def buscar_nomes():
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
     """Busca filmes e séries por gênero, com paginação."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     genero = request.args.get('genero', '').lower()
     pagina = validar_pagina(request.args.get('pagina', 1))
 
@@ -492,6 +554,10 @@ def buscar_por_genero():
 @app.route('/buscar_generos')
 def buscar_generos():
     """Retorna sugestões de gêneros com base no termo de busca."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     termo = request.args.get('q', '').lower()
     generos = [
         "Action", "Animation", "Adventure", "Comedy", "Crime", "Drama", "Family",
@@ -508,6 +574,10 @@ def buscar_generos():
 @app.route('/<path:path>')
 def serve_static(path):
     """Serve arquivos estáticos."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
     return send_from_directory(app.static_folder, path)
 
 def atualizar_codigos_inicial():
