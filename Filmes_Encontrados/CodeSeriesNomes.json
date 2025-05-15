@@ -46210,282 +46210,380 @@
         ]
     },
     {
-        "titulo": "Parks and Recreation",
-        "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/5onJu1lfvbKgzJ35b2Qjrt2xjSD.jpg",
-        "id": "8592",
-        "descricao": "",
-        "generos": []
-    },
-    {
         "titulo": "Sekunnit",
-        "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ueSS95Be0uDQ55NGEms5K0wUA02.jpg",
+        "titulo_original": "Sekunnit",
         "id": "251121",
-        "descricao": "",
-        "generos": []
+        "capa": "https://image.tmdb.org/t/p/w500/wHckvVNR3IMneIxdRTKEizReioI.jpg",
+        "qualidade": "HD",
+        "descricao": "Um enorme acidente de trem em uma pequena cidade idílica abala toda a Finlândia, e a investigadora de acidentes Marita Kaila se vê diante do caso mais difícil de sua carreira. Sob pressão crescente, Marita e sua equipe tentam descobrir o que levou à morte de dezenas de pessoas. No entanto, há também uma tragédia no passado de Marita que a investigação acaba trazendo à tona. Será que ela conseguirá resolver o caso antes que a pressão se torne insuportável?",
+        "generos": [
+            "Drama"
+        ]
     },
     {
-        "titulo": "As Quatro Estações do Ano",
-        "titulo_original": null,
+        "titulo": "Nike Training Club: Football-Inspired Workouts for All",
+        "titulo_original": "Nike Training Club: Football-Inspired Workouts for All",
+        "id": "257093",
+        "capa": "https://image.tmdb.org/t/p/w500/uGnkrJlwyAPIlA07mreBB6vFyHP.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/w09XeYl096pwES8riRMZwEA9rnh.jpg",
-        "id": "243316",
         "descricao": "",
-        "generos": []
+        "generos": [
+            "Reality"
+        ]
     },
     {
-        "titulo": "Caso Jean Charles: Um Brasileiro Morto Por Engano",
-        "titulo_original": null,
+        "titulo": "仮面ライダーBLACK",
+        "titulo_original": "仮面ライダーBLACK",
+        "id": "263079",
+        "capa": "https://image.tmdb.org/t/p/w500/bFP1SdtYtJNmWRie89BV77T7UFw.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/wur6FPgqQGbHwQ1zMRfh5vSK9Bw.jpg",
-        "id": "229236",
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Até Onde Ela Vai",
-        "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/rRRI4oJngp8LKEZ2kkgTxo7Ih0C.jpg",
-        "id": "244033",
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "O Eternauta",
-        "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/79Fg59KO493PUEsX9RMMldkEYIU.jpg",
-        "id": "226362",
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Sob o Cair da Neve",
-        "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/34V643cxdRfMlkIiRB5MoiWlimS.jpg",
-        "id": "213086",
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Carême - O Rebelde da Culinária",
-        "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/4RfFUZqH2jQ6QFl5NQZ0zrk2d3G.jpg",
-        "id": "231001",
-        "descricao": "",
-        "generos": []
+        "descricao": "Issamu Minami e seu irmão Nobuhiko Akizuki são sequestrados pela seita maligna Gorgom para se tornarem Imperadores Seculares de Gorgom. Mas Issamu consegue fugir antes de sofrer lavagem cerebral.",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
     },
     {
         "titulo": "This City Is Ours",
-        "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/53XOoTGPTVG5EmciGx8e2wpDOk0.jpg",
+        "titulo_original": "This City Is Ours",
         "id": "255570",
+        "capa": "https://image.tmdb.org/t/p/w500/53XOoTGPTVG5EmciGx8e2wpDOk0.jpg",
+        "qualidade": "HD",
         "descricao": "",
-        "generos": []
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
     },
     {
-        "titulo": "Realeza",
+        "titulo": "Carême - O Rebelde da Culinária",
+        "titulo_original": "Carême",
+        "id": "231001",
+        "capa": "https://image.tmdb.org/t/p/w500/4RfFUZqH2jQ6QFl5NQZ0zrk2d3G.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/9m8s1YXtkyioGl1jOxey9PCLDAD.jpg",
-        "id": "261545",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
+        "descricao": "Um cozinheiro jovem e ambicioso usa seu charme sedutor e trabalha como espião para poder salvar seu pai e conquistar a fama.",
+        "generos": [
+            "Drama"
+        ]
     },
     {
-        "titulo": "On My Block",
+        "titulo": "Sob o Cair da Neve",
+        "titulo_original": "冰雪谣",
+        "id": "213086",
+        "capa": "https://image.tmdb.org/t/p/w500/34V643cxdRfMlkIiRB5MoiWlimS.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/w6oviv65UEducvjAdH3sYYaxdu2.jpg",
-        "id": "76747",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
+        "descricao": "Conta a história de Shen Zhiheng, um cavalheiro e celebridade na República da China, e Mi Lan, filha de um rico empresário, que é cega desde a infância. Eles se conheceram em uma noite fatídica quando Mi Lan acidentalmente teve um momento de visão, descobrindo assim o segredo da imortalidade de Shen Zhiheng. Daí em diante, eles foram ligados um ao outro e se redimiram desde então.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "O Eternauta",
+        "titulo_original": "El Eternauta",
+        "id": "226362",
+        "capa": "https://image.tmdb.org/t/p/w500/9BaOdE76IgnMoy3a5xFDE7znsaO.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma tempestade de neve tóxica matou milhões de pessoas, mas Juan Salvo e um grupo de sobreviventes em Buenos Aires precisarão enfrentar uma nova ameaça invisível.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Até Onde Ela Vai",
+        "titulo_original": "Até Onde Ela Vai",
+        "id": "244033",
+        "capa": "https://image.tmdb.org/t/p/w500/rRRI4oJngp8LKEZ2kkgTxo7Ih0C.jpg",
+        "qualidade": "HD",
+        "descricao": "Com 10 episódios, a série Até Onde Ela Vai contará uma história bem sensível, baseada em acontecimentos reais, onde muitas mulheres irão se identificar com a personagem principal.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Caso Jean Charles: Um Brasileiro Morto por Engano",
+        "titulo_original": "Suspect: The Shooting of Jean Charles de Menezes",
+        "id": "229236",
+        "capa": "https://image.tmdb.org/t/p/w500/wur6FPgqQGbHwQ1zMRfh5vSK9Bw.jpg",
+        "qualidade": "HD",
+        "descricao": "Em Londres, no mês de julho de 2005, a polícia persegue uma célula de terroristas. Uma série extraordinária de eventos durante uma operação de vigilância leva à identificação errônea de um jovem brasileiro inocente como suspeito, resultando em sua morte. Enquanto seus parentes lutam contra a desinformação, eles encontram apoio de uma fonte improvável, e a polícia entra em crise, forçada a confrontar duras verdades sobre o tiroteio.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "As Quatro Estações do Ano",
+        "titulo_original": "The Four Seasons",
+        "id": "243316",
+        "capa": "https://image.tmdb.org/t/p/w500/bIAlUuBwLeAOmbREoh4NNa7KBrL.jpg",
+        "qualidade": "HD",
+        "descricao": "A amizade de décadas entre três casais é testada por um divórcio, que acaba atrapalhando a tradição de viajarem juntos.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Confusões de Leslie",
+        "titulo_original": "Parks and Recreation",
+        "id": "8592",
+        "capa": "https://image.tmdb.org/t/p/w500/5onJu1lfvbKgzJ35b2Qjrt2xjSD.jpg",
+        "qualidade": "HD",
+        "descricao": "Parks and Recreation gira  ao redor de Leslie Knope, uma funcionária do departamento de Parques e  Recreações de Pawnee, Indiana, que leva seu posto muito a sério e tem  como objetivo na vida ser a primeira mulher presidente dos Estados Unidos.",
+        "generos": [
+            "Comédia"
+        ]
     },
     {
         "titulo": "Para Sempre",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/98UiKiaQV5paB1EpZa3XDUxmGki.jpg",
+        "titulo_original": "FOREVER",
         "id": "248394",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
+        "capa": "https://image.tmdb.org/t/p/w500/t46c8O4Ts86bHLqdxxFfvs0OpFz.jpg",
+        "qualidade": "HD",
+        "descricao": "Dois amigos de infância se reencontram na adolescência e se apaixonam, vivendo as alegrias e dores do primeiro amor que mudará suas vidas para sempre.",
+        "generos": [
+            "Drama"
+        ]
     },
     {
-        "titulo": "O 19º Andar",
+        "titulo": "On My Block",
+        "titulo_original": "On My Block",
+        "id": "76747",
+        "capa": "https://image.tmdb.org/t/p/w500/w6oviv65UEducvjAdH3sYYaxdu2.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/7w8X8byculytjApRT1rMezyHLYt.jpg",
-        "id": "243569",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
+        "descricao": "Quatro adolescentes contam com o poder da amizade para sobreviver ao ensino médio em um bairro marginalizado de Los Angeles.",
+        "generos": [
+            "Comédia"
+        ]
     },
     {
-        "titulo": "Linda Mentira",
+        "titulo": "Realeza",
+        "titulo_original": "द रॉयल्स",
+        "id": "261545",
+        "capa": "https://image.tmdb.org/t/p/w500/9m8s1YXtkyioGl1jOxey9PCLDAD.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/kr75doW91cWGQe2HnVocCrVBiTO.jpg",
-        "id": "255074",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Uma jornada para o amor",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/nAcf6BM5i73bGgIUuvkz9ZNunV3.jpg",
-        "id": "210191",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "No Meio de Uma Tempestade de Neve de Amor",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ovdiSQeCy6RV5qswr2bVU3mUWz4.jpg",
-        "id": "221112",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Poesia de Amor Milenar",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/byxsnm2khRQezKljMd0g2WVDjbA.jpg",
-        "id": "102777",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Anjos caem às vezes",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/tQcBzOUuYYAINOIoOIBxl2Y2qyO.jpg",
-        "id": "228076",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Você é o Único",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/dYVc2H2IN5KMIrA1qlwkEEfCbpf.jpg",
-        "id": "237882",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "As Beautiful As You",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/AfGGg5GUvszIOzNi8oqRBR92FNB.jpg",
-        "id": "219915",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "A Melhor Escolha de Todos os Tempos",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/6Q3Y4uWj0tZo2SHlI1XMwIm8AtS.jpg",
-        "id": "232948",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Bright Eyes in the Dark",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/oTQK4cOCfpEeXAk20tZZ9eA3VYT.jpg",
-        "id": "234919",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "O Contrato Secreto da Bruxa",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/4s4xQgWzaJ6aR79BQepmqXVQOg4.jpg",
-        "id": "286446",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Spring of Youth",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/nyQR4XfuNtbHkQfXUZgMb7Gah8X.jpg",
-        "id": "280016",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Pump Up the Healthy Love",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/d6SubGZP1j0m5gNurPEizxzuzFR.jpg",
-        "id": "260555",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Possessed Love",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/xV5SSmRkgksaXMznypxoNQdkFVD.jpg",
-        "id": "257116",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Casar com o Inimigo do Meu Inimigo",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/9gDei3mwz6NlIK4xuVGUmKn2YXS.jpg",
-        "id": "288702",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Amor no Pavilhão",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/4KNymQxbzWaCiUnE2WUDkCcAxkB.jpg",
-        "id": "226270",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
-    },
-    {
-        "titulo": "Mate o Amante",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ogFnqsKxtA9sfqL3cqwSxId5nKn.jpg",
-        "id": "290191",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
+        "descricao": "O charmoso príncipe Aviraaj conhece Sophia, uma mulher muito ambiciosa. Será que o romance vai florescer mesmo no meio de dois mundos tão diferentes?",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
     },
     {
         "titulo": "Trajetória Dela",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/rO7hiQsRbsqulonOtI1lA6XdFV7.jpg",
+        "titulo_original": "她的轨迹",
         "id": "288006",
-        "titulo_original": null,
+        "capa": "https://image.tmdb.org/t/p/w500/rO7hiQsRbsqulonOtI1lA6XdFV7.jpg",
+        "qualidade": "HD",
+        "descricao": "Shu Yan, uma jovem que sempre priorizou a todos, chegou ao fundo do poço após perder a família e a carreira. Ela enfrenta uma série de mudanças devastadoras na vida, mas, à medida que se recupera, começa a se reconstruir e a assumir o controle de sua vida. Por meio dessa jornada transformadora, ela encontra o amor verdadeiro em Shen Weizhou.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Mate o Amante",
+        "titulo_original": "假面迷情",
+        "id": "290191",
+        "capa": "https://image.tmdb.org/t/p/w500/ogFnqsKxtA9sfqL3cqwSxId5nKn.jpg",
+        "qualidade": "HD",
+        "descricao": "Após perder seus pais para o plano de um poderoso magnata, You You retorna anos depois com uma nova identidade em busca de vingança. Juntando-se a Qi Dong, seu antigo inimigo e filho rejeitado do magnata, eles se unem contra um passado em comum, sem saber que uma ameaça maior se aproxima.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Amor no Pavilhão",
+        "titulo_original": "淮水竹亭",
+        "id": "226270",
+        "capa": "https://image.tmdb.org/t/p/w500/4KNymQxbzWaCiUnE2WUDkCcAxkB.jpg",
+        "qualidade": "HD",
+        "descricao": "Centra-se no amor entre Dongfang Huaizhu e Wangquan Baye.",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Casar com o Inimigo do Meu Inimigo",
+        "titulo_original": "你是我的正午暖阳",
+        "id": "288702",
+        "capa": "https://image.tmdb.org/t/p/w500/9gDei3mwz6NlIK4xuVGUmKn2YXS.jpg",
+        "qualidade": "HD",
+        "descricao": "Xia Nuan viaja para o sul da Ásia para ajudar sua meia-irmã doente, apenas para descobrir um plano para roubar seu rim. Traída pela família e resgatada por um combatente clandestino, ela retorna para expor a verdade no funeral que planejaram para ela.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "신들린 연애",
+        "titulo_original": "신들린 연애",
+        "id": "257116",
+        "capa": "https://image.tmdb.org/t/p/w500/xV5SSmRkgksaXMznypxoNQdkFVD.jpg",
+        "qualidade": "HD",
         "descricao": "",
-        "generos": []
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Fitness na Academia e no Amor",
+        "titulo_original": "24시 헬스클럽",
+        "id": "260555",
+        "capa": "https://image.tmdb.org/t/p/w500/d6SubGZP1j0m5gNurPEizxzuzFR.jpg",
+        "qualidade": "HD",
+        "descricao": "Ainda se recuperando de um término doloroso, Lee Mi Ran, que atua como gerente de uma agência de viagens, quer mudar de vida. Uma novata do mundo fitness, ela acaba entrando em uma despretensiosa academia 24 horas administrada por Do Hyeon Joong, um ex-campeão de fisiculturismo que, após ganhar um dos maiores prêmios do meio, largou o cenário por completo. Contudo, apesar dos muitos desafios que enfrenta ao tentar administrar uma academia no mundo moderno, ele continua comprometido com o trabalho que se propôs a fazer. Mi Ran se vê atraída pela dedicação que Hyeon Joong tem à saúde e ao bem-estar dos membros da academia e, ao começar a seguir os conselhos de condicionamento físico dele, um vínculo mais profundo começa a se formar entre os dois, levando-os a um novo capítulo em suas vidas.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Renascer da Juventude",
+        "titulo_original": "사계의 봄",
+        "id": "280016",
+        "capa": "https://image.tmdb.org/t/p/w500/nyQR4XfuNtbHkQfXUZgMb7Gah8X.jpg",
+        "qualidade": "HD",
+        "descricao": "Sa Gye estava aproveitando o melhor momento de sua vida como vocalista e guitarrista da banda de K-pop “The Crown” até ser forçado a sair do grupo. Em busca de um recomeço, ele decide se matricular na faculdade e, pela primeira vez, levar uma vida normal como qualquer outro universitário. Lá, ele conhece Kim Bom, uma talentosa estudante de música que desistiu de estudar no exterior após o falecimento de sua mãe, e Seo Tae Yang, um estudante de medicina também apaixonado por música.\n\nJunto com outros alunos, os três formam uma banda e, em pouco tempo, Sa Gye se vê redescobrindo sua paixão pela música. Além disso, à medida que Sa Gye e Bom se aproximam, ambos começam a desenvolver sentimentos e apoiar um ao outro enquanto superam os traumas do passado.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "O Contrato Secreto da Bruxa",
+        "titulo_original": "魔女的秘密契约",
+        "id": "286446",
+        "capa": "https://image.tmdb.org/t/p/w500/4s4xQgWzaJ6aR79BQepmqXVQOg4.jpg",
+        "qualidade": "HD",
+        "descricao": "A Matriarca Bruxa Xia Mo é aprisionada por uma maldição mortal após perder seu colar. Desesperada para recuperá-lo, ela faz um acordo perigoso com Mu Han Yu, um vingativo professor de física, e jura realizar seu desejo. Através do contato frequente, eles se apaixonam gradualmente. No entanto, o destino os coloca um contra o outro...",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Bright Eyes in the Dark",
+        "titulo_original": "他从火光中走来",
+        "id": "234919",
+        "capa": "https://image.tmdb.org/t/p/w500/oTQK4cOCfpEeXAk20tZZ9eA3VYT.jpg",
+        "qualidade": "HD",
+        "descricao": "Lin Luxiao possui habilidades excepcionais de combate a incêndios e vasta experiência. Ele é o chefe da Estação de Operações Especiais na Heping Road, na cidade de Beixun. Por uma reviravolta do destino, ele é escolhido para se tornar instrutor de um reality show que visa promover o conhecimento sobre combate a incêndios. Durante o show, Lin Luxiao encontra coincidentemente Nan Chu, uma dançarina que ele resgatou de um incêndio anos atrás. Nan Chu desenvolve um carinho por Lin Luxiao, mas mantém distância devido aos perigos inerentes à sua profissão. Bombeiros de diferentes gerações colaboram em operações de resgate envolvendo incêndios, terremotos e resgates aéreos, elevando o nível de segurança contra incêndio na cidade de Beixun. À medida que Nan Chu e Lin Luxiao aprofundam gradualmente a compreensão um do outro, eles afirmam seus sentimentos. Diante do incêndio florestal mais perigoso",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Melhor Escolha de Todos os Tempos",
+        "titulo_original": "承欢记",
+        "id": "232948",
+        "capa": "https://image.tmdb.org/t/p/w500/6Q3Y4uWj0tZo2SHlI1XMwIm8AtS.jpg",
+        "qualidade": "HD",
+        "descricao": "Mai Chenghuan, uma garota pós-95 nascida em uma família comum em Xangai, propôs casamento a seu namorado, Xin Jialiang, a pedido de sua mãe, Liu Wanyu. No entanto, as condições econômicas favoráveis ​​da família Xin tornaram esse relacionamento emocional originalmente igualitário desequilibrado.",
+        "generos": [
+            "Drama",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "As Beautiful As You",
+        "titulo_original": "你比星光美丽",
+        "id": "219915",
+        "capa": "https://image.tmdb.org/t/p/w500/AfGGg5GUvszIOzNi8oqRBR92FNB.jpg",
+        "qualidade": "HD",
+        "descricao": "Ji Xing, um talento técnico que trabalha diligentemente em uma empresa de tecnologia, renunciou resolutamente para realizar seu sonho e embarcou no caminho do empreendedorismo. A equipe formada por Ji Xing e seu irmão mais novo estava em perigo no início do negócio. Quando não havia esperança, Ji Xing ganhou o apoio de Han Ting, presidente da Dongyang Technology, com suas percepções únicas. Com o investimento de Han Ting, a startup Xingchen finalmente está no caminho certo. Mas Ji Xing 'perdeu' seu primeiro namorado, por quem ela estava apaixonada há sete anos. As dificuldades de abrir um negócio e a dor de romper com seu amor quase a destruíram. Felizmente, ela tem a proteção próxima do grupo irmão.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Você é o Único",
+        "titulo_original": "柳舟记",
+        "id": "237882",
+        "capa": "https://image.tmdb.org/t/p/w500/dYVc2H2IN5KMIrA1qlwkEEfCbpf.jpg",
+        "qualidade": "HD",
+        "descricao": "A inteligente e decisiva Liu Miantang, como a primeira senhoria do Monte Yang, liderou o povo do Monte Yang para punir os perversos, promover a bondade e defender a justiça. No entanto, ela sofreu ferimentos graves sob o ataque de várias forças malignas e foi resgatada por Cui Xingzhou, o Príncipe de Huai Yang. Quando Liu Miantang acordou, ela não tinha nenhuma lembrança do Monte Yang, confundindo Cui Xingzhou com seu marido, Cui Jiu. No entanto, se suas identidades fossem expostas, eles poderiam encarar isso honestamente enquanto suportam dificuldades?",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Anjos caem às vezes",
+        "titulo_original": "谢谢你温暖我",
+        "id": "228076",
+        "capa": "https://image.tmdb.org/t/p/w500/tQcBzOUuYYAINOIoOIBxl2Y2qyO.jpg",
+        "qualidade": "HD",
+        "descricao": "Lin Tuo e An Zhi Que se conheceram em uma feira de empregos durante o estágio de verão do primeiro ano. Eles se apaixonaram à primeira vista e, após aprofundarem o entendimento um do outro, determinaram seu relacionamento. À medida que a temporada de formatura se aproxima, os dois se dão as mãos enquanto passam pela universidade para trabalhar juntos e planejar um futuro melhor. Embora o caminho da vida não estivesse indo bem, mas com o incentivo mútuo, aos poucos ele entrou no caminho certo.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Poesia de Amor Milenar",
+        "titulo_original": "千古玦尘",
+        "id": "102777",
+        "capa": "https://image.tmdb.org/t/p/w500/byxsnm2khRQezKljMd0g2WVDjbA.jpg",
+        "qualidade": "HD",
+        "descricao": "Shang Gu é o chefe dos quatro verdadeiros imortais no mundo antigo e o único com a energia da essência pura.  Por causa de uma provação de 60.000 anos atrás, ela decidiu se sacrificar e caiu em um sono profundo.  Ela retorna com outra identidade - High Immortal do Palácio Qingchi. A\n\npesar de ser uma imortal elevada, seus poderes são fracos.  Junto com a perda de sua antiga identidade e poderes, ela também perde suas memórias.  No entanto, seu ex-amante Bai Jue nunca se esqueceu dela.  Ele foi aquele que sacrificou voluntariamente sua reencarnação pela vida eterna dela,  e que esperou por ela por 60.000 anos.  Quando sua alma se dissipou, ela jura esperar por ele para sempre.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "No Meio de Uma Tempestade de Neve de Amor",
+        "titulo_original": "在暴雪时分",
+        "id": "221112",
+        "capa": "https://image.tmdb.org/t/p/w500/ovdiSQeCy6RV5qswr2bVU3mUWz4.jpg",
+        "qualidade": "HD",
+        "descricao": "Como jogadora de bilhar profissional, Yin Guo (Zhao Jin Mai) se tornou uma atleta notável. Ao receber um convite para jogar num torneio em Hel, Yin Guo aceita avidamente. Mal sabe ela que o que acontecerá em seguida mudará sua vida para sempre.\n\nAntes de Yin Guo sequer começar a treinar para a competição que se aproxima, uma inesperada tempestade de neve a deixa presa com Lin Yi Yang (Leo Wu) – e logo surge uma conexão instantânea entre eles. Ajudados pela prima dela, Yin Guo e Yi Yang continuam se conhecendo melhor muito tempo após a tempestade ter passado. Mas mesmo à medida que se aproximam, Yin Guo não faz ideia de que Yi Yang tem um passado considerável no mundo do bilhar profissional. Um verdadeiro gênio do esporte, Yi Yang já esteve sob os holofotes da fama do bilhar profissional, mas isso foi há muito tempo.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Uma jornada para o amor",
+        "titulo_original": "一念关山",
+        "id": "210191",
+        "capa": "https://image.tmdb.org/t/p/w500/nAcf6BM5i73bGgIUuvkz9ZNunV3.jpg",
+        "qualidade": "HD",
+        "descricao": "Dois importantes assassinos de agências rivais e sua equipe de seis membros com experiências diversas e habilidades únicas embarcam em uma jornada repleta de desafios e crises.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Linda Mentira",
+        "titulo_original": "你的谎言也动听",
+        "id": "255074",
+        "capa": "https://image.tmdb.org/t/p/w500/kr75doW91cWGQe2HnVocCrVBiTO.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma equipe médica de resgate e voluntários, incluindo a atriz Qin Fei, vão para uma área de desastre no sudoeste da China. Inicialmente duvidada por seus motivos, Qin Fei prova seu valor arriscando sua vida para salvar outras pessoas. Enquanto trabalham juntas, a capitã da equipe Xing Zhizhi reconhece sua resiliência, e elas se aproximam. Qin Fei mais tarde percebe que Xing Zhizhi foi a médica que a salvou em um acidente passado, ligando seus destinos. Juntas, elas se apoiam enquanto seguem suas carreiras.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O 19º Andar",
+        "titulo_original": "19层",
+        "id": "243569",
+        "capa": "https://image.tmdb.org/t/p/w500/c8RuAfcKD7NNZGvHdguhh5u4CJ8.jpg",
+        "qualidade": "HD",
+        "descricao": "Chun Yu é uma estudante universitária cuja vida se transforma em uma turbulência terrível quando ela recebe uma mensagem de texto assustadora que diz: “Eu sei qual é o 19° andar do inferno.” Logo, ela percebe que outros estudantes no campus receberam a mesma mensagem. Em pouco tempo, ela descobre que foi sugada para a realidade macabra de um jogo para dispositivos móveis que se passa em um prédio fantasmagórico “assombrado”, onde cada andar está cheio de perigos, horrores e segredos aterrorizantes.",
+        "generos": [
+            "Mistério",
+            "Sci-Fi & Fantasy"
+        ]
     },
     {
         "titulo": "Ultraman R/B",
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/t2zZc25hKvAfQNZOSbTyjhmWBGH.jpg",
+        "titulo_original": "ウルトラマンR/B",
         "id": "81959",
-        "titulo_original": null,
-        "descricao": "",
-        "generos": []
+        "capa": "https://image.tmdb.org/t/p/w500/t2zZc25hKvAfQNZOSbTyjhmWBGH.jpg",
+        "qualidade": "HD",
+        "descricao": "Katsumi, um jovem que trabalha na loja do seu pai, e Asami, seu irmão caçula que ainda está na escola. Os heróis vão ter um encontro com um kaiju e vão se transformar em Ultraman graças aos cristais R/B e o R/B Gyro.",
+        "generos": [
+            "Action & Adventure",
+            "Sci-Fi & Fantasy"
+        ]
     }
 ]
