@@ -34,7 +34,7 @@ API_KEY = os.environ.get('API_KEY', 'x9k3m7p2q8w4z6t1')  # Valor padrão para te
 csrf = CSRFProtect(app)
 
 CORS(app, resources={r"/*": {
-    "origins": "https://filmes-frontend.vercel.app",
+    "origins": "https://www.mystarmovies.online/",
     "methods": ["GET", "POST", "OPTIONS"],
     "allow_headers": ["Content-Type", "Authorization", "X-CSRF-Token", "X-API-Key"]
 }})
