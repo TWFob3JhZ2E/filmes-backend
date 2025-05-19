@@ -33,8 +33,9 @@ API_KEY = os.environ.get('API_KEY', 'x9k3m7p2q8w4z6t1')  # Valor padrão para te
 # Inicializar CSRF protection
 csrf = CSRFProtect(app)
 
+app = Flask(__name__)
 CORS(app, resources={r"/*": {
-    "origins": "https://filmes-frontend.vercel.app",
+    "origins": ["https://mystarmovies.online", "https://www.mystarmovies.online"],
     "methods": ["GET", "POST", "OPTIONS"],
     "allow_headers": ["Content-Type", "Authorization", "X-CSRF-Token", "X-API-Key"]
 }})
