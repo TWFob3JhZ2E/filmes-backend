@@ -22,10 +22,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Inicializar o Flask uma única vez
 app = Flask(__name__, static_folder='static')
 
 # Configurar chave secreta para CSRF e sessões
-app.config['SECRET_KEY'] = os.environ.get('FLASK_SECRET_KEY', 'default-secret-key-for-testing')
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'default-secret-key-for-testing')
 
 # Configurar chave de API
 API_KEY = os.environ.get('API_KEY', 'x9k3m7p2q8w4z6t1')  # Valor padrão para testes locais
@@ -33,7 +34,7 @@ API_KEY = os.environ.get('API_KEY', 'x9k3m7p2q8w4z6t1')  # Valor padrão para te
 # Inicializar CSRF protection
 csrf = CSRFProtect(app)
 
-app = Flask(__name__)
+# Configurar CORS
 CORS(app, resources={r"/*": {
     "origins": ["https://mystarmovies.online", "https://www.mystarmovies.online"],
     "methods": ["GET", "POST", "OPTIONS"],
@@ -244,6 +245,9 @@ def validar_pagina(pagina):
 @app.route('/get-csrf-token', methods=['GET'])
 def get_csrf_token():
     """Retorna um token CSRF para o frontend."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
     token = generate_csrf()
     return jsonify({'csrf_token': token})
 
