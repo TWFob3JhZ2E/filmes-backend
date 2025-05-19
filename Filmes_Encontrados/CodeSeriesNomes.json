@@ -46585,5 +46585,384 @@
             "Action & Adventure",
             "Sci-Fi & Fantasy"
         ]
+    },
+    {
+        "titulo": "Até Onde Ele Vai",
+        "titulo_original": "Até Onde Ele Vai",
+        "id": "282244",
+        "capa": "https://image.tmdb.org/t/p/w500/fPD25mkMzJ3nC46khaT9cbtnhOl.jpg",
+        "qualidade": "HD",
+        "descricao": "Morador de uma comunidade do Rio de Janeiro, Michael cresceu conflitando com a própria realidade, até que o ataque surpresa de uma facção o faz chegar ao limite.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Cobras e Escadas",
+        "titulo_original": "Serpientes y Escaleras",
+        "id": "255810",
+        "capa": "https://image.tmdb.org/t/p/w500/aZHUupsZ8rEvZsQZncpozsgoRvm.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma professora ambiciosa e negligenciada quer ser diretora de uma escola prestigiosa. Para chegar ao topo, ela precisa encarar uma rede de mentiras e corrupção.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Gostinho de Amor",
+        "titulo_original": "당신의 맛",
+        "id": "281006",
+        "capa": "https://image.tmdb.org/t/p/w500/dWOEPCBqsQo3u1AhGIreOgf4vTx.jpg",
+        "qualidade": "HD",
+        "descricao": "Em busca do estrelato culinário, um herdeiro arrogante conhece uma chef discreta, mas teimosa, e se encanta com suas receitas. Seria o início de um romance improvável?",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Kakegurui: Bet",
+        "titulo_original": "Bet",
+        "id": "255779",
+        "capa": "https://image.tmdb.org/t/p/w500/1nKWzNyU0Pt18bQOTyJ9IOUVxK6.jpg",
+        "qualidade": "HD",
+        "descricao": "Em uma escola particular em que apostas determinam o status social, uma nova aluna habilidosa com um passado misterioso está virando o jogo e apostando na vingança.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "A Reserva",
+        "titulo_original": "Reservatet",
+        "id": "262878",
+        "capa": "https://image.tmdb.org/t/p/w500/654Kmi3ZbrpOow7D5k9pmwbsFIE.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma jovem au pair desaparece em um bairro de elite, fazendo com que Cecilie tente descobrir a verdade. Mal sabe ela que essa jornada trará revelações chocantes.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Muito Esforçado",
+        "titulo_original": "Overcompensating",
+        "id": "247619",
+        "capa": "https://image.tmdb.org/t/p/w500/A0tn8MFGb8hYwqGEIVAz0v56kO8.jpg",
+        "qualidade": "HD",
+        "descricao": "A jornada caótica de Benny, um ex-jogador de futebol enrustido e rei da festa de boas-vindas, enquanto se torna amigo de Carmen, uma estranha com a missão de se adequar a qualquer custo. Muito engraçada e pessoal, a série explora até que ponto todos nós nos esforçamos muito enquanto descobrimos quem somos.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Os Fantasmas de Devil Perch",
+        "titulo_original": "Ghosts of Devil's Perch",
+        "id": "208734",
+        "capa": "https://image.tmdb.org/t/p/w500/guYMRvZ9iP5W2i7ZYUroYQhn70m.jpg",
+        "qualidade": "HD",
+        "descricao": "Butte, Montana, é atingida por uma onda de fenômenos paranormais. Para restaurar a ordem, o prefeito e o delegado pedem ajuda aos investigadores paranormais Dave Schrader, Cindy Kaza e K.D. Stafford para deter os eventos que atormentam a cidade histórica.",
+        "generos": [
+            "Documentário",
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Cursed - A Maldição da Familia Bell",
+        "titulo_original": "Cursed: The Bell Witch",
+        "id": "73403",
+        "capa": "https://image.tmdb.org/t/p/w500/p1xf9umK2w9zKtGrbfvlIpBykYi.jpg",
+        "qualidade": "HD",
+        "descricao": "A Maldição da Família Bell (Cursed: The Bell Witch), minissérie original que acompanha a jornada pessoal de John Ceallach, um descendente direto da Maldição da Família Bell, uma das histórias de fantasmas mais antigas e lendárias dos Estados Unidos. Ceallach acredita que essa maldição tem atravessado várias gerações de sua família e ele agora está na caçada para reverter os acontecimentos, antes que eles atinjam seu único filho",
+        "generos": []
+    },
+    {
+        "titulo": "Aliens entre Nós",
+        "titulo_original": "Extraterrestres: Ellos Están Entre Nosotros",
+        "id": "138333",
+        "capa": "https://image.tmdb.org/t/p/w500/tqtIjZJ4KMK8QX02ITAhJnxfg45.jpg",
+        "qualidade": "HD",
+        "descricao": "De mitos e lendas que datam da pré-história a evidências recentes, a história da Espanha está repleta de relatos de óvnis. Vamos explorar o país para investigar estas histórias, revelando arquivos e procurando provas.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "As Filhas da Seita: Uma História de Abusos",
+        "titulo_original": "Children of the Cult",
+        "id": "130381",
+        "capa": "https://image.tmdb.org/t/p/w500/tK4BzoV4nSa2kGYErFympltp26U.jpg",
+        "qualidade": "HD",
+        "descricao": "Esta série documental em cinco episódios relata os horrores vividos por três mulheres que nasceram em uma seita. Cobrindo 50 anos, essa é uma história épica que envolve lavagem cerebral, abusos sexuais, suicídios e assassinatos.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Cena do Crime: O Campo da Morte no Texas",
+        "titulo_original": "Crime Scene: The Texas Killing Fields",
+        "id": "214180",
+        "capa": "https://image.tmdb.org/t/p/w500/718b92F5JpRh1tFl0FEbSmW5rv.jpg",
+        "qualidade": "HD",
+        "descricao": "A docussérie trará o mistério por trás dos 30 corpos encontrados numa área grande que ficou conhecida como “killing fields”, em League City no Texas.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Cidades Ocultas",
+        "titulo_original": "Cities of the Underworld",
+        "id": "3675",
+        "capa": "https://image.tmdb.org/t/p/w500/sNAyZrhHZvOfrI39iS7cPutOuVe.jpg",
+        "qualidade": "HD",
+        "descricao": "Don Wildman viaja para os confins e profundos recantos do globo, usando tecnologia de ponta para explorar mistérios enterrados nas profundezas do solo.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Como Nasceu Nosso Planeta",
+        "titulo_original": "How the Earth Was Made",
+        "id": "25394",
+        "capa": "https://image.tmdb.org/t/p/w500/fu7saYycxwT5m4v56cUdkvWd7xl.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma travessia mágica pela história de nosso planeta. Iniciaremos há 4,5 bilhões de anos, quando se formou, até o presente. Através de gráficos computadorizados, comentários de especialistas e um pouco de imaginação, descobriremos a incrível história deste planeta a que chamamos de lar.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Duster",
+        "titulo_original": "Duster",
+        "id": "113959",
+        "capa": "https://image.tmdb.org/t/p/w500/h3cbwxUdUev04z2KBEsvvJ2QwYE.jpg",
+        "qualidade": "HD",
+        "descricao": "A primeira agente negra do FBI vai ao sudoeste dos EUA e recruta um piloto de fuga corajoso em uma tentativa ousada de derrubar uma organização mafiosa em ascensão.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Diários de um Robô-Assassino",
+        "titulo_original": "Murderbot",
+        "id": "241554",
+        "capa": "https://image.tmdb.org/t/p/w500/iLFkkQYdqsLZlZmyu6PssRAxPc0.jpg",
+        "qualidade": "HD",
+        "descricao": "Em um futuro high-tech, um robô de segurança rebelde secretamente adquire livre arbítrio. Para se manter escondido, ele acaba, contra sua vontade, participando de uma missão para proteger cientistas em um planeta perigoso... mesmo que tudo o que queria era maratonar suas novelas.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Os Guerreiros Wasabi",
+        "titulo_original": "Kickin' It",
+        "id": "32716",
+        "capa": "https://image.tmdb.org/t/p/w500/9mQCSUFpVTMtFGeGYLVeOZbyoQp.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma academia de artes marciais é a pior na classificação nacional e corre o risco de ser fechada. Mas as coisas mudam quando Jack conhece sua nova equipe e eles ensinam a um grupo de patetas do bairro a filosofia do caratê e como praticá-la.",
+        "generos": [
+            "Família",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Do Alto Do Seu Conhecimento",
+        "titulo_original": "Do Alto Do Seu Conhecimento",
+        "id": "289574",
+        "capa": "https://image.tmdb.org/t/p/w500/iereafsYdICljToj1Ycma1gzlEO.jpg",
+        "qualidade": "HD",
+        "descricao": "Do Alto do Seu Conhecimento é um game show que desafia tudo o que achamos que sabemos. Em cada episódio, Penelopy Jean recebe três convidados, que competem em um quiz. O vencedor escolhe uma ONG para receber uma doação de R$ 10.000.",
+        "generos": []
+    },
+    {
+        "titulo": "Lost",
+        "titulo_original": "Lost",
+        "id": "4607",
+        "capa": "https://image.tmdb.org/t/p/w500/29qdZsx68Oakn1Kirkxob2Qn8w9.jpg",
+        "qualidade": "HD",
+        "descricao": "Os sobreviventes de um voo que estava milhas fora do curso caem em uma ilha que abriga um sistema de segurança monstruoso, uma série de abrigos subterrâneos e um grupo de sobrevivencialistas violentos escondidos nas sombras.",
+        "generos": [
+            "Mistério",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Eu, Tu e Ela",
+        "titulo_original": "You Me Her",
+        "id": "66008",
+        "capa": "https://image.tmdb.org/t/p/w500/2kGB4jNvaCGq1Ia5ZKIrq5Voycf.jpg",
+        "qualidade": "HD",
+        "descricao": "Um romance incomum entre 3 pessoas, um casal suburbano e uma acompanhante",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Back on the Record with Bob Costas",
+        "titulo_original": "Back on the Record with Bob Costas",
+        "id": "124207",
+        "capa": "https://image.tmdb.org/t/p/w500/5XyAuMtdCW6gMHKGtGTnLuFrLXH.jpg",
+        "qualidade": "HD",
+        "descricao": "O lendário locutor Bob Costas discute as questões mais atuais do esporte com os principais jornalistas da atualidade.",
+        "generos": [
+            "Talk"
+        ]
+    },
+    {
+        "titulo": "The Nanny",
+        "titulo_original": "The Nanny",
+        "id": "2352",
+        "capa": "https://image.tmdb.org/t/p/w500/4syShXMjaPAP3mG81ekhruv94sd.jpg",
+        "qualidade": "HD",
+        "descricao": "Fran Fine é contratada para o cargo de babá na casa de um viúvo de Nova York. Ela precisa cuidar dos três filhos do produtor da Broadway Maxwell Sheffield, mas não tem nenhuma experiência neste tipo de trabalho.",
+        "generos": [
+            "Comédia",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "A História do Late Night",
+        "titulo_original": "The Story of Late Night",
+        "id": "124334",
+        "capa": "https://image.tmdb.org/t/p/w500/6ExKnMXswNpm3PuxxCkyf2iSNc8.jpg",
+        "qualidade": "HD",
+        "descricao": "Um documentário em seis partes com as figuras mais engraçadas do mundo sobre a verdadeira história do Late Night, desde promessas não cumpridas e acordos de bastidores, até os egos do horário nobre e as guerras de sucessão.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "A Promessa Mais Longa",
+        "titulo_original": "玉骨遥",
+        "id": "130270",
+        "capa": "https://image.tmdb.org/t/p/w500/bnzpvIeGtaSiwcGpvAI9fpHCXmi.jpg",
+        "qualidade": "HD",
+        "descricao": "A história se passa no continente Kong Sang e gira em torno da tumultuada história de amor entre Zhu Yan, princesa da tribo Chi Yi e Shi Ying, um príncipe real. A mãe de Shi Ying foi incriminada e ele foi banido para a montanha Jiu Yi para cultivar. Originalmente focado em nada além do cultivo, ele começou a desenvolver sentimentos românticos por Zhu Yan, seu discípulo. No entanto, por causa de seu relacionamento como professor e aluno, ambos não expressam seus sentimentos. O destino também está em seu caminho quando eles se posicionam em lados opostos na luta política e passam por situações de vida ou morte. No entanto, eles eventualmente deixam de lado seus problemas e trabalham juntos de mãos dadas para proteger o Continente Kong Sang.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Do Seu Lado",
+        "titulo_original": "Na tvoey storone",
+        "id": "133396",
+        "capa": "https://image.tmdb.org/t/p/w500/vI3ZJ6vXNHO4jBX9bvDA6SSbXr8.jpg",
+        "qualidade": "HD",
+        "descricao": "A série é baseada na história clássica de A Bela e a Fera. É uma história de amor construtivo. A protagonista, uma conhecida cirurgiã cardíaca de 30 anos, Nastya, tenta ajudar seu amado Maksym, que por muitos anos fez parte de círculos criminosos, a sair do inferno em que vive.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Império de Mentiras",
+        "titulo_original": "Imperio De Mentiras",
+        "id": "109470",
+        "capa": "https://image.tmdb.org/t/p/w500/fNAhBhWxEB6ZIPx4wSB9Ke2B1bP.jpg",
+        "qualidade": "HD",
+        "descricao": "A história é centrada em um policial humilde e honesto e uma jovem de família rica que se aventuram em uma paixão tão incontrolável quanto proibida. Depois que seu pai e a namorada do ex-policial são assassinados em circunstâncias estranhas, o casal investiga as misteriosas mortes para descobrir a verdade. Juntos, eles descobrem segredos poderosos de um mundo de corrupção que eles não conheciam, tudo isso enquanto lutam para defender seu amor e aprender a confiar um no outro.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Sobrevivente Primitivo com Hazen Audel",
+        "titulo_original": "Primal Survivor",
+        "id": "65859",
+        "capa": "https://image.tmdb.org/t/p/w500/iiw244PvDnjFLma16xdcj4jOUO0.jpg",
+        "qualidade": "HD",
+        "descricao": "Selvas e florestas tropicais são o terreno mais inóspitos na Terra - vegetação impenetrável, parasitas letais, calor opressivo e umidade que torna esta região hostil para os humanos. Apesar disso, os povos nativos vivem aqui há milhares de anos e descobriram não apenas como sobreviver, mas como se desenvolver nesta paisagem brutal. Hazen Audel, dotado com as habilidades dos moradores locais, revela os métodos extraordinários que manterão você vivo na selva.",
+        "generos": [
+            "Documentário",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Spectreman",
+        "titulo_original": "スペクトルマン",
+        "id": "20653",
+        "capa": "https://image.tmdb.org/t/p/w500/g9c7QOldWb70A79KR5bGcrUGzae.jpg",
+        "qualidade": "HD",
+        "descricao": "Aqui é contada a luta do androide Spectreman contra o genial cientista Dr. Gori e seu divertido auxiliar, Karas ambos simióides (homens-macaco). Além da tradicional guerra do bem contra o mal, as aventuras de Spectreman faziam com que o telespectador refletisse sobre os problemas causados pela poluição. O tema esteve presente em praticamente todos os episódios, pois os monstros criados pelo Dr. Gori usavam lixo como matéria-prima.",
+        "generos": [
+            "Action & Adventure",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Namorado de Natal",
+        "titulo_original": "Hjem til jul",
+        "id": "95612",
+        "capa": "https://image.tmdb.org/t/p/w500/zY1IdRI75vpTxGZWz88r4Py9pX.jpg",
+        "qualidade": "HD",
+        "descricao": "Cansada dos comentários sobre sua vida amorosa, Johanne tem 24 dias para encontrar um namorado e levá-lo para conhecer os pais no Natal.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Só para Adultos: Países Baixos e Alemanha",
+        "titulo_original": "성+인물: 네덜란드, 독일 편",
+        "id": "244890",
+        "capa": "https://image.tmdb.org/t/p/w500/oWxqJWhsKuFl4Jefjpj8Dd2oTf1.jpg",
+        "qualidade": "HD",
+        "descricao": "Shin Dong-youp e Sung Si-kyung se aventuram pelas culturas sexuais dos Países Baixos e da Alemanha, combinando experiências práticas com entrevistas reveladoras.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "A Vida Secreta das Esposas Mórmons",
+        "titulo_original": "The Secret Lives of Mormon Wives",
+        "id": "261102",
+        "capa": "https://image.tmdb.org/t/p/w500/pq0sJXfbhjbTdj7RvY6c0SHjeu9.jpg",
+        "qualidade": "HD",
+        "descricao": "O mundo escandaloso de um grupo de mães mórmons influenciadoras implode quando elas são pegas no meio de um escândalo sexual que vira manchete internacional. Agora, sua irmandade é abalada até o âmago. Fé, amizade e reputação estão em jogo.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Big Mood",
+        "titulo_original": "Big Mood",
+        "id": "225384",
+        "capa": "https://image.tmdb.org/t/p/w500/j6mCnENd3xHzUkNOu5Jcbt5s1lp.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Querido Hongrang",
+        "titulo_original": "탄금",
+        "id": "224819",
+        "capa": "https://image.tmdb.org/t/p/w500/mSy9bxbbimGmNwTbJGDN11dJjA6.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando um herdeiro desaparecido volta sem se lembrar de nada, amor e desconfiança entram em choque. Será que ele é mesmo Hongrang ou um estranho no ninho e nos corações?",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Pørni",
+        "titulo_original": "Pørni",
+        "id": "123403",
+        "capa": "https://image.tmdb.org/t/p/w500/tjT2dg8dwpSYgTtZuXEZYrWeOX7.jpg",
+        "qualidade": "HD",
+        "descricao": "Pørni é o apelido de Pernilla, uma mulher trabalhadora, insone, cuidadosa, divertida e cheia de amor para dar, que tenta fazer o melhor por sua família e por si própria, às vezes colocando todos em primeiro lugar e esquecendo dela mesma.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
     }
 ]

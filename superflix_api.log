@@ -1,0 +1,18 @@
+2025-05-19 18:53:25,389 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
+2025-05-19 18:53:28,403 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json salvo com sucesso
+2025-05-19 18:53:28,405 - INFO - Códigos de filmes atualizados
+2025-05-19 18:53:28,409 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
+2025-05-19 18:53:29,831 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json salvo com sucesso
+2025-05-19 18:53:29,835 - INFO - Códigos de séries atualizados
+2025-05-19 18:53:31,301 - INFO - Nenhum novo filmes encontrado
+2025-05-19 18:53:32,499 - INFO - Nenhum novo séries encontrado
+2025-05-19 18:53:32,511 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-05-19 18:53:32,688 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-05-19 18:53:32,688 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-19 18:53:32,688 - INFO -  * Restarting with stat
+2025-05-19 18:53:37,032 - INFO - Nenhum novo filmes encontrado
+2025-05-19 18:53:38,146 - INFO - Nenhum novo séries encontrado
+2025-05-19 18:53:38,158 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-05-19 18:53:38,267 - WARNING -  * Debugger is active!
+2025-05-19 18:53:38,279 - INFO -  * Debugger PIN: 967-737-938
