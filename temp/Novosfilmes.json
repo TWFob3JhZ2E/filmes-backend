@@ -1,83 +1,377 @@
 [
-    {
-        "titulo": "O Núcleo: Missão ao Centro da Terra",
+   {
+        "titulo": "Premonição 6: Laços de Sangue",
         "titulo_original": null,
+        "id": "tt9619824",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNWIzYjhjNGQtYmQwOS00NmE0LWIyMTctMGY0YjQ4ZDUyOTA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8fgCPqrF94rfXw4cSJjexxcGL8l.jpg",
-        "id": "tt0298814",
-        "descricao": "",
-        "generos": []
+        "descricao": "Na década de 1960, uma avó prevê o desabamento de um prédio e salva da morte um grupo de pessoas. Décadas depois, sua neta também começa a ter visões da morte de seus familiares.",
+        "generos": [
+            "Splatter Horror",
+            "Supernatural Horror"
+        ]
     },
     {
-        "titulo": "Desastre no Voo US57",
+        "titulo": "A Mulher no Jardim",
         "titulo_original": null,
+        "id": "tt31314296",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYjQ3MWRkYTEtZGZmNy00NmJkLWI1ODAtM2U5MGUxNmIwNzk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Uma mulher misteriosa aparece repetidamente no jardim de uma família, muitas vezes entregando avisos assustadores e mensagens perturbadoras, fazendo-os questionar sua identidade, motivos e o perigo potencial que ela pode representar.",
+        "generos": [
+            "Psychological Thriller",
+            "Supernatural Horror"
+        ]
+    },
+
+     {
+        "titulo": "O Mestre dos Desejos",
+        "titulo_original": null,
+        "id": "tt0120524",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYmE0ZjU5NDctMjY5NS00NTBhLWEzMTItNTE0N2I5MmZiNjY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ycMecYeceyoXrXzQqjyiSHJXQVA.jpg",
-        "id": "tt8239736",
-        "descricao": "",
-        "generos": []
+        "descricao": "Um djinn demoníaco tenta conceder a seu dono três desejos, o que lhe permitirá convocar seus irmãos para a Terra.",
+        "generos": [
+            "Body Horror",
+            "Supernatural Horror"
+        ]
     },
     {
-        "titulo": "A Incrível História de Mario Capecchi",
+        "titulo": "O Mestre dos Desejos 2",
         "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/72wOmD7phuSYvun5NrYA8Js7VDk.jpg",
-        "id": "tt13848274",
-        "descricao": "",
-        "generos": []
+        "id": "tt0156182",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYWRhYzVjMDQtOWRlYi00ZGIwLWE3OTMtYzc0NTY3OTRlZDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "O mal foi invocado mais uma vez. Durante um roubo de arte, o Djinn é libertado de seu prisma por uma ladra chamada Morgana. Temendo pelo destino da humanidade, Morgana busca a ajuda do ex-amante, que agora é padre, para combater o Djinn.",
+        "generos": [
+            "Fantasy",
+            "Horror"
+        ]
     },
     {
-        "titulo": "A Rainha dos Meus Sonhos",
+        "titulo": "O Mestre dos Desejos 3: Além da Porta do Inferno",
         "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/bywcb4cITWSZ3kdTliP78O8lgEE.jpg",
-        "id": "tt21876438",
-        "descricao": "",
-        "generos": []
+        "id": "tt0254871",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZTU5MmM1MGYtZmVjOS00OWM3LWJlMmEtMWY3NzU3MGU3NWUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "The evil Djinn is back at it again, this time wreaking havoc on the students of Illinois' Baxter University.",
+        "generos": [
+            "Fantasy",
+            "Horror"
+        ]
     },
     {
-        "titulo": "Fã ou Hater?",
+        "titulo": "O Mestre dos Desejos 4",
         "titulo_original": null,
-        "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/e9iG3bhtXqS3SH4wR9PJdvBYXAZ.jpg",
-        "id": "tt31227132",
-        "descricao": "",
-        "generos": []
+        "id": "tt0254872",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYjQ5YmY0NzktMzAwYy00ZDE5LWJjODAtM2E4YmUwYTY4ZDc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "SD",
+        "descricao": "This time, the Djinn unleashes his undying love for a beautiful woman in his final attempt to unleash his brethren from Hell.",
+        "generos": [
+            "Fantasy",
+            "Horror"
+        ]
     },
     {
-        "titulo": "The Last Stand of Ellen Cole",
+        "titulo": "Férias do Barulho",
         "titulo_original": null,
+        "id": "tt0089839",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNDFhYzFkOTQtZmMwYS00NDkwLTkzZmMtZGIzODBhMzYxODBhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/oq1pGVQ2t3Cy4v7sA4LRhNjtZuJ.jpg",
-        "id": "1411773",
-        "descricao": "",
-        "generos": []
+        "descricao": "A história de dois adolescentes convidados em um resort da Flórida para o fim de semana. Seu único interesse é, naturalmente, perseguir meninas, mas o destino tem muito mais reservado para eles.",
+        "generos": [
+            "Raunchy Comedy",
+            "Teen Comedy"
+        ]
     },
     {
-        "titulo": "Thunderbolts*",
+        "titulo": "Uma Espécie em Extinção",
         "titulo_original": null,
+        "id": "tt0081748",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMmFkMWE3YWQtYjhkOS00N2RlLWI3ZDUtYjQ4N2Y0MzdhYWE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/eKD2p840nsRXLUR25ciVsNMJgOB.jpg",
-        "id": "tt20969586",
-        "descricao": "",
-        "generos": []
+        "descricao": "Semi-biographical film based on the experiences of gonzo journalist Hunter S. Thompson.",
+        "generos": [
+            "Biography",
+            "Comedy"
+        ]
     },
     {
-        "titulo": "Freeway Speedway 6 MAX",
+        "titulo": "Assassinato num Dia de Sol",
         "titulo_original": null,
+        "id": "tt0083908",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMDVlNmI2MmYtODRhMy00YTg3LTgwMjgtNTgzOWYwYjhkNTgwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/ew5SfSLA5bzzeeKc6YHmxhakB7d.jpg",
-        "id": "108657",
-        "descricao": "",
-        "generos": []
+        "descricao": "Tentando descobrir como um milionário acabou com um diamante falso traz Hercule Poirot (Sir Peter Ustinov) para um resort exclusivo frequentado pelos ricos e famosos. Quando um assassinato é cometido, todos têm um álibi.",
+        "generos": [
+            "Cozy Mystery",
+            "Whodunnit"
+        ]
     },
     {
-        "titulo": "Freeway Speedway 5",
+        "titulo": "Darkman: Vingança sem Rosto",
         "titulo_original": null,
+        "id": "tt0099365",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTc5MzUxMjk4NF5BMl5BanBnXkFtZTgwNTEzNDk4NjE@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Um brilhante cientista deixado para morrer, retorna para se vingar das pessoas que o queimaram vivo.",
+        "generos": [
+            "Dark Comedy",
+            "Superhero"
+        ]
+    },
+    {
+        "titulo": "Darkman 2: O Retorno de Durant",
+        "titulo_original": null,
+        "id": "tt0109552",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNTcxNmEzMmMtMGU3MC00NWVmLTk3MzktMzA0ZDcyNmI5YTg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Darkman and Durant return and they hate each other as much as ever. This time, Durant has plans to take over the city's drug trade using high-tech weaponry. Darkman must step in and try to stop Durant once and for all.",
+        "generos": [
+            "Superhero",
+            "Action"
+        ]
+    },
+    {
+        "titulo": "Darkman 3: Enfrentando a Morte",
+        "titulo_original": null,
+        "id": "tt0116033",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNzU3YmM3NzItOWMzNS00MjRlLTg4ZTMtOTA5YzYxMTQ0ODZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "capa": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/woHnfeKgBQqxoWLeucwiIOAWO20.jpg",
-        "id": "tt4900382",
+        "descricao": "When he double-crosses a drug kingpin, Darkman must free himself of his remote-control clutches.",
+        "generos": [
+            "Superhero",
+            "Action"
+        ]
+    },
+    {
+        "titulo": "A Filha do Pastor",
+        "titulo_original": null,
+        "id": "tt1328913",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMjMxNzE0OTk4NV5BMl5BanBnXkFtZTgwNjA3NDcwMzE@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Tired of being a Preacher's daughter and longing to experience more of life, 20-something ANGIE KING strikes out on her own for the very first time and joins a traveling gospel show.",
+        "generos": [
+            "Drama",
+            "Music"
+        ]
+    },
+    {
+        "titulo": "O Paciente: O Caso Tancredo Neves",
+        "titulo_original": null,
+        "id": "tt8972568",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMmYyYTZlZDgtNDFlZS00YjMyLWExZTgtZWE0YzRiY2RhMDdjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Ele relata os últimos momentos antes da misteriosa morte de Tancredo Neves, futuro presidente brasileiro de 1985.",
+        "generos": [
+            "Drama",
+            "History"
+        ]
+    },
+    {
+        "titulo": "Batman",
+        "titulo_original": null,
+        "id": "tt0096895",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "O cabaleiro da noite de Gotham comença sua guerra contra o crime com seu malhor enemigo, o Coringa.",
+        "generos": [
+            "Action Epic",
+            "Superhero"
+        ]
+    },
+    {
+        "titulo": "Ben, o Rato Assassino",
+        "titulo_original": null,
+        "id": "tt0068264",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNjMyMzM2MTUtZmQ4Ni00Y2ExLTliMDktMzE3NWRlZGQ4MzdhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Danny é um jovem e solitário garoto que começa uma estranha e inusitada amizade com um ratinho chamado Ben. Mas ele não sabe que Ben é o líder de um grupo de ratos assassinos que foi responsável pela morte de várias pessoas.",
+        "generos": [
+            "B-Horror",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Aluga-se para o Verão",
+        "titulo_original": null,
+        "id": "tt0090098",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYTUzZTBhNTUtM2QxNi00ZGYxLWEzYTUtODYzNGFiYmExNDE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "An overworked air-traffic controller takes his family on a beach vacation but is soon beset by series of mishaps.",
+        "generos": [
+            "Quirky Comedy",
+            "Slapstick"
+        ]
+    },
+    {
+        "titulo": "Wall Street - Poder e Cobiça",
+        "titulo_original": null,
+        "id": "tt0094291",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYzY5YzdhZmYtZDdlMi00MTY2LWE5NjMtOGQyNWM5YTQ4ZGFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Bud Fox é um corrector da bolsa que quer enriquecer e torna-se pupilo de Gordon Gekko, tubarão das finanças com uma filosofia amoral. Mas num mundo de ganância e poucos escrúpulos, terá de agir contra a sua moral ou perder o que conseguiu.",
+        "generos": [
+            "Workplace Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Um Copo de Cólera",
+        "titulo_original": null,
+        "id": "tt0192713",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNmZjMDYwNWEtZTdmNS00ODU1LTkxMjItZmQ4NmE3MDI3NGY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "The torrid love affair between a 40-year-old man who lives isolated from world, in his small farm nearby São Paulo and a politically engaged 30-year-old journalist.",
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ]
+    },
+
+     {
+        "titulo": "Godzilla: O Devorador de Planetas",
+        "titulo_original": null,
+        "id": "tt8478602",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMjMzODZmZmItYTdiZS00ZDk2LTgyOWEtZDFhNjE2ZGVkYmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "A humanidade, seus aliados alienígenas e Godzilla entram em seu jogo final quando a poderosa entidade destrutiva conhecida como Ghidorah chega à Terra.",
+        "generos": [
+            "Anime",
+            "Computer Animation"
+        ]
+    },
+    {
+        "titulo": "Godzilla: Cidade no Limiar da Batalha",
+        "titulo_original": null,
+        "id": "tt8015080",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNGMxNzZhYzItMGYxNy00NTE5LThkZTYtOTEyOTIyMDViN2NiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Humanity's desperate battle to reclaim the Earth from Godzilla continues. The key to defeating the King of the Monsters may be Mechagodzilla, a robotic weapon thought to have been lost nearly 20,000 years ago.",
+        "generos": [
+            "Anime",
+            "Computer Animation"
+        ]
+    },
+    {
+        "titulo": "Godzilla: Planeta dos Monstros",
+        "titulo_original": null,
+        "id": "tt5979874",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNDY2ODQ5YzgtYjc3Mi00MDk5LWE5MDEtYjNlMWU2NzAxZTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um grupo desesperado de refugiados tenta recolonizar a Terra 20.000 anos após a tomada do Godzilla, mas um jovem quer vingança acima de tudo.",
+        "generos": [
+            "Anime",
+            "Computer Animation"
+        ]
+    },
+    {
+        "titulo": "Godzilla 1985",
+        "titulo_original": null,
+        "id": "tt0087344",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNjVjYzM0MDAtMGU1Yy00ZmUwLTk2Y2MtNWQyY2I1NWFjNzRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Thirty years after the original monster's rampage, a new Godzilla emerges and attacks Japan.",
+        "generos": [
+            "Action Epic",
+            "Dinosaur Adventure"
+        ]
+    },
+    {
+        "titulo": "Shin Gojira",
+        "titulo_original": null,
+        "id": "tt4262980",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNjg5ODA1NzQtZmNmNy00MmFhLTk1YjUtYTM2NDNmNjY4ODA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Após um acidente na baía de Tóquio, uma criatura gigante chamada Godzilla aterroriza todo o Japão.",
+        "generos": [
+            "Body Horror",
+            "Dinosaur Adventure"
+        ]
+    },
+    {
+        "titulo": "Inferno Sangrento",
+        "titulo_original": null,
+        "id": "tt9772374",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZThkZDk0N2YtMjJjMC00MTU2LThkZDktZWQ3MTgxNGI2YTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Um homem com um passado misterioso foge do país para escapar de seu próprio inferno pessoal, apenas para chegar a um lugar muito, muito pior.",
+        "generos": [
+            "Dark Comedy",
+            "Splatter Horror"
+        ]
+    },
+    {
+        "titulo": "Legado de Violência",
+        "titulo_original": null,
+        "id": "tt6853934",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNzMzNGIwYmQtNjQ5ZS00ODI2LWE4NDItYTk4MTg3ZmJiZjY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um pai enfrenta uma crise pessoal quando descobre que seu filho afastado está fugindo de um negócio de drogas fracassado. Os dois homens embarcam em uma odisseia violenta que se debate com questões de paternidade, família e destino.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Posto de Combate",
+        "titulo_original": null,
+        "id": "tt3833480",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNzRmMzNhMmMtY2MwMS00ZDYyLWE4NTctNjM5YWQxMDQ0ZGE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Uma pequena equipe de soldados americanos luta contra centenas de talibãs no Afeganistão.",
+        "generos": [
+            "Docudrama",
+            "Action"
+        ]
+    },
+    {
+        "titulo": "As Estrelas Brilham na Cidade",
+        "titulo_original": null,
+        "id": "tt2690226",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMjM2NDM1NDY4Ml5BMl5BanBnXkFtZTgwMDc3MzA0NzM@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "In the early 1920s, a Kansas woman finds her life forever changed when she accompanies a young dancer on her fame-seeking journey to New York City.",
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ]
+    },
+    {
+        "titulo": "Eternidade",
+        "titulo_original": null,
+        "id": "tt0112988",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYTU0OThjNzEtOTQ0Yy00ZmRmLWI5ZDAtODZkMDk0ZmY5ODQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
         "descricao": "",
-        "generos": []
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ]
+    },
+    {
+        "titulo": "Segredos Ocultos",
+        "titulo_original": null,
+        "id": "tt8046498",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMzMyN2IzNjktYjM0Yi00MzEwLTkzYmUtNmQ2NzIzZDA0MTQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Dois irmãos adolescentes, que roubam dinheiro para ajudar sua mãe doente, combinam engenhosidade com um vigilante perturbado preso no fundo de um poço esquecido.",
+        "generos": [
+            "Drama",
+            "Thriller"
+        ]
+    },
+    {
+        "titulo": "Terra das cinzas",
+        "titulo_original": null,
+        "id": "tt10219406",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYTkwYzMwN2YtNjIzMi00YTU4LWE3NjktNWVhY2E0YjA1OTA4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Selva vive numa cidade costeira no Caribe. Após o súbito desaparecimento de sua única figura materna, ela é deixada para cuidar de seu avô que não quer viver.",
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ]
     }
+
 ]
