@@ -242,6 +242,11 @@ def validar_pagina(pagina):
     except (ValueError, TypeError):
         return 1
 
+@app.route('/health', methods=['GET'])
+def health_check():
+    """Rota para verificar se o servidor está ativo."""
+    return jsonify({"status": "ok"}), 200
+
 @app.route('/get-csrf-token', methods=['GET'])
 def get_csrf_token():
     """Retorna um token CSRF para o frontend."""
