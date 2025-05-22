@@ -205,5 +205,109 @@
             "Drama",
             "Comédia"
         ]
+    },
+        {
+        "titulo": "Motorheads: Velozes e Apaixonados",
+        "titulo_original": "Motorheads",
+        "id": "243954",
+        "capa": "https://image.tmdb.org/t/p/w500/163yXwGcdgC2wfkHVmpkU2udzSn.jpg",
+        "qualidade": "HD",
+        "descricao": "Ambientada em uma cidade da antiga região industrial dos EUA que, antes próspera, agora busca uma luz no fim do túnel, a série apresenta uma história cheia de adrenalina sobre um grupo de renegados que se unem pelo amor às corridas de rua, enquanto enfrentam a hierarquia e as regras do ensino médio.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Timeless: Guardiões da História",
+        "titulo_original": "Timeless",
+        "id": "66786",
+        "capa": "https://image.tmdb.org/t/p/w500/ywjPFK6VNOFVGuDLLWb9UBZDXhP.jpg",
+        "qualidade": "HD",
+        "descricao": "O roubo de uma máquina do tempo que desencadeia uma série de crimes ao longo da história, leva um professor, um cientista e um soldado a correrem atrás de quem quer destruir os Estados Unidos.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Lost Girl",
+        "titulo_original": "Lost Girl",
+        "id": "33852",
+        "capa": "https://image.tmdb.org/t/p/w500/jE6sqorxIyVU55VhDbz7NbqxZlV.jpg",
+        "qualidade": "HD",
+        "descricao": "A história da linda e carismática Bo, um ser sobrenatural chamado súcubo que se alimenta da energia dos seres humanos, às vezes com resultados fatais. Recusando-se a abraçar seu clã sobrenatural e sua rígida hierarquia, Bo é uma renegada que luta pelos oprimidos enquanto busca a verdade sobre suas próprias origens misteriosas.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Sr. Mercedes",
+        "titulo_original": "Mr. Mercedes",
+        "id": "70485",
+        "capa": "https://image.tmdb.org/t/p/w500/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
+        "qualidade": "HD",
+        "descricao": "Um assassino em série psicopata provoca um detetive policial aposentado com uma série de cartas e e-mails chocantes.",
+        "generos": [
+            "Mistério",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Karkú",
+        "titulo_original": "Karkú",
+        "id": "101198",
+        "capa": "https://image.tmdb.org/t/p/w500/gupmhSps0EkUEADhzGA0Yy35nSH.jpg",
+        "qualidade": "HD",
+        "descricao": "Karkú é uma telenovela juvenil chilena originalmente transmitida entre 2007 e 2009. A novela fez grande sucesso em seu país de origem, e o grupo musical Six Pack, formado pelos protagonistas da série, fez várias apresentações no país.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Esquadrão Resgate",
+        "titulo_original": "Rescue Me",
+        "id": "4344",
+        "capa": "https://image.tmdb.org/t/p/w500/fSdPK6uAArXWVfPk2mOiq4pVXzS.jpg",
+        "qualidade": "HD",
+        "descricao": "Após os ataques de 11 de setembro em Nova York, o bombeiro Tommy Gavin fica atormentado pelos perigos de seu trabalho, além de precisar lidar com os conflitos com a ex-esposa e os filhos.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Os Pilares da Terra",
+        "titulo_original": "The Pillars of the Earth",
+        "id": "33234",
+        "capa": "https://image.tmdb.org/t/p/w500/y5dmLPeukiA56kR3aBFIx5AnMO8.jpg",
+        "qualidade": "HD",
+        "descricao": "Conta uma épica história que mistura o bom e o mau, traições, intrigas, violência e beleza. Ambientada em um cenário de guerra, conflitos religiosos e disputas de poder que destruirão famílias e vidas. Enquanto isso, uma magnífica Catedral, em Kingsdridge, começa a crescer, com o sonho de Tom.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Legado Corrompido",
+        "titulo_original": "Legado",
+        "id": "248716",
+        "capa": "https://image.tmdb.org/t/p/w500/acPwVJ3rjU2icmNfGqHSb6sJ3MB.jpg",
+        "qualidade": "HD",
+        "descricao": "Após uma doença grave, um magnata dos meios de comunicação descobre um esquema dos filhos que ameaça o império construído com tanto esforço. Ele tudo fará para salvá-lo.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Sereias",
+        "titulo_original": "Sirens",
+        "id": "246992",
+        "capa": "https://image.tmdb.org/t/p/w500/tMRiXdAuhYEjViaUmTItQHZ0eyB.jpg",
+        "qualidade": "HD",
+        "descricao": "Preocupada com o relacionamento excessivamente próximo da irmã com a chefe bilionária, uma mulher procura respostas em uma luxuosa propriedade à beira-mar.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
     }
 ]

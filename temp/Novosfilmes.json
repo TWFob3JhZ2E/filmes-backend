@@ -1,4 +1,76 @@
 [
+    {
+        "titulo": "Meu Nome é Radio",
+        "titulo_original": null,
+        "id": "tt0316465",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYmE3YjFhMTAtZjYzZi00OGE1LTk1NGUtYmNlZWU1NDcyYmJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "A história de um treinador de secundária e do homem com dificuldades de desenvolvimento que ele tomou baixo sua proteção.",
+        "generos": [
+            "Docudrama",
+            "Football"
+        ]
+    },
+    {
+        "titulo": "A Arte da Guerra III",
+        "titulo_original": null,
+        "id": "tt0878647",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNjkyMWQxZmYtZjFiOC00NGQ1LTllMmYtZWQ2MzVmZWQyMDJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando a diplomacia internacional se mostra ineficaz, medidas extremas precisam ser tomadas. Isto é guerra, e há uma arte para tal.",
+        "generos": [
+            "Action",
+            "Thriller"
+        ]
+    },
+    {
+        "titulo": "A Arte da Guerra II",
+        "titulo_original": null,
+        "id": "tt1233571",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNGUzYmRiM2UtNDc0ZS00OWJkLWJjOGMtMDNmNGFiMjY1MTQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Quando o Agente Nail Shaw sai de seu esconderijo para vingar o assassinato de seu mentor, ele descobre uma trilha de traição e corrupção letal. Sob a acusação de ter matado seu amigo e candidato ao Senado, sua missão é acertar as contas.",
+        "generos": [
+            "Action",
+            "Thriller"
+        ]
+    },
+    {
+        "titulo": "A Arte da Guerra",
+        "titulo_original": null,
+        "id": "tt0160009",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNGM3NjZiNWMtMDVlZi00NTNjLThjN2YtZjI1Nzk3ZDNlNTk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "O agente secreto Nick Shaw é convocado para proteger a ONU contra ataques terroristas. Porém, quando o embaixador chinês é morto durante um importante jantar que celebrava um acordo entre a China e os EUA, Shaw é acusado pelo assassinato.",
+        "generos": [
+            "Conspiracy Thriller",
+            "Spy"
+        ]
+    },
+    {
+        "titulo": "Mãos Talentosas - A História de Ben Carson",
+        "titulo_original": null,
+        "id": "tt1295085",
+        "capa": "https://m.media-amazon.com/images/M/MV5BN2IzMWFkNjktNzU0My00YjQ3LWI0NDctYTMzMWIzYTU2NDE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "O Dr. Ben Carson, neurocirurgião de fama mundial, tem origem humilde e protestante em Detroit. Ele torna-se diretor do Centro de Neurologia Pediátrica do Hospital Universitário Johns Hopkins, em Baltimore, nos Estados Unidos, aos 33 anos.",
+        "generos": [
+            "Medical Drama",
+            "Biography"
+        ]
+    },
+    {
+        "titulo": "Ilusão de Morte",
+        "titulo_original": null,
+        "id": "tt0284066",
+        "capa": "https://m.media-amazon.com/images/M/MV5BOTM0NTM3Njc4Nl5BMl5BanBnXkFtZTcwMzY4MjAwMQ@@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "An FBI Agent pairs with a troubled Taiwan cop to hunt for a serial killer who's embedding a mysterious fungus in the brains of victims.",
+        "generos": [
+            "Fantasy",
+            "Horror"
+        ]
+    },
    {
         "titulo": "Premonição 6: Laços de Sangue",
         "titulo_original": null,
