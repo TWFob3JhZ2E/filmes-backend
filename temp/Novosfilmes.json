@@ -11,6 +11,30 @@
             "Adventure"
         ]
     },
+     {
+        "titulo": "Stitch! O Filme",
+        "titulo_original": null,
+        "id": "tt0348124",
+        "capa": "https://m.media-amazon.com/images/M/MV5BOGEwNWUwMzQtNzc2OS00NjUzLWIyNDItZmI4MTM2NGE0MjEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "SD",
+        "descricao": "Stitch, an alien living on Earth disguised as a dog with his human family, continues his adventures when he discovers that the alien family he never knew he had is now in Hawaii, being hunted down by galactic forces.",
+        "generos": [
+            "Adventure",
+            "Animation"
+        ]
+    },
+     {
+        "titulo": "Lilo & Stitch",
+        "titulo_original": null,
+        "id": "tt11655566",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMzM0NTRkZWUtOTg5OC00YTBmLWI5NDEtZjQ5NjUwZTEyMTIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma menina havaiana solitária faz amizade com um alienígena fugitivo, ajudando a remendar sua família fragmentada.",
+        "generos": [
+            "Alien Invasion",
+            "Buddy Comedy"
+        ]
+    },
     {
         "titulo": "Meu Nome é Radio",
         "titulo_original": null,
