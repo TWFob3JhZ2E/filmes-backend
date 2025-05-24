@@ -4,6 +4,7 @@ import logging
 import asyncio
 import aiohttp
 import requests
+import unicodedata
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request, send_from_directory, has_request_context
 from flask_cors import CORS
@@ -241,6 +242,14 @@ def validar_pagina(pagina):
         return max(1, int(pagina))
     except (ValueError, TypeError):
         return 1
+
+def normalize_text(text):
+    """Normaliza texto removendo acentos e convertendo para minúsculas."""
+    if not text:
+        return ''
+    # Remove acentos e converte para minúsculas
+    text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('ascii')
+    return text.lower().strip()
 
 @app.route('/health', methods=['GET'])
 def health_check():
@@ -483,24 +492,61 @@ def series():
 
 @app.route('/buscar')
 def buscar_nomes():
-    """Busca filmes e séries por termo."""
+    """Busca filmes e séries por termo, com suporte à paginação."""
     auth_error = check_api_key()
     if auth_error:
         return auth_error
 
-    termo = request.args.get('q', '').lower()
+    termo = request.args.get('q', '').strip()
+    pagina = validar_pagina(request.args.get('pagina', 1))
+
     if not termo or len(termo) < 2:
         logger.warning(f"Termo de busca inválido: {termo}")
         return jsonify({'erro': 'Termo de busca inválido ou muito curto'}), 400
 
+    termo_normalizado = normalize_text(termo)
+
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
 
-    resultados_filmes = [f for f in filmes if termo in f.get('titulo', '').lower()]
-    resultados_series = [s for s in series if termo in s.get('titulo', '').lower()]
+    # Busca parcial com normalização
+    resultados_filmes = [
+        f for f in filmes
+        if termo_normalizado in normalize_text(f.get('titulo', ''))
+        or termo_normalizado in normalize_text(f.get('titulo_original', ''))
+    ]
+    resultados_series = [
+        s for s in series
+        if termo_normalizado in normalize_text(s.get('titulo', ''))
+        or termo_normalizado in normalize_text(s.get('titulo_original', ''))
+    ]
     resultados = resultados_filmes + resultados_series
 
-    return jsonify(resultados[:10])
+    if not resultados:
+        logger.info(f"Nenhum filme ou série encontrado para o termo: {termo}")
+        return jsonify({
+            'resultados': [],
+            'total': 0,
+            'total_paginas': 1,
+            'pagina_atual': pagina
+        }), 200
+
+    # Paginação
+    inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
+    fim = inicio + CONFIG['ITEMS_PER_PAGE']
+    resultados_paginados = resultados[inicio:fim]
+
+    total_itens = len(resultados)
+    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
+
+    logger.info(f"Busca por '{termo}' retornou {total_itens} resultados, página {pagina}/{total_paginas}")
+
+    return jsonify({
+        'resultados': resultados_paginados,
+        'total': total_itens,
+        'total_paginas': total_paginas,
+        'pagina_atual': pagina
+    })
 
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
