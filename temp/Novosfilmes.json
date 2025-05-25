@@ -480,6 +480,90 @@
             "Drama",
             "Voltar ao início"
         ]
+    },
+    {
+        "titulo": "THUNDERBIRDS: A ELITE DA FORÇA AÉREA DOS EUA",
+        "titulo_original": null,
+        "id": "tt35628532",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNjMzZTE2MDMtMWRmNS00ZWEzLWI4YmUtMTVkOGUxNGY2ODdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um olhar no esquadrão de voo Thunderbirds da Força Aérea dos EUA.",
+        "generos": [
+            "Military Documentary",
+            "Science & Technology Documentary"
+        ]
+    },
+    {
+        "titulo": "20-seiki shônen: Saishû-shô - Bokura no hata",
+        "titulo_original": null,
+        "id": "tt1181919",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMjYyNDQzNGUtNWQ4My00MzA1LTliMmYtNTIzMjI1ZmViNGNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "It is 2017 and a resurrected Tomodachi rules world. The prophecies of The New Book have all come true.",
+        "generos": [
+            "Adventure",
+            "Fantasy"
+        ]
+    },
+    {
+        "titulo": "Psycho-Pass: Pecadores do Sistema Caso 1 - Crime e Castigo",
+        "titulo_original": null,
+        "id": "tt10443844",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMGJiNjQ5YzQtYmJiZS00NGU0LTkxYTAtN2EwZDgzMjg0OWY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "A runaway vehicle crashes into the Public Safety Bureau Building. The driver is identified as Izumi Yasaka, a psychological counselor at the Sanctuary, a Latent Criminal Isolation Facility in Aomori Prefecture. But right before her interrogation, Inspector Mika Shimotsuki and Enf...Ler tudo",
+        "generos": [
+            "Adult Animation",
+            "Anime"
+        ]
+    },
+    {
+        "titulo": "Psycho-Pass: Pecadores do Sistema Caso 2 - Primeiro Guardião",
+        "titulo_original": null,
+        "id": "tt11078434",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMWM5MTkwMTUtOWI3ZS00OWYxLWI4OTctZmM4YmM1MmQ1ZGI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "2112; the summer before Akane Tsunemori was assigned to Criminal Investigation Department. Teppei Sugo, an accomplished pilot of the Defense Army, joins the military operation in Okinawa. Three months later, an unmanned combat drone opens fire on the Ministry of Defense in Tokyo....Ler tudo",
+        "generos": [
+            "Adult Animation",
+            "Anime"
+        ]
+    },
+    {
+        "titulo": "Psycho-Pass: Pecadores do Sistema Caso 3 - No Reino Além é____",
+        "titulo_original": null,
+        "id": "tt11078522",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNTM4YmZiNTctMGZiZC00ZTYwLWFmODUtNGRlZjYxMDcyZGM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Following the incident in the Southeast Asia Union in 2116, Shinya Kogami resumes his vagrant journey. In a small South Asian nation, Kogami rescues a bus of refugees under attack by armed guerrilla forces. Among the refugees is a young lady by the name of Tenzin, who begs Kogami...Ler tudo",
+        "generos": [
+            "Adult Animation",
+            "Anime"
+        ]
+    },
+    {
+        "titulo": "Bala na Cabeça",
+        "titulo_original": null,
+        "id": "tt0099426",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZGZkNWE0MjYtZjBiNy00MDI1LTg3ZDItNDI1NDgyZTQ2OTJjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Na década de 1960, três membros de gangues em Hong Kong tentam cometer crimes no Vietnã e são levados para o campo de prisioneiros.",
+        "generos": [
+            "Gun Fu",
+            "Action"
+        ]
+    },
+    {
+        "titulo": "O Garoto que Podia Voar",
+        "titulo_original": null,
+        "id": "tt0090768",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTY0ODczMTAtZThjNC00OWY2LWFlY2QtYmI4NmQyZDRiZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um menino autista que sonha em voar toca todos que encontra, incluindo uma nova família que se mudou.",
+        "generos": [
+            "Drama",
+            "Fantasy"
+        ]
     }
 
 ]

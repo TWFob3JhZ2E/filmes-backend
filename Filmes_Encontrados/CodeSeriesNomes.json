@@ -47068,5 +47068,250 @@
             "Comédia",
             "Drama"
         ]
+    },
+    {
+        "titulo": "Histórias de Terror",
+        "titulo_original": "Urban Legend",
+        "id": "33275",
+        "capa": "https://image.tmdb.org/t/p/w500/xgoQAgL3eFKCxrEJpHD0IVkv0W4.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois que Rose retorna para casa de um resort tropical, uma mancha começa a crescer em seu rosto, como em um pesadelo. Descobrindo que uma picada de aranha infectou Rose, seu companheiro deve salvá-la de um destino terrível.",
+        "generos": [
+            "Mistério",
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Greek",
+        "titulo_original": "Greek",
+        "id": "1242",
+        "capa": "https://image.tmdb.org/t/p/w500/rACiWmSFI4Js0ZGI4Q0P5LJ895R.jpg",
+        "qualidade": "HD",
+        "descricao": "Com um olhar moderno dos altos e baixos da vida universitária, \"Greek\" acompanha os amores, desafios e reviravoltas cômicas na vida de um grupo jovens de membros de sororidades e fraternidades.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Glee: Em Busca da Fama",
+        "titulo_original": "Glee",
+        "id": "1417",
+        "capa": "https://image.tmdb.org/t/p/w500/tCDjTlwPZZElDkZlTNnKEECiRUd.jpg",
+        "qualidade": "HD",
+        "descricao": "O professor de espanhol Will Schuester resolve comandar o coral da escola, Glee Club. Tentando dar nova vida ao grupo, ele procura diferentes alunos, populares e nerds, como Rachel Berry, Kurt Hummel, Finn Hudson, Quinn Fabray e Brittany Pierce. Schuester tenta equilibrar a sua vida pessoal, enquanto ensaia com os seus novos alunos, mas logo começa a enfrentar as armadilhas da treinadora Sue Sylvester.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Justificado",
+        "titulo_original": "Justified",
+        "id": "1436",
+        "capa": "https://image.tmdb.org/t/p/w500/50mg3loNOq6f2vNmOX5ycO3ryqV.jpg",
+        "qualidade": "HD",
+        "descricao": "Por agir como um xerife e colecionar desafetos, o policial Raylan Givens é transferido para sua cidade natal, onde será implacável quando necessário.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O.C.: Um Estranho no Paraíso",
+        "titulo_original": "The O.C.",
+        "id": "2673",
+        "capa": "https://image.tmdb.org/t/p/w500/elkSBWzyZZzHeKqNQnQ6ymZDIzq.jpg",
+        "qualidade": "HD",
+        "descricao": "Nas mansões por trás dos muros, tudo parece ser perfeito. Quando Ryan Atwood, um adolescente problemático que vive se metendo em roubadas, chega em Orange County com o advogado Sandy Cohen, ele começa a descobrir que nem tudo ali naquele lugar é tão perfeito como aparenta.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Clube do Terror",
+        "titulo_original": "Are You Afraid of the Dark?",
+        "id": "2913",
+        "capa": "https://image.tmdb.org/t/p/w500/5BO6UporfDKmCD5DhE4P8Msi5yH.jpg",
+        "qualidade": "HD",
+        "descricao": "Um grupo de adolescentes se juntam para contar histórias de terror. A cada semana, num local secreto na floresta, um membro conta uma história de terror ao grupo, a qual é mostrada ao telespectador, entre a chegada do grupo ao local e a sua partida.",
+        "generos": [
+            "Mistério",
+            "Kids"
+        ]
+    },
+    {
+        "titulo": "Frasier",
+        "titulo_original": "Frasier",
+        "id": "3452",
+        "capa": "https://image.tmdb.org/t/p/w500/gYAb6GCVEFsU9hzMCG5rxaxoIv3.jpg",
+        "qualidade": "HD",
+        "descricao": "Um psiquiatra que apresenta um programa de rádio, e transmite sagacidade e sabedoria aos ouvintes, tem dificuldades em lidar com seus próprios problemas: o pai, o irmão pretensioso, seus amigos e colegas de trabalho.",
+        "generos": [
+            "Comédia",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "Estética",
+        "titulo_original": "Nip/Tuck",
+        "id": "3750",
+        "capa": "https://image.tmdb.org/t/p/w500/v5uEYpNbjGmJC59xqvmPW58aSTl.jpg",
+        "qualidade": "HD",
+        "descricao": "A série gira em torno dos cirurgiões plásticos Sean McNamara (Dylan  Walsh) e Christian Troy (Julian McMahon), amigos e sócios de uma  importante clínica de cirurgia plástica que mudam para o outro lado do  país, deixando a ensolarada Miami para viver em meio ao glamour de  Hollywood.\n\nSean e Christian, cuja tarefa é contribuir para que seus  pacientes encontrem paz de espírito através de procedimentos estéticos,  conhecem bem de perto os louros da fama. Ambos vivem a crise dos 40 e  embora seus pacientes tentem mascarar seus problemas realizando  cirurgias plásticas, são eles que na verdade escondem uma vida repleta de angústia, infelicidade e desilusão. Sean e Christian questionam ter  muito pouco diante de uma prosperidade que parecia ter oferecido tudo.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "As Aventuras de Merlin",
+        "titulo_original": "Merlin",
+        "id": "7225",
+        "capa": "https://image.tmdb.org/t/p/w500/8eR5Jg7CxsuCOEBU5wW0opObxpi.jpg",
+        "qualidade": "HD",
+        "descricao": "Esse drama dividido em 13 partes joga novas luzes sobre a história do  famoso mago Merlin. Na mítica Camelot, a série segue o jovem Merlin em  sua perigosa jornada de aprendizado, em que se vê frente a frente com  personagens lendários e fantásticos.",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Paixão",
+        "titulo_original": "The Passion",
+        "id": "14180",
+        "capa": "https://image.tmdb.org/t/p/w500/guLMiDaIirghovNwVSCB7P8Sm6w.jpg",
+        "qualidade": "HD",
+        "descricao": "Jesus é tirado da cruz e enterrado. Os discípulos se escondem. Temendo que o corpo seja roubado, Caifás ordena que a tumba seja vigiada. Mas, quando Maria Madalena descobre o sepulcro vazio, uma cadeia de eventos muda a vida dos discípulos.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Bad Thoughts",
+        "titulo_original": "Bad Thoughts",
+        "id": "251608",
+        "capa": "https://image.tmdb.org/t/p/w500/cJ7vfXF3V8yCPou7Z5FCT3Tx6Pn.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma coletânea de histórias perturbadoramente hilárias que desafiam os limites da compostura, de um jeito que só Tom Segura poderia imaginar.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Franklin",
+        "titulo_original": "فرانكلين",
+        "id": "288913",
+        "capa": "https://image.tmdb.org/t/p/w500/fsakdwprdmsRPjzPB1aSyo5hQ56.jpg",
+        "qualidade": "HD",
+        "descricao": "Um falsário e pai solo precisa trabalhar com a ex para fabricar a nota de 100 dólares perfeita, tudo para evitar a morte da filha.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Pais em Campo",
+        "titulo_original": "Voetbalouders",
+        "id": "261009",
+        "capa": "https://image.tmdb.org/t/p/w500/pmGteaQ3EjEHW8cdShQm3VHpPL2.jpg",
+        "qualidade": "HD",
+        "descricao": "Sem vergonha nenhuma de se meter nas carreiras de futebol amador dos filhos, estes pais e mães têm uma ideia bem estranha de espírito de equipe.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Despercebida",
+        "titulo_original": "Unseen",
+        "id": "220932",
+        "capa": "https://image.tmdb.org/t/p/w500/xdua55TZuk0pAQebhTWwjDJ22st.jpg",
+        "qualidade": "HD",
+        "descricao": "Em uma busca desesperada pelo marido, uma faxineira se vê no meio de impensadas conspirações criminosas e é forçada a encarar as tragédias de seu passado.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Hung",
+        "titulo_original": "Hung",
+        "id": "18614",
+        "capa": "https://image.tmdb.org/t/p/w500/v3ki6W3BGsh3PGDjtHdi6W2v8nQ.jpg",
+        "qualidade": "HD",
+        "descricao": "O professor miserável Ray Decker tenta ganhar um dinheiro extra usando sua 'vantagem' física.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Terra Nova",
+        "titulo_original": "Terra Nova",
+        "id": "32754",
+        "capa": "https://image.tmdb.org/t/p/w500/y8dFONeUSXhMHiFecqFoaGI7S6y.jpg",
+        "qualidade": "HD",
+        "descricao": "No ano de 2149, um planeta Terra saturado está morrendo. Sem ter como reverter os danos, cientistas tentam abrir uma fratura no tempo criando um portal para a era pré-histórica e proporcionando uma chance de corrigir os erros do passado.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Unforgettable",
+        "titulo_original": "Unforgettable",
+        "id": "39276",
+        "capa": "https://image.tmdb.org/t/p/w500/fLGfuflICEZj3qD8m9TNI5g7xJZ.jpg",
+        "qualidade": "HD",
+        "descricao": "Carrie Wells é uma enigmática ex-policial que sofre de uma rara condição: Carrie possui uma memória perfeita. Isso significa que ela é capaz de se lembrar de tudo nos mínimos detalhes. Tal condição pode ser tanto uma benção como uma maldição, afinal, Carrie é incapaz de esquecer-se de todas as coisas ruins que viveu e presenciou.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Wilfred",
+        "titulo_original": "Wilfred",
+        "id": "39525",
+        "capa": "https://image.tmdb.org/t/p/w500/2cUYCkmHEWsxaNiVTQnFqxyq5Ij.jpg",
+        "qualidade": "HD",
+        "descricao": "Baseada na série australiana de mesmo nome, Wilfred é estrelada por Elijah Wood e pelo co-criador da versão original, Jason Gann. Wood é Ryan, um homem depressivo que pretende se suicidar, já que sua vida não parece ter significado. Entretanto, ele conhece Wilfred, o cão da vizinha Jenna, enxergando o animal como se este fosse uma pessoa, enquanto o resto do mundo o vê apenas como um cão normal. Wilfred se torna o mentor de Ryan, manipulando-o e mostrando um outro lado da vida.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Looking",
+        "titulo_original": "Looking",
+        "id": "57774",
+        "capa": "https://image.tmdb.org/t/p/w500/cMIRpZUOXwZcDoGyRJnwrrZQYzW.jpg",
+        "qualidade": "HD",
+        "descricao": "Três amigos exploram as quase ilimitadas opções disponíveis para uma nova geração de homens gays.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Drácula",
+        "titulo_original": "Dracula",
+        "id": "58928",
+        "capa": "https://image.tmdb.org/t/p/w500/oQUU8LKVl10ejpxJC0qfsSuPZeF.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma reimaginação do clássico romance de Bram Stoker, esta nova série se passa na década de 1890 e acompanha a história de Drácula (interpretado por Jonathan Rhys Meyers, de The Tudors), um homem que vive uma vida dupla em Londres: ele diz ser Allen Grayson, um empresário americano interessado em trazer a ciência moderna para a sociedade vitoriana; mas, na verdade, ele quer se vingar de quem lhe fez mal há centenas de anos. No entanto, seus planos podem ir por água abaixo quando ele conhece Mina Murray (interpretada por Jessica DeGouw, de Arrow), uma garota que parece ser a reencarnação de sua falecida esposa.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Grace and Frankie",
+        "titulo_original": "Grace and Frankie",
+        "id": "62320",
+        "capa": "https://image.tmdb.org/t/p/w500/3aD3PaSeF8eHJFLliLlWYw4EcPt.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando seus maridos pedem o divórcio para se casar um com o outro, a comportada Gracie e a excêntrica Frankie começam uma amizade.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
     }
 ]
