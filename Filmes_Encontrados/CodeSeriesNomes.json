@@ -47313,5 +47313,745 @@
             "Comédia",
             "Drama"
         ]
+    },
+    {
+        "titulo": "Yabani",
+        "titulo_original": "Yabani",
+        "id": "231503",
+        "capa": "https://image.tmdb.org/t/p/w500/lQ5k6i7Bv3ssV4uotxZpTdKCgC9.jpg",
+        "qualidade": "HD",
+        "descricao": "Conta a história de uma criança que foi sequestrada de uma família muito próxima e caiu nas ruas, e sua luta para se reinventar depois de anos retornando para casa.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Teias do Destino",
+        "titulo_original": "Toprak ile Fidan",
+        "id": "213664",
+        "capa": "https://image.tmdb.org/t/p/w500/vIJW7m60b2aYZ6kCivP3eBggMMc.jpg",
+        "qualidade": "HD",
+        "descricao": "Toprak acorda sem memória após um coma de cinco anos. Ele se casa por obrigação, mas Halide revela a verdade a Fidan. Um vínculo especial se desenvolve entre Fidan e Toprak. Ercan busca vingança.",
+        "generos": [
+            "Drama",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "The Deuce",
+        "titulo_original": "The Deuce",
+        "id": "65817",
+        "capa": "https://image.tmdb.org/t/p/w500/tKFUwmue5g45rthZOyYWd7l931y.jpg",
+        "qualidade": "HD",
+        "descricao": "Durante os anos 1970 e 1980, a indústria pornográfica viveu um período de ascensão na cidade de Nova Iorque. Os irmãos gêmeos Vincent e Frankie Martino (James Franco), importantes nomes da indústria pornô no período. Enquanto alguns faturam com este novo negócio, a violência e o tráfico de drogas começam a se tornar cada vez mais comum na região.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "The Night Of",
+        "titulo_original": "The Night Of",
+        "id": "66276",
+        "capa": "https://image.tmdb.org/t/p/w500/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg",
+        "qualidade": "HD",
+        "descricao": "Após ter passado uma noite com uma mulher totalmente desconhecida, um homem acorda e encontra a tal mulher esfaqueada até a morte. Ele é acusado de a ter assassinado. As investigações policiais denunciam as relações complexas entre diversos casos que foram analisados pela polícia da cidade de Nova York nos Estados Unidos, sistema criminal, procedimentos legais e o temido purgatório de Rikers Island, é lá onde os acusados são presos em espera de seu julgamento final.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Room 104",
+        "titulo_original": "Room 104",
+        "id": "72581",
+        "capa": "https://image.tmdb.org/t/p/w500/wOyn9r9VC2pJhXasUKxlpEmCAGV.jpg",
+        "qualidade": "HD",
+        "descricao": "Série de comédia em formato de antologia, Room 104 apresenta, a cada episódio, histórias diferentes dos hóspedes que passam por um ordinário hotel americano.",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Liar: Rede de Mentiras",
+        "titulo_original": "Liar",
+        "id": "73554",
+        "capa": "https://image.tmdb.org/t/p/w500/hQFQok8j8vErenASWIUtBEsbTVY.jpg",
+        "qualidade": "HD",
+        "descricao": "Conta a história de Laura Newell, uma professora que acaba de sair de um relacionamento e começa a sair com Andrew Ellis, um cirurgião que, por acaso, é pai de um de seus alunos. Suas vidas mudam para sempre quando acusações sobre a relação começam a aparecer.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Vídeos Paranormais",
+        "titulo_original": "Paranormal Caught on Camera",
+        "id": "86845",
+        "capa": "https://image.tmdb.org/t/p/w500/8UpK1HAsbYERphPlIHDWg9oYjG5.jpg",
+        "qualidade": "HD",
+        "descricao": "Especialistas analisam algumas das mais incríveis e assustadoras imagens de vídeos paranormais. De poltergeists a luzes no céu, os relatos de quem viveu as experiências podem acabar convertendo até os mais céticos.",
+        "generos": [
+            "Documentário",
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Um Milagre",
+        "titulo_original": "Mucize Doktor",
+        "id": "92967",
+        "capa": "https://image.tmdb.org/t/p/w500/7ABaZxWcO0tG9nxuwBJroNP4IFO.jpg",
+        "qualidade": "HD",
+        "descricao": "Ali, um médico que sofre de um transtorno autista começa a trabalhar em um hospital em Istambul. Superando os preconceitos de pacientes e colegas, Ali encontrará uma família capaz de apreciar o valor de suas habilidades especiais.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "F1 Academy",
+        "titulo_original": "F1: The Academy",
+        "id": "289742",
+        "capa": "https://image.tmdb.org/t/p/w500/mxV9DnfxuX9LsQjVrh9ZF0RBueQ.jpg",
+        "qualidade": "HD",
+        "descricao": "Quinze jovens pilotas rompem barreiras em um dos esportes mais exigentes do mundo na tentativa de levar uma mulher de volta ao grid da Fórmula 1.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Dept. Q",
+        "titulo_original": "Dept. Q",
+        "id": "245703",
+        "capa": "https://image.tmdb.org/t/p/w500/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
+        "qualidade": "HD",
+        "descricao": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Unicórnio Implacável",
+        "titulo_original": "สงคราม ส่งด่วน",
+        "id": "283776",
+        "capa": "https://image.tmdb.org/t/p/w500/ai1zFwkSfQ12Xd7ZUeEdPDtFvnI.jpg",
+        "qualidade": "HD",
+        "descricao": "Um jovem empreendedor cria uma startup que traz várias novas oportunidades, mas também muitos inimigos poderosos.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Losmen Bu Broto: A Série",
+        "titulo_original": "Losmen Bu Broto: The Series",
+        "id": "285631",
+        "capa": "https://image.tmdb.org/t/p/w500/lKPXfmtaCNTpby0B913aIkpANhI.jpg",
+        "qualidade": "HD",
+        "descricao": "Para a família Broto, não é nada fácil cuidar de uma pousada em Yogyakarta. Ainda mais quando o filho mais novo se apaixona por uma hóspede casada.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Meus Clientes Fantasmas",
+        "titulo_original": "노무사 노무진",
+        "id": "233221",
+        "capa": "https://image.tmdb.org/t/p/w500/eERbM9lqsb405V43BzGfyYfm3TH.jpg",
+        "qualidade": "HD",
+        "descricao": "Após quase morrer em um acidente, o advogado trabalhista Noh Moo Jin ganha um dom inusitado: ele começa a ver fantasmas e precisa aceitar os casos deles para sobreviver.",
+        "generos": [
+            "Comédia",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Caso Arquivado: Os Assassinatos do Tylenol",
+        "titulo_original": "Cold Case: The Tylenol Murders",
+        "id": "289486",
+        "capa": "https://image.tmdb.org/t/p/w500/4OGTIBZLFV0WyJj3iGFUNJe6DAm.jpg",
+        "qualidade": "HD",
+        "descricao": "Quem colocou cianeto no Tylenol? Esta série sobre crimes reais investiga teorias alarmantes por trás de assassinatos sem solução e corre atrás de uma pessoa suspeita.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Procurados - EUA: O.J. Simpson",
+        "titulo_original": "American Manhunt: O.J. Simpson",
+        "id": "282405",
+        "capa": "https://image.tmdb.org/t/p/w500/fLboA57w0NtHbFwik0UrEOR2RQc.jpg",
+        "qualidade": "HD",
+        "descricao": "O carro branco, as luvas, o julgamento do século. Esta série documental investiga o caso de assassinato chocante que virou fenômeno cultural.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Code of Silence",
+        "titulo_original": "Code of Silence",
+        "id": "287355",
+        "capa": "https://image.tmdb.org/t/p/w500/3kmYqsvNR1KYGprklktlSoxNSFx.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "The Bombing of Pan Am 103",
+        "titulo_original": "The Bombing of Pan Am 103",
+        "id": "248226",
+        "capa": "https://image.tmdb.org/t/p/w500/9RR6jkc35HOJcZG3modHZwh3J3J.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "She the People",
+        "titulo_original": "She the People",
+        "id": "283368",
+        "capa": "https://image.tmdb.org/t/p/w500/3tvMLq9CJU1OH3Q2ueIsdxTe8zx.jpg",
+        "qualidade": "HD",
+        "descricao": "Na tentativa de brilhar na política, a primeira vice-governadora negra do Mississipi precisa controlar sua família caótica e lidar com um chefe apegado ao passado.",
+        "generos": [
+            "Comédia",
+            "War & Politics"
+        ]
+    },
+    {
+        "titulo": "I, Jack Wright",
+        "titulo_original": "I, Jack Wright",
+        "id": "262899",
+        "capa": "https://image.tmdb.org/t/p/w500/tpOZ0qEKfklhIpbD0o275bELmNp.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Crime",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "A Arca de Noé",
+        "titulo_original": "Noah's Ark",
+        "id": "75658",
+        "capa": "https://image.tmdb.org/t/p/w500/ftXxwIn4PDLhbwFwhGbrJc8F31n.jpg",
+        "qualidade": "HD",
+        "descricao": "A ação começa em Sodoma e Gomorra, antro de promiscuidade e orgias sexuais. Perto dali vive Noé com sua pacata e religiosa família. Seguidor das leis divinas, ele pergunta nas suas orações como proteger seus filhos de tamanha perdição. Recebe a resposta nas próprias palavras de Deus, que o encarrega de construir uma grande arca para escapar dos 40 dias e noites de chuva que irão destruir o planeta.",
+        "generos": [
+            "Action & Adventure",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Poltergeist: O Legado",
+        "titulo_original": "Poltergeist: The Legacy",
+        "id": "11183",
+        "capa": "https://image.tmdb.org/t/p/w500/dewrEVHQmFdHUnBUD83BLjs2ZVs.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando jovem viúva e sua filha libertam as forças do Mal, sociedade secreta de experts no combate às forças da escuridão, liderada pelo Dr. Derek Rayne, entra em ação.",
+        "generos": [
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Uma Seul Desconhecida",
+        "titulo_original": "미지의 서울",
+        "id": "261980",
+        "capa": "https://image.tmdb.org/t/p/w500/eK9hQBvEnje0uIY6BNSQYunfJ8p.jpg",
+        "qualidade": "HD",
+        "descricao": "Parecidas só no visual, duas gêmeas trocam de lugar em meio a dificuldades pessoais, embarcando em uma jornada de redescoberta do amor e da vida.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Trailer Park Boys",
+        "titulo_original": "Trailer Park Boys",
+        "id": "3796",
+        "capa": "https://image.tmdb.org/t/p/w500/nIcIwVTYcZnW1BDzexGfFO7KmX1.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanhe as desventuras regadas a álcool de três amigos trambiqueiros que vivem bolando planos infalíveis com estratégias duvidosas.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "The Challenge: All Stars",
+        "titulo_original": "The Challenge: All Stars",
+        "id": "121066",
+        "capa": "https://image.tmdb.org/t/p/w500/nP2fwqxrnztKnLkEoFbtPzdrykt.jpg",
+        "qualidade": "HD",
+        "descricao": "Os mais icônicos, mais ousados e mais ferozes Challenge All Stars foram selecionados para retornar para uma segunda chance na competição.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Destino Paranormal: Chamados do Lar",
+        "titulo_original": "Ghost Adventures: House Calls",
+        "id": "198049",
+        "capa": "https://image.tmdb.org/t/p/w500/AiyjgY5WsJmLsqMkBPDwrU8odnJ.jpg",
+        "qualidade": "HD",
+        "descricao": "Zak Bagans e a equipe de Destino Paranormal investigam casas assombradas de pessoas comuns. Ao receber um chamado, Zak envia o time às casas para documentar atividades sem explicação e aconselhar sobre hóspedes paranormais.",
+        "generos": [
+            "Mistério",
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Glee: O Preço da Fama",
+        "titulo_original": "The Price of Glee",
+        "id": "218502",
+        "capa": "https://image.tmdb.org/t/p/w500/m1tb0fmCxStxGtPskQg4R2eAtki.jpg",
+        "qualidade": "HD",
+        "descricao": "Elenco e equipe técnica de \"Glee\" revelam verdades surpreendentes sobre os bastidores da série e também comentam as tragédias que se abateram sobre algumas das principais estrelas do programa.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Slip",
+        "titulo_original": "Slip",
+        "id": "221908",
+        "capa": "https://image.tmdb.org/t/p/w500/cVTI4ZkfO54PJMMEC94sGeuGGRI.jpg",
+        "qualidade": "HD",
+        "descricao": "Segue Mae Cannon enquanto ela se encontra inquieta dentro de um casamento que funciona totalmente. Uma nova jornada fantástica a levará a universos paralelos.",
+        "generos": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ]
+    },
+    {
+        "titulo": "Cilada",
+        "titulo_original": "Atrapados",
+        "id": "250312",
+        "capa": "https://image.tmdb.org/t/p/w500/7i5Ou6tEEDiRHMFpkLdf8YoEdn3.jpg",
+        "qualidade": "HD",
+        "descricao": "Famosa por desmascarar criminosos, a jornalista Ema Garay enfrenta um dilema ao descobrir que o suspeito do desaparecimento de uma adolescente é uma pessoa bem próxima.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "O Melhor Infarto da Minha Vida",
+        "titulo_original": "El mejor infarto de mi vida",
+        "id": "280409",
+        "capa": "https://image.tmdb.org/t/p/w500/oEEoRIgCYrNlUfHBnaRCLlME7uX.jpg",
+        "qualidade": "HD",
+        "descricao": "Baseado em fatos reais. Ariel, um \"ghost writer\" com uma vida escandalosamente desordenada, entra em crise quando é abandonado por sua mulher. Fumante compulsivo, acima do peso e com um humor tão sombrio quanto suas roupas íntimas, ele sofre um infarto enquanto está em uma casa alugada em outro país, junto a uma garota que acaba de conhecer. Esse evento impactante não só dará um novo sentido à sua vida, mas também à de muitas pessoas ao seu redor.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Segredos e Crimes de Fred e Rose West",
+        "titulo_original": "Fred and Rose West: A British Horror Story",
+        "id": "289123",
+        "capa": "https://image.tmdb.org/t/p/w500/2GZvX8ulgMTuhxbKSbmiMUtGfT1.jpg",
+        "qualidade": "HD",
+        "descricao": "Registros policiais recém-descobertos e relatos pessoais contam a história de Fred e Rose West, dois dos assassinos mais prolíficos do Reino Unido.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "A Melhor Irmã",
+        "titulo_original": "The Better Sister",
+        "id": "253321",
+        "capa": "https://image.tmdb.org/t/p/w500/x3Aw2Sv4fHccmLSaBgmIDr1cm2b.jpg",
+        "qualidade": "HD",
+        "descricao": "Chloe se muda para os círculos de elite de Nova York com seu marido, o advogado Adam, e seu filho adolescente Ethan, enquanto sua irmã Nicky, da qual se distanciou, tenta sobreviver e se manter sóbria. Quando Adam é brutalmente assassinado, a investigação abala a família e deixa à mostra segredos há muito tempo escondidos.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "16 and Recovering",
+        "titulo_original": "16 and Recovering",
+        "id": "108491",
+        "capa": "https://image.tmdb.org/t/p/w500/vlwY8fbLwxVC1Ie0hxAdFNjLybl.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Reality",
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "100 Days to Indy",
+        "titulo_original": "100 Days to Indy",
+        "id": "220834",
+        "capa": "https://image.tmdb.org/t/p/w500/gGUeaIr72oUSR5zTc8Xx6DdPobj.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma visão inédita dos bastidores das personalidades ousadas e ousadas da SÉRIE NTT INDYCAR enquanto elas iniciam sua busca épica pelo maior prêmio do automobilismo.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Acapulco Shore",
+        "titulo_original": "Acapulco Shore",
+        "id": "66084",
+        "capa": "https://image.tmdb.org/t/p/w500/81FW5jz4smr75wNYj1loJftzFrq.jpg",
+        "qualidade": "HD",
+        "descricao": "Oito desconhecidos passam um mês juntos na mesma casa, vivendo histórias intensas, festas e muitas loucuras. Esses personagens da vida real fazem questão de que Acapulco jamais se esqueça da sua passagem por lá.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Adultos",
+        "titulo_original": "Adults",
+        "id": "260458",
+        "capa": "https://image.tmdb.org/t/p/w500/z5c1KTvUd8CeRlkBd8c3Kp3yUEV.jpg",
+        "qualidade": "HD",
+        "descricao": "Um grupo de colegas codependentes tenta ser boas pessoas, apesar de ainda não serem nem \"bons\" nem \"pessoas\".",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Pablo e Luisão",
+        "titulo_original": "Pablo e Luisão",
+        "id": "226254",
+        "capa": "https://image.tmdb.org/t/p/w500/5dzl9zehL0zZ6gWQisU05eSQpOv.jpg",
+        "qualidade": "HD",
+        "descricao": "A série acompanha as divertidas e caóticas aventuras de Luisão (Aílton Graça), pai do humorista Paulo Vieira, e de seu inseparável amigo Pablo (Otávio Muller). Juntos, eles vivem inventando planos mirabolantes que acabam gerando consequências inusitadas – especialmente para as crianças Paulo (Yves Miguel), seu irmão Neto (João Pedro Martins) e a mãe dos meninos, Conceição (Dira Paes). Inspirada em acontecimentos reais da infância de Paulo Vieira, a trama mistura humor e afeto familiar.",
+        "generos": [
+            "Comédia",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "Ribeirão do Tempo",
+        "titulo_original": "Ribeirão do Tempo",
+        "id": "91337",
+        "capa": "https://image.tmdb.org/t/p/w500/nYwWuPAaCiQW0ThVePwpPrsEJ4Z.jpg",
+        "qualidade": "HD",
+        "descricao": "Calmaria e tranquilidade cedem espaço para dias agitados. De um lado está a multinacional presidida por Madame Durrel, que investe pesado na cidade. De outro, estão os esportes radicais, que invadem o dia a dia do local e atraem turistas de todas as partes. Para completar, uma série de crimes bárbaros aterrorizam todos, sem que ninguém consiga prender os criminosos nem entender o porquê daquilo.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Quilos Mortais: Adolescentes",
+        "titulo_original": "Quarter Ton Teen",
+        "id": "252767",
+        "capa": "https://image.tmdb.org/t/p/w500/RsUfPTdgSIhLQ2Y0uoccxAEG8l.jpg",
+        "qualidade": "HD",
+        "descricao": "Adolescentes com obesidade mórbida enfrentam desafios intensos ao lado de familiares e médicos em uma luta crucial por saúde e qualidade de vida.",
+        "generos": [
+            "Reality",
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Battle Camp",
+        "titulo_original": "Battle Camp",
+        "id": "287366",
+        "capa": "https://image.tmdb.org/t/p/w500/wuSaLjPrTagk892fEywXHA6i8Xu.jpg",
+        "qualidade": "HD",
+        "descricao": "As estrelas dos realities da Netflix se enfrentam em desafios físicos intensos, fazendo de tudo para evitar a eliminação e ganhar 250 mil dólares nesta competição ousada.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Minha Mãe com seu Pai",
+        "titulo_original": "Minha Mãe com seu Pai",
+        "id": "287926",
+        "capa": "https://image.tmdb.org/t/p/w500/zX7j9DxvB1ySPCmllbJNIr2AU0E.jpg",
+        "qualidade": "HD",
+        "descricao": "Pais e mães solteiros participam de dinâmicas e dates em busca de um novo amor. O que eles não suspeitam é que estão sendo observados e controlados por seus próprios filhos.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "De Férias com o Ex: América Latina",
+        "titulo_original": "La Venganza de los Ex VIP",
+        "id": "220586",
+        "capa": "https://image.tmdb.org/t/p/w500/fEzf5J6bSpEE6G5FwlRQDFFaty3.jpg",
+        "qualidade": "HD",
+        "descricao": "Reúne 10 influenciadores solteiros que vão de férias ao paraíso, mas tudo se distorce quando o Tablet do Terror soa e anuncia a chegada de seus EXs.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "A Grande Conquista",
+        "titulo_original": "A Grande Conquista",
+        "id": "221598",
+        "capa": "https://image.tmdb.org/t/p/w500/w3dZYdBNcNGamaEgpKYi1gXlotb.jpg",
+        "qualidade": "HD",
+        "descricao": "Famosos e anônimos se misturam em uma competição em busca de um grande prêmio. O diferencial é que, desde antes da estreia até o final, o público participa ativamente do programa, tomando decisões importantes que tem impacto na disputa.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Na Cama com Pitanda",
+        "titulo_original": "Na Cama com Pitanda",
+        "id": "255367",
+        "capa": "https://image.tmdb.org/t/p/w500/vJVoI4kDZAv7ZEa1Q3vQoW6X3V0.jpg",
+        "qualidade": "HD",
+        "descricao": "﻿﻿Fernanda e Pitel comandam o programa direto do lugar favorito delas, a cama. Toda noite, a dupla recebe uma visita para trocar confidências e revelar intimidades embaixo do edredom.",
+        "generos": [
+            "Talk"
+        ]
+    },
+    {
+        "titulo": "Troca de Esposas",
+        "titulo_original": "Troca de Esposas",
+        "id": "156662",
+        "capa": "https://image.tmdb.org/t/p/w500/qJBKkMQ0eeomRMSXuH1akU0KvIk.jpg",
+        "qualidade": "HD",
+        "descricao": "O telespectador acompanha a experiência de uma esposa ou um marido ao sair de casa e cumprir o desafio de morar com uma outra família por uma semana.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "No Limite",
+        "titulo_original": "No Limite",
+        "id": "30791",
+        "capa": "https://image.tmdb.org/t/p/w500/q2lspE4EAU77GQh0Zni1GmW60jc.jpg",
+        "qualidade": "HD",
+        "descricao": "Isolados em um cenário paradisíaco, 24 participantes anônimos competem entre si o título de grande campeão e o prêmio de R$500 mil, sob o comando de Fernando Fernandes.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Bad Boy",
+        "titulo_original": "Bad Boy",
+        "id": "234034",
+        "capa": "https://image.tmdb.org/t/p/w500/rnojt7Kg5S6iTBUDvOpFt8QsCcI.jpg",
+        "qualidade": "HD",
+        "descricao": "Nesta série sobre amadurecimento inspirada em eventos reais, um comediante conta como sobreviveu a um violento abrigo de reabilitação juvenil graças ao humor.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Dama de Companhia",
+        "titulo_original": "Manual para señoritas",
+        "id": "280890",
+        "capa": "https://image.tmdb.org/t/p/w500/xcuMd6VPimaVh917Vhn4IXo1EDM.jpg",
+        "qualidade": "HD",
+        "descricao": "Contratada para encontrar maridos para três irmãs ricas, Elena Bianda mergulha em um mundo de amor, escândalo e intrigas cômicas no final do século XIX.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Medusa",
+        "titulo_original": "Medusa",
+        "id": "284792",
+        "capa": "https://image.tmdb.org/t/p/w500/mFsjwJdNBKDRYLqPdBFaoVCKXLq.jpg",
+        "qualidade": "HD",
+        "descricao": "Alguém está tentando matar a CEO Bárbara Hidalgo. Será que ela consegue encontrar o responsável enquanto a família tenta assumir o controle de seu império na Colômbia?",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Homicídio nos EUA: Gabby Petito",
+        "titulo_original": "American Murder: Gabby Petito",
+        "id": "283197",
+        "capa": "https://image.tmdb.org/t/p/w500/3W8cNeTeurC0My9pM5ufyxdy0OI.jpg",
+        "qualidade": "HD",
+        "descricao": "O que aconteceu nos dias finais de Gabby Petito? Nesta série emocionante sobre um crime real, amigos e familiares revelam a história de seu trágico assassinato.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Dona de Mim",
+        "titulo_original": "Dona de Mim",
+        "id": "283245",
+        "capa": "https://image.tmdb.org/t/p/w500/1iBQHzNhuW03u79xhkREKkLRf94.jpg",
+        "qualidade": "HD",
+        "descricao": "O encontro de uma jovem babá e uma criança solitária é o ponto de partida para uma novela sobre afeto, companheirismo, relações humanas e as diversas formas de maternidade.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Plumas & Paetês",
+        "titulo_original": "Plumas & Paetês",
+        "id": "158620",
+        "capa": "https://image.tmdb.org/t/p/w500/izqEM9k4ikFZOnp899I8AvfnkcK.jpg",
+        "qualidade": "HD",
+        "descricao": "Um acidente automobilístico em direção a São Paulo põe a única sobrevivente, Marcela, em contato com a família do motorista, Osmar, um amigo. Ela é confundida com Júlia, a noiva do rapaz, que também morrera. Grávida, fugindo do passado em Minas Gerais, e para não ficar desamparada em uma cidade onde não conhece ninguém, Marcela apresenta-se como noiva de Osmar. A moça passa, então, a desfrutar de todas as regalias da rica família, liderada pela matriarca Bruna, que a recebe com desconfiança, e pelo simpático Gustavo. Edgar, o filho mais velho de Bruna e Gustavo, apaixona-se pela falsa cunhada e, antes que possam completar essa união, Marcela reencontra uma antiga paixão de Minas: Paulo, o pai de sua bebê.",
+        "generos": [
+            "Drama",
+            "Soap"
+        ]
+    },
+    {
+        "titulo": "O Outro Lado do Amor",
+        "titulo_original": "Evlilik Hakkında Her Şey",
+        "id": "134155",
+        "capa": "https://image.tmdb.org/t/p/w500/rj0vp8ujUeoZA8q6N7eNCJv6HGG.jpg",
+        "qualidade": "HD",
+        "descricao": "Remake turco da premiada série britânica 'The Split', que conta a história de uma família de irmãs que trabalham como advogadas de divórcio e ficam cara a cara com seu passado após o retorno do seu pai ausente.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Canto dos Pássaros",
+        "titulo_original": "Yali Çapkini",
+        "id": "292120",
+        "capa": "https://image.tmdb.org/t/p/w500/r3jrjIvjOW18zYTXR8GymrHYieB.jpg",
+        "qualidade": "HD",
+        "descricao": "A vida do herdeiro irresponsável de uma família rica muda para sempre quando seu avô o obriga a se casar com uma jovem humilde.",
+        "generos": []
+    },
+    {
+        "titulo": "Eu Não Sou Mendoza",
+        "titulo_original": "Yo no soy Mendoza",
+        "id": "287899",
+        "capa": "https://image.tmdb.org/t/p/w500/iikwhp7QhPrdmbchAmIVSYQIArq.jpg",
+        "qualidade": "HD",
+        "descricao": "Julián é sequestrado e forçado a se passar pelo corrupto dono de um cassino, a se casar com a noiva dele e derrubar a máfia. Só que se apaixonar não estava nos planos.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Vidas Ocultas",
+        "titulo_original": "Kaderimin Oyunu",
+        "id": "152326",
+        "capa": "https://image.tmdb.org/t/p/w500/l4AxEMRyaGWDI6ZqMNiyulZRYqz.jpg",
+        "qualidade": "HD",
+        "descricao": "Asiye é uma jovem mulher que se dedica à felicidade de seus filhos, apesar de todas as suas privações, e é como mãe e pai para eles. Sua vida vira de cabeça para baixo após um desastre que aconteceu com sua filha Nergis. Depois disso, seu caminho se cruza com Mahir, um estranho desconhecido que os ajuda, e suas vidas tomam um rumo inesperado após este encontro.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Amor Além do Tempo",
+        "titulo_original": "Veda Mektubu",
+        "id": "221244",
+        "capa": "https://image.tmdb.org/t/p/w500/xWsCyt4hrJNZkS94DtUHk0FGQHa.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Drama",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "Senhora do Mar",
+        "titulo_original": "Senhora do Mar",
+        "id": "242099",
+        "capa": "https://image.tmdb.org/t/p/w500/wy4tkwuoWMGEa5Wi8dCvLVuxBzt.jpg",
+        "qualidade": "HD",
+        "descricao": "",
+        "generos": [
+            "Soap"
+        ]
+    },
+    {
+        "titulo": "Corpo a Corpo",
+        "titulo_original": "Corpo a Corpo",
+        "id": "197604",
+        "capa": "https://image.tmdb.org/t/p/w500/f8DPWUCTGIkQEg53zCd20vXSBp5.jpg",
+        "qualidade": "HD",
+        "descricao": "Eloá é uma mulher inteligente e ambiciosa, em busca de projeção social e profissional. Para tal, ela se empenha para se destacar na empresa de engenharia onde trabalha com o marido Osmar, a Fraga Dantas S.A. Osmar é um sujeito acomodado, sem grandes ambições, que não tem as mesmas perspectivas de ascensão que a mulher. Durante uma festa, Eloá, frustrada por não ter conseguido uma promoção, conhece o misterioso Raul. Ele lhe garante que poderá fazer com que ela cresça em seu trabalho. Eloá começa a se destacar profissionalmente e sua ascensão acompanha, de maneira inversa, a derrocada de Osmar, gerando uma crise em seu até então inabalável casamento.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "A Caverna Encantada",
+        "titulo_original": "A Caverna Encantada",
+        "id": "259172",
+        "capa": "https://image.tmdb.org/t/p/w500/5GhlwbZ8ogQUf2Xuq8tE2lX7gk7.jpg",
+        "qualidade": "HD",
+        "descricao": "A trama conta a história de Anna, filha de Paulo, um médico missionário. Os dois vivem juntos no norte de Minas Gerais. Paulo recebe um chamado para uma missão perigosa e, infelizmente, Anna não poderá acompanhá-lo. Então, o pai deixa a filha num colégio interno no interior de São Paulo, onde a menina vai conviver com crianças bem diferentes. Paulo garante voltar no dia do aniversário da filha, mas misteriosamente, não retorna. Anna embarca numa jornada inesperada e descobrirá muito mais a respeito dos enigmas do colégio, sua família e sobre ela mesma.",
+        "generos": [
+            "Soap",
+            "Família"
+        ]
+    },
+    {
+        "titulo": "Viver a Vida",
+        "titulo_original": "Viver a Vida",
+        "id": "31556",
+        "capa": "https://image.tmdb.org/t/p/w500/mdjfBpMTzPWdd3BWHX9qAFIy2PB.jpg",
+        "qualidade": "HD",
+        "descricao": "A história de Helena, uma top model de renome internacional que, no auge da carreira, decide largar a profissão para se casar com o sedutor Marcos.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Pátria Minha",
+        "titulo_original": "Pátria Minha",
+        "id": "80096",
+        "capa": "https://image.tmdb.org/t/p/w500/m3EJtyMPsByG5AfFNDCwIuGvjqP.jpg",
+        "qualidade": "HD",
+        "descricao": "Alice, uma estudante idealista, presencia um atropelamento causado por Raul Pellegrini, um empresário inescrupuloso, arrogante e prepotente, e é pressionada a testemunhar a favor dele. A partir do momento em que ela se recusa a aceitar as tentativas de suborno, estabelece-se o principal conflito da história.",
+        "generos": [
+            "Drama",
+            "Soap"
+        ]
+    },
+    {
+        "titulo": "Uma História de Amor",
+        "titulo_original": "Bir Aşk Hikayesi",
+        "id": "87175",
+        "capa": "https://image.tmdb.org/t/p/w500/5sFowWTm764RVEo5DtyXkHQCkYn.jpg",
+        "qualidade": "HD",
+        "descricao": "Korkut Ali é um cara jovem e bonito que leva uma vida ruim na Alemanha. Ele foi abandonado pelos pais quando criança e foi adotado por um casal na Alemanha. No entanto, ele foi deixado sozinho por sua família adotiva. Ceylan, por outro lado, é uma jovem bonita e ingênua que mora em Istambul, na Turquia. Ela é estilista de uma cantora famosa, Tolga, por quem está apaixonada. Em uma cerimônia de casamento, Korkut leva um tiro na cabeça. O médico o salva, mas Korkut tem que viver com uma bala na cabeça com menos de um ano de vida. Após este infeliz acontecimento, Korkut vai para Istambul em busca de seus pais biológicos. Ele descobre que sua mãe é uma cantora famosa Gonul Karanli com um filho, Tolga. Korkut se sente tão traído que sua mãe biológica e seu irmão vivem uma vida feliz em Istambul. Korkut esquecerá seu passado e viverá o resto de sua vida em paz? Ceylan conseguirá trazer felicidade para Korkut? Korkut vai se vingar de sua mãe e de seu irmão?",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Cara & Coroa",
+        "titulo_original": "Cara & Coroa",
+        "id": "85747",
+        "capa": "https://image.tmdb.org/t/p/w500/474QXPhnOYcE7L75lEzcKxtvSbv.jpg",
+        "qualidade": "HD",
+        "descricao": "O contraste entre duas mulheres fisicamente idênticas, mas com personalidades opostas, era o mote de Cara & Coroa.",
+        "generos": [
+            "Soap",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Armadilha do Amor",
+        "titulo_original": "Afili Aşk",
+        "id": "89671",
+        "capa": "https://image.tmdb.org/t/p/w500/3mmQtKizYKbQCIWq1K76HV1Iort.jpg",
+        "qualidade": "HD",
+        "descricao": "Kerem é um mulherengo e Ayse é uma trabalhadora que tem o futuro controlado pelos irmãos. Cansada dessa vida, Ayse prepara uma armadilha que pode transformar o futuro dos dois.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
     }
 ]

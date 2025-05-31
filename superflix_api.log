@@ -16,3 +16,43 @@
 2025-05-24 22:07:46,561 - INFO - Códigos iniciais e filmes/séries populares atualizados
 2025-05-24 22:07:46,639 - WARNING -  * Debugger is active!
 2025-05-24 22:07:46,646 - INFO -  * Debugger PIN: 464-886-906
+2025-05-31 18:24:56,593 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
+2025-05-31 18:25:07,827 - ERROR - Erro ao carregar códigos de filmes: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /filmes/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000011B585532F0>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
+2025-05-31 18:25:07,939 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
+2025-05-31 18:25:19,440 - ERROR - Erro ao carregar códigos de séries: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /series/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000011B585539E0>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
+2025-05-31 18:25:33,421 - ERROR - Erro ao atualizar filmes de https://superflixapi.ist/filmes: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
+2025-05-31 18:25:46,077 - ERROR - Erro ao atualizar séries de https://superflixapi.ist/series: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
+2025-05-31 18:25:46,081 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-05-31 18:25:46,580 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-05-31 18:25:46,582 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-31 18:25:46,585 - INFO -  * Restarting with stat
+2025-05-31 18:25:49,179 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
+2025-05-31 18:26:00,256 - ERROR - Erro ao carregar códigos de filmes: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /filmes/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A4EFAC7350>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
+2025-05-31 18:26:00,257 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
+2025-05-31 18:26:11,341 - ERROR - Erro ao carregar códigos de séries: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /series/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A4EFAF0050>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
+2025-05-31 18:26:22,668 - ERROR - Erro ao atualizar filmes de https://superflixapi.ist/filmes: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
+2025-05-31 18:26:33,819 - ERROR - Erro ao atualizar séries de https://superflixapi.ist/series: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
+2025-05-31 18:26:33,819 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-05-31 18:26:33,889 - WARNING -  * Debugger is active!
+2025-05-31 18:26:33,904 - INFO -  * Debugger PIN: 464-886-906
+2025-05-31 18:29:11,187 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
+2025-05-31 18:29:15,029 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json salvo com sucesso
+2025-05-31 18:29:15,032 - INFO - Códigos de filmes atualizados
+2025-05-31 18:29:15,039 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
+2025-05-31 18:29:27,951 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json salvo com sucesso
+2025-05-31 18:29:27,953 - INFO - Códigos de séries atualizados
+2025-05-31 18:29:45,552 - INFO - Nenhum novo filmes encontrado
+2025-05-31 18:29:59,606 - INFO - Nenhum novo séries encontrado
+2025-05-31 18:29:59,614 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-05-31 18:29:59,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-05-31 18:29:59,850 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-31 18:29:59,852 - INFO -  * Restarting with stat
+2025-05-31 18:30:17,820 - INFO - Nenhum novo filmes encontrado
+2025-05-31 18:30:30,814 - INFO - Nenhum novo séries encontrado
+2025-05-31 18:30:30,821 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-05-31 18:30:30,911 - WARNING -  * Debugger is active!
+2025-05-31 18:30:30,918 - INFO -  * Debugger PIN: 464-886-906
+2025-05-31 18:30:51,386 - INFO -  * Detected change in 'c:\\Users\\Dra. Jennifer\\Desktop\\Back\\BackEnd\\app.py', reloading
+2025-05-31 18:30:51,683 - INFO -  * Restarting with stat
