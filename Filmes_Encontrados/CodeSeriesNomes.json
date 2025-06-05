@@ -48053,5 +48053,202 @@
             "Comédia",
             "Drama"
         ]
+    },
+    {
+        "titulo": "Ladrões da Floresta",
+        "titulo_original": "De Bende van Jan de Lichte",
+        "id": "93533",
+        "capa": "https://image.tmdb.org/t/p/w500/tNAFSZyLXGtydSExjGeZ1B544UE.jpg",
+        "qualidade": "HD",
+        "descricao": "O carismático ladrão Jan de Lichte lidera os oprimidos em uma revolta contra a aristocracia corrupta de Flandres no século 18.",
+        "generos": [
+            "Drama",
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Chespirito: Sem Querer Querendo",
+        "titulo_original": "Chespirito: Sin querer queriendo",
+        "id": "279060",
+        "capa": "https://image.tmdb.org/t/p/w500/rsvIQfKPBoq6AZ2RTEQwKE0C71T.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma jornada pela ascensão à fama do Roberto Gómez Bolaños, mais conhecido como Chespirito, o artista que criou os personagens icônicos “Chaves”, “Chapolin” e muitas outras histórias e bordões que conquistaram o coração de milhões.",
+        "generos": [
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Baylen: Uma Vida sem Filtro",
+        "titulo_original": "Baylen Out Loud",
+        "id": "279644",
+        "capa": "https://image.tmdb.org/t/p/w500/s6WmXso7NHPl3IVvaSSUGSOD5iv.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanhe a jornada de Baylen Dupree, uma jovem que vive com a Síndrome de Tourette. Apesar dos desafios diários, Baylen, sua família e seu namorado de longa data não têm medo de rir e abraçar o caos que torna seu dia a dia único.",
+        "generos": [
+            "Reality"
+        ]
+    },
+    {
+        "titulo": "Sara: A Mulher nas Sombras",
+        "titulo_original": "Sara - La donna nell'ombra",
+        "id": "291256",
+        "capa": "https://image.tmdb.org/t/p/w500/dmEXwLTDQXQ1QRc6VqvNEFUotZf.jpg",
+        "qualidade": "HD",
+        "descricao": "A morte suspeita do filho leva uma ex-agente secreta a voltar à ativa, investigando uma série de crimes que ficam cada vez mais sinistros.",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "Grandes Jogadas com Shaquille O'Neal",
+        "titulo_original": "Power Moves with Shaquille O'Neal",
+        "id": "290865",
+        "capa": "https://image.tmdb.org/t/p/w500/9IiWveIRCxNZ1nlw7rhkruS57md.jpg",
+        "qualidade": "HD",
+        "descricao": "Nesta série documental, as lendas da NBA Shaquille O'Neal e Allen Iverson tentam reviver o legado da Reebok e encontrar uma estrela em ascensão para representar a marca.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "Sem Piedade",
+        "titulo_original": "광장",
+        "id": "232766",
+        "capa": "https://image.tmdb.org/t/p/w500/yOtukBOsfPgn3T0Wq1DUxUWtj9j.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois de sair de sua gangue, um ex-criminoso volta para descobrir a verdade por trás da morte do irmão embarcando em uma jornada de vingança incansável.",
+        "generos": [
+            "Action & Adventure"
+        ]
+    },
+    {
+        "titulo": "Sobreviventes",
+        "titulo_original": "The Survivors",
+        "id": "284605",
+        "capa": "https://image.tmdb.org/t/p/w500/4Xgf1axYG97G7BYC661O27t9iYu.jpg",
+        "qualidade": "HD",
+        "descricao": "Há quinze anos, uma tragédia envolvendo três jovens abalou uma pacata cidade. Agora, a morte misteriosa de uma mulher relembra um passado que todos preferiam esquecer.",
+        "generos": [
+            "Drama",
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "GOLPE ROMÂNTICO: Quem é Jason Porter, p***a?",
+        "titulo_original": "ROMCON: Who the F**k Is Jason Porter?",
+        "id": "281984",
+        "capa": "https://image.tmdb.org/t/p/w500/sbQnuOMvAsfR5kKUN9Ov5DAYaSc.jpg",
+        "qualidade": "HD",
+        "descricao": "Um documentário arrebatador revela como o romance perfeito da corretora de imóveis Heather Rovet com “Jace” desmoronou ao descobrir que ele era Jason Porter, um criminoso condenado com histórico de golpes românticos. Ao entrar em contato com outras vítimas, Heather se transforma de amante desiludida a investigadora determinada, arriscando tudo para expor o padrão de manipulação e buscar justiça.",
+        "generos": [
+            "Documentário"
+        ]
+    },
+    {
+        "titulo": "UM BOM GAROTO",
+        "titulo_original": "굿보이",
+        "id": "231280",
+        "capa": "https://image.tmdb.org/t/p/w500/xNge2upiP2FLppTyKhouT7Gbm1y.jpg",
+        "qualidade": "HD",
+        "descricao": "Onze anos depois, a polícia retoma o recrutamento de ex-atletas. Antes vistos como heróis, esses medalhistas agora enfrentam a dura realidade. Apesar das dívidas, das tragédias inesperadas e do preconceito na corporação, os atletas, cada um com sua história, montam uma força-tarefa especial para combater crimes hediondos com o ímpeto e as habilidades que os moldaram no esporte.",
+        "generos": [
+            "Crime",
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Mentiras, a Série",
+        "titulo_original": "Mentiras, La Serie",
+        "id": "290321",
+        "capa": "https://image.tmdb.org/t/p/w500/lSauolGT9Ku5nx9R1emFB9DGsDF.jpg",
+        "qualidade": "HD",
+        "descricao": "Após descobrirem que Emmanuel Mijares está morto, Daniela, Dulce, Yuri e Lupita são chamadas a uma mansão misteriosa. Forçadas a interagir, as tensões entre elas se intensificam rapidamente, e as mentiras que elas escondem há anos vêm à tona. Mas, aos poucos, essas mulheres começam a se questionar, a refletir e a perceber que têm muito mais em comum do que jamais imaginaram.",
+        "generos": [
+            "Comédia",
+            "Soap"
+        ]
+    },
+    {
+        "titulo": "Mentirosos",
+        "titulo_original": "We Were Liars",
+        "id": "215522",
+        "capa": "https://image.tmdb.org/t/p/w500/cLwxFcO4pyji3YwkKBnM42a0yQf.jpg",
+        "qualidade": "HD",
+        "descricao": "Um ano após o misterioso acidente que a deixou com amnésia, Cadence, de 17 anos, volta à Ilha Beechwood, perto de Martha's Vineyard, em busca de respostas. Três gerações da distinta família Sinclair se reúnem em sua utopia de verão privada, e ninguém fala sobre o acidente, nem seus amigos de infância, \"Os Mentirosos\", nem seu primeiro amor, Gat, forçando-a a desvendar a verdade sozinha.",
+        "generos": [
+            "Mistério"
+        ]
+    },
+    {
+        "titulo": "Contagem Regressiva",
+        "titulo_original": "Countdown",
+        "id": "256317",
+        "capa": "https://image.tmdb.org/t/p/w500/o67cJGmKTs2B5Qr6wzdPod9f1Dz.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando um agente do Departamento de Segurança Nacional é morto à luz do dia, o detetive da Polícia de Los Angeles Mark Meachum é recrutado para uma força-tarefa com agentes disfarçados de todas as agências de segurança para investigar. Mas a caçada ao assassino revela uma trama mais sinistra do que todos poderiam imaginar, dando início a uma corrida contra o tempo para salvar uma cidade inteira.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Stick",
+        "titulo_original": "Stick",
+        "id": "248830",
+        "capa": "https://image.tmdb.org/t/p/w500/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
+        "qualidade": "HD",
+        "descricao": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
+        "generos": [
+            "Comédia"
+        ]
+    },
+    {
+        "titulo": "Cortina de Fumaça",
+        "titulo_original": "Smoke",
+        "id": "215995",
+        "capa": "https://image.tmdb.org/t/p/w500/dkxMAOiRz1zjlgFAMc3P72xSB3u.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando um investigador de incêndios se une, contra a vontade, com uma detetive, a corrida para deter dois incendiários dá início a um jogo perverso de segredos e suspeitas.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Coração de Ferro",
+        "titulo_original": "Ironheart",
+        "id": "114471",
+        "capa": "https://image.tmdb.org/t/p/w500/xrGttFuJt5dTlKKa0IcZPpYq249.jpg",
+        "qualidade": "HD",
+        "descricao": "A genial inventora Riri Williams cria a armadura mais avançada desde o Homem de Ferro e se torna a Coração de Ferro.",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Crime"
+        ]
+    },
+    {
+        "titulo": "Aniela",
+        "titulo_original": "Aniela",
+        "id": "288915",
+        "capa": "https://image.tmdb.org/t/p/w500/dcQsD6mUUchYQ0OCFUE6pnTp5xR.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois que o marido rico a deixa sem nada, uma socialite de Varsóvia precisa usar a única ferramenta que lhe restou para sobreviver: a inteligência.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Funerária: Dinheiro e Cinzas",
+        "titulo_original": "The Mortician",
+        "id": "291926",
+        "capa": "https://image.tmdb.org/t/p/w500/tPaSPqAEnBezwNOUYyhH3iVPsJF.jpg",
+        "qualidade": "HD",
+        "descricao": "Conta a história sombria de uma infame funerária familiar de Los Angeles que, durante anos, se envolveu em práticas moralmente questionáveis e desumanas, incluindo cremações em massa e roubo de mortos.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ]
     }
 ]
