@@ -266,6 +266,26 @@ def normalize_text(text):
     text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('ascii')
     return text.lower().strip()
 
+@app.route('/anime/detalhes')
+def anime_detalhes():
+    """Retorna detalhes de um anime pelo ID."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
+    anime_id = request.args.get('id')
+    if not validar_id(anime_id):
+        logger.warning(f"ID de anime inválido: {anime_id}")
+        return jsonify({'erro': 'ID inválido'}), 400
+
+    animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
+    for anime in animes:
+        if anime.get('id') == anime_id:
+            return jsonify(anime)
+
+    logger.info(f"Anime com ID {anime_id} não encontrado")
+    return jsonify({'erro': 'Anime não encontrado'}), 404
+
 
 
 @app.route('/animes/pagina')
