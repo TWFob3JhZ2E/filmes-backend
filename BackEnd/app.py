@@ -47,7 +47,7 @@ json_lock = Lock()
 
 # Configurações centralizadas
 CONFIG = {
-    'BASE_URL': 'https://superflixapi.wales//filmes',
+    'BASE_URL': 'https://superflixapi.wales',
     'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
     'ITEMS_PER_PAGE': 50,
     'JSON_INDENT': 4,
@@ -70,6 +70,8 @@ os.makedirs(FILMES_ENCONTRADOS_DIR, exist_ok=True)
 JSON_PATHS = {
     'filmes_pagina': os.path.join(FILMES_ENCONTRADOS_DIR, 'CodeFilmesNomes.json'),
     'series_nomes': os.path.join(FILMES_ENCONTRADOS_DIR, 'CodeSeriesNomes.json'),
+    'animes': os.path.join(TEMP_DIR, 'CodeAnimes.json'),
+    'animes_nomes': os.path.join(FILMES_ENCONTRADOS_DIR, 'CodeAnimesNomes.json'),
     'filmes_novos': os.path.join(TEMP_DIR, 'Novosfilmes.json'),
     'series': os.path.join(TEMP_DIR, 'series.json'),
     'filmes_home': os.path.join(TEMP_DIR, 'Filmes.json'),
@@ -105,6 +107,7 @@ def salvar_dados_json(caminho, dados):
     """Salva dados em um arquivo JSON com sincronização."""
     with json_lock:
         try:
+            logger.info(f"Tentando salvar dados em {caminho}")
             with open(caminho, 'w', encoding='utf-8') as f:
                 json.dump(dados, f, ensure_ascii=False, indent=CONFIG['JSON_INDENT'])
             logger.info(f"Arquivo {caminho} salvo com sucesso")
@@ -158,14 +161,21 @@ async def extrair_detalhes_item(session, url_detalhes, semaphore):
             }
 
 async def atualizar_dados(url, cache_path, tipo='filmes'):
-    """Função genérica para atualizar filmes ou séries via scraping assíncrono."""
+    """Função genérica para atualizar filmes, séries ou animes via scraping assíncrono."""
     cache = carregar_dados_json(cache_path)
     try:
         async with aiohttp.ClientSession() as session:
-            headers = {'User-Agent': CONFIG['USER_AGENT']}
+            headers = {
+                'User-Agent': CONFIG['USER_AGENT'],
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5'
+            }
+            logger.info(f"Tentando acessar URL: {url}")
             async with session.get(url, headers=headers) as response:
+                logger.info(f"Status da resposta: {response.status}")
                 response.raise_for_status()
                 content = await response.text()
+                logger.info(f"Primeiros 500 caracteres do conteúdo: {content[:500]}")
 
             soup = BeautifulSoup(content, 'html.parser')
             novos_itens = []
@@ -174,7 +184,11 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
             # Criar um semáforo para limitar requisições simultâneas
             semaphore = asyncio.Semaphore(CONFIG['RATE_LIMIT_REQUESTS'])
 
-            for poster in soup.find_all('div', class_='poster'):
+            logger.info(f"Procurando pôsteres na página de {tipo}")
+            posters = soup.find_all('div', class_='poster')
+            logger.info(f"Encontrados {len(posters)} pôsteres")
+
+            for poster in posters:
                 try:
                     titulo = poster.find('span', class_='title')
                     qualidade = poster.find('span', class_='year')
@@ -182,6 +196,7 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
                     link = poster.find('a', class_='btn')
 
                     if not all([titulo, qualidade, imagem, link]):
+                        logger.warning(f"Pôster incompleto encontrado: {poster.get_text(strip=True)[:100]}")
                         continue
 
                     titulo = titulo.get_text(strip=True)
@@ -191,7 +206,7 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
                     url_detalhes = urljoin(CONFIG['BASE_URL'], link['href'])
 
                     if not item_existe(cache, item_id):
-                        # Agendar a extração de detalhes
+                        logger.info(f"Novo {tipo} encontrado: {titulo} (ID: {item_id})")
                         detalhes_tasks.append(extrair_detalhes_item(session, url_detalhes, semaphore))
                         novos_itens.append({
                             'titulo': titulo,
@@ -204,7 +219,7 @@ async def atualizar_dados(url, cache_path, tipo='filmes'):
                     continue
 
             if novos_itens:
-                # Executar todas as tarefas de detalhes em paralelo
+                logger.info(f"Extraindo detalhes de {len(novos_itens)} {tipo}")
                 detalhes_results = await asyncio.gather(*detalhes_tasks, return_exceptions=True)
                 for i, detalhes in enumerate(detalhes_results):
                     if isinstance(detalhes, dict):
@@ -250,6 +265,92 @@ def normalize_text(text):
     # Remove acentos e converte para minúsculas
     text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('ascii')
     return text.lower().strip()
+
+
+
+@app.route('/animes/pagina')
+def animes_pagina():
+    """Retorna animes paginados com metadados."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
+    pagina = validar_pagina(request.args.get('pagina', 1))
+    animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
+
+    if not animes:
+        logger.info("Nenhum anime encontrado")
+        return jsonify({
+            'resultados': [],
+            'total': 0,
+            'total_paginas': 1,
+            'pagina_atual': pagina
+        }), 200
+
+    # Paginação
+    inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
+    fim = inicio + CONFIG['ITEMS_PER_PAGE']
+    animes_paginados = animes[inicio:fim]
+
+    total_itens = len(animes)
+    total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
+
+    logger.info(f"Retornando {len(animes_paginados)} animes da página {pagina}/{total_paginas}")
+
+    return jsonify({
+        'resultados': animes_paginados,
+        'total': total_itens,
+        'total_paginas': total_paginas,
+        'pagina_atual': pagina
+    })
+
+
+@app.route('/codigos/animes')
+def codigos_animes():
+    """Retorna códigos de animes, com cache."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
+    cache = carregar_dados_json(JSON_PATHS['animes'])
+    if cache:
+        logger.info(f"Retornando {len(cache.get('codigos', []))} códigos do cache")
+        return jsonify({"codigos": ", ".join(cache.get("codigos", []))})
+
+    try:
+        url = urljoin(CONFIG['BASE_URL'], '/animes/export/')
+        headers = {
+            'User-Agent': CONFIG['USER_AGENT'],
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5'
+        }
+        logger.info(f"Tentando acessar URL: {url}")
+        response = requests.get(url, headers=headers, timeout=5)
+        logger.info(f"Status da resposta: {response.status_code}")
+        response.raise_for_status()
+
+        # Extrair o texto bruto
+        content = response.text
+        logger.info(f"Primeiros 500 caracteres do conteúdo: {content[:500]}")
+
+        # Dividir por <br> e limpar os códigos
+        raw_codigos = content.split('<br>')
+        logger.info(f"Encontrados {len(raw_codigos)} códigos brutos")
+        codigos = [codigo.strip() for codigo in raw_codigos if codigo.strip().isdigit()]
+        logger.info(f"Encontrados {len(codigos)} códigos válidos após validação")
+
+        if not codigos:
+            logger.warning("Nenhum código válido encontrado no conteúdo")
+
+        cache = {"codigos": codigos}
+        salvar_dados_json(JSON_PATHS['animes'], cache)
+        logger.info("Códigos de animes atualizados")
+        return jsonify({"codigos": ", ".join(codigos)})
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Erro ao carregar códigos de animes: {e}")
+        return jsonify({'error': 'Erro ao carregar códigos de animes'}), 500
+    
 
 @app.route('/health', methods=['GET'])
 def health_check():
@@ -637,11 +738,11 @@ def serve_static(path):
     return send_from_directory(app.static_folder, path)
 
 def atualizar_codigos_inicial():
-    """Atualiza códigos de filmes e séries na inicialização e pré-carrega filmes populares."""
+    """Atualiza códigos de filmes, séries e animes na inicialização e pré-carrega dados populares."""
     with app.app_context():
         codigos_filmes()
         codigos_series()
-        # Pré-carregar filmes populares
+        codigos_animes()  # Chama a nova rota
         run_async_in_thread(
             atualizar_dados(
                 urljoin(CONFIG['BASE_URL'], '/filmes'),
@@ -657,6 +758,7 @@ def atualizar_codigos_inicial():
             )
         )
         logger.info("Códigos iniciais e filmes/séries populares atualizados")
+
 
 if __name__ == '__main__':
     atualizar_codigos_inicial()

@@ -1,58 +1,359 @@
-2025-05-24 22:07:32,448 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
-2025-05-24 22:07:35,519 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json salvo com sucesso
-2025-05-24 22:07:35,522 - INFO - Códigos de filmes atualizados
-2025-05-24 22:07:35,531 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
-2025-05-24 22:07:37,250 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json salvo com sucesso
-2025-05-24 22:07:37,284 - INFO - Códigos de séries atualizados
-2025-05-24 22:07:39,510 - INFO - Nenhum novo filmes encontrado
-2025-05-24 22:07:40,487 - INFO - Nenhum novo séries encontrado
-2025-05-24 22:07:40,503 - INFO - Códigos iniciais e filmes/séries populares atualizados
-2025-05-24 22:07:40,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-06-05 16:44:21,372 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeAnimes.json não encontrado
+2025-06-05 16:44:21,373 - INFO - Tentando acessar URL: https://superflixapi.wales/animes/export/
+2025-06-05 16:44:22,372 - INFO - Status da resposta: 200
+2025-06-05 16:44:22,626 - INFO - Encontrados 0 códigos de animes
+2025-06-05 16:44:22,626 - INFO - Tentando salvar dados em c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeAnimes.json
+2025-06-05 16:44:22,626 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeAnimes.json salvo com sucesso
+2025-06-05 16:44:22,626 - INFO - Códigos de animes atualizados
+2025-06-05 16:44:22,849 - INFO - Tentando acessar URL: https://superflixapi.wales/filmes
+2025-06-05 16:44:23,593 - INFO - Status da resposta: 200
+2025-06-05 16:44:23,784 - INFO - Primeiros 500 caracteres do conteúdo: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="https://superflixapi.wales/css/casa.css?v=v1.5.5">
+<title>Superflix API — Filmes</title>
+<link rel="icon" href="https://superflixapi.wales/img/favicon/32.png" sizes="32x32">
+	<link rel="icon" href="https://superflixapi.wales/img/favicon/192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="ht
+2025-06-05 16:44:23,936 - INFO - Procurando pôsteres na página de filmes
+2025-06-05 16:44:23,953 - INFO - Encontrados 40 pôsteres
+2025-06-05 16:44:23,987 - WARNING - Pôster incompleto encontrado: Crise de IdentidadeDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,055 - WARNING - Pôster incompleto encontrado: Como Se Tornar um Homem ModernoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,078 - WARNING - Pôster incompleto encontrado: Mão na CabeçaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,092 - WARNING - Pôster incompleto encontrado: O Último AcordoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,140 - WARNING - Pôster incompleto encontrado: O Destino de MajaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,176 - WARNING - Pôster incompleto encontrado: Entre Piadas e CigarrosDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,225 - WARNING - Pôster incompleto encontrado: Bailarina - Do Universo de John WickDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,240 - WARNING - Pôster incompleto encontrado: Uma Escolha pela VidaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,281 - WARNING - Pôster incompleto encontrado: Ataque à CabanaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,307 - WARNING - Pôster incompleto encontrado: O Homem Que Viu o InfinitoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,360 - WARNING - Pôster incompleto encontrado: O SuspeitoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,402 - WARNING - Pôster incompleto encontrado: O Último CombateDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,459 - WARNING - Pôster incompleto encontrado: Raging MidlifeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,477 - WARNING - Pôster incompleto encontrado: My Father's KillerDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,483 - WARNING - Pôster incompleto encontrado: Never Have I EverDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,488 - WARNING - Pôster incompleto encontrado: Poison TreeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,536 - WARNING - Pôster incompleto encontrado: Ride the SnakeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,559 - WARNING - Pôster incompleto encontrado: Rogue AngelDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,570 - WARNING - Pôster incompleto encontrado: Desastre Total: Festival AstroworldDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,578 - WARNING - Pôster incompleto encontrado: Perdido na MontanhaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,627 - WARNING - Pôster incompleto encontrado: Predador: Assassino de AssassinosDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,702 - WARNING - Pôster incompleto encontrado: Echo ValleyDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,769 - WARNING - Pôster incompleto encontrado: F1 - O FilmeDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,825 - WARNING - Pôster incompleto encontrado: Um Maluco no Golfe 2DubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,839 - WARNING - Pôster incompleto encontrado: Mensagem em uma GarrafaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,846 - WARNING - Pôster incompleto encontrado: Improvisação PerigosaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,883 - WARNING - Pôster incompleto encontrado: Serra das AlmasDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,893 - WARNING - Pôster incompleto encontrado: MikaelaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,908 - WARNING - Pôster incompleto encontrado: K.O.DubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,909 - WARNING - Pôster incompleto encontrado: Até a Última GotaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,913 - WARNING - Pôster incompleto encontrado: Day of ReckoningDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,915 - WARNING - Pôster incompleto encontrado: Desert FiendsDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,916 - WARNING - Pôster incompleto encontrado: Dajal: Satu Malam DipedajalDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,926 - WARNING - Pôster incompleto encontrado: Return to Planet UndergroundDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,927 - WARNING - Pôster incompleto encontrado: The Inverted CaseDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,928 - WARNING - Pôster incompleto encontrado: Un cuento de pescadoresDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,930 - WARNING - Pôster incompleto encontrado: WarlordDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,937 - WARNING - Pôster incompleto encontrado: Devil's Double Next LevelLegAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,951 - WARNING - Pôster incompleto encontrado: Soldado TinDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,952 - WARNING - Pôster incompleto encontrado: Efeito ParadoxoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:24,959 - INFO - Nenhum novo filmes encontrado
+2025-06-05 16:44:25,055 - INFO - Tentando acessar URL: https://superflixapi.wales/series
+2025-06-05 16:44:25,840 - INFO - Status da resposta: 200
+2025-06-05 16:44:26,008 - INFO - Primeiros 500 caracteres do conteúdo: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="https://superflixapi.wales/css/casa.css?v=v1.5.5">
+<title>Superflix API — Séries</title>
+<link rel="icon" href="https://superflixapi.wales/img/favicon/32.png" sizes="32x32">
+	<link rel="icon" href="https://superflixapi.wales/img/favicon/192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="ht
+2025-06-05 16:44:26,093 - INFO - Procurando pôsteres na página de séries
+2025-06-05 16:44:26,107 - INFO - Encontrados 40 pôsteres
+2025-06-05 16:44:26,109 - WARNING - Pôster incompleto encontrado: A Funerária: Dinheiro e CinzasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,110 - WARNING - Pôster incompleto encontrado: AnielaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,110 - WARNING - Pôster incompleto encontrado: Coração de FerroNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,112 - WARNING - Pôster incompleto encontrado: Cortina de FumaçaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,114 - WARNING - Pôster incompleto encontrado: StickNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,117 - WARNING - Pôster incompleto encontrado: Contagem RegressivaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,119 - WARNING - Pôster incompleto encontrado: MentirososNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,202 - WARNING - Pôster incompleto encontrado: Mentiras, a SérieNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,204 - WARNING - Pôster incompleto encontrado: Um Bom GarotoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,388 - WARNING - Pôster incompleto encontrado: GOLPE ROMÂNTICO: Quem é Jason Porter, p***a?Nenhum episódio com playerAbrir EmbedCopiar LinkCopiar T
+2025-06-05 16:44:26,466 - WARNING - Pôster incompleto encontrado: SobreviventesNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,649 - WARNING - Pôster incompleto encontrado: Sem PiedadeNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,782 - WARNING - Pôster incompleto encontrado: Grandes Jogadas com Shaquille O'NealNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopia
+2025-06-05 16:44:26,791 - WARNING - Pôster incompleto encontrado: Sara: A Mulher nas SombrasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,794 - WARNING - Pôster incompleto encontrado: Baylen: Uma Vida sem FiltroNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,801 - WARNING - Pôster incompleto encontrado: Chespirito: Sem Querer QuerendoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nom
+2025-06-05 16:44:26,803 - WARNING - Pôster incompleto encontrado: Ladrões da FlorestaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,804 - WARNING - Pôster incompleto encontrado: Armadilha do AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,804 - WARNING - Pôster incompleto encontrado: Cara & CoroaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,805 - WARNING - Pôster incompleto encontrado: Uma História de AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,806 - WARNING - Pôster incompleto encontrado: Pátria MinhaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,806 - WARNING - Pôster incompleto encontrado: Viver a VidaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,807 - WARNING - Pôster incompleto encontrado: A Caverna EncantadaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,807 - WARNING - Pôster incompleto encontrado: Corpo a CorpoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,818 - WARNING - Pôster incompleto encontrado: Senhora do MarNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,824 - WARNING - Pôster incompleto encontrado: Amor Além do TempoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,827 - WARNING - Pôster incompleto encontrado: Vidas OcultasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,835 - WARNING - Pôster incompleto encontrado: Teias do DestinoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,837 - WARNING - Pôster incompleto encontrado: YabaniNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,843 - WARNING - Pôster incompleto encontrado: Eu Não Sou MendozaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,843 - WARNING - Pôster incompleto encontrado: O Canto dos PássarosNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,844 - WARNING - Pôster incompleto encontrado: O Outro Lado do AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,852 - WARNING - Pôster incompleto encontrado: Plumas & PaetêsNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,854 - WARNING - Pôster incompleto encontrado: Dona de MimNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,854 - WARNING - Pôster incompleto encontrado: Homicídio nos EUA: Gabby PetitoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nom
+2025-06-05 16:44:26,858 - WARNING - Pôster incompleto encontrado: MedusaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,859 - WARNING - Pôster incompleto encontrado: A Dama de CompanhiaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,861 - WARNING - Pôster incompleto encontrado: Bad BoyNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,872 - WARNING - Pôster incompleto encontrado: No LimiteNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,877 - WARNING - Pôster incompleto encontrado: Troca de EsposasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:26,885 - INFO - Nenhum novo séries encontrado
+2025-06-05 16:44:26,902 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-06-05 16:44:27,024 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5001
-2025-05-24 22:07:40,673 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-24 22:07:40,682 - INFO -  * Restarting with stat
-2025-05-24 22:07:45,334 - INFO - Nenhum novo filmes encontrado
-2025-05-24 22:07:46,554 - INFO - Nenhum novo séries encontrado
-2025-05-24 22:07:46,561 - INFO - Códigos iniciais e filmes/séries populares atualizados
-2025-05-24 22:07:46,639 - WARNING -  * Debugger is active!
-2025-05-24 22:07:46,646 - INFO -  * Debugger PIN: 464-886-906
-2025-05-31 18:24:56,593 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
-2025-05-31 18:25:07,827 - ERROR - Erro ao carregar códigos de filmes: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /filmes/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000011B585532F0>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
-2025-05-31 18:25:07,939 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
-2025-05-31 18:25:19,440 - ERROR - Erro ao carregar códigos de séries: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /series/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000011B585539E0>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
-2025-05-31 18:25:33,421 - ERROR - Erro ao atualizar filmes de https://superflixapi.ist/filmes: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
-2025-05-31 18:25:46,077 - ERROR - Erro ao atualizar séries de https://superflixapi.ist/series: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
-2025-05-31 18:25:46,081 - INFO - Códigos iniciais e filmes/séries populares atualizados
-2025-05-31 18:25:46,580 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5001
-2025-05-31 18:25:46,582 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-31 18:25:46,585 - INFO -  * Restarting with stat
-2025-05-31 18:25:49,179 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
-2025-05-31 18:26:00,256 - ERROR - Erro ao carregar códigos de filmes: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /filmes/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A4EFAC7350>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
-2025-05-31 18:26:00,257 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
-2025-05-31 18:26:11,341 - ERROR - Erro ao carregar códigos de séries: HTTPSConnectionPool(host='superflixapi.ist', port=443): Max retries exceeded with url: /series/lista/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002A4EFAF0050>: Failed to resolve 'superflixapi.ist' ([Errno 11001] getaddrinfo failed)"))
-2025-05-31 18:26:22,668 - ERROR - Erro ao atualizar filmes de https://superflixapi.ist/filmes: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
-2025-05-31 18:26:33,819 - ERROR - Erro ao atualizar séries de https://superflixapi.ist/series: Cannot connect to host superflixapi.ist:443 ssl:default [getaddrinfo failed]
-2025-05-31 18:26:33,819 - INFO - Códigos iniciais e filmes/séries populares atualizados
-2025-05-31 18:26:33,889 - WARNING -  * Debugger is active!
-2025-05-31 18:26:33,904 - INFO -  * Debugger PIN: 464-886-906
-2025-05-31 18:29:11,187 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json não encontrado
-2025-05-31 18:29:15,029 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeFilmes.json salvo com sucesso
-2025-05-31 18:29:15,032 - INFO - Códigos de filmes atualizados
-2025-05-31 18:29:15,039 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json não encontrado
-2025-05-31 18:29:27,951 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeSeries.json salvo com sucesso
-2025-05-31 18:29:27,953 - INFO - Códigos de séries atualizados
-2025-05-31 18:29:45,552 - INFO - Nenhum novo filmes encontrado
-2025-05-31 18:29:59,606 - INFO - Nenhum novo séries encontrado
-2025-05-31 18:29:59,614 - INFO - Códigos iniciais e filmes/séries populares atualizados
-2025-05-31 18:29:59,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5001
-2025-05-31 18:29:59,850 - INFO - [33mPress CTRL+C to quit[0m
-2025-05-31 18:29:59,852 - INFO -  * Restarting with stat
-2025-05-31 18:30:17,820 - INFO - Nenhum novo filmes encontrado
-2025-05-31 18:30:30,814 - INFO - Nenhum novo séries encontrado
-2025-05-31 18:30:30,821 - INFO - Códigos iniciais e filmes/séries populares atualizados
-2025-05-31 18:30:30,911 - WARNING -  * Debugger is active!
-2025-05-31 18:30:30,918 - INFO -  * Debugger PIN: 464-886-906
-2025-05-31 18:30:51,386 - INFO -  * Detected change in 'c:\\Users\\Dra. Jennifer\\Desktop\\Back\\BackEnd\\app.py', reloading
-2025-05-31 18:30:51,683 - INFO -  * Restarting with stat
+2025-06-05 16:44:27,024 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 16:44:27,034 - INFO -  * Restarting with stat
+2025-06-05 16:44:29,924 - INFO - Tentando acessar URL: https://superflixapi.wales/filmes
+2025-06-05 16:44:31,016 - INFO - Status da resposta: 200
+2025-06-05 16:44:31,310 - INFO - Primeiros 500 caracteres do conteúdo: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="https://superflixapi.wales/css/casa.css?v=v1.5.5">
+<title>Superflix API — Filmes</title>
+<link rel="icon" href="https://superflixapi.wales/img/favicon/32.png" sizes="32x32">
+	<link rel="icon" href="https://superflixapi.wales/img/favicon/192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="ht
+2025-06-05 16:44:31,405 - INFO - Procurando pôsteres na página de filmes
+2025-06-05 16:44:31,409 - INFO - Encontrados 40 pôsteres
+2025-06-05 16:44:31,411 - WARNING - Pôster incompleto encontrado: Crise de IdentidadeDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,415 - WARNING - Pôster incompleto encontrado: Como Se Tornar um Homem ModernoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,416 - WARNING - Pôster incompleto encontrado: Mão na CabeçaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,417 - WARNING - Pôster incompleto encontrado: O Último AcordoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,418 - WARNING - Pôster incompleto encontrado: O Destino de MajaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,419 - WARNING - Pôster incompleto encontrado: Entre Piadas e CigarrosDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,421 - WARNING - Pôster incompleto encontrado: Bailarina - Do Universo de John WickDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,424 - WARNING - Pôster incompleto encontrado: Uma Escolha pela VidaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,425 - WARNING - Pôster incompleto encontrado: Ataque à CabanaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,427 - WARNING - Pôster incompleto encontrado: O Homem Que Viu o InfinitoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,428 - WARNING - Pôster incompleto encontrado: O SuspeitoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,429 - WARNING - Pôster incompleto encontrado: O Último CombateDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,435 - WARNING - Pôster incompleto encontrado: Raging MidlifeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,436 - WARNING - Pôster incompleto encontrado: My Father's KillerDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,437 - WARNING - Pôster incompleto encontrado: Never Have I EverDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,445 - WARNING - Pôster incompleto encontrado: Poison TreeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,454 - WARNING - Pôster incompleto encontrado: Ride the SnakeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,455 - WARNING - Pôster incompleto encontrado: Rogue AngelDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,457 - WARNING - Pôster incompleto encontrado: Desastre Total: Festival AstroworldDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,458 - WARNING - Pôster incompleto encontrado: Perdido na MontanhaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,458 - WARNING - Pôster incompleto encontrado: Predador: Assassino de AssassinosDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,459 - WARNING - Pôster incompleto encontrado: Echo ValleyDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,466 - WARNING - Pôster incompleto encontrado: F1 - O FilmeDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,478 - WARNING - Pôster incompleto encontrado: Um Maluco no Golfe 2DubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,482 - WARNING - Pôster incompleto encontrado: Mensagem em uma GarrafaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,491 - WARNING - Pôster incompleto encontrado: Improvisação PerigosaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,494 - WARNING - Pôster incompleto encontrado: Serra das AlmasDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,497 - WARNING - Pôster incompleto encontrado: MikaelaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,505 - WARNING - Pôster incompleto encontrado: K.O.DubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,507 - WARNING - Pôster incompleto encontrado: Até a Última GotaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,507 - WARNING - Pôster incompleto encontrado: Day of ReckoningDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,508 - WARNING - Pôster incompleto encontrado: Desert FiendsDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,509 - WARNING - Pôster incompleto encontrado: Dajal: Satu Malam DipedajalDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,509 - WARNING - Pôster incompleto encontrado: Return to Planet UndergroundDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,510 - WARNING - Pôster incompleto encontrado: The Inverted CaseDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,517 - WARNING - Pôster incompleto encontrado: Un cuento de pescadoresDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,524 - WARNING - Pôster incompleto encontrado: WarlordDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,525 - WARNING - Pôster incompleto encontrado: Devil's Double Next LevelLegAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,526 - WARNING - Pôster incompleto encontrado: Soldado TinDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,527 - WARNING - Pôster incompleto encontrado: Efeito ParadoxoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:44:31,530 - INFO - Nenhum novo filmes encontrado
+2025-06-05 16:44:31,643 - INFO - Tentando acessar URL: https://superflixapi.wales/series
+2025-06-05 16:44:32,396 - INFO - Status da resposta: 200
+2025-06-05 16:44:32,572 - INFO - Primeiros 500 caracteres do conteúdo: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="https://superflixapi.wales/css/casa.css?v=v1.5.5">
+<title>Superflix API — Séries</title>
+<link rel="icon" href="https://superflixapi.wales/img/favicon/32.png" sizes="32x32">
+	<link rel="icon" href="https://superflixapi.wales/img/favicon/192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="ht
+2025-06-05 16:44:32,655 - INFO - Procurando pôsteres na página de séries
+2025-06-05 16:44:32,658 - INFO - Encontrados 40 pôsteres
+2025-06-05 16:44:32,660 - WARNING - Pôster incompleto encontrado: A Funerária: Dinheiro e CinzasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,660 - WARNING - Pôster incompleto encontrado: AnielaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,664 - WARNING - Pôster incompleto encontrado: Coração de FerroNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,665 - WARNING - Pôster incompleto encontrado: Cortina de FumaçaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,666 - WARNING - Pôster incompleto encontrado: StickNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,667 - WARNING - Pôster incompleto encontrado: Contagem RegressivaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,667 - WARNING - Pôster incompleto encontrado: MentirososNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,668 - WARNING - Pôster incompleto encontrado: Mentiras, a SérieNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,669 - WARNING - Pôster incompleto encontrado: Um Bom GarotoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,669 - WARNING - Pôster incompleto encontrado: GOLPE ROMÂNTICO: Quem é Jason Porter, p***a?Nenhum episódio com playerAbrir EmbedCopiar LinkCopiar T
+2025-06-05 16:44:32,675 - WARNING - Pôster incompleto encontrado: SobreviventesNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,676 - WARNING - Pôster incompleto encontrado: Sem PiedadeNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,677 - WARNING - Pôster incompleto encontrado: Grandes Jogadas com Shaquille O'NealNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopia
+2025-06-05 16:44:32,682 - WARNING - Pôster incompleto encontrado: Sara: A Mulher nas SombrasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,690 - WARNING - Pôster incompleto encontrado: Baylen: Uma Vida sem FiltroNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,691 - WARNING - Pôster incompleto encontrado: Chespirito: Sem Querer QuerendoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nom
+2025-06-05 16:44:32,691 - WARNING - Pôster incompleto encontrado: Ladrões da FlorestaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,692 - WARNING - Pôster incompleto encontrado: Armadilha do AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,696 - WARNING - Pôster incompleto encontrado: Cara & CoroaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,700 - WARNING - Pôster incompleto encontrado: Uma História de AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,705 - WARNING - Pôster incompleto encontrado: Pátria MinhaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,713 - WARNING - Pôster incompleto encontrado: Viver a VidaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,717 - WARNING - Pôster incompleto encontrado: A Caverna EncantadaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,723 - WARNING - Pôster incompleto encontrado: Corpo a CorpoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,725 - WARNING - Pôster incompleto encontrado: Senhora do MarNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,726 - WARNING - Pôster incompleto encontrado: Amor Além do TempoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,727 - WARNING - Pôster incompleto encontrado: Vidas OcultasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,729 - WARNING - Pôster incompleto encontrado: Teias do DestinoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,740 - WARNING - Pôster incompleto encontrado: YabaniNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,741 - WARNING - Pôster incompleto encontrado: Eu Não Sou MendozaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,743 - WARNING - Pôster incompleto encontrado: O Canto dos PássarosNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,755 - WARNING - Pôster incompleto encontrado: O Outro Lado do AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,757 - WARNING - Pôster incompleto encontrado: Plumas & PaetêsNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,758 - WARNING - Pôster incompleto encontrado: Dona de MimNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,762 - WARNING - Pôster incompleto encontrado: Homicídio nos EUA: Gabby PetitoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nom
+2025-06-05 16:44:32,764 - WARNING - Pôster incompleto encontrado: MedusaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,775 - WARNING - Pôster incompleto encontrado: A Dama de CompanhiaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,776 - WARNING - Pôster incompleto encontrado: Bad BoyNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,776 - WARNING - Pôster incompleto encontrado: No LimiteNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,778 - WARNING - Pôster incompleto encontrado: Troca de EsposasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:44:32,779 - INFO - Nenhum novo séries encontrado
+2025-06-05 16:44:32,800 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-06-05 16:44:32,870 - WARNING -  * Debugger is active!
+2025-06-05 16:44:32,879 - INFO -  * Debugger PIN: 464-886-906
+2025-06-05 16:46:40,423 - INFO -  * Detected change in 'c:\\Users\\Dra. Jennifer\\Desktop\\Back\\BackEnd\\app.py', reloading
+2025-06-05 16:46:40,720 - INFO -  * Restarting with stat
+2025-06-05 16:46:45,933 - WARNING - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeAnimes.json não encontrado
+2025-06-05 16:46:45,935 - INFO - Tentando acessar URL: https://superflixapi.wales/animes/export/
+2025-06-05 16:46:46,288 - INFO - Status da resposta: 200
+2025-06-05 16:46:46,290 - INFO - Primeiros 500 caracteres do conteúdo: 607<br>4229<br>670<br>1720<br>3611<br>255<br>205493<br>114183<br>195924<br>134843<br>137194<br>138882<br>154901<br>158131<br>158138<br>106055<br>93655<br>46345<br>203340<br>118956<br>157345<br>60572<br>90281<br>133387<br>104127<br>72705<br>43079<br>80474<br>195926<br>69293<br>61174<br>65447<br>43146<br>125392<br>112696<br>195382<br>153482<br>158139<br>127325<br>156510<br>121702<br>135691<br>196369<br>93310<br>75775<br>195288<br>135237<br>130077<br>203192<br>213044<br>216062<br>203704<br>40044<br
+2025-06-05 16:46:46,291 - INFO - Encontrados 3344 códigos brutos
+2025-06-05 16:46:46,291 - INFO - Encontrados 3343 códigos válidos após validação
+2025-06-05 16:46:46,292 - INFO - Tentando salvar dados em c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeAnimes.json
+2025-06-05 16:46:46,297 - INFO - Arquivo c:\Users\Dra. Jennifer\Desktop\Back\temp\CodeAnimes.json salvo com sucesso
+2025-06-05 16:46:46,302 - INFO - Códigos de animes atualizados
+2025-06-05 16:46:46,593 - INFO - Tentando acessar URL: https://superflixapi.wales/filmes
+2025-06-05 16:46:46,921 - INFO - Status da resposta: 200
+2025-06-05 16:46:47,130 - INFO - Primeiros 500 caracteres do conteúdo: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="https://superflixapi.wales/css/casa.css?v=v1.5.5">
+<title>Superflix API — Filmes</title>
+<link rel="icon" href="https://superflixapi.wales/img/favicon/32.png" sizes="32x32">
+	<link rel="icon" href="https://superflixapi.wales/img/favicon/192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="ht
+2025-06-05 16:46:47,272 - INFO - Procurando pôsteres na página de filmes
+2025-06-05 16:46:47,276 - INFO - Encontrados 40 pôsteres
+2025-06-05 16:46:47,276 - WARNING - Pôster incompleto encontrado: Crise de IdentidadeDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,278 - WARNING - Pôster incompleto encontrado: Como Se Tornar um Homem ModernoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,278 - WARNING - Pôster incompleto encontrado: Mão na CabeçaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,282 - WARNING - Pôster incompleto encontrado: O Último AcordoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,283 - WARNING - Pôster incompleto encontrado: O Destino de MajaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,284 - WARNING - Pôster incompleto encontrado: Entre Piadas e CigarrosDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,284 - WARNING - Pôster incompleto encontrado: Bailarina - Do Universo de John WickDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,285 - WARNING - Pôster incompleto encontrado: Uma Escolha pela VidaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,286 - WARNING - Pôster incompleto encontrado: Ataque à CabanaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,287 - WARNING - Pôster incompleto encontrado: O Homem Que Viu o InfinitoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,287 - WARNING - Pôster incompleto encontrado: O SuspeitoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,288 - WARNING - Pôster incompleto encontrado: O Último CombateDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,288 - WARNING - Pôster incompleto encontrado: Raging MidlifeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,289 - WARNING - Pôster incompleto encontrado: My Father's KillerDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,289 - WARNING - Pôster incompleto encontrado: Never Have I EverDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,290 - WARNING - Pôster incompleto encontrado: Poison TreeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,296 - WARNING - Pôster incompleto encontrado: Ride the SnakeDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,304 - WARNING - Pôster incompleto encontrado: Rogue AngelDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,306 - WARNING - Pôster incompleto encontrado: Desastre Total: Festival AstroworldDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,306 - WARNING - Pôster incompleto encontrado: Perdido na MontanhaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,310 - WARNING - Pôster incompleto encontrado: Predador: Assassino de AssassinosDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,314 - WARNING - Pôster incompleto encontrado: Echo ValleyDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,315 - WARNING - Pôster incompleto encontrado: F1 - O FilmeDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,316 - WARNING - Pôster incompleto encontrado: Um Maluco no Golfe 2DubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,317 - WARNING - Pôster incompleto encontrado: Mensagem em uma GarrafaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,318 - WARNING - Pôster incompleto encontrado: Improvisação PerigosaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,319 - WARNING - Pôster incompleto encontrado: Serra das AlmasDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,328 - WARNING - Pôster incompleto encontrado: MikaelaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,332 - WARNING - Pôster incompleto encontrado: K.O.DubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,333 - WARNING - Pôster incompleto encontrado: Até a Última GotaDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,334 - WARNING - Pôster incompleto encontrado: Day of ReckoningDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,335 - WARNING - Pôster incompleto encontrado: Desert FiendsDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,336 - WARNING - Pôster incompleto encontrado: Dajal: Satu Malam DipedajalDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,337 - WARNING - Pôster incompleto encontrado: Return to Planet UndergroundDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,337 - WARNING - Pôster incompleto encontrado: The Inverted CaseDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,338 - WARNING - Pôster incompleto encontrado: Un cuento de pescadoresDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,342 - WARNING - Pôster incompleto encontrado: WarlordDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,343 - WARNING - Pôster incompleto encontrado: Devil's Double Next LevelLegAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,343 - WARNING - Pôster incompleto encontrado: Soldado TinDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,344 - WARNING - Pôster incompleto encontrado: Efeito ParadoxoDubDualAbrir EmbedCopiar LinkCopiar IMDBCopiar Nome
+2025-06-05 16:46:47,344 - INFO - Nenhum novo filmes encontrado
+2025-06-05 16:46:47,427 - INFO - Tentando acessar URL: https://superflixapi.wales/series
+2025-06-05 16:46:47,799 - INFO - Status da resposta: 200
+2025-06-05 16:46:48,009 - INFO - Primeiros 500 caracteres do conteúdo: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="https://superflixapi.wales/css/casa.css?v=v1.5.5">
+<title>Superflix API — Séries</title>
+<link rel="icon" href="https://superflixapi.wales/img/favicon/32.png" sizes="32x32">
+	<link rel="icon" href="https://superflixapi.wales/img/favicon/192.png" sizes="192x192">
+	<link rel="apple-touch-icon-precomposed" href="ht
+2025-06-05 16:46:48,079 - INFO - Procurando pôsteres na página de séries
+2025-06-05 16:46:48,083 - INFO - Encontrados 40 pôsteres
+2025-06-05 16:46:48,084 - WARNING - Pôster incompleto encontrado: A Funerária: Dinheiro e CinzasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,085 - WARNING - Pôster incompleto encontrado: AnielaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,088 - WARNING - Pôster incompleto encontrado: Coração de FerroNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,089 - WARNING - Pôster incompleto encontrado: Cortina de FumaçaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,089 - WARNING - Pôster incompleto encontrado: StickNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,090 - WARNING - Pôster incompleto encontrado: Contagem RegressivaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,090 - WARNING - Pôster incompleto encontrado: MentirososNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,090 - WARNING - Pôster incompleto encontrado: Mentiras, a SérieNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,092 - WARNING - Pôster incompleto encontrado: Um Bom GarotoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,092 - WARNING - Pôster incompleto encontrado: GOLPE ROMÂNTICO: Quem é Jason Porter, p***a?Nenhum episódio com playerAbrir EmbedCopiar LinkCopiar T
+2025-06-05 16:46:48,092 - WARNING - Pôster incompleto encontrado: SobreviventesNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,094 - WARNING - Pôster incompleto encontrado: Sem PiedadeNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,097 - WARNING - Pôster incompleto encontrado: Grandes Jogadas com Shaquille O'NealNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopia
+2025-06-05 16:46:48,098 - WARNING - Pôster incompleto encontrado: Sara: A Mulher nas SombrasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,098 - WARNING - Pôster incompleto encontrado: Baylen: Uma Vida sem FiltroNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,099 - WARNING - Pôster incompleto encontrado: Chespirito: Sem Querer QuerendoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nom
+2025-06-05 16:46:48,100 - WARNING - Pôster incompleto encontrado: Ladrões da FlorestaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,106 - WARNING - Pôster incompleto encontrado: Armadilha do AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,107 - WARNING - Pôster incompleto encontrado: Cara & CoroaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,108 - WARNING - Pôster incompleto encontrado: Uma História de AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,108 - WARNING - Pôster incompleto encontrado: Pátria MinhaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,109 - WARNING - Pôster incompleto encontrado: Viver a VidaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,112 - WARNING - Pôster incompleto encontrado: A Caverna EncantadaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,112 - WARNING - Pôster incompleto encontrado: Corpo a CorpoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,113 - WARNING - Pôster incompleto encontrado: Senhora do MarNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,114 - WARNING - Pôster incompleto encontrado: Amor Além do TempoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,115 - WARNING - Pôster incompleto encontrado: Vidas OcultasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,116 - WARNING - Pôster incompleto encontrado: Teias do DestinoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,118 - WARNING - Pôster incompleto encontrado: YabaniNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,120 - WARNING - Pôster incompleto encontrado: Eu Não Sou MendozaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,121 - WARNING - Pôster incompleto encontrado: O Canto dos PássarosNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,122 - WARNING - Pôster incompleto encontrado: O Outro Lado do AmorNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,124 - WARNING - Pôster incompleto encontrado: Plumas & PaetêsNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,124 - WARNING - Pôster incompleto encontrado: Dona de MimNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,125 - WARNING - Pôster incompleto encontrado: Homicídio nos EUA: Gabby PetitoNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nom
+2025-06-05 16:46:48,127 - WARNING - Pôster incompleto encontrado: MedusaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,127 - WARNING - Pôster incompleto encontrado: A Dama de CompanhiaNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,128 - WARNING - Pôster incompleto encontrado: Bad BoyNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,129 - WARNING - Pôster incompleto encontrado: No LimiteNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,131 - WARNING - Pôster incompleto encontrado: Troca de EsposasNenhum episódio com playerAbrir EmbedCopiar LinkCopiar TMDBCopiar Nome
+2025-06-05 16:46:48,133 - INFO - Nenhum novo séries encontrado
+2025-06-05 16:46:48,220 - INFO - Códigos iniciais e filmes/séries populares atualizados
+2025-06-05 16:46:48,291 - WARNING -  * Debugger is active!
+2025-06-05 16:46:48,298 - INFO -  * Debugger PIN: 464-886-906
