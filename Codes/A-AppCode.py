@@ -2,8 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import logging
 
-# 🔑 Insira sua chave da API do TMDb aqui
+# Configurar logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# 🔑 Chave da API do TMDb
 TMDB_API_KEY = "5152effba7d64a5e995301fdcdba9bcc"
 
 # Diretórios
@@ -17,52 +21,76 @@ os.makedirs(saida_dir, exist_ok=True)
 # --------------- FILMES - IMDb ---------------
 def obter_dados_imdb(filme_id):
     if not filme_id.startswith("tt") or len(filme_id) < 9:
-        print(f"ID inválido: {filme_id}")
+        logging.error(f"ID inválido: {filme_id}")
         return None
 
     url = f"https://www.imdb.com/pt/title/{filme_id}/"
     headers = {"User-Agent": "Mozilla/5.0"}
-    response = requests.get(url, headers=headers)
-    response.encoding = 'utf-8'
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.encoding = 'utf-8'
+        logging.info(f"Status Code para {url}: {response.status_code}")
 
-    print(f"Status Code para {url}: {response.status_code}")
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Título
+            titulo = soup.find('span', class_='hero__primary-text')
+            titulo_texto = titulo.get_text(strip=True) if titulo else None
 
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        titulo = soup.find('span', class_='hero__primary-text')
-        titulo_texto = titulo.get_text(strip=True) if titulo else None
+            # Título original
+            titulo_original = soup.find('div', class_='sc-ec65ba05-1 fUCCIx')
+            titulo_original_texto = titulo_original.get_text(strip=True).replace('Título original: ', '') if titulo_original else None
 
-        titulo_original = soup.find('div', class_='sc-ec65ba05-1 fUCCIx')
-        titulo_original_texto = titulo_original.get_text(strip=True).replace('Título original: ', '') if titulo_original else None
+            # Capa
+            capa_imagem = soup.find('meta', property='og:image')
+            capa_url = capa_imagem['content'] if capa_imagem else None
 
-        capa_imagem = soup.find('meta', property='og:image')
-        capa_url = capa_imagem['content'] if capa_imagem else None
+            # Descrição (tentar descrição mais completa)
+            descricao_tag = soup.find('span', attrs={'data-testid': 'plot-xl'}) or soup.find('span', attrs={'data-testid': 'plot-l'})
+            descricao = descricao_tag.get_text(strip=True) if descricao_tag else "Descrição não disponível"
 
-        descricao_tag = soup.find('span', attrs={'data-testid': 'plot-l'})
-        descricao = descricao_tag.get_text(strip=True) if descricao_tag else None
+            # Qualidade
+            qualidade = None
+            if "4K" in response.text:
+                qualidade = "4K"
+            elif "HD" in response.text:
+                qualidade = "HD"
+            elif "SD" in response.text:
+                qualidade = "SD"
+            else:
+                qualidade = "Desconhecida"
 
-        qualidade = None
-        if "4K" in response.text:
-            qualidade = "4K"
-        elif "HD" in response.text:
-            qualidade = "HD"
-        elif "SD" in response.text:
-            qualidade = "SD"
+            # Todos os gêneros
+            generos_tag = soup.find_all('span', class_='ipc-chip__text')
+            generos = [genero.get_text(strip=True) for genero in generos_tag if genero.get_text(strip=True)]
 
-        # Obtendo os dois primeiros gêneros
-        generos_tag = soup.find_all('span', class_='ipc-chip__text')
-        generos = [genero.get_text(strip=True) for genero in generos_tag][:2]  # Limita para os dois primeiros
+            # Data de lançamento
+            data_tag = soup.find('a', href=lambda x: x and '/releaseinfo' in x)
+            data_lancamento = data_tag.get_text(strip=True) if data_tag else "Data não disponível"
 
-        return {
-            "titulo": titulo_texto,
-            "titulo_original": titulo_original_texto,
-            "capa": capa_url,
-            "qualidade": qualidade,
-            "descricao": descricao,
-            "generos": generos
-        }
-    else:
-        print(f"Erro ao acessar {url}")
+            # Validação
+            if not titulo_texto or not generos:
+                logging.warning(f"Dados incompletos para filme {filme_id}: título={titulo_texto}, gêneros={generos}")
+                return None
+
+            return {
+                "titulo": titulo_texto,
+                "titulo_original": titulo_original_texto,
+                "capa": capa_url,
+                "qualidade": qualidade,
+                "descricao": descricao,
+                "generos": generos,
+                "data_lancamento": data_lancamento
+            }
+        else:
+            logging.error(f"Erro ao acessar {url}: Status {response.status_code}")
+            return None
+    except requests.Timeout:
+        logging.error(f"Timeout ao acessar {url}")
+        return None
+    except requests.RequestException as e:
+        logging.error(f"Erro na requisição para {url}: {e}")
         return None
 
 # --------------- Carregar arquivos de ID ---------------
@@ -71,7 +99,7 @@ def carregar_ids_filmes():
         with open(os.path.join(temp_dir, 'CodeFilmes.json'), 'r', encoding='utf-8') as file:
             return json.load(file).get('codigos', [])
     except Exception as e:
-        print(f"Erro ao carregar filmes: {e}")
+        logging.error(f"Erro ao carregar filmes: {e}")
         return []
 
 def carregar_ids_series():
@@ -79,7 +107,7 @@ def carregar_ids_series():
         with open(os.path.join(temp_dir, 'CodeSeries.json'), 'r', encoding='utf-8') as file:
             return json.load(file).get('codigos', [])
     except Exception as e:
-        print(f"Erro ao carregar séries: {e}")
+        logging.error(f"Erro ao carregar séries: {e}")
         return []
 
 def carregar_ids_animes():
@@ -87,18 +115,29 @@ def carregar_ids_animes():
         with open(os.path.join(temp_dir, 'CodeAnimes.json'), 'r', encoding='utf-8') as file:
             return json.load(file).get('codigos', [])
     except Exception as e:
-        print(f"Erro ao carregar animes: {e}")
+        logging.error(f"Erro ao carregar animes: {e}")
         return []
 
 # --------------- SÉRIES e ANIMES - TMDb ---------------
 def buscar_dados_tmdb(item_id, tipo='tv'):
     url = f"https://api.themoviedb.org/3/{tipo}/{item_id}?api_key={TMDB_API_KEY}&language=pt-BR"
     try:
-        response = requests.get(url)
+        response = requests.get(url, timeout=10)
         if response.status_code == 200:
             dados = response.json()
-            # Obtendo os dois primeiros gêneros
-            generos = [genero['name'] for genero in dados.get('genres', [])][:2]  # Limita para os dois primeiros
+            # Todos os gêneros
+            generos = [genero['name'] for genero in dados.get('genres', [])]
+            
+            # Descrição (com fallback)
+            descricao = dados.get("overview") or "Descrição não disponível"
+            
+            # Data de estreia
+            data_estreia = dados.get("first_air_date", "Data não disponível")
+
+            # Validação
+            if not dados.get("name") or not generos:
+                logging.warning(f"Dados incompletos para {tipo} {item_id}: título={dados.get('name')}, gêneros={generos}")
+                return None
 
             return {
                 "titulo": dados.get("name"),
@@ -106,14 +145,18 @@ def buscar_dados_tmdb(item_id, tipo='tv'):
                 "id": str(item_id),
                 "capa": f"https://image.tmdb.org/t/p/w500{dados.get('poster_path')}" if dados.get("poster_path") else None,
                 "qualidade": "HD",
-                "descricao": dados.get("overview"),
-                "generos": generos
+                "descricao": descricao,
+                "generos": generos,
+                "data_estreia": data_estreia
             }
         else:
-            print(f"Erro ao buscar {tipo} de ID {item_id}: {response.status_code}")
+            logging.error(f"Erro ao buscar {tipo} de ID {item_id}: {response.status_code}")
             return None
-    except Exception as e:
-        print(f"Erro na requisição TMDb para ID {item_id}: {e}")
+    except requests.Timeout:
+        logging.error(f"Timeout ao acessar TMDb para ID {item_id}")
+        return None
+    except requests.RequestException as e:
+        logging.error(f"Erro na requisição TMDb para ID {item_id}: {e}")
         return None
 
 # --------------- Suporte para salvar ---------------
@@ -124,7 +167,7 @@ def carregar_json_existente(nome_arquivo):
             with open(caminho, 'r', encoding='utf-8') as file:
                 return json.load(file)
         except Exception as e:
-            print(f"Erro ao carregar {caminho}: {e}")
+            logging.error(f"Erro ao carregar {caminho}: {e}")
     return []
 
 def salvar_json_incremental(nome_arquivo, dados):
@@ -133,7 +176,7 @@ def salvar_json_incremental(nome_arquivo, dados):
         with open(caminho, 'w', encoding='utf-8') as file:
             json.dump(dados, file, indent=4, ensure_ascii=False)
     except IOError as e:
-        print(f"Erro ao salvar {caminho}: {e}")
+        logging.error(f"Erro ao salvar {caminho}: {e}")
 
 # --------------- MAIN ---------------
 def main():
@@ -158,7 +201,7 @@ def main():
             i_filmes += 1
 
             if filme_id not in filmes_ids_processados:
-                print(f"🔍 Buscando filme: {filme_id}")
+                logging.info(f"🔍 Buscando filme: {filme_id}")
                 dados = obter_dados_imdb(filme_id)
                 if dados:
                     novo_filme = {
@@ -168,12 +211,13 @@ def main():
                         "capa": dados["capa"],
                         "qualidade": dados["qualidade"],
                         "descricao": dados["descricao"],
-                        "generos": dados["generos"]
+                        "generos": dados["generos"],
+                        "data_lancamento": dados["data_lancamento"]
                     }
                     filmes_nomes.append(novo_filme)
                     salvar_json_incremental('CodeFilmesNomes.json', filmes_nomes)
             else:
-                print(f"⏩ Filme já processado: {filme_id}")
+                logging.info(f"⏩ Filme já processado: {filme_id}")
 
         # Série
         if i_series < len(series_ids):
@@ -181,13 +225,13 @@ def main():
             i_series += 1
 
             if str(serie_id) not in series_ids_processados:
-                print(f"🔍 Buscando série: {serie_id}")
+                logging.info(f"🔍 Buscando série: {serie_id}")
                 dados = buscar_dados_tmdb(serie_id, tipo='tv')
                 if dados:
                     series_nomes.append(dados)
                     salvar_json_incremental('CodeSeriesNomes.json', series_nomes)
             else:
-                print(f"⏩ Série já processada: {serie_id}")
+                logging.info(f"⏩ Série já processada: {serie_id}")
 
         # Anime
         if i_animes < len(animes_ids):
@@ -195,16 +239,16 @@ def main():
             i_animes += 1
 
             if str(anime_id) not in animes_ids_processados:
-                print(f"🔍 Buscando anime: {anime_id}")
+                logging.info(f"🔍 Buscando anime: {anime_id}")
                 dados = buscar_dados_tmdb(anime_id, tipo='tv')
                 if dados:
                     animes_nomes.append(dados)
                     salvar_json_incremental('CodeAnimesNomes.json', animes_nomes)
             else:
-                print(f"⏩ Anime já processado: {anime_id}")
+                logging.info(f"⏩ Anime já processado: {anime_id}")
 
-    print("\n✅ Processamento finalizado!")
-    print(f"Arquivos atualizados em: {saida_dir}")
+    logging.info("\n✅ Processamento finalizado!")
+    logging.info(f"Arquivos atualizados em: {saida_dir}")
 
 if __name__ == "__main__":
     main()
