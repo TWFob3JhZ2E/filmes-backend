@@ -613,7 +613,7 @@ def series():
 
 @app.route('/buscar')
 def buscar_nomes():
-    """Busca filmes e séries por termo, com suporte à paginação."""
+    """Busca filmes, séries e animes por termo, com suporte à paginação."""
     auth_error = check_api_key()
     if auth_error:
         return auth_error
@@ -629,22 +629,28 @@ def buscar_nomes():
 
     filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
     series = carregar_dados_json(JSON_PATHS['series_nomes'])
+    animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
 
     # Busca parcial com normalização
     resultados_filmes = [
-        f for f in filmes
+        {**f, 'tipo': 'filme'} for f in filmes
         if termo_normalizado in normalize_text(f.get('titulo', ''))
         or termo_normalizado in normalize_text(f.get('titulo_original', ''))
     ]
     resultados_series = [
-        s for s in series
+        {**s, 'tipo': 'serie'} for s in series
         if termo_normalizado in normalize_text(s.get('titulo', ''))
         or termo_normalizado in normalize_text(s.get('titulo_original', ''))
     ]
-    resultados = resultados_filmes + resultados_series
+    resultados_animes = [
+        {**a, 'tipo': 'anime'} for a in animes
+        if termo_normalizado in normalize_text(a.get('titulo', ''))
+        or termo_normalizado in normalize_text(a.get('titulo_original', ''))
+    ]
+    resultados = resultados_filmes + resultados_series + resultados_animes
 
     if not resultados:
-        logger.info(f"Nenhum filme ou série encontrado para o termo: {termo}")
+        logger.info(f"Nenhum filme, série ou anime encontrado para o termo: {termo}")
         return jsonify({
             'resultados': [],
             'total': 0,
