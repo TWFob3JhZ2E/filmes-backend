@@ -688,6 +688,53 @@ def buscar_nomes():
     })
 
 
+@app.route('/listar_generos')
+def listar_generos():
+    """Retorna uma lista de gêneros disponíveis filtrada por tipo."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
+    tipo = request.args.get('tipo', 'todos').lower()
+    if tipo not in ['filme', 'serie', 'anime', 'todos']:
+        logger.warning(f"Tipo inválido para listar gêneros: {tipo}")
+        return jsonify({'erro': 'Tipo inválido. Use: filme, serie, anime ou todos'}), 400
+
+    try:
+        generos_set = set()
+
+        # Carregar os dados correspondentes ao tipo
+        if tipo in ['filme', 'todos']:
+            filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
+            for item in filmes:
+                if isinstance(item.get('generos'), list):
+                    generos_set.update(g for g in item['generos'] if g)
+
+        if tipo in ['serie', 'todos']:
+            series = carregar_dados_json(JSON_PATHS['series_nomes'])
+            for item in series:
+                if isinstance(item.get('generos'), list):
+                    generos_set.update(g for g in item['generos'] if g)
+
+        if tipo in ['anime', 'todos']:
+            animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
+            for item in animes:
+                if isinstance(item.get('generos'), list):
+                    generos_set.update(g for g in item['generos'] if g)
+
+        # Converter para lista e ordenar
+        generos = sorted(list(generos_set))
+        
+        if not generos:
+            logger.info(f"Nenhum gênero encontrado para o tipo: {tipo}")
+            return jsonify([]), 200
+
+        logger.info(f"Retornando {len(generos)} gêneros para o tipo: {tipo}")
+        return jsonify(generos), 200
+
+    except Exception as e:
+        logger.error(f"Erro ao listar gêneros para o tipo {tipo}: {e}")
+        return jsonify({'erro': 'Erro ao listar gêneros'}), 500
 
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
