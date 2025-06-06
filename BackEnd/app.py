@@ -687,123 +687,57 @@ def buscar_nomes():
         'pagina_atual': pagina
     })
 
-
-@app.route('/listar_generos')
-def listar_generos():
-    """Retorna uma lista de gêneros disponíveis filtrada por tipo."""
-    auth_error = check_api_key()
-    if auth_error:
-        return auth_error
-
-    tipo = request.args.get('tipo', 'todos').lower()
-    if tipo not in ['filme', 'serie', 'anime', 'todos']:
-        logger.warning(f"Tipo inválido para listar gêneros: {tipo}")
-        return jsonify({'erro': 'Tipo inválido. Use: filme, serie, anime ou todos'}), 400
-
-    try:
-        generos_set = set()
-
-        # Carregar os dados correspondentes ao tipo
-        if tipo in ['filme', 'todos']:
-            filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
-            for item in filmes:
-                if isinstance(item.get('generos'), list):
-                    generos_set.update(g for g in item['generos'] if g)
-
-        if tipo in ['serie', 'todos']:
-            series = carregar_dados_json(JSON_PATHS['series_nomes'])
-            for item in series:
-                if isinstance(item.get('generos'), list):
-                    generos_set.update(g for g in item['generos'] if g)
-
-        if tipo in ['anime', 'todos']:
-            animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
-            for item in animes:
-                if isinstance(item.get('generos'), list):
-                    generos_set.update(g for g in item['generos'] if g)
-
-        # Converter para lista e ordenar
-        generos = sorted(list(generos_set))
-        
-        if not generos:
-            logger.info(f"Nenhum gênero encontrado para o tipo: {tipo}")
-            return jsonify([]), 200
-
-        logger.info(f"Retornando {len(generos)} gêneros para o tipo: {tipo}")
-        return jsonify(generos), 200
-
-    except Exception as e:
-        logger.error(f"Erro ao listar gêneros para o tipo {tipo}: {e}")
-        return jsonify({'erro': 'Erro ao listar gêneros'}), 500
-
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
-    """Busca filmes, séries ou animes por gênero e tipo, com paginação."""
+    """Busca filmes e séries por gênero, com paginação."""
     auth_error = check_api_key()
     if auth_error:
         return auth_error
 
     genero = request.args.get('genero', '').lower()
-    tipo = request.args.get('tipo', '').lower()  # Novo parâmetro: filme, serie ou anime
     pagina = validar_pagina(request.args.get('pagina', 1))
 
     if not genero:
         logger.warning("Gênero não fornecido")
         return jsonify({'erro': 'Gênero não fornecido'}), 400
 
-    if tipo not in ['filme', 'serie', 'anime', '']:
-        logger.warning(f"Tipo inválido: {tipo}")
-        return jsonify({'erro': 'Tipo inválido. Use: filme, serie ou anime'}), 400
+    filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
+    series = carregar_dados_json(JSON_PATHS['series_nomes'])
 
-    # Carregar os dados correspondentes ao tipo
-    if tipo == 'filme':
-        dados = carregar_dados_json(JSON_PATHS['filmes_pagina'])
-    elif tipo == 'serie':
-        dados = carregar_dados_json(JSON_PATHS['series_nomes'])
-    elif tipo == 'anime':
-        dados = carregar_dados_json(JSON_PATHS['animes_nomes'])
-    else:
-        # Se tipo não for especificado, carrega todos
-        filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
-        series = carregar_dados_json(JSON_PATHS['series_nomes'])
-        animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
-        dados = filmes + series + animes
+    for filme in filmes:
+        if 'generos' not in filme or not filme['generos']:
+            logger.warning(f"Filme sem gêneros: {filme.get('titulo', 'Desconhecido')} (ID: {filme.get('id', 'N/A')})")
+    for serie in series:
+        if 'generos' not in serie or not serie['generos']:
+            logger.warning(f"Série sem gêneros: {serie.get('titulo', 'Desconhecido')} (ID: {serie.get('id', 'N/A')})")
 
-    # Filtrar por gênero
-    resultados = [
-        item for item in dados
-        if isinstance(item.get('generos'), list) and any(genero.lower() in g.lower() for g in item.get('generos', []))
+    resultados_filmes = [
+        filme for filme in filmes
+        if isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', []))
+    ]
+    resultados_series = [
+        serie for serie in series
+        if isinstance(serie.get('generos'), list) and any(genero.lower() in g.lower() for g in serie.get('generos', []))
     ]
 
-    # Adicionar o tipo ao resultado, se não estiver presente
-    for item in resultados:
-        if 'tipo' not in item:
-            if item in carregar_dados_json(JSON_PATHS['filmes_pagina']):
-                item['tipo'] = 'filme'
-            elif item in carregar_dados_json(JSON_PATHS['series_nomes']):
-                item['tipo'] = 'serie'
-            elif item in carregar_dados_json(JSON_PATHS['animes_nomes']):
-                item['tipo'] = 'anime'
+    resultados = resultados_filmes + resultados_series
 
     if not resultados:
-        logger.info(f"Nenhum item encontrado para o gênero: {genero} e tipo: {tipo}")
+        logger.info(f"Nenhum filme ou série encontrado para o gênero: {genero}")
         return jsonify({
-            'mensagem': f'Nenhum resultado para o gênero {genero}' + (f' ({tipo})' if tipo else ''),
+            'mensagem': f'Nenhum resultado para o gênero {genero}',
             'resultados': [],
             'total': 0,
             'total_paginas': 0,
             'pagina_atual': pagina
         }), 200
 
-    # Paginação
     inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
     fim = inicio + CONFIG['ITEMS_PER_PAGE']
     resultados_paginados = resultados[inicio:fim]
 
     total_itens = len(resultados)
     total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
-
-    logger.info(f"Retornando {len(resultados_paginados)} resultados para gênero '{genero}' e tipo '{tipo}', página {pagina}/{total_paginas}")
 
     return jsonify({
         'resultados': resultados_paginados,
