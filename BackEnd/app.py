@@ -76,7 +76,8 @@ JSON_PATHS = {
     'series': os.path.join(TEMP_DIR, 'series.json'),
     'filmes_home': os.path.join(TEMP_DIR, 'Filmes.json'),
     'code_filmes': os.path.join(TEMP_DIR, 'CodeFilmes.json'),
-    'code_series': os.path.join(TEMP_DIR, 'CodeSeries.json')
+    'code_series': os.path.join(TEMP_DIR, 'CodeSeries.json'),
+    'animes_novos': os.path.join(TEMP_DIR, 'NovosAnimes.json')  # Novo caminho
 }
 
 # Função para verificar a chave de API
@@ -609,6 +610,17 @@ def series():
         thread.join()
         cache = carregar_dados_json(JSON_PATHS['series'])
 
+    return jsonify(cache)
+
+@app.route('/animes/novos')
+def animes_novos():
+    """Retorna os animes novos do cache sem atualização em segundo plano."""
+    auth_error = check_api_key()
+    if auth_error:
+        return auth_error
+
+    cache = carregar_dados_json(JSON_PATHS['animes_novos'])
+    logger.info(f"Retornando {len(cache)} animes novos do cache")
     return jsonify(cache)
 
 @app.route('/buscar')
