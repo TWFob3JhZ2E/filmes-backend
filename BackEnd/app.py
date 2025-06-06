@@ -694,39 +694,43 @@ def buscar_por_genero():
     if auth_error:
         return auth_error
 
-    genero = request.args.get('genero', '').lower()
+    generos = request.args.get('genero', '').lower().split(',')  # Suporta múltiplos gêneros
     tipo = request.args.get('tipo', 'all').lower()  # 'filme', 'serie', 'anime' ou 'all'
     pagina = validar_pagina(request.args.get('pagina', 1))
 
-    if not genero:
+    if not generos or not generos[0]:
         logger.warning("Gênero não fornecido")
         return jsonify({'erro': 'Gênero não fornecido'}), 400
 
     # Carregar os dados com base no tipo
     resultados = []
-    if tipo == 'filme' or tipo == 'all':
-        filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
-        resultados.extend([
-            {**filme, 'tipo': 'filme'} for filme in filmes
-            if isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', []))
-        ])
-    if tipo == 'serie' or tipo == 'all':
-        series = carregar_dados_json(JSON_PATHS['series_nomes'])
-        resultados.extend([
-            {**serie, 'tipo': 'serie'} for serie in series
-            if isinstance(serie.get('generos'), list) and any(genero.lower() in g.lower() for g in serie.get('generos', []))
-        ])
-    if tipo == 'anime' or tipo == 'all':
-        animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
-        resultados.extend([
-            {**anime, 'tipo': 'anime'} for anime in animes
-            if isinstance(anime.get('generos'), list) and any(genero.lower() in g.lower() for g in anime.get('generos', []))
-        ])
+    json_paths = {
+        'filme': JSON_PATHS.get('filmes_pagina', []),
+        'serie': JSON_PATHS.get('series_nomes', []),
+        'anime': JSON_PATHS.get('animes_nomes', [])
+    }
+
+    for content_type in ['filme', 'serie', 'anime']:
+        if tipo != 'all' and tipo != content_type:
+            continue
+        try:
+            dados = carregar_dados_json(json_paths[content_type])
+            logger.debug(f"Carregados {len(dados)} itens do tipo {content_type}")
+            for item in dados:
+                item_generos = item.get('generos', [])
+                if not isinstance(item_generos, list):
+                    logger.warning(f"Item {item.get('id', 'unknown')} tem gêneros inválidos: {item_generos}")
+                    continue
+                # Verifica se algum gênero do item corresponde a algum gênero solicitado
+                if any(any(g.lower() in genre.lower() for genre in item_generos) for g in generos):
+                    resultados.append({**item, 'tipo': content_type})
+        except Exception as e:
+            logger.error(f"Erro ao carregar dados para {content_type}: {str(e)}")
 
     if not resultados:
-        logger.info(f"Nenhum resultado encontrado para o gênero: {genero}, tipo: {tipo}")
+        logger.info(f"Nenhum resultado encontrado para gêneros: {', '.join(generos)}, tipo: {tipo}")
         return jsonify({
-            'mensagem': f'Nenhum resultado para o gênero {genero}',
+            'mensagem': f'Nenhum resultado para o gênero {", ".join(generos)}',
             'resultados': [],
             'total': 0,
             'total_paginas': 0,
@@ -741,7 +745,7 @@ def buscar_por_genero():
     total_itens = len(resultados)
     total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
 
-    logger.info(f"Busca por gênero '{genero}', tipo '{tipo}' retornou {total_itens} resultados, página {pagina}/{total_paginas}")
+    logger.info(f"Busca por gêneros '{', '.join(generos)}', tipo '{tipo}' retornou {total_itens} resultados, página {pagina}/{total_paginas}")
 
     return jsonify({
         'resultados': resultados_paginados,
