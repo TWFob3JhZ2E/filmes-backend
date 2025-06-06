@@ -689,41 +689,42 @@ def buscar_nomes():
 
 @app.route('/buscar_por_genero')
 def buscar_por_genero():
-    """Busca filmes e séries por gênero, com paginação."""
+    """Busca filmes, séries ou animes por gênero, com paginação e filtro por tipo."""
     auth_error = check_api_key()
     if auth_error:
         return auth_error
 
     genero = request.args.get('genero', '').lower()
+    tipo = request.args.get('tipo', 'all').lower()  # 'filme', 'serie', 'anime' ou 'all'
     pagina = validar_pagina(request.args.get('pagina', 1))
 
     if not genero:
         logger.warning("Gênero não fornecido")
         return jsonify({'erro': 'Gênero não fornecido'}), 400
 
-    filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
-    series = carregar_dados_json(JSON_PATHS['series_nomes'])
-
-    for filme in filmes:
-        if 'generos' not in filme or not filme['generos']:
-            logger.warning(f"Filme sem gêneros: {filme.get('titulo', 'Desconhecido')} (ID: {filme.get('id', 'N/A')})")
-    for serie in series:
-        if 'generos' not in serie or not serie['generos']:
-            logger.warning(f"Série sem gêneros: {serie.get('titulo', 'Desconhecido')} (ID: {serie.get('id', 'N/A')})")
-
-    resultados_filmes = [
-        filme for filme in filmes
-        if isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', []))
-    ]
-    resultados_series = [
-        serie for serie in series
-        if isinstance(serie.get('generos'), list) and any(genero.lower() in g.lower() for g in serie.get('generos', []))
-    ]
-
-    resultados = resultados_filmes + resultados_series
+    # Carregar os dados com base no tipo
+    resultados = []
+    if tipo == 'filme' or tipo == 'all':
+        filmes = carregar_dados_json(JSON_PATHS['filmes_pagina'])
+        resultados.extend([
+            {**filme, 'tipo': 'filme'} for filme in filmes
+            if isinstance(filme.get('generos'), list) and any(genero.lower() in g.lower() for g in filme.get('generos', []))
+        ])
+    if tipo == 'serie' or tipo == 'all':
+        series = carregar_dados_json(JSON_PATHS['series_nomes'])
+        resultados.extend([
+            {**serie, 'tipo': 'serie'} for serie in series
+            if isinstance(serie.get('generos'), list) and any(genero.lower() in g.lower() for g in serie.get('generos', []))
+        ])
+    if tipo == 'anime' or tipo == 'all':
+        animes = carregar_dados_json(JSON_PATHS['animes_nomes'])
+        resultados.extend([
+            {**anime, 'tipo': 'anime'} for anime in animes
+            if isinstance(anime.get('generos'), list) and any(genero.lower() in g.lower() for g in anime.get('generos', []))
+        ])
 
     if not resultados:
-        logger.info(f"Nenhum filme ou série encontrado para o gênero: {genero}")
+        logger.info(f"Nenhum resultado encontrado para o gênero: {genero}, tipo: {tipo}")
         return jsonify({
             'mensagem': f'Nenhum resultado para o gênero {genero}',
             'resultados': [],
@@ -732,12 +733,15 @@ def buscar_por_genero():
             'pagina_atual': pagina
         }), 200
 
+    # Paginação
     inicio = (pagina - 1) * CONFIG['ITEMS_PER_PAGE']
     fim = inicio + CONFIG['ITEMS_PER_PAGE']
     resultados_paginados = resultados[inicio:fim]
 
     total_itens = len(resultados)
     total_paginas = (total_itens + CONFIG['ITEMS_PER_PAGE'] - 1) // CONFIG['ITEMS_PER_PAGE']
+
+    logger.info(f"Busca por gênero '{genero}', tipo '{tipo}' retornou {total_itens} resultados, página {pagina}/{total_paginas}")
 
     return jsonify({
         'resultados': resultados_paginados,
