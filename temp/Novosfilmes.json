@@ -1,34 +1,11 @@
 [
+[
     {
-        "titulo": "Leroy & Stitch",
-        "titulo_original": null,
-        "id": "tt0486761",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNDcxMWNmYjQtMTY2OS00YjMwLWI4YzEtNmM3MGU1Yzc0YzhkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "New circumstances forces Lilo and her alien friends to part ways while Gantu and Dr. Van Hamsterviel create the Stitch clone, Leroy, in order to capture all of the experiments and take over the galaxy.",
-        "generos": [
-            "Action",
-            "Adventure"
-        ]
-    },
-     {
-        "titulo": "Stitch! O Filme",
-        "titulo_original": null,
-        "id": "tt0348124",
-        "capa": "https://m.media-amazon.com/images/M/MV5BOGEwNWUwMzQtNzc2OS00NjUzLWIyNDItZmI4MTM2NGE0MjEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "SD",
-        "descricao": "Stitch, an alien living on Earth disguised as a dog with his human family, continues his adventures when he discovers that the alien family he never knew he had is now in Hawaii, being hunted down by galactic forces.",
-        "generos": [
-            "Adventure",
-            "Animation"
-        ]
-    },
-     {
         "titulo": "Lilo & Stitch",
         "titulo_original": null,
         "id": "tt11655566",
         "capa": "https://m.media-amazon.com/images/M/MV5BMzM0NTRkZWUtOTg5OC00YTBmLWI5NDEtZjQ5NjUwZTEyMTIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
+        "qualidade": "4K",
         "descricao": "Uma menina havaiana solitária faz amizade com um alienígena fugitivo, ajudando a remendar sua família fragmentada.",
         "generos": [
             "Alien Invasion",
@@ -36,482 +13,36 @@
         ]
     },
     {
-        "titulo": "Meu Nome é Radio",
+        "titulo": "Womb",
         "titulo_original": null,
-        "id": "tt0316465",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYmE3YjFhMTAtZjYzZi00OGE1LTk1NGUtYmNlZWU1NDcyYmJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt32205746",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZjgwNTliYWQtNWU3My00YjRhLWE4ZTItOWJhZjI1ZjlkYTE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "descricao": "A história de um treinador de secundária e do homem com dificuldades de desenvolvimento que ele tomou baixo sua proteção.",
+        "descricao": "Presa em uma cabana de caça remota, uma viciada grávida em recuperação luta para escapar das garras de um caçador louco obcecado em sequestrar seu feto a termo.",
         "generos": [
-            "Docudrama",
-            "Football"
-        ]
-    },
-    {
-        "titulo": "A Arte da Guerra III",
-        "titulo_original": null,
-        "id": "tt0878647",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNjkyMWQxZmYtZjFiOC00NGQ1LTllMmYtZWQ2MzVmZWQyMDJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Quando a diplomacia internacional se mostra ineficaz, medidas extremas precisam ser tomadas. Isto é guerra, e há uma arte para tal.",
-        "generos": [
-            "Action",
+            "Horror",
             "Thriller"
         ]
     },
     {
-        "titulo": "A Arte da Guerra II",
+        "titulo": "Free Fire: O Tiroteio",
         "titulo_original": null,
-        "id": "tt1233571",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNGUzYmRiM2UtNDc0ZS00OWJkLWJjOGMtMDNmNGFiMjY1MTQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Quando o Agente Nail Shaw sai de seu esconderijo para vingar o assassinato de seu mentor, ele descobre uma trilha de traição e corrupção letal. Sob a acusação de ter matado seu amigo e candidato ao Senado, sua missão é acertar as contas.",
-        "generos": [
-            "Action",
-            "Thriller"
-        ]
-    },
-    {
-        "titulo": "A Arte da Guerra",
-        "titulo_original": null,
-        "id": "tt0160009",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNGM3NjZiNWMtMDVlZi00NTNjLThjN2YtZjI1Nzk3ZDNlNTk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt4158096",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNjExOTNhOGEtYTkzNi00OGZkLWFlYTgtZjMyNTEyOGJmY2NkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "descricao": "O agente secreto Nick Shaw é convocado para proteger a ONU contra ataques terroristas. Porém, quando o embaixador chinês é morto durante um importante jantar que celebrava um acordo entre a China e os EUA, Shaw é acusado pelo assassinato.",
-        "generos": [
-            "Conspiracy Thriller",
-            "Spy"
-        ]
-    },
-    {
-        "titulo": "Mãos Talentosas - A História de Ben Carson",
-        "titulo_original": null,
-        "id": "tt1295085",
-        "capa": "https://m.media-amazon.com/images/M/MV5BN2IzMWFkNjktNzU0My00YjQ3LWI0NDctYTMzMWIzYTU2NDE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "O Dr. Ben Carson, neurocirurgião de fama mundial, tem origem humilde e protestante em Detroit. Ele torna-se diretor do Centro de Neurologia Pediátrica do Hospital Universitário Johns Hopkins, em Baltimore, nos Estados Unidos, aos 33 anos.",
-        "generos": [
-            "Medical Drama",
-            "Biography"
-        ]
-    },
-    {
-        "titulo": "Ilusão de Morte",
-        "titulo_original": null,
-        "id": "tt0284066",
-        "capa": "https://m.media-amazon.com/images/M/MV5BOTM0NTM3Njc4Nl5BMl5BanBnXkFtZTcwMzY4MjAwMQ@@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "An FBI Agent pairs with a troubled Taiwan cop to hunt for a serial killer who's embedding a mysterious fungus in the brains of victims.",
-        "generos": [
-            "Fantasy",
-            "Horror"
-        ]
-    },
-   {
-        "titulo": "Premonição 6: Laços de Sangue",
-        "titulo_original": null,
-        "id": "tt9619824",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNWIzYjhjNGQtYmQwOS00NmE0LWIyMTctMGY0YjQ4ZDUyOTA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Na década de 1960, uma avó prevê o desabamento de um prédio e salva da morte um grupo de pessoas. Décadas depois, sua neta também começa a ter visões da morte de seus familiares.",
-        "generos": [
-            "Splatter Horror",
-            "Supernatural Horror"
-        ]
-    },
-    {
-        "titulo": "A Mulher no Jardim",
-        "titulo_original": null,
-        "id": "tt31314296",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYjQ3MWRkYTEtZGZmNy00NmJkLWI1ODAtM2U5MGUxNmIwNzk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Uma mulher misteriosa aparece repetidamente no jardim de uma família, muitas vezes entregando avisos assustadores e mensagens perturbadoras, fazendo-os questionar sua identidade, motivos e o perigo potencial que ela pode representar.",
-        "generos": [
-            "Psychological Thriller",
-            "Supernatural Horror"
-        ]
-    },
-
-     {
-        "titulo": "O Mestre dos Desejos",
-        "titulo_original": null,
-        "id": "tt0120524",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYmE0ZjU5NDctMjY5NS00NTBhLWEzMTItNTE0N2I5MmZiNjY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um djinn demoníaco tenta conceder a seu dono três desejos, o que lhe permitirá convocar seus irmãos para a Terra.",
-        "generos": [
-            "Body Horror",
-            "Supernatural Horror"
-        ]
-    },
-    {
-        "titulo": "O Mestre dos Desejos 2",
-        "titulo_original": null,
-        "id": "tt0156182",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYWRhYzVjMDQtOWRlYi00ZGIwLWE3OTMtYzc0NTY3OTRlZDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "O mal foi invocado mais uma vez. Durante um roubo de arte, o Djinn é libertado de seu prisma por uma ladra chamada Morgana. Temendo pelo destino da humanidade, Morgana busca a ajuda do ex-amante, que agora é padre, para combater o Djinn.",
-        "generos": [
-            "Fantasy",
-            "Horror"
-        ]
-    },
-    {
-        "titulo": "O Mestre dos Desejos 3: Além da Porta do Inferno",
-        "titulo_original": null,
-        "id": "tt0254871",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZTU5MmM1MGYtZmVjOS00OWM3LWJlMmEtMWY3NzU3MGU3NWUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "The evil Djinn is back at it again, this time wreaking havoc on the students of Illinois' Baxter University.",
-        "generos": [
-            "Fantasy",
-            "Horror"
-        ]
-    },
-    {
-        "titulo": "O Mestre dos Desejos 4",
-        "titulo_original": null,
-        "id": "tt0254872",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYjQ5YmY0NzktMzAwYy00ZDE5LWJjODAtM2E4YmUwYTY4ZDc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "SD",
-        "descricao": "This time, the Djinn unleashes his undying love for a beautiful woman in his final attempt to unleash his brethren from Hell.",
-        "generos": [
-            "Fantasy",
-            "Horror"
-        ]
-    },
-    {
-        "titulo": "Férias do Barulho",
-        "titulo_original": null,
-        "id": "tt0089839",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNDFhYzFkOTQtZmMwYS00NDkwLTkzZmMtZGIzODBhMzYxODBhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "A história de dois adolescentes convidados em um resort da Flórida para o fim de semana. Seu único interesse é, naturalmente, perseguir meninas, mas o destino tem muito mais reservado para eles.",
-        "generos": [
-            "Raunchy Comedy",
-            "Teen Comedy"
-        ]
-    },
-    {
-        "titulo": "Uma Espécie em Extinção",
-        "titulo_original": null,
-        "id": "tt0081748",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMmFkMWE3YWQtYjhkOS00N2RlLWI3ZDUtYjQ4N2Y0MzdhYWE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Semi-biographical film based on the experiences of gonzo journalist Hunter S. Thompson.",
-        "generos": [
-            "Biography",
-            "Comedy"
-        ]
-    },
-    {
-        "titulo": "Assassinato num Dia de Sol",
-        "titulo_original": null,
-        "id": "tt0083908",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMDVlNmI2MmYtODRhMy00YTg3LTgwMjgtNTgzOWYwYjhkNTgwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Tentando descobrir como um milionário acabou com um diamante falso traz Hercule Poirot (Sir Peter Ustinov) para um resort exclusivo frequentado pelos ricos e famosos. Quando um assassinato é cometido, todos têm um álibi.",
-        "generos": [
-            "Cozy Mystery",
-            "Whodunnit"
-        ]
-    },
-    {
-        "titulo": "Darkman: Vingança sem Rosto",
-        "titulo_original": null,
-        "id": "tt0099365",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMTc5MzUxMjk4NF5BMl5BanBnXkFtZTgwNTEzNDk4NjE@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Um brilhante cientista deixado para morrer, retorna para se vingar das pessoas que o queimaram vivo.",
+        "descricao": "Situado em Boston em 1978, um encontro em um armazém deserto entre duas gangues se transforma em um tiroteio e um jogo de sobrevivência.",
         "generos": [
             "Dark Comedy",
-            "Superhero"
-        ]
-    },
-    {
-        "titulo": "Darkman 2: O Retorno de Durant",
-        "titulo_original": null,
-        "id": "tt0109552",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNTcxNmEzMmMtMGU3MC00NWVmLTk3MzktMzA0ZDcyNmI5YTg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Darkman and Durant return and they hate each other as much as ever. This time, Durant has plans to take over the city's drug trade using high-tech weaponry. Darkman must step in and try to stop Durant once and for all.",
-        "generos": [
-            "Superhero",
             "Action"
         ]
     },
     {
-        "titulo": "Darkman 3: Enfrentando a Morte",
+        "titulo": "Psycho-Pass: Pecadores do Sistema Caso 3 - No Reino Além é____",
         "titulo_original": null,
-        "id": "tt0116033",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNzU3YmM3NzItOWMzNS00MjRlLTg4ZTMtOTA5YzYxMTQ0ODZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt11078522",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNTM4YmZiNTctMGZiZC00ZTYwLWFmODUtNGRlZjYxMDcyZGM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "descricao": "When he double-crosses a drug kingpin, Darkman must free himself of his remote-control clutches.",
-        "generos": [
-            "Superhero",
-            "Action"
-        ]
-    },
-    {
-        "titulo": "A Filha do Pastor",
-        "titulo_original": null,
-        "id": "tt1328913",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMjMxNzE0OTk4NV5BMl5BanBnXkFtZTgwNjA3NDcwMzE@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Tired of being a Preacher's daughter and longing to experience more of life, 20-something ANGIE KING strikes out on her own for the very first time and joins a traveling gospel show.",
-        "generos": [
-            "Drama",
-            "Music"
-        ]
-    },
-    {
-        "titulo": "O Paciente: O Caso Tancredo Neves",
-        "titulo_original": null,
-        "id": "tt8972568",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMmYyYTZlZDgtNDFlZS00YjMyLWExZTgtZWE0YzRiY2RhMDdjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Ele relata os últimos momentos antes da misteriosa morte de Tancredo Neves, futuro presidente brasileiro de 1985.",
-        "generos": [
-            "Drama",
-            "History"
-        ]
-    },
-    {
-        "titulo": "Batman",
-        "titulo_original": null,
-        "id": "tt0096895",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "O cabaleiro da noite de Gotham comença sua guerra contra o crime com seu malhor enemigo, o Coringa.",
-        "generos": [
-            "Action Epic",
-            "Superhero"
-        ]
-    },
-    {
-        "titulo": "Ben, o Rato Assassino",
-        "titulo_original": null,
-        "id": "tt0068264",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNjMyMzM2MTUtZmQ4Ni00Y2ExLTliMDktMzE3NWRlZGQ4MzdhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Danny é um jovem e solitário garoto que começa uma estranha e inusitada amizade com um ratinho chamado Ben. Mas ele não sabe que Ben é o líder de um grupo de ratos assassinos que foi responsável pela morte de várias pessoas.",
-        "generos": [
-            "B-Horror",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Aluga-se para o Verão",
-        "titulo_original": null,
-        "id": "tt0090098",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYTUzZTBhNTUtM2QxNi00ZGYxLWEzYTUtODYzNGFiYmExNDE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "An overworked air-traffic controller takes his family on a beach vacation but is soon beset by series of mishaps.",
-        "generos": [
-            "Quirky Comedy",
-            "Slapstick"
-        ]
-    },
-    {
-        "titulo": "Wall Street - Poder e Cobiça",
-        "titulo_original": null,
-        "id": "tt0094291",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYzY5YzdhZmYtZDdlMi00MTY2LWE5NjMtOGQyNWM5YTQ4ZGFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Bud Fox é um corrector da bolsa que quer enriquecer e torna-se pupilo de Gordon Gekko, tubarão das finanças com uma filosofia amoral. Mas num mundo de ganância e poucos escrúpulos, terá de agir contra a sua moral ou perder o que conseguiu.",
-        "generos": [
-            "Workplace Drama",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "Um Copo de Cólera",
-        "titulo_original": null,
-        "id": "tt0192713",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNmZjMDYwNWEtZTdmNS00ODU1LTkxMjItZmQ4NmE3MDI3NGY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "The torrid love affair between a 40-year-old man who lives isolated from world, in his small farm nearby São Paulo and a politically engaged 30-year-old journalist.",
-        "generos": [
-            "Drama",
-            "Voltar ao início"
-        ]
-    },
-
-     {
-        "titulo": "Godzilla: O Devorador de Planetas",
-        "titulo_original": null,
-        "id": "tt8478602",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMjMzODZmZmItYTdiZS00ZDk2LTgyOWEtZDFhNjE2ZGVkYmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "A humanidade, seus aliados alienígenas e Godzilla entram em seu jogo final quando a poderosa entidade destrutiva conhecida como Ghidorah chega à Terra.",
-        "generos": [
-            "Anime",
-            "Computer Animation"
-        ]
-    },
-    {
-        "titulo": "Godzilla: Cidade no Limiar da Batalha",
-        "titulo_original": null,
-        "id": "tt8015080",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNGMxNzZhYzItMGYxNy00NTE5LThkZTYtOTEyOTIyMDViN2NiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Humanity's desperate battle to reclaim the Earth from Godzilla continues. The key to defeating the King of the Monsters may be Mechagodzilla, a robotic weapon thought to have been lost nearly 20,000 years ago.",
-        "generos": [
-            "Anime",
-            "Computer Animation"
-        ]
-    },
-    {
-        "titulo": "Godzilla: Planeta dos Monstros",
-        "titulo_original": null,
-        "id": "tt5979874",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNDY2ODQ5YzgtYjc3Mi00MDk5LWE5MDEtYjNlMWU2NzAxZTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um grupo desesperado de refugiados tenta recolonizar a Terra 20.000 anos após a tomada do Godzilla, mas um jovem quer vingança acima de tudo.",
-        "generos": [
-            "Anime",
-            "Computer Animation"
-        ]
-    },
-    {
-        "titulo": "Godzilla 1985",
-        "titulo_original": null,
-        "id": "tt0087344",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNjVjYzM0MDAtMGU1Yy00ZmUwLTk2Y2MtNWQyY2I1NWFjNzRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Thirty years after the original monster's rampage, a new Godzilla emerges and attacks Japan.",
-        "generos": [
-            "Action Epic",
-            "Dinosaur Adventure"
-        ]
-    },
-    {
-        "titulo": "Shin Gojira",
-        "titulo_original": null,
-        "id": "tt4262980",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNjg5ODA1NzQtZmNmNy00MmFhLTk1YjUtYTM2NDNmNjY4ODA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Após um acidente na baía de Tóquio, uma criatura gigante chamada Godzilla aterroriza todo o Japão.",
-        "generos": [
-            "Body Horror",
-            "Dinosaur Adventure"
-        ]
-    },
-    {
-        "titulo": "Inferno Sangrento",
-        "titulo_original": null,
-        "id": "tt9772374",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZThkZDk0N2YtMjJjMC00MTU2LThkZDktZWQ3MTgxNGI2YTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Um homem com um passado misterioso foge do país para escapar de seu próprio inferno pessoal, apenas para chegar a um lugar muito, muito pior.",
-        "generos": [
-            "Dark Comedy",
-            "Splatter Horror"
-        ]
-    },
-    {
-        "titulo": "Legado de Violência",
-        "titulo_original": null,
-        "id": "tt6853934",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNzMzNGIwYmQtNjQ5ZS00ODI2LWE4NDItYTk4MTg3ZmJiZjY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um pai enfrenta uma crise pessoal quando descobre que seu filho afastado está fugindo de um negócio de drogas fracassado. Os dois homens embarcam em uma odisseia violenta que se debate com questões de paternidade, família e destino.",
-        "generos": [
-            "Crime",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Posto de Combate",
-        "titulo_original": null,
-        "id": "tt3833480",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNzRmMzNhMmMtY2MwMS00ZDYyLWE4NTctNjM5YWQxMDQ0ZGE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Uma pequena equipe de soldados americanos luta contra centenas de talibãs no Afeganistão.",
-        "generos": [
-            "Docudrama",
-            "Action"
-        ]
-    },
-    {
-        "titulo": "As Estrelas Brilham na Cidade",
-        "titulo_original": null,
-        "id": "tt2690226",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMjM2NDM1NDY4Ml5BMl5BanBnXkFtZTgwMDc3MzA0NzM@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "In the early 1920s, a Kansas woman finds her life forever changed when she accompanies a young dancer on her fame-seeking journey to New York City.",
-        "generos": [
-            "Drama",
-            "Voltar ao início"
-        ]
-    },
-    {
-        "titulo": "Eternidade",
-        "titulo_original": null,
-        "id": "tt0112988",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYTU0OThjNzEtOTQ0Yy00ZmRmLWI5ZDAtODZkMDk0ZmY5ODQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "",
-        "generos": [
-            "Drama",
-            "Voltar ao início"
-        ]
-    },
-    {
-        "titulo": "Segredos Ocultos",
-        "titulo_original": null,
-        "id": "tt8046498",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMzMyN2IzNjktYjM0Yi00MzEwLTkzYmUtNmQ2NzIzZDA0MTQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Dois irmãos adolescentes, que roubam dinheiro para ajudar sua mãe doente, combinam engenhosidade com um vigilante perturbado preso no fundo de um poço esquecido.",
-        "generos": [
-            "Drama",
-            "Thriller"
-        ]
-    },
-    {
-        "titulo": "Terra das cinzas",
-        "titulo_original": null,
-        "id": "tt10219406",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYTkwYzMwN2YtNjIzMi00YTU4LWE3NjktNWVhY2E0YjA1OTA4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Selva vive numa cidade costeira no Caribe. Após o súbito desaparecimento de sua única figura materna, ela é deixada para cuidar de seu avô que não quer viver.",
-        "generos": [
-            "Drama",
-            "Voltar ao início"
-        ]
-    },
-    {
-        "titulo": "THUNDERBIRDS: A ELITE DA FORÇA AÉREA DOS EUA",
-        "titulo_original": null,
-        "id": "tt35628532",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNjMzZTE2MDMtMWRmNS00ZWEzLWI4YmUtMTVkOGUxNGY2ODdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um olhar no esquadrão de voo Thunderbirds da Força Aérea dos EUA.",
-        "generos": [
-            "Military Documentary",
-            "Science & Technology Documentary"
-        ]
-    },
-    {
-        "titulo": "20-seiki shônen: Saishû-shô - Bokura no hata",
-        "titulo_original": null,
-        "id": "tt1181919",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMjYyNDQzNGUtNWQ4My00MzA1LTliMmYtNTIzMjI1ZmViNGNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "It is 2017 and a resurrected Tomodachi rules world. The prophecies of The New Book have all come true.",
-        "generos": [
-            "Adventure",
-            "Fantasy"
-        ]
-    },
-    {
-        "titulo": "Psycho-Pass: Pecadores do Sistema Caso 1 - Crime e Castigo",
-        "titulo_original": null,
-        "id": "tt10443844",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMGJiNjQ5YzQtYmJiZS00NGU0LTkxYTAtN2EwZDgzMjg0OWY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "A runaway vehicle crashes into the Public Safety Bureau Building. The driver is identified as Izumi Yasaka, a psychological counselor at the Sanctuary, a Latent Criminal Isolation Facility in Aomori Prefecture. But right before her interrogation, Inspector Mika Shimotsuki and Enf...Ler tudo",
+        "descricao": "Following the incident in the Southeast Asia Union in 2116, Shinya Kogami resumes his vagrant journey. In a small South Asian nation, Kogami rescues a bus of refugees under attack by armed guerrilla forces. Among the refugees is a young lady by the name of Tenzin, who begs Kogami...Ler tudo",
         "generos": [
             "Adult Animation",
             "Anime"
@@ -530,40 +61,316 @@
         ]
     },
     {
-        "titulo": "Psycho-Pass: Pecadores do Sistema Caso 3 - No Reino Além é____",
+        "titulo": "Psycho-Pass: Pecadores do Sistema Caso 1 - Crime e Castigo",
         "titulo_original": null,
-        "id": "tt11078522",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNTM4YmZiNTctMGZiZC00ZTYwLWFmODUtNGRlZjYxMDcyZGM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt10443844",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMGJiNjQ5YzQtYmJiZS00NGU0LTkxYTAtN2EwZDgzMjg0OWY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "descricao": "Following the incident in the Southeast Asia Union in 2116, Shinya Kogami resumes his vagrant journey. In a small South Asian nation, Kogami rescues a bus of refugees under attack by armed guerrilla forces. Among the refugees is a young lady by the name of Tenzin, who begs Kogami...Ler tudo",
+        "descricao": "A runaway vehicle crashes into the Public Safety Bureau Building. The driver is identified as Izumi Yasaka, a psychological counselor at the Sanctuary, a Latent Criminal Isolation Facility in Aomori Prefecture. But right before her interrogation, Inspector Mika Shimotsuki and Enf...Ler tudo",
         "generos": [
             "Adult Animation",
             "Anime"
         ]
     },
     {
-        "titulo": "Bala na Cabeça",
+        "titulo": "Sobrenatural: Capítulo 2",
         "titulo_original": null,
-        "id": "tt0099426",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZGZkNWE0MjYtZjBiNy00MDI1LTg3ZDItNDI1NDgyZTQ2OTJjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Na década de 1960, três membros de gangues em Hong Kong tentam cometer crimes no Vietnã e são levados para o campo de prisioneiros.",
+        "id": "tt2226417",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTg0OTA5ODIxNF5BMl5BanBnXkFtZTcwNTUzNDg4OQ@@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Os Lamberts acreditam que derrotaram os espíritos que perseguiram sua família, mas logo descobrem que o mal não é tão facil de superar.",
         "generos": [
-            "Gun Fu",
+            "Supernatural Horror",
+            "Horror"
+        ]
+    },
+    {
+        "titulo": "A Morte Mora Aqui",
+        "titulo_original": null,
+        "id": "tt1964630",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTc0Nzc2MzA1N15BMl5BanBnXkFtZTcwNjgwNjc1Ng@@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Sarah tem uma premonição de que os seus colegas morrerão durante a sua festa do pijama. À medida em que eles começam a brigar entre si, ela busca uma maneira de impedir que suas visões se tornem realidade.",
+        "generos": [
+            "Horror",
+            "Voltar ao início"
+        ]
+    },
+    {
+        "titulo": "Kayara - A Princesa Inca",
+        "titulo_original": null,
+        "id": "tt11846550",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNmYwMjExYjYtNWJiZC00YWYxLWI3ZDQtZTRhM2IwZDBkNTVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Uma jovem garota sonha em se juntar ao grupo de mensageiros do Império Inca, composto somente por homens. Ela desafia tradições e normas de gênero para perseguir sua ambição contra todas as probabilidades.",
+        "generos": [
+            "Action",
+            "Adventure"
+        ]
+    },
+    {
+        "titulo": "Karatê Kid: Lendas",
+        "titulo_original": null,
+        "id": "tt1674782",
+        "capa": "https://m.media-amazon.com/images/M/MV5BOTJlM2NmOWItNDJiNy00ZDFhLTk0YjktMDY4ZWI1NzE3MmEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Daniel chega em Pequim, onde o Sr. Han está procurando por ele. Han tem um novo protegido, Li Fong. Os dois mentores devem colaborar para instruir Li Fong, mas resta saber se suas abordagens educacionais serão compatíveis.",
+        "generos": [
+            "Coming-of-Age",
+            "Martial Arts"
+        ]
+    },
+    {
+        "titulo": "Geomeun sunyeodeul",
+        "titulo_original": null,
+        "id": "tt32491690",
+        "capa": "https://m.media-amazon.com/images/M/MV5BODE1MjA4ZTYtMDZlOC00ZDkzLTkwZjYtNTQ5MTY5ODNlMTU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "A young boy Hee-Joon is possessed by an evil spirit. Nun Yunia tries to save him, assisted by Nun Mikaela. Priest Paul attempts medical treatment, while Priest Andrew performs an exorcism to rid Hee-Joon of the spirit.",
+        "generos": [
+            "Supernatural Horror",
+            "Horror"
+        ]
+    },
+    {
+        "titulo": "Cho no Nemuri",
+        "titulo_original": null,
+        "id": "tt5891642",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYzBkMjhlNmUtY2ZmMC00Njk4LWFkNjUtMGJmOGJhYWJmYzNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Matsumura Ryouko, a popular writer in her 50s, knows that she has Alzheimer's as she begins to teach at a university, where she meets So Chan Hae, a young Korean man in his 20s, and falls in love with him.",
+        "generos": [
+            "Drama",
+            "Romance"
+        ]
+    },
+    {
+        "titulo": "37 Segundos",
+        "titulo_original": null,
+        "id": "tt6156138",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMDM4N2U3NzAtODc0MS00MTVjLWEzMjAtNTdlMGQ3OTBiYmJkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Yuma é uma jovem japonesa com paralisia cerebral. Entre suas obrigações para com sua família e seu sonho de se tornar uma artista de mangá, ela luta para levar uma vida autodeterminada.",
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ]
+    },
+    {
+        "titulo": "Pequeno Bosque",
+        "titulo_original": null,
+        "id": "tt6083230",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMGE1ZjdjN2ItMzFjMS00OTYwLTgwMTEtMmM1Y2YwYmYzYzVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "A young woman grows tired of life in the city and returns to her hometown in the countryside.",
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ]
+    },
+    {
+        "titulo": "Zui hao de wo men",
+        "titulo_original": null,
+        "id": "tt10195976",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZjMxYWMwNDMtYmJhNi00ZjE4LTgyZDgtMTE3OGQ1YjIwNDViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Geng Geng was an ordinary girl before her entry to the best high school in the province by chance. She doesn't like her life there until she meets Yu Huai, her seatmate--their names make up the phrase \"Geng geng yu huai\", which means \"Unforgettable memories\".",
+        "generos": [
+            "Drama",
+            "Romance"
+        ]
+    },
+    {
+        "titulo": "Shadow Force - Sentença de Morte",
+        "titulo_original": null,
+        "id": "tt11092020",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTUyZTUyOTMtOGU5OC00MmM1LTk0NWUtMjNlMTU4ZTkwMDRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Um casal separado com uma recompensa pairando sobre suas cabeças deve fugir com seu filho para evitar seu ex-chefe, uma unidade de operações secretas que foi enviada para matá-los.",
+        "generos": [
+            "Action",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Maior Roubo de Arte da História",
+        "titulo_original": null,
+        "id": "tt19873450",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNTU2MTI2NWItMjdjYi00ODNjLWJmNTUtYmM2MDU2NzI4NzY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Após roubar uma pintura de um museu local, um artista pouco talentoso descobre um mundo repleto de mafiosos, criminosos e vigaristas, que acabam o envolvendo no maior roubo de arte da história.",
+        "generos": [
+            "Crime",
+            "Voltar ao início"
+        ]
+    },
+    {
+        "titulo": "Sociedade das Sombras",
+        "titulo_original": null,
+        "id": "tt21435976",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMzJjOTZiOWYtNjliNi00OTc1LThjNGEtNmFkNTUzYjIwNGZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Em um mundo distópico controlado por uma misteriosa organização, um grupo de assassinos profissionais decide mudar de lado e salvar a vida de uma jovem garota chamada Zea.",
+        "generos": [
+            "Action",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "O Esquema Fenício",
+        "titulo_original": null,
+        "id": "tt30840798",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNzljNDFmZTItMGIyMy00MjBjLTkxMzEtZmQzNTBkM2Y5ZjY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Conto sombrio de espionagem que segue um relacionamento tenso entre pai e filha em uma empresa familiar. As reviravoltas giram em torno de traição e escolhas moralmente cinzentas.",
+        "generos": [
+            "Spy",
             "Action"
         ]
     },
     {
-        "titulo": "O Garoto que Podia Voar",
+        "titulo": "O Olho e o Muro",
         "titulo_original": null,
-        "id": "tt0090768",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMTY0ODczMTAtZThjNC00OWY2LWFlY2QtYmI4NmQyZDRiZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt10055058",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZTJkYzI1MGUtM2RmMy00NWFhLTkzNjctNmFjNWY0YmI1YzU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "descricao": "Um menino autista que sonha em voar toca todos que encontra, incluindo uma nova família que se mudou.",
+        "descricao": "Em uma cidade latina dos anos 2030, Alba ajuda os necessitados em uma rede clandestina de saúde. Quando Lucre tenta convencê-la a fugir dos muros que aprisionam a população em extrema pobreza, uma mentira a leva a uma jornada sem volta.",
         "generos": [
-            "Drama",
+            "Sci-Fi",
+            "Voltar ao início"
+        ]
+    },
+    {
+        "titulo": "Separados pelas Estrelas",
+        "titulo_original": null,
+        "id": "tt28664733",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNGY3OWYxMzAtNzllNC00MGU0LThhNDUtMjU1MjNhMWIxYjg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Quando uma astronauta vai para Marte, a imensidão do espaço separa um grande amor.",
+        "generos": [
+            "Feel-Good Romance",
+            "Romantic Comedy"
+        ]
+    },
+    {
+        "titulo": "Holy Night: Demon Hunters",
+        "titulo_original": null,
+        "id": "tt15766876",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZDZhYjUwMTUtNTcyZS00MWNkLWI3NGItMDZlZGNmMjQxYTQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um filme de ação oculta no qual uma equipe de várias pessoas luta contra espíritos malignos.",
+        "generos": [
+            "Action",
             "Fantasy"
         ]
+    },
+    {
+        "titulo": "Lulu, a Rinoceronte",
+        "titulo_original": null,
+        "id": "tt36789845",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYzBlYmNkZGEtZTQ3OS00MDZjLWFkNTEtOTU4ZWEzNDkzNGQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Lulu é uma rinoceronte - é isso que ela vê no espelho. Em uma jornada para espalhar gentileza, a divertida e amável Lulu embarca na aventura de sua vida, impulsionada por novos amigos, coragem e músicas cativantes.",
+        "generos": [
+            "Animation",
+            "Musical"
+        ]
+    },
+    {
+        "titulo": "Medo nas Profundezas",
+        "titulo_original": null,
+        "id": "tt13098590",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNmU3NzE4MjgtZDc3MS00OTYxLTk5MWEtZmFkYzE1Yjc2ODA4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma equipe de mergulhadores que tenta salvar um carro afundado em um rio fica frustrada com a agressividade de um tubarão-touro.",
+        "generos": [
+            "Action",
+            "Adventure"
+        ]
+    },
+    {
+        "titulo": "Assim na Terra Como no Inferno",
+        "titulo_original": null,
+        "id": "tt2870612",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTQzNzg0NDI2MF5BMl5BanBnXkFtZTgwMzgxNzY2MTE@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Um grupo de arqueólogos procura um artefacto místico nas catacumbas de Paris. Mas aquele local, revelará um segredo que vai mexer com a mente de todos, fazendo os demónios pessoais de cada um voltarem para os assombrar.",
+        "generos": [
+            "Found Footage Horror",
+            "Horror"
+        ]
+    },
+    {
+        "titulo": "The Devil's Academy",
+        "titulo_original": null,
+        "id": "tt24940422",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMDY2NjNiMTUtYjM4OS00NTc2LWFkY2QtYjYzMmQwOGE1NTk5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Reveals the shocking haunting that took over Miami Aerospace Academy and its students.",
+        "generos": [
+            "Documentary",
+            "Drama"
+        ]
+    },
+    {
+        "titulo": "A Voz do Silêncio",
+        "titulo_original": null,
+        "id": "tt0092545",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMWY5OWUwOGMtZjAzMi00NmEwLTliZTYtY2YyYzRjNmUyMTFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "A little league player named Chuck refuses to ever pitch again until nuclear weapons are disarmed. Basketball star \"Amazing Grace\" Smith follows the boy's example, and starts a trend.",
+        "generos": [
+            "Baseball",
+            "Basketball"
+        ]
+    },
+    {
+        "titulo": "Desconhecido",
+        "titulo_original": null,
+        "id": "tt1401152",
+        "capa": "https://m.media-amazon.com/images/M/MV5BODA4NTk3MTQwN15BMl5BanBnXkFtZTcwNjUwMTMxNA@@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Um homem acorda de um coma, apenas para descobrir que alguém assumiu sua identidade e que ninguém, nem mesmo sua esposa, acredita nele. Com a ajuda de uma jovem mulher, ele se propõe a provar quem é.",
+        "generos": [
+            "Conspiracy Thriller",
+            "Suspense Mystery"
+        ]
+    },
+    {
+        "titulo": "Confissão",
+        "titulo_original": null,
+        "id": "tt11920630",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMjM2ZGEzMmUtZTA3Zi00ZDM5LTk1YWYtMGViMjI4NGU0NDA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Uma ambiciosa advogada decide pegar o caso de uma jovem que acusou três homens de assédio sexual. Ela está disposta a colocar sua carreira em risco para desvendar um mistério que poderá mudar a história da cidade para sempre.",
+        "generos": [
+            "Crime",
+            "Mystery"
+        ]
+    },
+    {
+        "titulo": "Premonição 6: Laços de Sangue",
+        "titulo_original": null,
+        "id": "tt9619824",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNWIzYjhjNGQtYmQwOS00NmE0LWIyMTctMGY0YjQ4ZDUyOTA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Na década de 1960, uma avó prevê o desabamento de um prédio e salva da morte um grupo de pessoas. Décadas depois, sua neta também começa a ter visões da morte de seus familiares.",
+        "generos": [
+            "Splatter Horror",
+            "Supernatural Horror"
+        ]
+    },
+    {
+        "titulo": "Thunderbolts*",
+        "titulo_original": null,
+        "id": "tt20969586",
+        "capa": "https://m.media-amazon.com/images/M/MV5BOTRiYjY1ZjQtNzA1OC00NWRiLWExNGYtMTljOWNkMWUyZmJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "SD",
+        "descricao": "Depois de se verem presos em uma armadilha mortal, uma equipe não convencional de anti-heróis deve embarcar em uma missão perigosa que os forçará a confrontar os cantos mais sombrios de seus passados.",
+        "generos": [
+            "Political Drama",
+            "Superhero"
+        ]
     }
-
+]
 ]
