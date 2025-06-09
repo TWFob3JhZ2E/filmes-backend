@@ -47,7 +47,7 @@ json_lock = Lock()
 
 # Configurações centralizadas
 CONFIG = {
-    'BASE_URL': 'https://superflixapi.wales',
+    'BASE_URL': 'https://superflixapi.pw',
     'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
     'ITEMS_PER_PAGE': 50,
     'JSON_INDENT': 4,
