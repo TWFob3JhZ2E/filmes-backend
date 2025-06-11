@@ -53295,5 +53295,76 @@
             "Sci-Fi & Fantasy"
         ],
         "data_estreia": "1996-10-25"
+    },
+    {
+        "titulo": "ナンバーワン戦隊ゴジュウジャー",
+        "titulo_original": "ナンバーワン戦隊ゴジュウジャー",
+        "id": "275648",
+        "capa": "https://image.tmdb.org/t/p/w500/hw0EYA0lS6DRYjMq24xdluFIZsu.jpg",
+        "qualidade": "HD",
+        "descricao": "Descrição não disponível",
+        "generos": [
+            "Sci-Fi & Fantasy",
+            "Action & Adventure",
+            "Drama",
+            "Kids"
+        ],
+        "data_estreia": "2025-02-16"
+    },
+    {
+        "titulo": "爆上戦隊ブンブンジャー",
+        "titulo_original": "爆上戦隊ブンブンジャー",
+        "id": "234667",
+        "capa": "https://image.tmdb.org/t/p/w500/sF4iozfFt9R6PgPPmhM16i0PLGy.jpg",
+        "qualidade": "HD",
+        "descricao": "Descrição não disponível",
+        "generos": [
+            "Action & Adventure",
+            "Sci-Fi & Fantasy",
+            "Kids"
+        ],
+        "data_estreia": "2024-03-03"
+    },
+    {
+        "titulo": "Rider Gavv",
+        "titulo_original": "仮面ライダーガヴ",
+        "id": "263311",
+        "capa": "https://image.tmdb.org/t/p/w500/3iHHmX7txgjptGkdqY3Q6V0r0Fk.jpg",
+        "qualidade": "HD",
+        "descricao": "Granutes são uma forma de vida inteligente que opera secretamente no mundo humano. Eles sequestram pessoas em busca de \"Doces do Mercado Negro\". Enquanto as pessoas são atacadas uma após a outra pelos Granutes, Shoma, um jovem de outro mundo, se levanta para salvar as pessoas. Junto com os Gochizo, pequenos monstros nascidos de comer doces, ele se transforma em Kamen Rider Gavv com um cinto parecido com uma boca!.",
+        "generos": [
+            "Action & Adventure",
+            "Kids",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "data_estreia": "2024-09-01"
+    },
+    {
+        "titulo": "Malhação",
+        "titulo_original": "Malhação",
+        "id": "14424",
+        "capa": "https://image.tmdb.org/t/p/w500/bF24r2FxsjzgkJcrbBU8RC9JVoU.jpg",
+        "qualidade": "HD",
+        "descricao": "A missão da série é falar sobre questões delicadas pertinentes ao universo jovem, como o relacionamento com os pais e os amigos, as dúvidas em relação ao futuro profissional, crenças e o início da vida sexual. Com diferentes assuntos em ênfase a cada temporada, jovens vivem uma rotina de descoberta e crescimento, explorando um mundo desconhecido.",
+        "generos": [
+            "Soap",
+            "Comédia",
+            "Drama"
+        ],
+        "data_estreia": "1995-04-24"
+    },
+    {
+        "titulo": "Art Detectives",
+        "titulo_original": "Art Detectives",
+        "id": "272947",
+        "capa": "https://image.tmdb.org/t/p/w500/idq5QfsK1WkjcsG7IxDcGZ3YQc4.jpg",
+        "qualidade": "HD",
+        "descricao": "Descrição não disponível",
+        "generos": [
+            "Crime",
+            "Drama"
+        ],
+        "data_estreia": "2025-06-09"
     }
 ]

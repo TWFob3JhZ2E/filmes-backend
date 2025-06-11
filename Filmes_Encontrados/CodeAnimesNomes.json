@@ -43623,5 +43623,19 @@
             "Animação"
         ],
         "data_estreia": "2021-09-30"
+    },
+    {
+        "titulo": "仮面ライダーゼロワン・ショートアニメ: EVERYONE’S DAILY LIFE",
+        "titulo_original": "仮面ライダーゼロワン・ショートアニメ: EVERYONE’S DAILY LIFE",
+        "id": "106432",
+        "capa": "https://image.tmdb.org/t/p/w500/j08018OLlG0jenpAK8HKbudfcyQ.jpg",
+        "qualidade": "HD",
+        "descricao": "Descrição não disponível",
+        "generos": [
+            "Animação",
+            "Comédia",
+            "Sci-Fi & Fantasy"
+        ],
+        "data_estreia": "2020-07-23"
     }
 ]
