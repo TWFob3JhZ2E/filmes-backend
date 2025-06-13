@@ -1,431 +1,378 @@
 
 [
     {
-        "titulo": "Histórias de Terror",
-        "titulo_original": "Urban Legend",
-        "id": "33275",
-        "capa": "https://image.tmdb.org/t/p/w500/xgoQAgL3eFKCxrEJpHD0IVkv0W4.jpg",
+        "titulo": "The Boys",
+        "titulo_original": "The Boys",
+        "id": "76479",
+        "capa": "https://image.tmdb.org/t/p/w500/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg",
         "qualidade": "HD",
-        "descricao": "Depois que Rose retorna para casa de um resort tropical, uma mancha começa a crescer em seu rosto, como em um pesadelo. Descobrindo que uma picada de aranha infectou Rose, seu companheiro deve salvá-la de um destino terrível.",
+        "descricao": "Na trama, conhecemos um mundo em que super-heróis são as maiores celebridades do planeta, e rotineiramente abusam dos seus poderes ao invés de os usarem para o bem.",
         "generos": [
-            "Mistério",
-            "Documentário"
-        ]
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ],
+        "data_estreia": "2019-07-25"
     },
-    {
-        "titulo": "The Night Of",
-        "titulo_original": "The Night Of",
-        "id": "66276",
-        "capa": "https://image.tmdb.org/t/p/w500/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg",
+     {
+        "titulo": "Você é Minha Primavera",
+        "titulo_original": "너는 나의 봄",
+        "id": "126698",
+        "capa": "https://image.tmdb.org/t/p/w500/tWYjugKwHy6aTiKDdDxtsHKltEj.jpg",
         "qualidade": "HD",
-        "descricao": "Após ter passado uma noite com uma mulher totalmente desconhecida, um homem acorda e encontra a tal mulher esfaqueada até a morte. Ele é acusado de a ter assassinado. As investigações policiais denunciam as relações complexas entre diversos casos que foram analisados pela polícia da cidade de Nova York nos Estados Unidos, sistema criminal, procedimentos legais e o temido purgatório de Rikers Island, é lá onde os acusados são presos em espera de seu julgamento final.",
-        "generos": [
-            "Crime",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Room 104",
-        "titulo_original": "Room 104",
-        "id": "72581",
-        "capa": "https://image.tmdb.org/t/p/w500/wOyn9r9VC2pJhXasUKxlpEmCAGV.jpg",
-        "qualidade": "HD",
-        "descricao": "Série de comédia em formato de antologia, Room 104 apresenta, a cada episódio, histórias diferentes dos hóspedes que passam por um ordinário hotel americano.",
-        "generos": [
-            "Mistério",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "The Deuce",
-        "titulo_original": "The Deuce",
-        "id": "65817",
-        "capa": "https://image.tmdb.org/t/p/w500/tKFUwmue5g45rthZOyYWd7l931y.jpg",
-        "qualidade": "HD",
-        "descricao": "Durante os anos 1970 e 1980, a indústria pornográfica viveu um período de ascensão na cidade de Nova Iorque. Os irmãos gêmeos Vincent e Frankie Martino (James Franco), importantes nomes da indústria pornô no período. Enquanto alguns faturam com este novo negócio, a violência e o tráfico de drogas começam a se tornar cada vez mais comum na região.",
-        "generos": [
-            "Drama",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "Vídeos Paranormais",
-        "titulo_original": "Paranormal Caught on Camera",
-        "id": "86845",
-        "capa": "https://image.tmdb.org/t/p/w500/8UpK1HAsbYERphPlIHDWg9oYjG5.jpg",
-        "qualidade": "HD",
-        "descricao": "Especialistas analisam algumas das mais incríveis e assustadoras imagens de vídeos paranormais. De poltergeists a luzes no céu, os relatos de quem viveu as experiências podem acabar convertendo até os mais céticos.",
-        "generos": [
-            "Documentário",
-            "Reality"
-        ]
-    },
-    {
-        "titulo": "Um Milagre",
-        "titulo_original": "Mucize Doktor",
-        "id": "92967",
-        "capa": "https://image.tmdb.org/t/p/w500/7ABaZxWcO0tG9nxuwBJroNP4IFO.jpg",
-        "qualidade": "HD",
-        "descricao": "Ali, um médico que sofre de um transtorno autista começa a trabalhar em um hospital em Istambul. Superando os preconceitos de pacientes e colegas, Ali encontrará uma família capaz de apreciar o valor de suas habilidades especiais.",
+        "descricao": "Com infâncias traumáticas, a recepcionista de um hotel e um psiquiatra formam um vínculo profundo depois de se envolverem em um complexo caso de assassinato.",
         "generos": [
             "Drama"
-        ]
+        ],
+        "data_estreia": "2021-07-05"
     },
     {
-        "titulo": "Dept. Q",
-        "titulo_original": "Dept. Q",
-        "id": "245703",
-        "capa": "https://image.tmdb.org/t/p/w500/e4ctTDJsRexIF3vjxeDrSbeOuep.jpg",
+        "titulo": "Silicon Valley",
+        "titulo_original": "Silicon Valley",
+        "id": "60573",
+        "capa": "https://image.tmdb.org/t/p/w500/4ptpmWBVD9HY9hMh8Cbs6SMiy7p.jpg",
         "qualidade": "HD",
-        "descricao": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
-        "generos": [
-            "Drama",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "Unicórnio Implacável",
-        "titulo_original": "สงคราม ส่งด่วน",
-        "id": "283776",
-        "capa": "https://image.tmdb.org/t/p/w500/ai1zFwkSfQ12Xd7ZUeEdPDtFvnI.jpg",
-        "qualidade": "HD",
-        "descricao": "Um jovem empreendedor cria uma startup que traz várias novas oportunidades, mas também muitos inimigos poderosos.",
-        "generos": [
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Meus Clientes Fantasmas",
-        "titulo_original": "노무사 노무진",
-        "id": "233221",
-        "capa": "https://image.tmdb.org/t/p/w500/eERbM9lqsb405V43BzGfyYfm3TH.jpg",
-        "qualidade": "HD",
-        "descricao": "Após quase morrer em um acidente, o advogado trabalhista Noh Moo Jin ganha um dom inusitado: ele começa a ver fantasmas e precisa aceitar os casos deles para sobreviver.",
-        "generos": [
-            "Comédia",
-            "Mistério"
-        ]
-    },
-    {
-        "titulo": "Caso Arquivado: Os Assassinatos do Tylenol",
-        "titulo_original": "Cold Case: The Tylenol Murders",
-        "id": "289486",
-        "capa": "https://image.tmdb.org/t/p/w500/4OGTIBZLFV0WyJj3iGFUNJe6DAm.jpg",
-        "qualidade": "HD",
-        "descricao": "Quem colocou cianeto no Tylenol? Esta série sobre crimes reais investiga teorias alarmantes por trás de assassinatos sem solução e corre atrás de uma pessoa suspeita.",
-        "generos": [
-            "Documentário",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "Procurados - EUA: O.J. Simpson",
-        "titulo_original": "American Manhunt: O.J. Simpson",
-        "id": "282405",
-        "capa": "https://image.tmdb.org/t/p/w500/fLboA57w0NtHbFwik0UrEOR2RQc.jpg",
-        "qualidade": "HD",
-        "descricao": "O carro branco, as luvas, o julgamento do século. Esta série documental investiga o caso de assassinato chocante que virou fenômeno cultural.",
-        "generos": [
-            "Documentário",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "Code of Silence",
-        "titulo_original": "Code of Silence",
-        "id": "287355",
-        "capa": "https://image.tmdb.org/t/p/w500/3kmYqsvNR1KYGprklktlSoxNSFx.jpg",
-        "qualidade": "HD",
-        "descricao": "",
-        "generos": [
-            "Crime",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "The Bombing of Pan Am 103",
-        "titulo_original": "The Bombing of Pan Am 103",
-        "id": "248226",
-        "capa": "https://image.tmdb.org/t/p/w500/9RR6jkc35HOJcZG3modHZwh3J3J.jpg",
-        "qualidade": "HD",
-        "descricao": "",
-        "generos": [
-            "Drama",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "Mate o Amante",
-        "titulo_original": "假面迷情",
-        "id": "290191",
-        "capa": "https://image.tmdb.org/t/p/w500/ogFnqsKxtA9sfqL3cqwSxId5nKn.jpg",
-        "qualidade": "HD",
-        "descricao": "Após perder seus pais para o plano de um poderoso magnata, You You retorna anos depois com uma nova identidade em busca de vingança. Juntando-se a Qi Dong, seu antigo inimigo e filho rejeitado do magnata, eles se unem contra um passado em comum, sem saber que uma ameaça maior se aproxima.",
-        "generos": [
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Trajetória Dela",
-        "titulo_original": "她的轨迹",
-        "id": "288006",
-        "capa": "https://image.tmdb.org/t/p/w500/rO7hiQsRbsqulonOtI1lA6XdFV7.jpg",
-        "qualidade": "HD",
-        "descricao": "Shu Yan, uma jovem que sempre priorizou a todos, chegou ao fundo do poço após perder a família e a carreira. Ela enfrenta uma série de mudanças devastadoras na vida, mas, à medida que se recupera, começa a se reconstruir e a assumir o controle de sua vida. Por meio dessa jornada transformadora, ela encontra o amor verdadeiro em Shen Weizhou.",
-        "generos": [
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Amor no Pavilhão",
-        "titulo_original": "淮水竹亭",
-        "id": "226270",
-        "capa": "https://image.tmdb.org/t/p/w500/4KNymQxbzWaCiUnE2WUDkCcAxkB.jpg",
-        "qualidade": "HD",
-        "descricao": "Centra-se no amor entre Dongfang Huaizhu e Wangquan Baye.",
-        "generos": [
-            "Drama",
-            "Sci-Fi & Fantasy"
-        ]
-    },
-    {
-        "titulo": "Renascer da Juventude",
-        "titulo_original": "사계의 봄",
-        "id": "280016",
-        "capa": "https://image.tmdb.org/t/p/w500/fVTyvUVGWAEmONn6cWZZzRnvNTs.jpg",
-        "qualidade": "HD",
-        "descricao": "Sa Gye estava aproveitando o melhor momento de sua vida como vocalista e guitarrista da banda de K-pop “The Crown” até ser forçado a sair do grupo. Em busca de um recomeço, ele decide se matricular na faculdade e, pela primeira vez, levar uma vida normal como qualquer outro universitário. Lá, ele conhece Kim Bom, uma talentosa estudante de música que desistiu de estudar no exterior após o falecimento de sua mãe, e Seo Tae Yang, um estudante de medicina também apaixonado por música.\n\nJunto com outros alunos, os três formam uma banda e, em pouco tempo, Sa Gye se vê redescobrindo sua paixão pela música. Além disso, à medida que Sa Gye e Bom se aproximam, ambos começam a desenvolver sentimentos e apoiar um ao outro enquanto superam os traumas do passado.",
+        "descricao": "Ambientada no Vale do Silício, região da Califórnia fértil em inovações tecnológicas e científicas, a série mostra um grupo de desenvolvedores que cria novo um programa com o objetivo de impressionar um bilionário excêntrico do ramo tecnológico.",
         "generos": [
             "Comédia"
-        ]
+        ],
+        "data_estreia": "2014-04-06"
     },
     {
-        "titulo": "O Contrato Secreto da Bruxa",
-        "titulo_original": "魔女的秘密契约",
-        "id": "286446",
-        "capa": "https://image.tmdb.org/t/p/w500/4s4xQgWzaJ6aR79BQepmqXVQOg4.jpg",
+        "titulo": "Castle",
+        "titulo_original": "Castle",
+        "id": "1419",
+        "capa": "https://image.tmdb.org/t/p/w500/diXBeMzvfJb2iJg3G0kCUaMCzEc.jpg",
         "qualidade": "HD",
-        "descricao": "A Matriarca Bruxa Xia Mo é aprisionada por uma maldição mortal após perder seu colar. Desesperada para recuperá-lo, ela faz um acordo perigoso com Mu Han Yu, um vingativo professor de física, e jura realizar seu desejo. Através do contato frequente, eles se apaixonam gradualmente. No entanto, o destino os coloca um contra o outro...",
+        "descricao": "Richard Castle é um dos autores de livros de crimes mais bem-sucedidos do mundo. Mas quando seu estilo de vida de estrela de rock não é suficiente, este bad boy encontra a bela e inteligente detetive Kate Beckett.",
         "generos": [
             "Drama",
-            "Sci-Fi & Fantasy"
-        ]
+            "Crime"
+        ],
+        "data_estreia": "2009-03-09"
     },
     {
-        "titulo": "Olhos Brilhantes no Escuro",
-        "titulo_original": "他从火光中走来",
-        "id": "234919",
-        "capa": "https://image.tmdb.org/t/p/w500/oTQK4cOCfpEeXAk20tZZ9eA3VYT.jpg",
+        "titulo": "Até Onde Ele Vai",
+        "titulo_original": "Até Onde Ele Vai",
+        "id": "282244",
+        "capa": "https://image.tmdb.org/t/p/w500/fPD25mkMzJ3nC46khaT9cbtnhOl.jpg",
         "qualidade": "HD",
-        "descricao": "Lin Luxiao possui habilidades excepcionais de combate a incêndios e vasta experiência. Ele é o chefe da Estação de Operações Especiais na Heping Road, na cidade de Beixun. Por uma reviravolta do destino, ele é escolhido para se tornar instrutor de um reality show que visa promover o conhecimento sobre combate a incêndios. Durante o show, Lin Luxiao encontra coincidentemente Nan Chu, uma dançarina que ele resgatou de um incêndio anos atrás. Nan Chu desenvolve um carinho por Lin Luxiao, mas mantém distância devido aos perigos inerentes à sua profissão. Bombeiros de diferentes gerações colaboram em operações de resgate envolvendo incêndios, terremotos e resgates aéreos, elevando o nível de segurança contra incêndio na cidade de Beixun. À medida que Nan Chu e Lin Luxiao aprofundam gradualmente a compreensão um do outro, eles afirmam seus sentimentos. Diante do incêndio florestal mais perigoso",
+        "descricao": "Morador de uma comunidade do Rio de Janeiro, Michael cresceu conflitando com a própria realidade, até que o ataque surpresa de uma facção o faz chegar ao limite.",
         "generos": [
             "Drama"
-        ]
+        ],
+        "data_estreia": "2025-03-10"
     },
     {
-        "titulo": "A Melhor Escolha de Todos os Tempos",
-        "titulo_original": "承欢记",
-        "id": "232948",
-        "capa": "https://image.tmdb.org/t/p/w500/6Q3Y4uWj0tZo2SHlI1XMwIm8AtS.jpg",
+        "titulo": "Meu Secretário Perfeito",
+        "titulo_original": "나의 완벽한 비서",
+        "id": "233100",
+        "capa": "https://image.tmdb.org/t/p/w500/4mXngCm1HA33JN5sEN4k8F2co3a.jpg",
         "qualidade": "HD",
-        "descricao": "Mai Chenghuan, uma garota pós-95 nascida em uma família comum em Xangai, propôs casamento a seu namorado, Xin Jialiang, a pedido de sua mãe, Liu Wanyu. No entanto, as condições econômicas favoráveis ​​da família Xin tornaram esse relacionamento emocional originalmente igualitário desequilibrado.",
+        "descricao": "O dorama que acompanha Kang Ji Yun, uma CEO confiante e bem-sucedida de uma empresa de caça-talentos. Apesar de sua competência profissional, Ji Yun é desorganizada em sua vida pessoal. Seu secretário, Yu Eun Ho, é um profissional eficiente e pai solteiro de uma criança de seis anos, que a auxilia nas tarefas cotidianas.",
         "generos": [
             "Drama",
-            "Família"
-        ]
+            "Comédia"
+        ],
+        "data_estreia": "2025-01-03"
     },
     {
-        "titulo": "Tão linda quanto você",
-        "titulo_original": "你比星光美丽",
-        "id": "219915",
-        "capa": "https://image.tmdb.org/t/p/w500/AfGGg5GUvszIOzNi8oqRBR92FNB.jpg",
+        "titulo": "Pergunte às Estrelas",
+        "titulo_original": "별들에게 물어봐",
+        "id": "154822",
+        "capa": "https://image.tmdb.org/t/p/w500/jO8eCh0rLGQj7c1TwHqcCAvJegD.jpg",
         "qualidade": "HD",
-        "descricao": "Ji Xing, um talento técnico que trabalha diligentemente em uma empresa de tecnologia, renunciou resolutamente para realizar seu sonho e embarcou no caminho do empreendedorismo. A equipe formada por Ji Xing e seu irmão mais novo estava em perigo no início do negócio. Quando não havia esperança, Ji Xing ganhou o apoio de Han Ting, presidente da Dongyang Technology, com suas percepções únicas. Com o investimento de Han Ting, a startup Xingchen finalmente está no caminho certo. Mas Ji Xing 'perdeu' seu primeiro namorado, por quem ela estava apaixonada há sete anos. As dificuldades de abrir um negócio e a dor de romper com seu amor quase a destruíram. Felizmente, ela tem a proteção próxima do grupo irmão.",
+        "descricao": "De dois mundos diferentes e com missões separadas, uma astronauta e um turista na mesma estação espacial acabam se apaixonando.",
+        "generos": [
+            "Comédia",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "data_estreia": "2025-01-04"
+    },
+     {
+        "titulo": "A Grande Descoberta",
+        "titulo_original": "Genombrottet",
+        "id": "279283",
+        "capa": "https://image.tmdb.org/t/p/w500/xMuTaOGVjXcBIa7etcw4abudbjZ.jpg",
+        "qualidade": "HD",
+        "descricao": "Com um duplo homicídio sem solução por 16 anos, um detetive e um genealogista decidem trabalhar juntos para pegar o assassino antes que o caso seja arquivado.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ],
+        "data_estreia": "2025-01-07"
+    },
+     {
+        "titulo": "Paradise",
+        "titulo_original": "Paradise",
+        "id": "245927",
+        "capa": "https://image.tmdb.org/t/p/w500/wWoZDnP8eu4bpEnKF0WQ6VNF2j4.jpg",
+        "qualidade": "HD",
+        "descricao": "Se passa em uma comunidade idílica habitada por alguns dos indivíduos mais proeminentes do mundo. Mas um assassinato chocante acaba com essa tranquilidade, desencadeando uma investigação de alto risco.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ],
+        "data_estreia": "2025-01-26"
+    },
+    {
+        "titulo": "Heróis de Plantão",
+        "titulo_original": "중증외상센터",
+        "id": "217553",
+        "capa": "https://image.tmdb.org/t/p/w500/7Y2oM2Zleve7FosmsfRDzlIKdpQ.jpg",
+        "qualidade": "HD",
+        "descricao": "Buscando criar um centro de traumatologia de alto nível, um médico veterano de guerra usa suas habilidades e seu jeitão direto para ensinar a equipe a salvar vidas.",
         "generos": [
             "Drama"
-        ]
+        ],
+        "data_estreia": "2025-01-24"
     },
     {
-        "titulo": "Kakegurui: Bet",
-        "titulo_original": "Bet",
-        "id": "255779",
-        "capa": "https://image.tmdb.org/t/p/w500/1nKWzNyU0Pt18bQOTyJ9IOUVxK6.jpg",
+        "titulo": "Beleza Fatal",
+        "titulo_original": "Beleza Fatal",
+        "id": "158596",
+        "capa": "https://image.tmdb.org/t/p/w500/gnqG5Ou3esy5OkhEK5w42vdaq9I.jpg",
         "qualidade": "HD",
-        "descricao": "Em uma escola particular em que apostas determinam o status social, uma nova aluna habilidosa com um passado misterioso está virando o jogo e apostando na vingança.",
+        "descricao": "Uma jovem órfã e sua nova família se unem em uma busca de vingança contra os responsáveis por suas tragédias pessoais.",
+        "generos": [
+            "Soap",
+            "Drama",
+            "Mistério",
+            "Crime"
+        ],
+        "data_estreia": "2025-01-27"
+    },
+    {
+        "titulo": "Hooligan",
+        "titulo_original": "Kibic",
+        "id": "280872",
+        "capa": "https://image.tmdb.org/t/p/w500/qVjcFke33khnnewk50c5ZCqUvGG.jpg",
+        "qualidade": "HD",
+        "descricao": "Para o jovem Kuba, de 17 anos, é difícil não seguir os passos do pai, um hooligan que acabou de sair da cadeia. Afinal, futebol é família.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ],
+        "data_estreia": "2025-01-29"
+    },
+     {
+        "titulo": "Chespirito: Sem Querer Querendo",
+        "titulo_original": "Chespirito: Sin querer queriendo",
+        "id": "279060",
+        "capa": "https://image.tmdb.org/t/p/w500/92o8RbmUmb0iRxslTaKOKf8L5rt.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma jornada pela ascensão à fama do Roberto Gómez Bolaños, mais conhecido como Chespirito, o artista que criou os personagens icônicos “Chaves”, “Chapolin” e muitas outras histórias e bordões que conquistaram o coração de milhões.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ],
+        "data_estreia": "2025-06-05"
+    },
+    {
+        "titulo": "Baylen: Uma Vida sem Filtro",
+        "titulo_original": "Baylen Out Loud",
+        "id": "279644",
+        "capa": "https://image.tmdb.org/t/p/w500/s6WmXso7NHPl3IVvaSSUGSOD5iv.jpg",
+        "qualidade": "HD",
+        "descricao": "Acompanhe a jornada de Baylen Dupree, uma jovem que vive com a Síndrome de Tourette. Apesar dos desafios diários, Baylen, sua família e seu namorado de longa data não têm medo de rir e abraçar o caos que torna seu dia a dia único.",
+        "generos": [
+            "Reality"
+        ],
+        "data_estreia": "2025-01-13"
+    },
+    {
+        "titulo": "Sara: A Mulher nas Sombras",
+        "titulo_original": "Sara - La donna nell'ombra",
+        "id": "291256",
+        "capa": "https://image.tmdb.org/t/p/w500/dmEXwLTDQXQ1QRc6VqvNEFUotZf.jpg",
+        "qualidade": "HD",
+        "descricao": "A morte suspeita do filho leva uma ex-agente secreta a voltar à ativa, investigando uma série de crimes que ficam cada vez mais sinistros.",
+        "generos": [
+            "Mistério",
+            "Drama",
+            "Crime"
+        ],
+        "data_estreia": "2025-06-03"
+    },
+    {
+        "titulo": "Grandes Jogadas com Shaquille O'Neal",
+        "titulo_original": "Power Moves with Shaquille O'Neal",
+        "id": "290865",
+        "capa": "https://image.tmdb.org/t/p/w500/9IiWveIRCxNZ1nlw7rhkruS57md.jpg",
+        "qualidade": "HD",
+        "descricao": "Nesta série documental, as lendas da NBA Shaquille O'Neal e Allen Iverson tentam reviver o legado da Reebok e encontrar uma estrela em ascensão para representar a marca.",
+        "generos": [
+            "Documentário"
+        ],
+        "data_estreia": "2025-06-04"
+    },
+    {
+        "titulo": "Sem Piedade",
+        "titulo_original": "광장",
+        "id": "232766",
+        "capa": "https://image.tmdb.org/t/p/w500/esS8EbjU3i7N40cemWIeM20Tzn8.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois de sair de sua gangue, um ex-criminoso volta para descobrir a verdade por trás da morte do irmão, embarcando em uma jornada de vingança incansável.",
+        "generos": [
+            "Action & Adventure"
+        ],
+        "data_estreia": "2025-06-06"
+    },
+    {
+        "titulo": "Sobreviventes",
+        "titulo_original": "The Survivors",
+        "id": "284605",
+        "capa": "https://image.tmdb.org/t/p/w500/4oDFJSrlvhO09ggCLKbf1zOXBX2.jpg",
+        "qualidade": "HD",
+        "descricao": "Há quinze anos, uma tragédia envolvendo três jovens abalou uma pacata cidade. Agora, a morte misteriosa de uma mulher relembra um passado que todos preferiam esquecer.",
         "generos": [
             "Drama",
             "Mistério"
-        ]
+        ],
+        "data_estreia": "2025-06-06"
     },
     {
-        "titulo": "Cursed - A Maldição da Familia Bell",
-        "titulo_original": "Cursed: The Bell Witch",
-        "id": "73403",
-        "capa": "https://image.tmdb.org/t/p/w500/p1xf9umK2w9zKtGrbfvlIpBykYi.jpg",
+        "titulo": "GOLPE ROMÂNTICO: Quem é Jason Porter, p***a?",
+        "titulo_original": "ROMCON: Who the F**k Is Jason Porter?",
+        "id": "281984",
+        "capa": "https://image.tmdb.org/t/p/w500/sbQnuOMvAsfR5kKUN9Ov5DAYaSc.jpg",
         "qualidade": "HD",
-        "descricao": "A Maldição da Família Bell (Cursed: The Bell Witch), minissérie original que acompanha a jornada pessoal de John Ceallach, um descendente direto da Maldição da Família Bell, uma das histórias de fantasmas mais antigas e lendárias dos Estados Unidos. Ceallach acredita que essa maldição tem atravessado várias gerações de sua família e ele agora está na caçada para reverter os acontecimentos, antes que eles atinjam seu único filho",
-        "generos": []
-    },
-    {
-        "titulo": "Cidades Ocultas",
-        "titulo_original": "Cities of the Underworld",
-        "id": "3675",
-        "capa": "https://image.tmdb.org/t/p/w500/sNAyZrhHZvOfrI39iS7cPutOuVe.jpg",
-        "qualidade": "HD",
-        "descricao": "Don Wildman viaja para os confins e profundos recantos do globo, usando tecnologia de ponta para explorar mistérios enterrados nas profundezas do solo.",
+        "descricao": "Um documentário arrebatador revela como o romance perfeito da corretora de imóveis Heather Rovet com “Jace” desmoronou ao descobrir que ele era Jason Porter, um criminoso condenado com histórico de golpes românticos. Ao entrar em contato com outras vítimas, Heather se transforma de amante desiludida a investigadora determinada, arriscando tudo para expor o padrão de manipulação e buscar justiça.",
         "generos": [
             "Documentário"
-        ]
+        ],
+        "data_estreia": "2025-06-13"
     },
     {
-        "titulo": "As Filhas da Seita: Uma História de Abusos",
-        "titulo_original": "Children of the Cult",
-        "id": "130381",
-        "capa": "https://image.tmdb.org/t/p/w500/tK4BzoV4nSa2kGYErFympltp26U.jpg",
+        "titulo": "UM BOM GAROTO",
+        "titulo_original": "굿보이",
+        "id": "231280",
+        "capa": "https://image.tmdb.org/t/p/w500/xNge2upiP2FLppTyKhouT7Gbm1y.jpg",
         "qualidade": "HD",
-        "descricao": "Esta série documental em cinco episódios relata os horrores vividos por três mulheres que nasceram em uma seita. Cobrindo 50 anos, essa é uma história épica que envolve lavagem cerebral, abusos sexuais, suicídios e assassinatos.",
+        "descricao": "Onze anos depois, a polícia retoma o recrutamento de ex-atletas. Antes vistos como heróis, esses medalhistas agora enfrentam a dura realidade. Apesar das dívidas, das tragédias inesperadas e do preconceito na corporação, os atletas, cada um com sua história, montam uma força-tarefa especial para combater crimes hediondos com o ímpeto e as habilidades que os moldaram no esporte.",
         "generos": [
-            "Documentário",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "Armadilha do Amor",
-        "titulo_original": "Afili Aşk",
-        "id": "89671",
-        "capa": "https://image.tmdb.org/t/p/w500/3mmQtKizYKbQCIWq1K76HV1Iort.jpg",
-        "qualidade": "HD",
-        "descricao": "Kerem é um mulherengo e Ayse é uma trabalhadora que tem o futuro controlado pelos irmãos. Cansada dessa vida, Ayse prepara uma armadilha que pode transformar o futuro dos dois.",
-        "generos": [
+            "Crime",
             "Comédia",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Uma História de Amor",
-        "titulo_original": "Bir Aşk Hikayesi",
-        "id": "87175",
-        "capa": "https://image.tmdb.org/t/p/w500/5sFowWTm764RVEo5DtyXkHQCkYn.jpg",
-        "qualidade": "HD",
-        "descricao": "Korkut Ali é um cara jovem e bonito que leva uma vida ruim na Alemanha. Ele foi abandonado pelos pais quando criança e foi adotado por um casal na Alemanha. No entanto, ele foi deixado sozinho por sua família adotiva. Ceylan, por outro lado, é uma jovem bonita e ingênua que mora em Istambul, na Turquia. Ela é estilista de uma cantora famosa, Tolga, por quem está apaixonada. Em uma cerimônia de casamento, Korkut leva um tiro na cabeça. O médico o salva, mas Korkut tem que viver com uma bala na cabeça com menos de um ano de vida. Após este infeliz acontecimento, Korkut vai para Istambul em busca de seus pais biológicos. Ele descobre que sua mãe é uma cantora famosa Gonul Karanli com um filho, Tolga. Korkut se sente tão traído que sua mãe biológica e seu irmão vivem uma vida feliz em Istambul. Korkut esquecerá seu passado e viverá o resto de sua vida em paz? Ceylan conseguirá trazer felicidade para Korkut? Korkut vai se vingar de sua mãe e de seu irmão?",
-        "generos": [
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Amor Além do Tempo",
-        "titulo_original": "Veda Mektubu",
-        "id": "221244",
-        "capa": "https://image.tmdb.org/t/p/w500/xWsCyt4hrJNZkS94DtUHk0FGQHa.jpg",
-        "qualidade": "HD",
-        "descricao": "",
-        "generos": [
-            "Drama",
-            "Família"
-        ]
-    },
-    {
-        "titulo": "Medusa",
-        "titulo_original": "Medusa",
-        "id": "284792",
-        "capa": "https://image.tmdb.org/t/p/w500/mFsjwJdNBKDRYLqPdBFaoVCKXLq.jpg",
-        "qualidade": "HD",
-        "descricao": "Alguém está tentando matar a CEO Bárbara Hidalgo. Será que ela consegue encontrar o responsável enquanto a família tenta assumir o controle de seu império na Colômbia?",
-        "generos": [
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Bad Boy",
-        "titulo_original": "Bad Boy",
-        "id": "234034",
-        "capa": "https://image.tmdb.org/t/p/w500/rnojt7Kg5S6iTBUDvOpFt8QsCcI.jpg",
-        "qualidade": "HD",
-        "descricao": "Nesta série sobre amadurecimento inspirada em eventos reais, um comediante conta como sobreviveu a um violento abrigo de reabilitação juvenil graças ao humor.",
-        "generos": [
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "De Férias com o Ex: América Latina",
-        "titulo_original": "La Venganza de los Ex VIP",
-        "id": "220586",
-        "capa": "https://image.tmdb.org/t/p/w500/fEzf5J6bSpEE6G5FwlRQDFFaty3.jpg",
-        "qualidade": "HD",
-        "descricao": "Reúne 10 influenciadores solteiros que vão de férias ao paraíso, mas tudo se distorce quando o Tablet do Terror soa e anuncia a chegada de seus EXs.",
-        "generos": [
-            "Reality"
-        ]
-    },
-    {
-        "titulo": "Cilada",
-        "titulo_original": "Atrapados",
-        "id": "250312",
-        "capa": "https://image.tmdb.org/t/p/w500/7i5Ou6tEEDiRHMFpkLdf8YoEdn3.jpg",
-        "qualidade": "HD",
-        "descricao": "Famosa por desmascarar criminosos, a jornalista Ema Garay enfrenta um dilema ao descobrir que o suspeito do desaparecimento de uma adolescente é uma pessoa bem próxima.",
-        "generos": [
-            "Drama",
-            "Crime"
-        ]
-    },
-    {
-        "titulo": "A Paixão",
-        "titulo_original": "The Passion",
-        "id": "14180",
-        "capa": "https://image.tmdb.org/t/p/w500/guLMiDaIirghovNwVSCB7P8Sm6w.jpg",
-        "qualidade": "HD",
-        "descricao": "Jesus é tirado da cruz e enterrado. Os discípulos se escondem. Temendo que o corpo seja roubado, Caifás ordena que a tumba seja vigiada. Mas, quando Maria Madalena descobre o sepulcro vazio, uma cadeia de eventos muda a vida dos discípulos.",
-        "generos": [
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "As Aventuras de Merlin",
-        "titulo_original": "Merlin",
-        "id": "7225",
-        "capa": "https://image.tmdb.org/t/p/w500/8eR5Jg7CxsuCOEBU5wW0opObxpi.jpg",
-        "qualidade": "HD",
-        "descricao": "Esse drama dividido em 13 partes joga novas luzes sobre a história do  famoso mago Merlin. Na mítica Camelot, a série segue o jovem Merlin em  sua perigosa jornada de aprendizado, em que se vê frente a frente com  personagens lendários e fantásticos.",
-        "generos": [
             "Action & Adventure",
             "Drama"
-        ]
+        ],
+        "data_estreia": "2025-05-31"
     },
     {
-        "titulo": "Franklin",
-        "titulo_original": "فرانكلين",
-        "id": "288913",
-        "capa": "https://image.tmdb.org/t/p/w500/fsakdwprdmsRPjzPB1aSyo5hQ56.jpg",
+        "titulo": "Mentiras, a Série",
+        "titulo_original": "Mentiras, La Serie",
+        "id": "290321",
+        "capa": "https://image.tmdb.org/t/p/w500/lSauolGT9Ku5nx9R1emFB9DGsDF.jpg",
         "qualidade": "HD",
-        "descricao": "Um falsário e pai solo precisa trabalhar com a ex para fabricar a nota de 100 dólares perfeita, tudo para evitar a morte da filha.",
+        "descricao": "Após descobrirem que Emmanuel Mijares está morto, Daniela, Dulce, Yuri e Lupita são chamadas a uma mansão misteriosa. Forçadas a interagir, as tensões entre elas se intensificam rapidamente, e as mentiras que elas escondem há anos vêm à tona. Mas, aos poucos, essas mulheres começam a se questionar, a refletir e a perceber que têm muito mais em comum do que jamais imaginaram.",
+        "generos": [
+            "Comédia",
+            "Soap"
+        ],
+        "data_estreia": "2025-06-13"
+    },
+    {
+        "titulo": "Mentirosos",
+        "titulo_original": "We Were Liars",
+        "id": "215522",
+        "capa": "https://image.tmdb.org/t/p/w500/cLwxFcO4pyji3YwkKBnM42a0yQf.jpg",
+        "qualidade": "HD",
+        "descricao": "Um ano após o misterioso acidente que a deixou com amnésia, Cadence, de 17 anos, volta à Ilha Beechwood, perto de Martha's Vineyard, em busca de respostas. Três gerações da distinta família Sinclair se reúnem em sua utopia de verão privada, e ninguém fala sobre o acidente, nem seus amigos de infância, \"Os Mentirosos\", nem seu primeiro amor, Gat, forçando-a a desvendar a verdade sozinha.",
+        "generos": [
+            "Mistério"
+        ],
+        "data_estreia": "2025-06-18"
+    },
+    {
+        "titulo": "Contagem Regressiva",
+        "titulo_original": "Countdown",
+        "id": "256317",
+        "capa": "https://image.tmdb.org/t/p/w500/o67cJGmKTs2B5Qr6wzdPod9f1Dz.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando um agente do Departamento de Segurança Nacional é morto à luz do dia, o detetive da Polícia de Los Angeles Mark Meachum é recrutado para uma força-tarefa com agentes disfarçados de todas as agências de segurança para investigar. Mas a caçada ao assassino revela uma trama mais sinistra do que todos poderiam imaginar, dando início a uma corrida contra o tempo para salvar uma cidade inteira.",
+        "generos": [
+            "Drama",
+            "Crime",
+            "Mistério"
+        ],
+        "data_estreia": "2025-06-25"
+    },
+    {
+        "titulo": "Stick",
+        "titulo_original": "Stick",
+        "id": "248830",
+        "capa": "https://image.tmdb.org/t/p/w500/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
+        "qualidade": "HD",
+        "descricao": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
+        "generos": [
+            "Comédia"
+        ],
+        "data_estreia": "2025-06-03"
+    },
+    {
+        "titulo": "Cortina de Fumaça",
+        "titulo_original": "Smoke",
+        "id": "215995",
+        "capa": "https://image.tmdb.org/t/p/w500/dkxMAOiRz1zjlgFAMc3P72xSB3u.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando um investigador de incêndios se une, contra a vontade, com uma detetive, a corrida para deter dois incendiários dá início a um jogo perverso de segredos e suspeitas.",
         "generos": [
             "Drama",
             "Crime"
-        ]
+        ],
+        "data_estreia": "2025-06-26"
     },
     {
-        "titulo": "Bad Thoughts",
-        "titulo_original": "Bad Thoughts",
-        "id": "251608",
-        "capa": "https://image.tmdb.org/t/p/w500/cJ7vfXF3V8yCPou7Z5FCT3Tx6Pn.jpg",
+        "titulo": "Coração de Ferro",
+        "titulo_original": "Ironheart",
+        "id": "114471",
+        "capa": "https://image.tmdb.org/t/p/w500/xrGttFuJt5dTlKKa0IcZPpYq249.jpg",
         "qualidade": "HD",
-        "descricao": "Uma coletânea de histórias perturbadoramente hilárias que desafiam os limites da compostura, de um jeito que só Tom Segura poderia imaginar.",
+        "descricao": "Ambientada após os acontecimentos de Pantera Negra: Wakanda Para Sempre, Coração de Ferro coloca a tecnologia contra a magia quando Riri, uma jovem inventora determinada a deixar sua marca no mundo, retorna à sua cidade natal, Chicago. Sua abordagem única para construir armaduras de ferro é brilhante, mas, na busca de suas ambições, ela se envolve com o misterioso e encantador Parker Robbins, também conhecido como \"O Capuz\".",
         "generos": [
-            "Comédia"
-        ]
+            "Sci-Fi & Fantasy",
+            "Crime"
+        ],
+        "data_estreia": "2025-06-24"
     },
     {
-        "titulo": "Despercebida",
-        "titulo_original": "Unseen",
-        "id": "220932",
-        "capa": "https://image.tmdb.org/t/p/w500/xdua55TZuk0pAQebhTWwjDJ22st.jpg",
+        "titulo": "Aniela",
+        "titulo_original": "Aniela",
+        "id": "288915",
+        "capa": "https://image.tmdb.org/t/p/w500/dcQsD6mUUchYQ0OCFUE6pnTp5xR.jpg",
         "qualidade": "HD",
-        "descricao": "Em uma busca desesperada pelo marido, uma faxineira se vê no meio de impensadas conspirações criminosas e é forçada a encarar as tragédias de seu passado.",
+        "descricao": "Depois que o marido rico a deixa sem nada, uma socialite de Varsóvia precisa usar a única ferramenta que lhe restou para sobreviver: a inteligência.",
         "generos": [
-            "Crime",
+            "Comédia",
             "Drama"
-        ]
+        ],
+        "data_estreia": "2025-06-11"
+    },
+    {
+        "titulo": "A Funerária: Dinheiro e Cinzas",
+        "titulo_original": "The Mortician",
+        "id": "291926",
+        "capa": "https://image.tmdb.org/t/p/w500/tPaSPqAEnBezwNOUYyhH3iVPsJF.jpg",
+        "qualidade": "HD",
+        "descricao": "Conta a história sombria de uma infame funerária familiar de Los Angeles que, durante anos, se envolveu em práticas moralmente questionáveis e desumanas, incluindo cremações em massa e roubo de mortos.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ],
+        "data_estreia": "2025-06-01"
+    },
+    {
+        "titulo": "Homicídio nos EUA: Gabby Petito",
+        "titulo_original": "American Murder: Gabby Petito",
+        "id": "283197",
+        "capa": "https://image.tmdb.org/t/p/w500/3W8cNeTeurC0My9pM5ufyxdy0OI.jpg",
+        "qualidade": "HD",
+        "descricao": "O que aconteceu nos dias finais de Gabby Petito? Nesta série emocionante sobre um crime real, amigos e familiares revelam a história de seu trágico assassinato.",
+        "generos": [
+            "Documentário",
+            "Crime"
+        ],
+        "data_estreia": "2025-02-17"
     }
 ]
 

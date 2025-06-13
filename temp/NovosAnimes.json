@@ -1,16 +1,4 @@
 [
-{
-        "titulo": "INVENCÍVEL",
-        "titulo_original": "INVINCIBLE",
-        "id": "95557",
-        "capa": "https://image.tmdb.org/t/p/w500/29myVHhdGoS735ZJ9hblY0pQ3K9.jpg",
-        "qualidade": "HD",
-        "descricao": "Uma animação de super-heróis para adultos e conta a história de Mark Grayson, de 17 anos, um cara como qualquer outro de sua idade, exceto que seu pai é o super-herói mais poderoso do planeta, Omni-Man. Porém, à medida que Mark desenvolve seus próprios poderes, ele descobre que o legado de seu pai pode não ser tão heroico quanto parece.",
-        "generos": [
-            "Animação",
-            "Sci-Fi & Fantasy"
-        ]
-    },
      {
         "titulo": "Capitão Laserhawk: Remix Blood Dragon",
         "titulo_original": "Captain Laserhawk: A Blood Dragon Remix",
@@ -20,209 +8,511 @@
         "descricao": "Considerado inimigo do Estado, um supersoldado ciborgue tenta encontrar uma causa para lutar em meio a uma sociedade distópica cheia de segredos e mentiras.",
         "generos": [
             "Animação",
-            "Action & Adventure"
-        ]
+            "Action & Adventure",
+            "Sci-Fi & Fantasy",
+            "Comédia",
+            "Drama"
+        ],
+        "data_estreia": "2023-10-19",
+        "original_language": "en"
+    },
+       {
+        "titulo": "Re:Zero kara Hajimeru Isekai Seikatsu",
+        "titulo_original": "Re:ゼロから始める異世界生活",
+        "id": "103201",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21355-wRVUrGxpvIQQ.jpg",
+        "qualidade": "HD",
+        "descricao": "In the story, Subaru Natsuki is an ordinary high school student who is lost in an alternate world, where he is rescued by a beautiful, silver-haired girl. He stays near her to return the favor, but the destiny she is burdened with is more than Subaru can imagine. Enemies attack one by one, and both of them are killed. He then finds out he has the power to rewind death, back to the time he first came to this world. But only he remembers what has happened since. \n \n(Source: Anime News Network)\n  \nNotes: \n- The first episode aired with a runtime of ~50 minutes as opposed to the standard 25 minute long episode. \n- In the Winter 2020 season, Re:ZERO was rebroadcast and re-edited to fit into an hour time-slot. This edit included the first OVA and added slight modifications to certain scenes throughout. It also added an additional scene at the end of the final episode.",
+        "generos": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Psychological",
+            "Romance",
+            "Thriller",
+            "Time Manipulation",
+            "Isekai",
+            "Time Loop"
+        ],
+        "data_estreia": "2016-04-04"
+    },
+    {
+        "titulo": "Boku no Hero Academia",
+        "titulo_original": "僕のヒーローアカデミア",
+        "id": "65930",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21459-nYh85uj2Fuwr.jpg",
+        "qualidade": "HD",
+        "descricao": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where would you go to study? U.A. High's Hero Program of course! But what would you do if you were one of the 20 percent who were born Quirkless?  \n\nMiddle school student Izuku Midoriya wants to be a hero more than anything, but he hasn't got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end. Then an encounter with All Might, the greatest hero of them all gives him a chance to change his destiny…  \n\n(Source: Viz Media)",
+        "generos": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Super Power",
+            "Superhero",
+            "Shounen"
+        ],
+        "data_estreia": "2016-04-03"
+    },
+    {
+        "titulo": "Vigilante: Boku no Hero Academia ILLEGALS",
+        "titulo_original": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS-",
+        "id": "280110",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185736-Ci6AiGwjKKtp.jpg",
+        "qualidade": "HD",
+        "descricao": "Kouichi Haimawari is a dull college student who aspires to be a hero but has given up on his dream. Although 80% of the world’s population has superhuman powers called Quirks, few are chosen to become heroes and protect people. Everything changes for Kouichi when he and Pop☆Step are saved by the vigilante Knuckleduster and get recruited to become vigilantes themselves!\n  \n(Source: Crunchyroll) ",
+        "generos": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Urban",
+            "Super Power",
+            "Superhero"
+        ],
+        "data_estreia": "2025-04-07"
+    },
+    {
+        "titulo": "Isekai Quartet",
+        "titulo_original": "異世界かるてっと",
+        "id": "87478",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104454-pH5YCR7HteqP.jpg",
+        "qualidade": "HD",
+        "descricao": "The button appeared out of nowhere. There weren't any signs NOT to push it... so the solution is obvious, right? Is it a trap or the start of something new and exciting? The crews of Re:Zero, Overlord, Konosuba, and The Saga of Tanya the Evil will find out when they go from their world to another and get stuck in... class?! See what adorable chaos they'll get up to in this collection of shorts!\n  \n(Source: Funimation)",
+        "generos": [
+            "Comedy",
+            "Fantasy",
+            "Slice of Life",
+            "Crossover",
+            "Isekai",
+            "Chibi"
+        ],
+        "data_estreia": "2019-04-10"
+    },
+    {
+        "titulo": "Overlord",
+        "titulo_original": "オーバーロード",
+        "id": "64196",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20832-vUNm5zrYWifc.jpg",
+        "qualidade": "HD",
+        "descricao": "The story takes place in the year 2138 when virtual reality gaming is booming. Yggdrasil, a popular online game is quietly shut down one day. However, the protagonist Momonga decides to not log out. Momonga is then transformed into the image of a skeleton as \"the most powerful wizard.\" The world continues to change, with non-player characters (NPCs) beginning to feel emotion. Having no parents, friends, or place in society, this ordinary young man Momonga then strives to take over the new world the game has become. \n \n(Source: Anime News Network)",
+        "generos": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Isekai",
+            "Anti-Hero",
+            "Skeleton"
+        ],
+        "data_estreia": "2015-07-07"
+    },
+    {
+        "titulo": "Eromanga Sensei",
+        "titulo_original": "エロマンガ先生",
+        "id": "70878",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21685-h1SrcpaNnrIq.jpg",
+        "qualidade": "HD",
+        "descricao": "The \"new sibling romantic comedy\" revolves around Masamune Izumi, a light novel author in high school. Masamune's little sister is Sagiri, a shut-in girl who hasn't left her room for an entire year. She even forces her brother to make and bring her meals when she stomps the floor. Masamune wants his sister to leave her room, because the two of them are each other's only family. \n \nMasamune's novel illustrator, penname “Ero Manga Sensei,” draws extremely perverted drawings, and is very reliable. Masamune had never met his illustrator, and figured he was just a disgusting, perverted otaku. However, the truth is revealed … that his “Ero Manga Sensei” is his own younger sister! To add to the chaos that erupts between the siblings, a beautiful, female, best-selling shoujo manga creator becomes their rival! \n \n(Source: Anime News Network)",
+        "generos": [
+            "Comedy",
+            "Drama",
+            "Ecchi",
+            "Romance",
+            "Slice of Life",
+            "Inseki",
+            "Primarily Child Cast",
+            "Writing"
+        ],
+        "data_estreia": "2017-04-09"
     },
      {
-        "titulo": "Cyberpunk: Mercenários",
-        "titulo_original": "サイバーパンク: エッジランナーズ",
-        "id": "105248",
-        "capa": "https://image.tmdb.org/t/p/w500/nWvAY8yHE873adMws83XqBPf7W2.jpg",
+        "titulo": "SAKAMOTO DAYS",
+        "titulo_original": "SAKAMOTO DAYS",
+        "id": "207332",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177709-e5Qx6RlsBgD5.png",
         "qualidade": "HD",
-        "descricao": "Para sobreviver em uma realidade distópica na qual a corrupção e os implantes cibernéticos controlam tudo, um jovem talentoso e impulsivo decide se tornar um mercenário.",
+        "descricao": "When Sakamoto meets Aoi, the convenience store clerk, it’s love at first sight — and just like that, he retires.\n  \nSakamoto gets married, has a daughter, opens a mom-and-pop store in a quiet town, and completely transforms … into a plus-size man. To ensure a peaceful life with his beloved family, the legendary ex–hit man bands together with comrades to face off against the looming threat of assassins.\n  \n(Source: Netflix TUDUM)\n  \nNote: The series is streaming a week in advance on Netflix Japan starting with episode 2 released alongside episode 1.",
         "generos": [
-            "Action & Adventure",
-            "Animação"
-        ]
+            "Action",
+            "Comedy",
+            "Urban",
+            "Assassins",
+            "Found Family"
+        ],
+        "data_estreia": "2025-01-11"
+    },
+     {
+        "titulo": "#Compass 2.0－Sentou Setsuri Kaiseki System",
+        "titulo_original": "#コンパス2.0 戦闘摂理解析システム",
+        "id": "215615",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158287-4RDt0M820Ays.jpg",
+        "qualidade": "HD",
+        "descricao": "In the combat providence analysis system, “COMPASS2.0,” heroes gather alongside human partners in a dreamlike space. The heroes have to keep fighting to produce enough energy to keep the system running. One hero named 13 is a troublemaker who refuses to find a partner. When 13 is nearly kicked out, a new player named Jin agrees to join him. Can they bring peace to the world of #COMPASS2.0?  \n\n(Source: Crunchyroll)  \nNote: A new animation project based on the #Compass Sentou Setsuri Kaiseki System game, announced at the sixth #Compass fes.",
+        "generos": [
+            "Action",
+            "Sci-Fi",
+            "Virtual World",
+            "Vocal Synth",
+            "Video Games"
+        ],
+        "data_estreia": "2025-04-08"
     },
     {
-        "titulo": "Re:ZERO -Starting Life in Another World-",
-        "titulo_original": "Re:ゼロから始める異世界生活",
-        "id": "65942",
-        "capa": "https://image.tmdb.org/t/p/w500/ccG0ZfXOQ0834bIus4SwZrXtkyM.jpg",
+        "titulo": "Summer Pockets",
+        "titulo_original": "Summer Pockets",
+        "id": "271576",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143200-42OaDCS6VEy3.png",
         "qualidade": "HD",
-        "descricao": "Natsuki Subaru, um adolescente comum, conhece uma linda garota de cabelos prateados vinda de outro mundo. Subaru quer ficar ao lado dela, mas o fardo que ela carrega é maior do que Subaru pode imaginar. Eles enfrentam o feroz ataque de monstros, traições, violência irracional... e, por fim, a morte. Subaru promete derrotar qualquer inimigo, qualquer destino, tudo para protegê-la. E assim, o pobre garoto sem poder algum obtém o \"Retorno da Morte\", uma habilidade única que permite ao usuário voltar no tempo ao morrer. Usando esse poder, o passado é perdido e as memórias são reescritas.",
+        "descricao": "Takahara Hairi never expected summer to feel like a dream. Sent to Torishirojima Island to sort through his late grandmother’s belongings, he’s met with endless sea, quiet nostalgia, and mysterious girls, each chasing something just out of reach. As he settles into island life, lost memories begin to surface and he finds what he never knew he’d lost.  \n\n(Source: Crunchyroll)",
+        "generos": [
+            "Drama",
+            "Romance",
+            "Slice of Life",
+            "Supernatural",
+            "Tragedy",
+            "Rural",
+            "Urban Fantasy"
+        ],
+        "data_estreia": "2025-04-07"
+    },
+     {
+        "titulo": "Haite Kudasai, Takamine-san",
+        "titulo_original": "履いてください、鷹峰さん",
+        "id": "276880",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179965-EwqzG3xSyxwc.jpg",
+        "qualidade": "HD",
+        "descricao": "Takane Takamine is the goddess of her high school. With perfect grades, athletic prowess, and unrivaled beauty, this student council president is the apple of everyone's eye-including Koushi Shirota, a below-average student with no friends or social prospects whatsoever. But he'll soon find out the secret behind Takamine's unbelievable success-her underwear! When she strips, she can undo any of her past actions, and now that Koushi knows, Takamine won't let him off so easy...  \n\n(Source: Yen Press)",
+        "generos": [
+            "Comedy",
+            "Ecchi",
+            "Romance",
+            "Slice of Life",
+            "Femdom",
+            "Nudity",
+            "Heterosexual"
+        ],
+        "data_estreia": "2025-04-02"
+    },
+    {
+        "titulo": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
+        "titulo_original": "ゴリラの神から加護された令嬢は王立騎士団で可愛がられる",
+        "id": "278816",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182060-r0ihNqhiyvpT.jpg",
+        "qualidade": "HD",
+        "descricao": "Sophia, a timid daughter of a count, just wanted a peaceful life, but the Gorilla God had other plans. Blessed with unmatched strength, she’s thrust into the Royal Knight Order, turning her quiet days into chaos. Now, she must juggle school, the knight life, and her overwhelming power. Who knew gorilla strength could be so complicated?  \n\n(Source: Crunchyroll)",
+        "generos": [
+            "Comedy",
+            "Fantasy",
+            "Romance",
+            "Female Protagonist",
+            "Male Harem",
+            "Shoujo"
+        ],
+        "data_estreia": "2025-04-06"
+    },
+    {
+        "titulo": "Kimi to Idol Precure♪",
+        "titulo_original": "キミとアイドルプリキュア♪",
+        "id": "278378",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185073-m4QzzXcEqmvb.png",
+        "qualidade": "HD",
+        "descricao": "The main character, Sakura Uta, is a second-year middle school student who loves to sing. One day, she meets the fairy Purirun that has come to search for the Legendary Protectors, Idol Precure! Purirun's hometown, KirakiLand has been plunged into total darkness by Darkine, the boss of the Chokkiri Gang. Meanwhile, the sparkles of the townspeople are being stolen by the Chokkiri Gang... it's a huge pinch! \n\"I want to make it sparkle sparkly! Here is my song!\" - With this determination, Uta transforms into the Legendary Protector, Cure Idol! She sings, dances, and gives fan service, making it sparkle no matter how pitch-black it is!",
+        "generos": [
+            "Action",
+            "Fantasy",
+            "Mahou Shoujo",
+            "Music",
+            "Primarily Female Cast",
+            "Female Protagonist",
+            "Idol"
+        ],
+        "data_estreia": "2025-02-02"
+    },
+     {
+        "titulo": "Corrector Yui",
+        "titulo_original": "コレクター・ユイ",
+        "id": "34159",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx111-DxnHYJUnO4Dd.jpg",
+        "qualidade": "HD",
+        "descricao": "In the year 2000-something, a massive central network called Comnet links the computers of the world, forming a single global computer system. Comnet, designed to serve the interests of mankind, is managed by the supercomputer, Grosser. But when Grosser decides to take over the world, a savior is needed! \n \nA computer-illiterate girl named Yui Kasuga happens upon software program IR, which recruits her as savior of Comnet and pulls her into the virtual world inside. There, Yui is given the power to become Corrector Yui so that she can fight against Grosser and his evil Corruptors. \n \nInside the virtual world for the first time, Yui must face one of Grosser's henchmen. She must also battle another of Grosser's minions, this time one who's infecting the e-mail passed between Yui and her friends. And finally, Yui and IR suspect foul play when Chef Kirch, a family friend who can never get his recipes quite right, has to face customers who've turned into ravenous zombies! \n \n(Source: Viz Media)",
+        "generos": [
+            "Adventure",
+            "Comedy",
+            "Mahou Shoujo",
+            "Sci-Fi",
+            "Virtual World",
+            "Female Protagonist",
+            "Magic"
+        ],
+        "data_estreia": "1999-04-09"
+    },
+    {
+        "titulo": "Beelzebub",
+        "titulo_original": "べるぜバブ",
+        "id": "38603",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx9513-is6YiSgKbyQX.jpg",
+        "qualidade": "HD",
+        "descricao": "Oga Tatsumi is a first year student in Ishiyama High, a notorious school for delinquents. One day he sees a man floating by, and the man suddenly splits in half to reveal a baby boy inside!  \n(Source: Crunchyroll)",
+        "generos": [
+            "Action",
+            "Comedy",
+            "Supernatural",
+            "Demons",
+            "Delinquents",
+            "Male Protagonist"
+        ],
+        "data_estreia": "2011-01-09"
+    },
+    {
+        "titulo": "Douluo Dalu (Soul Land)",
+        "titulo_original": "斗罗大陆",
+        "id": "76572",
+        "capa": "https://image.tmdb.org/t/p/w500/o80kcyeLqMHggWtcskg2E9hLQGB.jpg",
+        "qualidade": "HD",
+        "descricao": "Tang San dedicadou sua vida à criação e ao domínio das armas escondidas. Uma vez ele roubou a sabedoria secreta da Seção Interior para alcançar o pináculo de sua arte, sua única saída era a morte. Mas depois de se jogar de um abismo mortal, ele renasceu em um mundo diferente, o mundo de Douluo Dalu, um mundo onde cada pessoa tem um espírito próprio, e aqueles com espíritos poderosos podem praticar seu poder espiritual para se levantar e tornar-se Espíritos Mestres.\n\nO espírito que desperta dentro de Tang San é o Blue Silver Grass, um espírito inútil. Ele poderá superar as dificuldades para chegar até o alto escalão dos Mestres de Espírito e trazer a glória da Seita Tang para este novo mundo?",
+        "generos": [
+            "Animação",
+            "Drama",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ],
+        "data_estreia": "2018-01-13",
+        "original_language": "zh"
+    },
+    {
+        "titulo": "A Casa Coruja",
+        "titulo_original": "The Owl House",
+        "id": "92685",
+        "capa": "https://image.tmdb.org/t/p/w500/c3ygNz5qEETOUSAWa7v6B7gT8JS.jpg",
+        "qualidade": "HD",
+        "descricao": "Luz, uma adolescente humana segura de si, tropeça acidentalmente em um portal para um reino mágico, onde faz amizade com uma bruxa rebelde.",
+        "generos": [
+            "Animação",
+            "Sci-Fi & Fantasy",
+            "Drama",
+            "Action & Adventure",
+            "Comédia",
+            "Kids"
+        ],
+        "data_estreia": "2020-01-10",
+        "original_language": "en"
+    },
+    {
+        "titulo": "Toaru Kagaku no Accelerator",
+        "titulo_original": "とある科学の一方通行【アクセラレータ】",
+        "id": "90546",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104463-nlo4ndS9Mt0P.jpg",
+        "qualidade": "HD",
+        "descricao": "The espers of Academy City are classified into six levels, where \"Level 0\" lacks power while \"Level 5\" possesses an overwhelming amount. Of the several million espers residing in Academy City, only seven of them have attained Level 5, and ranked highest among them is the one known as Accelerator.  \n\nToaru Kagaku no Accelerator focuses on the strongest Level 5 after he protects the cheerful Last Order at the price of much of his power. Recovering at the hospital, Accelerator has led a relatively quiet life until he ends up saving the life of Estelle Rosenthal, a mysterious girl carrying a photo of Last Order. Unfortunately, Accelerator now finds himself dragged into a new conflict in the form of a sinister organization called Disciplinary Action which plots to use Last Order for a dangerous mission. Now that they have set their plan into motion and are in pursuit of the young girl, it's up to the world's most powerful esper and his newfound companion to protect Last Order and defend Academy City in the process.  \n\n(Source: MAL Rewrite)",
+        "generos": [
+            "Action",
+            "Sci-Fi",
+            "Anti-Hero",
+            "Super Power",
+            "Necromancy"
+        ],
+        "data_estreia": "2019-07-12"
+    },
+    {
+        "titulo": "Niehime to Kemono no Ou",
+        "titulo_original": "贄姫と獣の王",
+        "id": "117024",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128715-T4Tne2TcqfVx.jpg",
+        "qualidade": "HD",
+        "descricao": "The King of the Beasts and Demons regularly receives female human sacrifices to eat in order to assert the dominance of his people over the human race. However, for the 99th sacrifice, the human girl brought to the capital, Sariphi, intrigues the Beast King. In fact she isn't afraid of him or any other beast and even accepts her death without begging or crying as she has neither home nor family to return to if she were released. The King finds her intriguing and let her stay at his side as his consort despite being human. This is the story of how Sariphi will become the queen of the demons and beasts.\n  \n(Source: Crunchyroll)",
+        "generos": [
+            "Drama",
+            "Fantasy",
+            "Romance",
+            "Female Protagonist",
+            "Politics",
+            "Shoujo"
+        ],
+        "data_estreia": "2023-04-20"
+    },
+    {
+        "titulo": "Imouto sae Ireba Ii.",
+        "titulo_original": "妹さえいればいい。",
+        "id": "74092",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98596-E2aZouOyuQ8G.jpg",
+        "qualidade": "HD",
+        "descricao": "The story follows the everyday life of Itsuki, a novelist and \"modern day Pygmalion\" who works day in and day out to create the ultimate younger sister. He's surrounded by various other characters: a beautiful genius writer who loves him, his big-sisterly classmate from college, a fellow male writer, a sadistic tax accountant, and his editor. They're all looked after by Itsuki's perfect younger step-brother, Chihiro, who has a serious secret. \n \n(Source: Anime News Network) \n \nNote: The first episode received an early screening at a special event held at Shinjuku Piccadilly, Tokyo on 06.09.2017.",
+        "generos": [
+            "Comedy",
+            "Ecchi",
+            "Romance",
+            "Slice of Life",
+            "Writing",
+            "Otaku Culture",
+            "Work"
+        ],
+        "data_estreia": "2017-10-08"
+    },
+    {
+        "titulo": "Apenas um Show",
+        "titulo_original": "Regular Show",
+        "id": "31132",
+        "capa": "https://image.tmdb.org/t/p/w500/b56jpir0S12bxD6WyjMZg92c9Zr.jpg",
+        "qualidade": "HD",
+        "descricao": "Mordecai e Rigby são guardas de um parque. Mas esses melhores amigos são preguiçosos e não deixam o trabalho interferir com sua capacidade de se divertir. Enquanto Mordecai tenta ser responsável e fazer um bom trabalho, é frequentemente desencaminhado por seu imaturo companheiro, totalmente imune à vergonha ou ao medo e sem nenhum limite. Os amigos acabam sempre pagando pelas suas ações irresponsáveis, pois se metem em mais confusões do que esperavam. A negligência no trabalho causa muito desgosto ao chefe temperamental da dupla, Benson.",
         "generos": [
             "Animação",
             "Comédia"
-        ]
+        ],
+        "data_estreia": "2010-09-06",
+        "original_language": "en"
     },
     {
-        "titulo": "A Sombra do Batman",
-        "titulo_original": "Beware the Batman",
-        "id": "41676",
-        "capa": "https://image.tmdb.org/t/p/w500/4qHERbfhZlgK8ecaNyCvbHbsRfd.jpg",
+        "titulo": "Bloquinho da Bea",
+        "titulo_original": "Bea's Block",
+        "id": "233003",
+        "capa": "https://image.tmdb.org/t/p/w500/m7ay8JRbNsiJ330375Owj1hrgSl.jpg",
         "qualidade": "HD",
-        "descricao": "Batman, um vigilante da cidade de Gotham, luta contra o crime e enfrenta o submundo.",
-        "generos": [
-            "Action & Adventure",
-            "Animação"
-        ]
-    },
-    {
-        "titulo": "Bebês Clássico",
-        "titulo_original": "Classical Baby",
-        "id": "4874",
-        "capa": "https://image.tmdb.org/t/p/w500/7dmJaHs6ew98xOyIANIqw6wx0Ik.jpg",
-        "qualidade": "HD",
-        "descricao": "Esta série animada apresenta às crianças obras relacionadas à música, pintura, dança e muito mais.",
+        "descricao": "O Bloquinho da Bea é uma animação pré-escolar com Bea e seus amigos, que trabalha a gentileza através da amizade e empatia.",
         "generos": [
             "Kids",
-            "Animação"
-        ]
-    },
-    {
-        "titulo": "EDENS ZERO",
-        "titulo_original": "EDENS ZERO",
-        "id": "104711",
-        "capa": "https://image.tmdb.org/t/p/w500/2sJPpcEd83mILobIlDG1Jexu9bj.jpg",
-        "qualidade": "HD",
-        "descricao": "Ano X492 da Era Cósmica. Uma época em que inúmeras pessoas viajam para o espaço, explorando as estrelas. Rebecca é uma B-Cuber, uma streamer de vídeos online que mora em Granbell, um planeta habitado por robôs. É lá que ela conhece Shiki, um jovem capaz de controlar a gravidade, e que segue os ensinamentos de seu guardião, o robô Ziggy. Juntos, Rebecca e Shiki formam uma amizade e partem numa aventura pelo espaço, deixando pra trás o único planeta que conheciam, em busca de novos planetas, novas pessoas e tudo mais que houver de novo!",
-        "generos": [
             "Animação",
-            "Comédia"
-        ]
-    },
-    {
-        "titulo": "Os Cavaleiros do Zodíaco",
-        "titulo_original": "聖闘士星矢",
-        "id": "42444",
-        "capa": "https://image.tmdb.org/t/p/w500/e4cC6W5sSAKE8lQYRBTqU9jfdya.jpg",
-        "qualidade": "HD",
-        "descricao": "Os 88 Cavaleiros de Atena trajam desde os tempos mitológicos armaduras protegidas pelas constelações do céu para, assim, servir sua deusa e preservar a paz e o amor na Terra. Agora, nos tempos modernos, nasce uma nova Atena e, para que ela não seja assassinada ainda bebê por aqueles que estão ofuscados pelo poder e pela ganância, ela é levada para longe, onde cresce como Saori Kido. Uma nova batalha santa está para começar! Vão, jovens Cavaleiros, protejam Atena!",
-        "generos": [
-            "Animação",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Freakazoid: Alto Forte e Maluco",
-        "titulo_original": "Freakazoid!",
-        "id": "4334",
-        "capa": "https://image.tmdb.org/t/p/w500/ig0pc2AhY5d3GEghcxEWwo9AUtg.jpg",
-        "qualidade": "HD",
-        "descricao": "O gênio da informática Dexter Douglas se transforma em um super-herói maluco graças a um erro em seu computador e sempre tenta salvar o mundo de bizarros vilões.",
-        "generos": [
-            "Animação",
-            "Comédia"
-        ]
-    },
-    {
-        "titulo": "Ballmastrz: 9009",
-        "titulo_original": "Ballmastrz: 9009",
-        "id": "78672",
-        "capa": "https://image.tmdb.org/t/p/w500/lyCKQDRCtv2EOrzQi69K5h4Wuod.jpg",
-        "qualidade": "HD",
-        "descricao": "Milhares de anos no futuro, ninguém mais se importa com esportes tradicionais. O único jogo que importa é O JOGO, e a nova geração de heróis que o jogam: BALLMASTRZ. Dentro de gigantescas arenas de batalha do tamanho de uma pequena cidade, equipes de Ballmastrz se enfrentam usando suas próprias armas de combate hiper-criativas artificialmente inteligentes para atacar, defender e pontuar. Estas são as BOLAS. Obstáculos e desafios testam os limites físicos, mentais e psicológicos dos jogadores enquanto entretêm as massas. O jogador ou time que domina sua Bola dominará o Jogo no esporte de ação mais espetacular já jogado.",
-        "generos": [
-            "Animação",
-            "Comédia"
-        ]
-    },
-    {
-        "titulo": "Os Kabanes da Estação de Ferro",
-        "titulo_original": "甲鉄城のカバネリ",
-        "id": "65945",
-        "capa": "https://image.tmdb.org/t/p/w500/5Iw4PGoSxJCAoFqmOa3ZnPWS5jY.jpg",
-        "qualidade": "HD",
-        "descricao": "Em uma época de revolução industrial, uma horda de mortos-vivos tomou o mundo de assalto. Esses monstros, batizados de \"Kabane\", só podem ser mortos se seus corações revestidos de ferro forem atravessados. Para sobreviver, o povo da terra de Hinomoto construiu estações-fortalezas, e se comunicam com outras estações através de locomotivas fortificadas chamadas de \"Hayajiro\". Ikoma é um jovem ferreiro que aguarda por uma chance de demonstrar a força de sua arma especial anti-Kabane. Essa oportunidade surge quando um Hayajiro chega em sua estação, carregando uma misteriosa garota chamada Mumei.",
-        "generos": [
-            "Animação",
-            "Drama"
-        ]
-    },
-    {
-        "titulo": "Mugyutto! Black Clover",
-        "titulo_original": "むぎゅっと！ブラッククローバー",
-        "id": "97067",
-        "capa": "https://image.tmdb.org/t/p/w500/wc421LF4gcEFDgKZFCyniYB0i8X.jpg",
-        "qualidade": "HD",
-        "descricao": "Em um mundo onde a magia é tudo, Asta, que é a única pessoa que não pode usar a magia, e o gênio mágico Yuno se esforçam para se tornar o Rei Mago. Este é um spin-off da série de anime \"Black Clover\", com uma história inacreditável e um elenco incrível.",
-        "generos": [
-            "Animação",
-            "Action & Adventure"
-        ]
-    },
-    {
-        "titulo": "Stand My Heroes: Piece of Truth",
-        "titulo_original": "スタンドマイヒーローズ PIECE OF TRUTH",
-        "id": "93818",
-        "capa": "https://image.tmdb.org/t/p/w500/v6t3OIRMdWJ1w26Cwkv2uJIRODE.jpg",
-        "qualidade": "HD",
-        "descricao": "Na história acompanhamos uma equipe da narcóticos em vários casos policiais diferentes. No caso a comandante é uma mulher cercada de vários homens bonitões (é baseado em um game para mulheres).",
-        "generos": [
-            "Animação"
-        ]
-    },
-    {
-        "titulo": "Are You Lost?",
-        "titulo_original": "ソウナンですか？",
-        "id": "88805",
-        "capa": "https://image.tmdb.org/t/p/w500/cSNaP0Ws8fTblNA2HBPArNIYjX9.jpg",
-        "qualidade": "HD",
-        "descricao": "Sem abrigo, sem comida, sem água... Quatro garotas sofrem um acidente e vão parar numa ilha deserta, e estão em sérios apuros... Mentira, porque elas vão muito bem, obrigado! O que elas não têm, elas constroem! Comem o que for preciso pra sobreviver! Uma história de ilha deserta cheia de inteligência e coragem!",
-        "generos": [
-            "Animação",
-            "Action & Adventure"
-        ]
-    },
-    {
-        "titulo": "The Daily Life of the Immortal King",
-        "titulo_original": "仙王的日常生活",
-        "id": "98123",
-        "capa": "https://image.tmdb.org/t/p/w500/AiUzqwU9Dom6rH1Kt6jRXXGDD7p.jpg",
-        "qualidade": "HD",
-        "descricao": "Como um gênio do cultivo que alcança um novo domínio a cada dois anos desde que ele tinha um ano, Wang Ling é uma existência quase invencível, com proezas muito além de seu controle. Mas agora que ele tem dezesseis anos, ele enfrenta sua maior batalha até agora - o ensino médio. Com um desafio após o outro, seus planos para uma vida discreta no ensino médio parecem cada vez mais distantes…",
-        "generos": [
             "Comédia",
-            "Action & Adventure"
-        ]
+            "Família"
+        ],
+        "data_estreia": "2024-02-15",
+        "original_language": "en"
     },
     {
-        "titulo": "Sasaki and Miyano",
-        "titulo_original": "佐々木と宮野",
-        "id": "127549",
-        "capa": "https://image.tmdb.org/t/p/w500/pIEUZBFYjAnqnORHIa2cSEgruLE.jpg",
+        "titulo": "Bob's Burgers",
+        "titulo_original": "Bob's Burgers",
+        "id": "32726",
+        "capa": "https://image.tmdb.org/t/p/w500/yVz5foNr6nCfathj0igg8RLVGfn.jpg",
         "qualidade": "HD",
-        "descricao": "Miyano passa seus dias lendo mangás Boys' Love e se preocupando com os traços suaves de seu rosto. Seu mundo de ficção se torna realidade quando um encontro casual o leva ao aluno do último ano do ensino médio, Sasaki, no meio de uma briga. Agora, Sasaki quer aproveitar todas as oportunidades que puder para conhecer Miyano. E o que antes era admiração rapidamente se transforma em afeto.",
+        "descricao": "A série acompanha Bob da terceira geração de uma família de proprietários de restaurantes, responsável por administrar a hamburgueria \"Bob's Burgers\" junto com sua esposa e seus três filhos. Bob e sua peculiar família têm grandes ideias para os hambúrgueres, mas estão pobres em serviço e em sofisticação.",
         "generos": [
             "Animação",
             "Comédia"
-        ]
+        ],
+        "data_estreia": "2011-01-09",
+        "original_language": "en"
     },
     {
-        "titulo": "Mori no Kuma-san, Toumin-chuu.",
-        "titulo_original": "森のくまさん、冬眠中。",
-        "id": "204269",
-        "capa": "https://image.tmdb.org/t/p/w500/tZ6MYeshNaVeggzYZagZgem1CPV.jpg",
+        "titulo": "Yofukashi no Uta",
+        "titulo_original": "よふかしのうた",
+        "id": "138357",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141391-M3ZgUKTPENUk.jpg",
         "qualidade": "HD",
-        "descricao": "Eu quero acasalar com Nowa…” -Há alguns anos, um urso que mora na floresta encontrou um filhote. Cuide bem do cachorrinho, que cresce rápido, honesto e gentil. Mas o urso tem um problema… Está quase na hora da hibernação. “Meu cachorrinho não me deixa desmamar ele!” Me perguntava se seria capaz de lidar com uma garoto tão mimado, e ele parece não notar que sou um homem… Nos primeiros meses da hibernação, consegui mantê-lo, mas quando acordei com uma sensação de adormecimento, vi um grande cachorro adulto na minha frente. Ele lambeu meus mamilos e disse: “Faz muito tempo que estou esperando você…” É esse o cachorrinho que peguei?",
+        "descricao": "Wracked by insomnia and wanderlust, Kou Yamori is driven onto the moonlit streets every night in an aimless search for something he can’t seem to name. His nightly ritual is marked by purposeless introspection — until he meets Nazuna, who might just be a vampire! Kou’s new companion could offer him dark gifts and a vampire’s immortality. But there are conditions that must be met before Kou can sink his teeth into vampirism, and he’ll have to discover just how far he’s willing to go to satisfy his desires before he can heed the Call of the Night!\n  \n(Source: Sentai Filmworks)",
         "generos": [
-            "Animação"
-        ]
+            "Comedy",
+            "Psychological",
+            "Romance",
+            "Slice of Life",
+            "Supernatural",
+            "Vampire",
+            "Urban Fantasy",
+            "Urban"
+        ],
+        "data_estreia": "2022-07-08"
     },
     {
-        "titulo": "Shin Ikki Tousen",
-        "titulo_original": "真・一騎当千",
-        "id": "128510",
-        "capa": "https://image.tmdb.org/t/p/w500/816zU3IELJlkmRqPt91uu9ty1Qf.jpg",
+        "titulo": "Dororo",
+        "titulo_original": "どろろ",
+        "id": "83100",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101347-TGaDwEYqLfm1.jpg",
         "qualidade": "HD",
-        "descricao": "Shin Ikki Tousen é uma continuação direta de Ikki Tousen e acompanha a irmã mais nova da protagonista Hakufu Sonsaku participando de batalhas na escola ao lado de outros usuários de Magatamas.",
+        "descricao": "Dororo, a young orphan thief, meets Hyakkimaru, a powerful ronin. Hyakkimaru's father, a greedy feudal lord, had made a pact with 12 demons, offering his yet-unborn son's body parts in exchange for great power. Thus, Hyakkimaru - who was born without arms, legs, eyes, ears, a nose or a mouth - was abandoned in a river as a baby. Rescued and raised by Dr. Honma, who equips him with artificial limbs and teaches him sword-fighting techniques, Hyakkimaru discovers that each time he slays a demon, a piece of his body is restored. Now, he roams the war-torn countryside in search of demons.",
         "generos": [
-            "Animação",
-            "Comédia"
-        ]
+            "Action",
+            "Adventure",
+            "Drama",
+            "Supernatural",
+            "Demons",
+            "Revenge",
+            "Disability"
+        ],
+        "data_estreia": "2019-01-07"
+    },
+     {
+        "titulo": "Kami nomi zo Shiru Sekai",
+        "titulo_original": "神のみぞ知るセカイ",
+        "id": "56351",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8525-chaE9kM2x0w4.png",
+        "qualidade": "HD",
+        "descricao": "Keima is a dating sim champion. Cute girls are rendered powerless by his irresistible game playing techniques. Too bad things aren't that way in the real world. That is, until his tempting game playing causes a real live&mdash;and very bubbly-cute&mdash;demon hunter named Elsie to materialize! Now Elsie wants Keima to help her free hot girls from sneaky demons who secretly possess them.   \n(Source: Sentai Filmworks) ",
+        "generos": [
+            "Comedy",
+            "Romance",
+            "Supernatural",
+            "Parody",
+            "Primarily Female Cast",
+            "Urban Fantasy"
+        ],
+        "data_estreia": "2010-10-07"
     },
     {
-        "titulo": "The Last Summoner",
-        "titulo_original": "最后的召唤师",
-        "id": "102927",
-        "capa": "https://image.tmdb.org/t/p/w500/4TitqTctGc4UH9AwbFHRfkuFMzt.jpg",
+        "titulo": "Togainu no Chi",
+        "titulo_original": "咎狗の血",
+        "id": "38057",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8449-N9gItjO6pnIY.jpg",
         "qualidade": "HD",
-        "descricao": "Tudo no mundo possui um espírito, e os seres capazes de invocar esses espíritos são chamados de Invocadores. Divididos entre Guardiães e Destruidores, estes Invocadores travaram inúmeras guerras pela origem dos espíritos de todas as coisas - a deusa Pandora. Para evitar mais derramamento de sangue, ambos os lados da guerra decidem selar Pandora e acabar com a era de ouro dos Invocadores. Muitos séculos depois, Ah Jie invoca sem querer a deusa Dora e se vê jogado no mundo dos Invocadores, e terá de se unir aos Guardiães para colocar um fim neste conflito de uma vez por todas.",
+        "descricao": "After being devastated in the third World War (known as The Third Division), Japan was divided in two. Several years after the end of the war, a crime organization called Vischio has taken control of the destroyed city of Toshima (formerly Tokyo, Japan's capital city), where they are holding a battle game known as \"Igura\". The main character, a young man named Akira, is falsely accused of a crime. Once arrested, a mysterious woman appears before him, offering him freedom if he agrees to participate in Igura and defeat Igura's strongest man: the king, or \"Il-re\". The story follows Akira's life in the harsh, lawless Toshima as he fights both to survive and to unravel the mysteries developing around him.   \n(Source: Wikipedia) ",
         "generos": [
-            "Animação",
-            "Action & Adventure"
-        ]
+            "Action",
+            "Sci-Fi",
+            "Battle Royale",
+            "Primarily Male Cast",
+            "Primarily Adult Cast"
+        ],
+        "data_estreia": "2010-10-08"
+    },
+    {
+        "titulo": "Shiki",
+        "titulo_original": "屍鬼",
+        "id": "36581",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7724-NwNnRsI34eDa.jpg",
+        "qualidade": "HD",
+        "descricao": "During a fiercely hot summer in Sotoba, a peaceful and quiet village with a population of 1300 people, a series of bizarre deaths begin to occur. At the same time, a strange family moves into a long abandoned mansion in the region. After supposedly visiting this strange family, the fashionable Shimizu Megumi goes missing and the entire village goes out in search for her. ",
+        "generos": [
+            "Horror",
+            "Mystery",
+            "Supernatural",
+            "Thriller",
+            "Vampire",
+            "Survival",
+            "Tragedy"
+        ],
+        "data_estreia": "2010-07-09"
+    },
+    {
+        "titulo": "Yama no Susume",
+        "titulo_original": "ヤマノススメ",
+        "id": "53918",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx14355-ZsPYtTYa1b4v.jpg",
+        "qualidade": "HD",
+        "descricao": "Aoi prefers indoor hobbies and is afraid of heights, but her childhood friend Hinata loves to show off her passion for mountain climbing. As young children they once watched the sunrise from the top of a mountain, and now they've decided to take up mountain climbing in hopes of seeing that sunrise again. They have cooking battles with mountaineering gear, climb small hills in their neighborhood, and meet new mountaineering friends as they learn the ropes of the hobby. When will they finally see that sunrise again?  \n(Source: Crunchyroll)",
+        "generos": [
+            "Adventure",
+            "Comedy",
+            "Slice of Life",
+            "Outdoor Activities",
+            "Primarily Female Cast",
+            "Iyashikei"
+        ],
+        "data_estreia": "2013-01-03"
+    },
+    {
+        "titulo": "Yojouhan Shinwa Taikei",
+        "titulo_original": "四畳半神話大系",
+        "id": "36243",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7785-aTjIhsYva8cJ.jpg",
+        "qualidade": "HD",
+        "descricao": "When a college dropout stops for a late night bite at a mysterious ramen stand, he crosses paths with a self-proclaimed deity of matrimony. This bizarre meeting sends the young man hurtling through a horrifying flashback to his not-so-glorious college days when the influence of a cruel new friend turned him from a hopeless romantic into a mischievous “black cupid.”  \r\n(Source: Funimation)",
+        "generos": [
+            "Comedy",
+            "Mystery",
+            "Psychological",
+            "Romance",
+            "Coming of Age",
+            "Time Loop",
+            "College"
+        ],
+        "data_estreia": "2010-04-23"
     }
 ]
