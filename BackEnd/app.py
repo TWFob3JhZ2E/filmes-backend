@@ -702,6 +702,8 @@ def buscar_por_genero():
         logger.warning("Gênero não fornecido")
         return jsonify({'erro': 'Gênero não fornecido'}), 400
 
+    logger.info(f"Busca por gêneros: {generos}, tipo: {tipo}, página: {pagina}")
+
     # Carregar os dados com base no tipo
     resultados = []
     json_paths = {
@@ -721,9 +723,15 @@ def buscar_por_genero():
                 if not isinstance(item_generos, list):
                     logger.warning(f"Item {item.get('id', 'unknown')} tem gêneros inválidos: {item_generos}")
                     continue
-                # Verifica se algum gênero do item corresponde a algum gênero solicitado
-                if any(any(g.lower() in genre.lower() for genre in item_generos) for g in generos):
-                    resultados.append({**item, 'tipo': content_type})
+                # Normalizar gêneros do item
+                item_generos_normalized = [normalize_text(g) for g in item_generos]
+                # Verifica se algum gênero solicitado corresponde
+                for g in generos:
+                    g_normalized = normalize_text(g)
+                    if any(g_normalized in genre_normalized for genre_normalized in item_generos_normalized):
+                        resultados.append({**item, 'tipo': content_type})
+                        logger.debug(f"Match encontrado para item {item.get('titulo', 'unknown')} com gênero {g}")
+                        break
         except Exception as e:
             logger.error(f"Erro ao carregar dados para {content_type}: {str(e)}")
 
@@ -762,11 +770,12 @@ def buscar_generos():
         return auth_error
 
     termo = request.args.get('q', '').lower()
-    generos = [
-        "Action", "Animation", "Adventure", "Comedy", "Crime", "Drama", "Family",
-        "Fantasy", "Western", "Science", "war", "History",
-        "Lançamentos", "Mystery", "Music", "Nacional", "Romance", "Suspense", "Horror",
-    ]
+    generos = [ "Action", "Adventure","Animation","Biography","Comedy","Crime","Demons","Disaster",
+    "Documentary", "Drama","Ecchi", "Family","Fantasy","Game","Harem","Historical", "Horror","Isekai",
+    "Josei","Martial Arts","Military","Music","Musical", "Mystery","Psychological","Reality",
+    "Romance","School","Sci-Fi","Seinen","Shoujo","Shounen","Sports","Superhero","Supernatural",
+    "Talk","Thriller","Vampire","War","Western","Yaoi","Yuri"
+]
 
     if not termo:
         return jsonify(generos)
