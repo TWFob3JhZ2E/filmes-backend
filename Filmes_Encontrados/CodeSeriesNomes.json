@@ -53749,5 +53749,21 @@
         ],
         "data_estreia": "2015-05-15",
         "original_language": "es"
+    },
+    {
+        "titulo": "INVENCÍVEL",
+        "titulo_original": "INVINCIBLE",
+        "id": "95557",
+        "capa": "https://image.tmdb.org/t/p/w500/29myVHhdGoS735ZJ9hblY0pQ3K9.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma animação de super-heróis para adultos e conta a história de Mark Grayson, de 17 anos, um cara como qualquer outro de sua idade, exceto que seu pai é o super-herói mais poderoso do planeta, Omni-Man. Porém, à medida que Mark desenvolve seus próprios poderes, ele descobre que o legado de seu pai pode não ser tão heroico quanto parece.",
+        "generos": [
+            "Animação",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure",
+            "Drama"
+        ],
+        "data_estreia": "2021-03-25",
+        "original_language": "en"
     }
 ]
