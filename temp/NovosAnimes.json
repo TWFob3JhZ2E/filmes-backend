@@ -73,6 +73,23 @@
         "data_estreia": "2025-04-07"
     },
     {
+        "titulo": "Tate no Yuusha no Nariagari",
+        "titulo_original": "盾の勇者の成り上がり",
+        "id": "83095",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99263-LcazQwdlWzMy.jpg",
+        "qualidade": "HD",
+        "descricao": "Naofumi Iwatani, an uncharismatic Otaku who spends his days on games and manga, suddenly finds himself summoned to a parallel universe! He discovers he is one of four heroes equipped with legendary weapons and tasked with saving the world from its prophesied destruction. As the Shield Hero, the weakest of the heroes, all is not as it seems. Naofumi is soon alone, penniless, and betrayed. With no one to turn to, and nowhere to run, he is left with only his shield. Now, Naofumi must rise to become the legendary Shield Hero and save the world! \n \nNote: \n- The first episode was pre-aired on December 27th, 2018. Regular broadcast began on January 9th, 2019. \n- The first episode aired with a runtime of ~47 minutes as opposed to the standard 24 minute long episode.",
+        "generos": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Isekai",
+            "Male Protagonist",
+            "Conspiracy"
+        ],
+        "data_estreia": "2019-01-09"
+    },
+    {
         "titulo": "Isekai Quartet",
         "titulo_original": "異世界かるてっと",
         "id": "87478",
@@ -90,42 +107,38 @@
         "data_estreia": "2019-04-10"
     },
     {
-        "titulo": "Overlord",
-        "titulo_original": "オーバーロード",
-        "id": "64196",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20832-vUNm5zrYWifc.jpg",
+        "titulo": "Star Wars: Histórias do Submundo",
+        "titulo_original": "Star Wars: Tales of the Underworld",
+        "id": "288055",
+        "capa": "https://image.tmdb.org/t/p/w500/phktSbh2mnaBw8qUgzTO8yK3jih.jpg",
         "qualidade": "HD",
-        "descricao": "The story takes place in the year 2138 when virtual reality gaming is booming. Yggdrasil, a popular online game is quietly shut down one day. However, the protagonist Momonga decides to not log out. Momonga is then transformed into the image of a skeleton as \"the most powerful wizard.\" The world continues to change, with non-player characters (NPCs) beginning to feel emotion. Having no parents, friends, or place in society, this ordinary young man Momonga then strives to take over the new world the game has become. \n \n(Source: Anime News Network)",
+        "descricao": "Dois bandidos devem passar pelo submundo perigoso da galáxia enquanto planejam seus destinos.",
         "generos": [
-            "Action",
-            "Adventure",
-            "Fantasy",
-            "Isekai",
-            "Anti-Hero",
-            "Skeleton"
+            "Animação",
+            "Sci-Fi & Fantasy",
+            "Crime",
+            "Action & Adventure"
         ],
-        "data_estreia": "2015-07-07"
+        "data_estreia": "2025-05-04",
+        "original_language": "en"
     },
     {
-        "titulo": "Eromanga Sensei",
-        "titulo_original": "エロマンガ先生",
-        "id": "70878",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21685-h1SrcpaNnrIq.jpg",
+        "titulo": "Okinawa de Suki ni Natta Ko ga Hougen Sugite Tsura Sugiru",
+        "titulo_original": "沖縄で好きになった子が方言すぎてツラすぎる",
+        "id": "245561",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166699-k5hIccoA5XSW.jpg",
         "qualidade": "HD",
-        "descricao": "The \"new sibling romantic comedy\" revolves around Masamune Izumi, a light novel author in high school. Masamune's little sister is Sagiri, a shut-in girl who hasn't left her room for an entire year. She even forces her brother to make and bring her meals when she stomps the floor. Masamune wants his sister to leave her room, because the two of them are each other's only family. \n \nMasamune's novel illustrator, penname “Ero Manga Sensei,” draws extremely perverted drawings, and is very reliable. Masamune had never met his illustrator, and figured he was just a disgusting, perverted otaku. However, the truth is revealed … that his “Ero Manga Sensei” is his own younger sister! To add to the chaos that erupts between the siblings, a beautiful, female, best-selling shoujo manga creator becomes their rival! \n \n(Source: Anime News Network)",
+        "descricao": "When Teruaki Nakamura transfers to laid-back Okinawa, he falls for the lively Kyan-san—but her dialect is a complete mystery to him. With Higa-san translating, Teru’s misunderstanding-filled island life takes off...and subtle hints suggest Higa-san might want his heart too. On this serene island, love flows as freely as the ocean breeze! \n \n(Source: Crunchyroll)",
         "generos": [
             "Comedy",
-            "Drama",
-            "Ecchi",
             "Romance",
-            "Slice of Life",
-            "Inseki",
-            "Primarily Child Cast",
-            "Writing"
+            "Male Protagonist",
+            "Language Barrier",
+            "Episodic"
         ],
-        "data_estreia": "2017-04-09"
+        "data_estreia": "2025-01-05"
     },
-     {
+    {
         "titulo": "SAKAMOTO DAYS",
         "titulo_original": "SAKAMOTO DAYS",
         "id": "207332",
@@ -141,378 +154,301 @@
         ],
         "data_estreia": "2025-01-11"
     },
-     {
-        "titulo": "#Compass 2.0－Sentou Setsuri Kaiseki System",
-        "titulo_original": "#コンパス2.0 戦闘摂理解析システム",
-        "id": "215615",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158287-4RDt0M820Ays.jpg",
-        "qualidade": "HD",
-        "descricao": "In the combat providence analysis system, “COMPASS2.0,” heroes gather alongside human partners in a dreamlike space. The heroes have to keep fighting to produce enough energy to keep the system running. One hero named 13 is a troublemaker who refuses to find a partner. When 13 is nearly kicked out, a new player named Jin agrees to join him. Can they bring peace to the world of #COMPASS2.0?  \n\n(Source: Crunchyroll)  \nNote: A new animation project based on the #Compass Sentou Setsuri Kaiseki System game, announced at the sixth #Compass fes.",
-        "generos": [
-            "Action",
-            "Sci-Fi",
-            "Virtual World",
-            "Vocal Synth",
-            "Video Games"
-        ],
-        "data_estreia": "2025-04-08"
-    },
     {
-        "titulo": "Summer Pockets",
-        "titulo_original": "Summer Pockets",
-        "id": "271576",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx143200-42OaDCS6VEy3.png",
+        "titulo": "Class no Daikirai na Joshi to Kekkon Suru Koto ni Natta.",
+        "titulo_original": "クラスの大嫌いな女子と結婚することになった。",
+        "id": "257790",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178462-YW6BgSGGP4az.jpg",
         "qualidade": "HD",
-        "descricao": "Takahara Hairi never expected summer to feel like a dream. Sent to Torishirojima Island to sort through his late grandmother’s belongings, he’s met with endless sea, quiet nostalgia, and mysterious girls, each chasing something just out of reach. As he settles into island life, lost memories begin to surface and he finds what he never knew he’d lost.  \n\n(Source: Crunchyroll)",
-        "generos": [
-            "Drama",
-            "Romance",
-            "Slice of Life",
-            "Supernatural",
-            "Tragedy",
-            "Rural",
-            "Urban Fantasy"
-        ],
-        "data_estreia": "2025-04-07"
-    },
-     {
-        "titulo": "Haite Kudasai, Takamine-san",
-        "titulo_original": "履いてください、鷹峰さん",
-        "id": "276880",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179965-EwqzG3xSyxwc.jpg",
-        "qualidade": "HD",
-        "descricao": "Takane Takamine is the goddess of her high school. With perfect grades, athletic prowess, and unrivaled beauty, this student council president is the apple of everyone's eye-including Koushi Shirota, a below-average student with no friends or social prospects whatsoever. But he'll soon find out the secret behind Takamine's unbelievable success-her underwear! When she strips, she can undo any of her past actions, and now that Koushi knows, Takamine won't let him off so easy...  \n\n(Source: Yen Press)",
+        "descricao": "High school student Saito Houjou is set to inherit his grandfather’s major corporation. First, he must marry Akane Sakuramori, the girl he despises the most, and who hates him just as much. The two are determined to keep their unexpected marriage a secret from their classmates. But as they begin their newlywed life, the distance between them starts to close.  \n\n(Source: Crunchyroll, edited)",
         "generos": [
             "Comedy",
-            "Ecchi",
             "Romance",
-            "Slice of Life",
-            "Femdom",
-            "Nudity",
+            "Tsundere",
+            "Arranged Marriage",
+            "Love Triangle"
+        ],
+        "data_estreia": "2025-01-03"
+    },
+    {
+        "titulo": "Tasokare Hotel",
+        "titulo_original": "誰ソ彼ホテル",
+        "id": "258229",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178495-RJCGa2YRdKBU.jpg",
+        "qualidade": "HD",
+        "descricao": "The \"Tasokare Hotel\" never sees afternoon, nor does it see night, but rather exists in a state of endless twilight.  \nThis hotel exists in a limbo state, as a place that allows souls who have not yet decided if they are meant to pass on to the afterlife, or remain in the world of the living, to rest their wings. The protagonist, Neko Tsukahara, comes across this \"Tasokare Hotel\" with no memory of who she is or how she came to be there.   \nAn employee leads the way and shows Neko to her room, explaining, \"In these rooms, there should be items that are related to our guests' memories. These items can also serve as clues to help our guests remember who they were before they arrived here.\" As Neko searches for a way to return to this world and remember who she was, a certain incident confronts her...  \n(Source: \"It’s Anime\" YouTube Channel)  \nNote: Each episode streamed 5 days early on some streaming services. The original TV broadcast started on January 8th, 2025.",
+        "generos": [
+            "Mystery",
+            "Supernatural",
+            "Amnesia",
+            "Female Protagonist",
+            "Afterlife"
+        ],
+        "data_estreia": "2025-01-03"
+    },
+    {
+        "titulo": "Zenshuu.",
+        "titulo_original": "全修。",
+        "id": "249882",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176273-raxxcgkslf4Q.jpg",
+        "qualidade": "HD",
+        "descricao": "After graduating from high school, Natsuko Hirose starts her career as an animator. Her talent quickly flourishes, and she makes her debut as a director in no time. Her first anime becomes a massive hit, sparking a social phenomenon and earning her recognition as an up-and-coming genius director. Her next project is set to be a romantic comedy movie themed around first love! However, having never been in love herself, Natsuko struggles to understand the concept of first love, and as a result, she’s unable to create the storyboard, causing the movie production to come to a standstill. \n \n(Source: MAPPA)",
+        "generos": [
+            "Action",
+            "Fantasy",
+            "Romance",
+            "Isekai",
+            "Female Protagonist",
+            "Super Power"
+        ],
+        "data_estreia": "2025-01-05"
+    },
+    {
+        "titulo": "Kisaki Kyouiku kara Nigetai Watashi",
+        "titulo_original": "妃教育から逃げたい私",
+        "id": "261311",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170650-iVQC67atMVj3.png",
+        "qualidade": "HD",
+        "descricao": "Leticia Dorman, daughter of a duke, is less than thrilled to be engaged to a crown prince. Betrothed since childhood and trained to be queen, she always hoped Prince Clarke would fall for someone else one day. So when he shows up at a ball with another woman, Lettie excitedly retreats to the countryside to start her new life—only for Clarke to appear, determined to win her heart. \n \n(Source: Crunchyroll)",
+        "generos": [
+            "Comedy",
+            "Fantasy",
+            "Romance",
+            "Torture",
+            "Female Protagonist",
             "Heterosexual"
         ],
-        "data_estreia": "2025-04-02"
+        "data_estreia": "2025-01-05"
     },
     {
-        "titulo": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
-        "titulo_original": "ゴリラの神から加護された令嬢は王立騎士団で可愛がられる",
-        "id": "278816",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182060-r0ihNqhiyvpT.jpg",
+        "titulo": "Mahoutsukai ni Narenakatta Onnanoko no Hanashi.",
+        "titulo_original": "魔法使いになれなかった女の子の話。",
+        "id": "99088",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx107372-jRO0pY1kIRLl.jpg",
         "qualidade": "HD",
-        "descricao": "Sophia, a timid daughter of a count, just wanted a peaceful life, but the Gorilla God had other plans. Blessed with unmatched strength, she’s thrust into the Royal Knight Order, turning her quiet days into chaos. Now, she must juggle school, the knight life, and her overwhelming power. Who knew gorilla strength could be so complicated?  \n\n(Source: Crunchyroll)",
+        "descricao": "At Rettoran Magic Academy, two unlikely friends share one dream: to become magicians. Kurumi is an average girl who’s a bit naive, while Yuzu is the distinguished daughter of a noble magician family. They need to get into a special magician training class, but they fail the entrance exam! All hope seems lost until mysterious homeroom teacher Minami Suzuki arrives, and their luck takes a sudden turn. \n \n(Source: Crunchyroll)",
         "generos": [
-            "Comedy",
             "Fantasy",
-            "Romance",
-            "Female Protagonist",
-            "Male Harem",
-            "Shoujo"
+            "Boarding School",
+            "Witch",
+            "Female Protagonist"
         ],
-        "data_estreia": "2025-04-06"
+        "data_estreia": "2024-10-05"
     },
     {
-        "titulo": "Kimi to Idol Precure♪",
-        "titulo_original": "キミとアイドルプリキュア♪",
-        "id": "278378",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185073-m4QzzXcEqmvb.png",
+        "titulo": "Maya e os 3 Guerreiros",
+        "titulo_original": "Maya and the Three",
+        "id": "132141",
+        "capa": "https://image.tmdb.org/t/p/w500/X8Ixp3jxpuEI1xYBakdhGMZmHj.jpg",
         "qualidade": "HD",
-        "descricao": "The main character, Sakura Uta, is a second-year middle school student who loves to sing. One day, she meets the fairy Purirun that has come to search for the Legendary Protectors, Idol Precure! Purirun's hometown, KirakiLand has been plunged into total darkness by Darkine, the boss of the Chokkiri Gang. Meanwhile, the sparkles of the townspeople are being stolen by the Chokkiri Gang... it's a huge pinch! \n\"I want to make it sparkle sparkly! Here is my song!\" - With this determination, Uta transforms into the Legendary Protector, Cure Idol! She sings, dances, and gives fan service, making it sparkle no matter how pitch-black it is!",
-        "generos": [
-            "Action",
-            "Fantasy",
-            "Mahou Shoujo",
-            "Music",
-            "Primarily Female Cast",
-            "Female Protagonist",
-            "Idol"
-        ],
-        "data_estreia": "2025-02-02"
-    },
-     {
-        "titulo": "Corrector Yui",
-        "titulo_original": "コレクター・ユイ",
-        "id": "34159",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx111-DxnHYJUnO4Dd.jpg",
-        "qualidade": "HD",
-        "descricao": "In the year 2000-something, a massive central network called Comnet links the computers of the world, forming a single global computer system. Comnet, designed to serve the interests of mankind, is managed by the supercomputer, Grosser. But when Grosser decides to take over the world, a savior is needed! \n \nA computer-illiterate girl named Yui Kasuga happens upon software program IR, which recruits her as savior of Comnet and pulls her into the virtual world inside. There, Yui is given the power to become Corrector Yui so that she can fight against Grosser and his evil Corruptors. \n \nInside the virtual world for the first time, Yui must face one of Grosser's henchmen. She must also battle another of Grosser's minions, this time one who's infecting the e-mail passed between Yui and her friends. And finally, Yui and IR suspect foul play when Chef Kirch, a family friend who can never get his recipes quite right, has to face customers who've turned into ravenous zombies! \n \n(Source: Viz Media)",
-        "generos": [
-            "Adventure",
-            "Comedy",
-            "Mahou Shoujo",
-            "Sci-Fi",
-            "Virtual World",
-            "Female Protagonist",
-            "Magic"
-        ],
-        "data_estreia": "1999-04-09"
-    },
-    {
-        "titulo": "Beelzebub",
-        "titulo_original": "べるぜバブ",
-        "id": "38603",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx9513-is6YiSgKbyQX.jpg",
-        "qualidade": "HD",
-        "descricao": "Oga Tatsumi is a first year student in Ishiyama High, a notorious school for delinquents. One day he sees a man floating by, and the man suddenly splits in half to reveal a baby boy inside!  \n(Source: Crunchyroll)",
-        "generos": [
-            "Action",
-            "Comedy",
-            "Supernatural",
-            "Demons",
-            "Delinquents",
-            "Male Protagonist"
-        ],
-        "data_estreia": "2011-01-09"
-    },
-    {
-        "titulo": "Douluo Dalu (Soul Land)",
-        "titulo_original": "斗罗大陆",
-        "id": "76572",
-        "capa": "https://image.tmdb.org/t/p/w500/o80kcyeLqMHggWtcskg2E9hLQGB.jpg",
-        "qualidade": "HD",
-        "descricao": "Tang San dedicadou sua vida à criação e ao domínio das armas escondidas. Uma vez ele roubou a sabedoria secreta da Seção Interior para alcançar o pináculo de sua arte, sua única saída era a morte. Mas depois de se jogar de um abismo mortal, ele renasceu em um mundo diferente, o mundo de Douluo Dalu, um mundo onde cada pessoa tem um espírito próprio, e aqueles com espíritos poderosos podem praticar seu poder espiritual para se levantar e tornar-se Espíritos Mestres.\n\nO espírito que desperta dentro de Tang San é o Blue Silver Grass, um espírito inútil. Ele poderá superar as dificuldades para chegar até o alto escalão dos Mestres de Espírito e trazer a glória da Seita Tang para este novo mundo?",
+        "descricao": "Uma princesa guerreira parte em missão para cumprir uma antiga profecia e salvar a humanidade dos deuses do submundo.",
         "generos": [
             "Animação",
-            "Drama",
-            "Sci-Fi & Fantasy",
-            "Action & Adventure"
-        ],
-        "data_estreia": "2018-01-13",
-        "original_language": "zh"
-    },
-    {
-        "titulo": "A Casa Coruja",
-        "titulo_original": "The Owl House",
-        "id": "92685",
-        "capa": "https://image.tmdb.org/t/p/w500/c3ygNz5qEETOUSAWa7v6B7gT8JS.jpg",
-        "qualidade": "HD",
-        "descricao": "Luz, uma adolescente humana segura de si, tropeça acidentalmente em um portal para um reino mágico, onde faz amizade com uma bruxa rebelde.",
-        "generos": [
-            "Animação",
-            "Sci-Fi & Fantasy",
-            "Drama",
+            "Família",
             "Action & Adventure",
             "Comédia",
             "Kids"
         ],
-        "data_estreia": "2020-01-10",
+        "data_estreia": "2021-10-22",
         "original_language": "en"
     },
     {
-        "titulo": "Toaru Kagaku no Accelerator",
-        "titulo_original": "とある科学の一方通行【アクセラレータ】",
-        "id": "90546",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104463-nlo4ndS9Mt0P.jpg",
+        "titulo": "Um Conto Sombrio dos Grimm",
+        "titulo_original": "A Tale Dark & Grimm",
+        "id": "133355",
+        "capa": "https://image.tmdb.org/t/p/w500/pcdUtPytnHGSMVSvwYu6WdD5G3v.jpg",
         "qualidade": "HD",
-        "descricao": "The espers of Academy City are classified into six levels, where \"Level 0\" lacks power while \"Level 5\" possesses an overwhelming amount. Of the several million espers residing in Academy City, only seven of them have attained Level 5, and ranked highest among them is the one known as Accelerator.  \n\nToaru Kagaku no Accelerator focuses on the strongest Level 5 after he protects the cheerful Last Order at the price of much of his power. Recovering at the hospital, Accelerator has led a relatively quiet life until he ends up saving the life of Estelle Rosenthal, a mysterious girl carrying a photo of Last Order. Unfortunately, Accelerator now finds himself dragged into a new conflict in the form of a sinister organization called Disciplinary Action which plots to use Last Order for a dangerous mission. Now that they have set their plan into motion and are in pursuit of the young girl, it's up to the world's most powerful esper and his newfound companion to protect Last Order and defend Academy City in the process.  \n\n(Source: MAL Rewrite)",
+        "descricao": "João e Maria saem do próprio conto de fadas e entram em uma história sombria, cheia de surpresas estranhas e assustadoras.",
+        "generos": [
+            "Kids",
+            "Action & Adventure",
+            "Animação"
+        ],
+        "data_estreia": "2021-10-08",
+        "original_language": "en"
+    },
+    {
+        "titulo": "Ao no Exorcist",
+        "titulo_original": "青の祓魔師",
+        "id": "38464",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9919-nXS7JOZrWHfS.jpg",
+        "qualidade": "HD",
+        "descricao": "This world consists of two dimensions joined as one, like a mirror. The first is the world in which the humans live, Assiah. The other is the world of demons, Gehenna. Ordinarily, travel between the two, and indeed any kind of contact between the two, is impossible. However the demons can pass over into this world by possessing anything that exist within it. Satan the god of demons, but there's one thing that he doesn't have, and that's a substance in the human world that is powerful enough to contain him!! For that purpose he created Rin, his son from a human woman, but will his son agree to his plans? Or will he become something else...? An exorcist?\n",
         "generos": [
             "Action",
-            "Sci-Fi",
-            "Anti-Hero",
-            "Super Power",
-            "Necromancy"
-        ],
-        "data_estreia": "2019-07-12"
-    },
-    {
-        "titulo": "Niehime to Kemono no Ou",
-        "titulo_original": "贄姫と獣の王",
-        "id": "117024",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128715-T4Tne2TcqfVx.jpg",
-        "qualidade": "HD",
-        "descricao": "The King of the Beasts and Demons regularly receives female human sacrifices to eat in order to assert the dominance of his people over the human race. However, for the 99th sacrifice, the human girl brought to the capital, Sariphi, intrigues the Beast King. In fact she isn't afraid of him or any other beast and even accepts her death without begging or crying as she has neither home nor family to return to if she were released. The King finds her intriguing and let her stay at his side as his consort despite being human. This is the story of how Sariphi will become the queen of the demons and beasts.\n  \n(Source: Crunchyroll)",
-        "generos": [
-            "Drama",
             "Fantasy",
-            "Romance",
-            "Female Protagonist",
-            "Politics",
-            "Shoujo"
+            "Supernatural",
+            "Demons",
+            "Super Power",
+            "Shounen"
         ],
-        "data_estreia": "2023-04-20"
+        "data_estreia": "2011-04-17"
     },
     {
-        "titulo": "Imouto sae Ireba Ii.",
-        "titulo_original": "妹さえいればいい。",
-        "id": "74092",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98596-E2aZouOyuQ8G.jpg",
+        "titulo": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai",
+        "titulo_original": "黒岩メダカに私の可愛いが通じない",
+        "id": "258994",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177552-7XiOf3dGXmNs.jpg",
         "qualidade": "HD",
-        "descricao": "The story follows the everyday life of Itsuki, a novelist and \"modern day Pygmalion\" who works day in and day out to create the ultimate younger sister. He's surrounded by various other characters: a beautiful genius writer who loves him, his big-sisterly classmate from college, a fellow male writer, a sadistic tax accountant, and his editor. They're all looked after by Itsuki's perfect younger step-brother, Chihiro, who has a serious secret. \n \n(Source: Anime News Network) \n \nNote: The first episode received an early screening at a special event held at Shinjuku Piccadilly, Tokyo on 06.09.2017.",
+        "descricao": "Gorgeous from head to toe! The perfect figure! To Kawai Mona, winning hearts comes as naturally as breathing... but the arrival of Kuroiwa Medaka, a new transfer student who won't even give her a second look, turns her school life upside-down! She's lived her whole life being fawned over, so why is he any different? Mona tries everything she can think of to win Medaka over, even getting a bit extreme at times! This new rom-com starring a queen bee and a celibate boy is about to burst onto the scene! \n \n(Source: Crunchyroll)",
         "generos": [
             "Comedy",
             "Ecchi",
             "Romance",
-            "Slice of Life",
-            "Writing",
-            "Otaku Culture",
-            "Work"
+            "Heterosexual",
+            "Female Protagonist",
+            "Love Triangle"
         ],
-        "data_estreia": "2017-10-08"
+        "data_estreia": "2025-01-07"
     },
     {
-        "titulo": "Apenas um Show",
-        "titulo_original": "Regular Show",
-        "id": "31132",
-        "capa": "https://image.tmdb.org/t/p/w500/b56jpir0S12bxD6WyjMZg92c9Zr.jpg",
+        "titulo": "Mahoutsukai no Yakusoku",
+        "titulo_original": "魔法使いの約束",
+        "id": "258578",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170916-B6VKOdSOBccU.jpg",
         "qualidade": "HD",
-        "descricao": "Mordecai e Rigby são guardas de um parque. Mas esses melhores amigos são preguiçosos e não deixam o trabalho interferir com sua capacidade de se divertir. Enquanto Mordecai tenta ser responsável e fazer um bom trabalho, é frequentemente desencaminhado por seu imaturo companheiro, totalmente imune à vergonha ou ao medo e sem nenhum limite. Os amigos acabam sempre pagando pelas suas ações irresponsáveis, pois se metem em mais confusões do que esperavam. A negligência no trabalho causa muito desgosto ao chefe temperamental da dupla, Benson.",
+        "descricao": "On a moonlit night, Akira Masaki finds herself in a magical world where wizards and humans coexist. Every year, they must face an enormous, deadly moon that attacks the planet. Their only hope lies with the Wizards of the Sage, appointed to fight the supernatural threat. But Akira soon discovers she wasn’t summoned by chance—she was chosen to lead them in battle. \n \n(Source: Crunchyroll) \n \nNote: Animation project for Mahoutsukai no Yakusoku announced during the stream event \"Mahoutsukai no Yakusoku 4-Shuunen Kinen Tokuban: Mahoyaku 4-Shuunen Goukon\" held on Nov 12, 2023.",
         "generos": [
-            "Animação",
-            "Comédia"
+            "Fantasy",
+            "Magic",
+            "Isekai",
+            "Ensemble Cast"
         ],
-        "data_estreia": "2010-09-06",
-        "original_language": "en"
+        "data_estreia": "2025-01-06"
     },
     {
-        "titulo": "Bloquinho da Bea",
-        "titulo_original": "Bea's Block",
-        "id": "233003",
-        "capa": "https://image.tmdb.org/t/p/w500/m7ay8JRbNsiJ330375Owj1hrgSl.jpg",
+        "titulo": "Kono Kaisha ni Suki na Hito ga Imasu",
+        "titulo_original": "この会社に好きな人がいます",
+        "id": "262141",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179696-1MAqXYVXT7IT.jpg",
         "qualidade": "HD",
-        "descricao": "O Bloquinho da Bea é uma animação pré-escolar com Bea e seus amigos, que trabalha a gentileza através da amizade e empatia.",
-        "generos": [
-            "Kids",
-            "Animação",
-            "Comédia",
-            "Família"
-        ],
-        "data_estreia": "2024-02-15",
-        "original_language": "en"
-    },
-    {
-        "titulo": "Bob's Burgers",
-        "titulo_original": "Bob's Burgers",
-        "id": "32726",
-        "capa": "https://image.tmdb.org/t/p/w500/yVz5foNr6nCfathj0igg8RLVGfn.jpg",
-        "qualidade": "HD",
-        "descricao": "A série acompanha Bob da terceira geração de uma família de proprietários de restaurantes, responsável por administrar a hamburgueria \"Bob's Burgers\" junto com sua esposa e seus três filhos. Bob e sua peculiar família têm grandes ideias para os hambúrgueres, mas estão pobres em serviço e em sofisticação.",
-        "generos": [
-            "Animação",
-            "Comédia"
-        ],
-        "data_estreia": "2011-01-09",
-        "original_language": "en"
-    },
-    {
-        "titulo": "Yofukashi no Uta",
-        "titulo_original": "よふかしのうた",
-        "id": "138357",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141391-M3ZgUKTPENUk.jpg",
-        "qualidade": "HD",
-        "descricao": "Wracked by insomnia and wanderlust, Kou Yamori is driven onto the moonlit streets every night in an aimless search for something he can’t seem to name. His nightly ritual is marked by purposeless introspection — until he meets Nazuna, who might just be a vampire! Kou’s new companion could offer him dark gifts and a vampire’s immortality. But there are conditions that must be met before Kou can sink his teeth into vampirism, and he’ll have to discover just how far he’s willing to go to satisfy his desires before he can heed the Call of the Night!\n  \n(Source: Sentai Filmworks)",
-        "generos": [
-            "Comedy",
-            "Psychological",
-            "Romance",
-            "Slice of Life",
-            "Supernatural",
-            "Vampire",
-            "Urban Fantasy",
-            "Urban"
-        ],
-        "data_estreia": "2022-07-08"
-    },
-    {
-        "titulo": "Dororo",
-        "titulo_original": "どろろ",
-        "id": "83100",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101347-TGaDwEYqLfm1.jpg",
-        "qualidade": "HD",
-        "descricao": "Dororo, a young orphan thief, meets Hyakkimaru, a powerful ronin. Hyakkimaru's father, a greedy feudal lord, had made a pact with 12 demons, offering his yet-unborn son's body parts in exchange for great power. Thus, Hyakkimaru - who was born without arms, legs, eyes, ears, a nose or a mouth - was abandoned in a river as a baby. Rescued and raised by Dr. Honma, who equips him with artificial limbs and teaches him sword-fighting techniques, Hyakkimaru discovers that each time he slays a demon, a piece of his body is restored. Now, he roams the war-torn countryside in search of demons.",
-        "generos": [
-            "Action",
-            "Adventure",
-            "Drama",
-            "Supernatural",
-            "Demons",
-            "Revenge",
-            "Disability"
-        ],
-        "data_estreia": "2019-01-07"
-    },
-     {
-        "titulo": "Kami nomi zo Shiru Sekai",
-        "titulo_original": "神のみぞ知るセカイ",
-        "id": "56351",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8525-chaE9kM2x0w4.png",
-        "qualidade": "HD",
-        "descricao": "Keima is a dating sim champion. Cute girls are rendered powerless by his irresistible game playing techniques. Too bad things aren't that way in the real world. That is, until his tempting game playing causes a real live&mdash;and very bubbly-cute&mdash;demon hunter named Elsie to materialize! Now Elsie wants Keima to help her free hot girls from sneaky demons who secretly possess them.   \n(Source: Sentai Filmworks) ",
+        "descricao": "Yui Mitsuya and Masugu Tateishi aren't just any coworkers-they totally have the hots for each other. His helpful yet humble attitude makes her giddy, and her cuteness leaves him grinning like a fool. Problem is, they're trying to keep their new relationship under wraps to avoid making things awkward at work. But seeing how they can't keep their hands off each other, they run the risk of spilling their little secret with each passing day at the office.\n  \n(Source: Kodansha US)",
         "generos": [
             "Comedy",
             "Romance",
-            "Supernatural",
-            "Parody",
-            "Primarily Female Cast",
-            "Urban Fantasy"
-        ],
-        "data_estreia": "2010-10-07"
-    },
-    {
-        "titulo": "Togainu no Chi",
-        "titulo_original": "咎狗の血",
-        "id": "38057",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8449-N9gItjO6pnIY.jpg",
-        "qualidade": "HD",
-        "descricao": "After being devastated in the third World War (known as The Third Division), Japan was divided in two. Several years after the end of the war, a crime organization called Vischio has taken control of the destroyed city of Toshima (formerly Tokyo, Japan's capital city), where they are holding a battle game known as \"Igura\". The main character, a young man named Akira, is falsely accused of a crime. Once arrested, a mysterious woman appears before him, offering him freedom if he agrees to participate in Igura and defeat Igura's strongest man: the king, or \"Il-re\". The story follows Akira's life in the harsh, lawless Toshima as he fights both to survive and to unravel the mysteries developing around him.   \n(Source: Wikipedia) ",
-        "generos": [
-            "Action",
-            "Sci-Fi",
-            "Battle Royale",
-            "Primarily Male Cast",
+            "Slice of Life",
+            "Office",
+            "Heterosexual",
             "Primarily Adult Cast"
         ],
-        "data_estreia": "2010-10-08"
+        "data_estreia": "2025-01-06"
     },
     {
-        "titulo": "Shiki",
-        "titulo_original": "屍鬼",
-        "id": "36581",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7724-NwNnRsI34eDa.jpg",
+        "titulo": "Youkai Gakkou no Sensei Hajimemashita!",
+        "titulo_original": "妖怪学校の先生はじめました！",
+        "id": "259788",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171545-j9foxkHeXec7.jpg",
         "qualidade": "HD",
-        "descricao": "During a fiercely hot summer in Sotoba, a peaceful and quiet village with a population of 1300 people, a series of bizarre deaths begin to occur. At the same time, a strange family moves into a long abandoned mansion in the region. After supposedly visiting this strange family, the fashionable Shimizu Megumi goes missing and the entire village goes out in search for her. ",
+        "descricao": "Rookie teacher Haruaki Abe is as cowardly as they come. It's hard enough for him to handle human students without whimpering-and now he's going to be teaching at a school full of monsters?! It's a classroom of horrors for Haruaki, as his mischievous students use every means at their disposal to prank him! Will this poor teacher be able to get his group of ghouls under control, or is this class destined for failure? \n \n(Source: Yen Press)",
         "generos": [
-            "Horror",
-            "Mystery",
+            "Comedy",
             "Supernatural",
-            "Thriller",
-            "Vampire",
-            "Survival",
-            "Tragedy"
+            "Slapstick",
+            "Cute Boys Doing Cute Things",
+            "Youkai"
         ],
-        "data_estreia": "2010-07-09"
+        "data_estreia": "2024-10-08"
     },
     {
-        "titulo": "Yama no Susume",
-        "titulo_original": "ヤマノススメ",
-        "id": "53918",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx14355-ZsPYtTYa1b4v.jpg",
+        "titulo": "Unnamed Memory",
+        "titulo_original": "Unnamed Memory",
+        "id": "216272",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158709-WFA0RHloDvPl.jpg",
         "qualidade": "HD",
-        "descricao": "Aoi prefers indoor hobbies and is afraid of heights, but her childhood friend Hinata loves to show off her passion for mountain climbing. As young children they once watched the sunrise from the top of a mountain, and now they've decided to take up mountain climbing in hopes of seeing that sunrise again. They have cooking battles with mountaineering gear, climb small hills in their neighborhood, and meet new mountaineering friends as they learn the ropes of the hobby. When will they finally see that sunrise again?  \n(Source: Crunchyroll)",
+        "descricao": "\"My wish as champion is for you to descend the tower and be my wife.\" \n \nSeeking to end a curse thwarting his lineage, Prince Oscar sets out on a quest that leads him to a powerful and beautiful witch, Tinasha, and he demands a unique bargain: marriage. Though unenthused by the proposal, she agrees to stay in his castle for a year while researching the spell cast upon him. But beneath her beauty lies a lifetime of dark secrets that soon come to light. \n \n(Source: Yen Press, Crunchyroll)",
         "generos": [
             "Adventure",
-            "Comedy",
-            "Slice of Life",
-            "Outdoor Activities",
-            "Primarily Female Cast",
-            "Iyashikei"
+            "Fantasy",
+            "Romance",
+            "Witch",
+            "Royal Affairs",
+            "Magic"
         ],
-        "data_estreia": "2013-01-03"
+        "data_estreia": "2024-04-09"
     },
     {
-        "titulo": "Yojouhan Shinwa Taikei",
-        "titulo_original": "四畳半神話大系",
-        "id": "36243",
-        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7785-aTjIhsYva8cJ.jpg",
+        "titulo": "Amagami-san Chi no Enmusubi",
+        "titulo_original": "甘神さんちの縁結び",
+        "id": "234910",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx164172-GY2aqItIuqtR.jpg",
         "qualidade": "HD",
-        "descricao": "When a college dropout stops for a late night bite at a mysterious ramen stand, he crosses paths with a self-proclaimed deity of matrimony. This bizarre meeting sends the young man hurtling through a horrifying flashback to his not-so-glorious college days when the influence of a cruel new friend turned him from a hopeless romantic into a mischievous “black cupid.”  \r\n(Source: Funimation)",
+        "descricao": "Uryuu Kamihate is a high school student striving to enter Kyoto University’s medical school. After being raised at an orphanage, Uryuu is taken in by the chief priest at Amagami Shrine, where he begins to live as a freeloader—and to cohabit with Yae, Yuna, and Asahi, the three beautiful shrine maiden sisters! What’s more, the condition he must meet in order to live at the shrine for free is to marry into the family and inherit the shrine! How will Uryuu overcome his marriage meetings with the three sisters as well as the many challenges that Amagami Shrine faces? So begins a miraculous rom-com about living under the same roof with three shrine maidens! \n \n(Source: Crunchyroll, edited)",
         "generos": [
             "Comedy",
-            "Mystery",
-            "Psychological",
+            "Drama",
+            "Ecchi",
             "Romance",
-            "Coming of Age",
-            "Time Loop",
-            "College"
+            "Supernatural",
+            "Shrine Maiden",
+            "Heterosexual",
+            "Primarily Female Cast"
         ],
-        "data_estreia": "2010-04-23"
+        "data_estreia": "2024-10-02"
+    },
+    {
+        "titulo": "Hana wa Saku, Shura no Gotoku",
+        "titulo_original": "花は咲く、修羅の如く",
+        "id": "256744",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178022-gB3zAfazGBJ6.jpg",
+        "qualidade": "HD",
+        "descricao": "On the picturesque island of Tonakijima with a population of only 600, Hana’s favorite pastime is reading literature to the island’s children. Her narration skills are second to none, and Mizuki, the president of the school’s broadcasting club immediately recognizes Hana’s ability to engage with others and draw them into her recitations. Invited by Mizuki to join the club, Hana embarks on a journey to discover her true love of reading — and maybe even change the course of her life along the way.  \n\n(Source: HIDIVE)",
+        "generos": [
+            "Drama",
+            "Slice of Life",
+            "Primarily Teen Cast",
+            "School Club",
+            "School"
+        ],
+        "data_estreia": "2025-01-08"
+    },
+    {
+        "titulo": "Arlequina",
+        "titulo_original": "Harley Quinn",
+        "id": "74440",
+        "capa": "https://image.tmdb.org/t/p/w500/bl4hQISOR5QNu4cITDuN1E4zLAJ.jpg",
+        "qualidade": "HD",
+        "descricao": "Baseada na personagem da DC, se concentra em Arlequina, que finalmente rompeu de uma vez por todas seu relacionamento abusivo com o Coringa e agora tenta lidar com sua emancipação e uma vida de independência sendo a verdadeira rainha de Gotham. A série apresenta um novo olhar cômico sobre Arlequina, Hera Venenosa, Coringa e todo um elenco de heróis e vilões, antigos e novos, do Universo DC.",
+        "generos": [
+            "Action & Adventure",
+            "Animação",
+            "Comédia",
+            "Sci-Fi & Fantasy"
+        ],
+        "data_estreia": "2019-11-29",
+        "original_language": "en"
+    },
+    {
+        "titulo": "Grisaia: Phantom Trigger",
+        "titulo_original": "グリザイア：ファントムトリガー",
+        "id": "280906",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx145740-KtUZ6O59DaDq.jpg",
+        "qualidade": "HD",
+        "descricao": "Several years after The Fruit of Grisaia... \n \nWhat was once \"Mihama Academy,\" a sanctuary for young girls, has now been transformed into a SORD (Special Organization for Research & Development) training school dedicated to fostering talent for national defense. Rena and Maki specialize in firearms, Tohka and Gumi excel at sniping, Chris handles explosives and data processing, and Murasaki is a skilled ninja for intelligence operations. Together, they take on cases too complex for the police or Self-Defense Forces, repeatedly facing dangerous missions. This is the story of these young girls, painted in blood and gunpowder. \n \n(Source: Crunchyroll)",
+        "generos": [
+            "Action",
+            "Primarily Female Cast",
+            "Guns",
+            "Amnesia"
+        ],
+        "data_estreia": "2025-01-02"
+    },
+    {
+        "titulo": "Magic Maker: Isekai Mahou no Tsukurikata",
+        "titulo_original": "マジック・メイカー　～異世界魔法の作り方～",
+        "id": "258912",
+        "capa": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179297-qaG8nCqMpR3o.jpg",
+        "qualidade": "HD",
+        "descricao": "On the night of his 30th birthday, one man’s dreams of wielding magic come true after he unexpectedly passes away. He wakes as Sion, a young child in another world. He and his elder sister, Marie, are the children of a lower-class noble family who govern their region. After receiving conflicting messages from their father, Sion and Marie set out on an adventure to uncover the magic. \n \n(Source: Crunchyroll)",
+        "generos": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Slice of Life",
+            "Magic",
+            "Isekai",
+            "Reincarnation"
+        ],
+        "data_estreia": "2025-01-09"
     }
+
 ]

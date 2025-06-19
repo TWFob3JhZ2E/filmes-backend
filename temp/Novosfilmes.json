@@ -1,165 +1,5 @@
 [
    {
-        "titulo": "Os Mercenários",
-        "titulo_original": null,
-        "id": "tt1320253",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNTg2MDJhNzktNWU1Ny00NDIwLWFhNDYtNGNjY2MzMGM5MzU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Um grupo de mercenários liderados por Barney Ross é contratado para deter um ditador. Ao chegarem no local, eles percebem que estão em desvantagem, mas decidem prosseguir quando encontram uma possível aliada.",
-        "generos": [
-            "Martial Arts",
-            "Action",
-            "Adventure",
-            "Thriller"
-            
-        ],
-        "data_lancamento": "2010"
-    },
-    {
-        "titulo": "O Rei dos Reis",
-        "titulo_original": null,
-        "id": "tt7967302",
-        "capa": "https://m.media-amazon.com/images/M/MV5BOTgwYzBiNWMtZTQ3NC00N2U5LWJhMmQtNDIxNDE3MzQ2MDEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "O filho de Charles Dickens, através da narrativa vívida do autor, viaja pela vida de Jesus Cristo, desde suas origens humildes até o sacrifício final. Ao longo do caminho, o menino descobre o poder transformador da fé.",
-        "generos": [
-            "Computer Animation",
-            "Animation",
-            "Family"
-            
-        ],
-        "data_lancamento": "2025"
-    },
-    {
-        "titulo": "Ártico",
-        "titulo_original": null,
-        "id": "tt6820256",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZGFmMDczODAtMzFiZi00NGQ2LTgyOTYtZmY2YTJlOTE4MzUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Um homem encalhado no Ártico depois de um acidente de helicóptero deve decidir se permanece no seu acampamento improvisado ou se embarca em uma jornada mortal através do desconhecido.",
-        "generos": [
-            "Survival",
-            "Adventure",
-            "Drama"
-            
-        ],
-        "data_lancamento": "2018"
-    },
-     {
-        "titulo": "O Pequeno Bulldog",
-        "titulo_original": null,
-        "id": "tt6004438",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYzdiYWQ3NzAtNmI1OS00MjU5LWI5ODQtODJjNmE0NWVmMzc3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Animal-lover Amber desperately wants a dog to love. When she falls for Shadow, she takes on her family and city hall to fight for her new best friend in a race against the clock.",
-        "generos": [
-            "Family"
-            
-        ],
-        "data_lancamento": "2025"
-    },
-     {
-        "titulo": "O Truque do Amor",
-        "titulo_original": null,
-        "id": "tt34896285",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMmIwOTJlM2YtYzQzMy00YjI2LWE0YzEtZmZiZThlYzU3ZTZlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Afogados em dívidas, dois irmãos arquitetam um plano para enganar uma rica herdeira e salvar sua casa em Nápoles - mas um amor inesperado logo complica o esquema.",
-        "generos": [
-            "Buddy Comedy",
-            "Romantic Comedy",
-            "Comedy",
-            "Romance"
-            
-        ],
-        "data_lancamento": "2025"
-    },
-     {
-        "titulo": "De Volta à Ação",
-        "titulo_original": null,
-        "id": "tt21191806",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYTYzM2MyNGYtZGNmZi00ZDcxLWJhODAtNjEzMDE0ZDUyOGU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Quinze anos depois de abandonar a CIA para formar uma família, os ex-agentes de elite Matt e Emily voltam ao mundo da espionagem ao terem seus disfarces descobertos.",
-        "generos": [
-            "Spy",
-            "Action",
-            "Comedy",
-            "Chemistry",
-            "Action sequences",
-            "Comedic brilliance",
-            "Stunts",
-            "Character development",
-            "Family dynamics",
-            "Special effects",
-            "Thin story",
-            "Uneven quality"
-            
-        ],
-        "data_lancamento": "2025"
-    },
-    {
-        "titulo": "Oficina do Diabo",
-        "titulo_original": null,
-        "id": "tt28459771",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNDJjZDMxM2YtMmU5YS00NTUyLWJiZTMtMzc1OTQzMTI4N2IwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um ambicioso jovem demônio é instruído por um demônio mais velho e experiente na arte e na ciência de condenar uma alma ao Inferno. Dilemas e lições difíceis sobre o coração humano e o destino da alma humana estão em jogo.",
-        "generos": [
-            "Psychological Drama",
-            "Drama"
-        
-        ],
-        "data_lancamento": "2025"
-    },
-     {
-        "titulo": "Lobisomem",
-        "titulo_original": null,
-        "id": "tt4216984",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZDc0OWYzYzQtNDlkMi00OTE2LWI1ZTUtMDIwZDg2MDY4MWFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um homem deve proteger a si mesmo e sua família quando eles são perseguidos, aterrorizados e assombrados por um lobisomem mortal à noite durante a lua cheia. Mas conforme a noite avança, o homem começa a se comportar de forma estranha.",
-        "generos": [
-            "Body Horror",
-            "Werewolf Horror",
-            "Pacing"
-            
-        ],
-        "data_lancamento": "2025"
-    },
-     {
-        "titulo": "Covil de Ladrões 2",
-        "titulo_original": null,
-        "id": "tt8008948",
-        "capa": "https://m.media-amazon.com/images/M/MV5BY2I3OTlkNzItMjQwOC00NzNhLWEyYjQtMzRkZTFiNzNjMmU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Big Nick está de volta à caça na Europa e se aproxima de Donnie, que está envolvido no mundo traiçoeiro dos ladrões de diamantes e da infame máfia dos Panteras, enquanto eles planejam um grande assalto à maior bolsa de diamantes do mundo.",
-        "generos": [
-            "Heist",
-            "Action",
-            "Crime",
-            "Pacing"
-            
-        ],
-        "data_lancamento": "2025"
-    },
-     {
-        "titulo": "Código Alarum",
-        "titulo_original": null,
-        "id": "tt31456973",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMGNmYWI0YWItMmJhYi00OTA4LThlNjItMTk0MzI1M2IwYjg5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Dois espiões desonestos saem da rede, casam-se e são atacados em sua cabana remota por várias agências de inteligência que buscam um disco rígido roubado.",
-        "generos": [
-            "Spy",
-            "Action",
-            "Crime",
-            "Thriller"
-            
-        ],
-        "data_lancamento": "2025"
-    },
-     {
         "titulo": "Nossos Tempos",
         "titulo_original": null,
         "id": "tt35630700",
@@ -169,6 +9,82 @@
         "generos": [
             "Drama",
             "Sci-Fi",
+            "Back to top"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "Lifeline",
+        "titulo_original": null,
+        "id": "tt25973750",
+        "capa": "https://m.media-amazon.com/images/M/MV5BODEyNTEyYTMtYmUyYi00ODEyLTgxYWEtZTdkNTRhYmE4MzI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "A late-night suicide hotline operator receives a disturbing call from someone claiming to be him, knowing personal details only he would know.",
+        "generos": [
+            "Drama",
+            "Mystery",
+            "Thriller",
+            "Back to top"
+        ],
+        "data_lancamento": "2025"
+    },
+     {
+        "titulo": "Jade: Guerreira Solitária",
+        "titulo_original": null,
+        "id": "tt14469386",
+        "capa": "https://m.media-amazon.com/images/M/MV5BOGMxY2RiY2EtNTdhMy00Y2MzLWJmMWItMWRlMjYzYTk2YTc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Jade terá que enfrentar seu passado quando, sem querer, se vê responsável por proteger um HD com segredos da Interpol. Sua habilidades extraordinárias de luta serão colocadas à prova por uma gangue que ameaça o futuro de sua família.",
+        "generos": [
+            "Martial Arts",
+            "Action",
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "O Homem que Quer Viver para Sempre",
+        "titulo_original": null,
+        "id": "tt34977130",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMmJmMDU2YWYtZWFhNC00MGNmLWE0YTgtM2M2MWRlODE2ODhjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Explora a busca de um homem pela imortalidade e os extremos a que ele chega para desafiar o envelhecimento.",
+        "generos": [
+            "Science & Technology Documentary",
+            "Documentary",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+     {
+        "titulo": "Amores Materialistas",
+        "titulo_original": null,
+        "id": "tt30253473",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "A young, ambitious New York City matchmaker finds herself torn between the perfect match and her imperfect ex.",
+        "generos": [
+            "Feel-Good Romance",
+            "Romantic Comedy",
+            "Comedy",
+            "Romance",
+            "Back to top"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "Homem com H",
+        "titulo_original": null,
+        "id": "tt35301431",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYmU0NDY3ODctNjhmMS00Y2YxLTljZTAtN2E5NzA4NTExODU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "From a repressive childhood to artistic revolution, Ney Matogrosso transforms Brazil's stages - and himself - through music, creativity and inner fire.",
+        "generos": [
+            "Docudrama",
+            "Biography",
+            "Drama",
+            "Music",
             "Back to top"
         ],
         "data_lancamento": "2025"
@@ -186,313 +102,347 @@
         ],
         "data_lancamento": "2025"
     },
-     {
-        "titulo": "Bill & Ted: Dois Loucos no Tempo",
-        "titulo_original": null,
-        "id": "tt0101452",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZTRjOTQ2MmUtNjk4Yi00NGEwLThjNTQtZTQzNWIwZDEwNmNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Califórnia, 2691. Um gênio do mal decide acabar com a duradoura paz mundial e resolve mandar exterminadores para acabar com a origem da ideologia pacifista então reinante: a dupla de roqueiros Bill e Ted.",
-        "generos": [
-            "Slapstick",
-            "Teen Adventure",
-            "Adventure",
-            "Comedy",
-            "Fantasy",
-            "Music",
-            "Sci-Fi"
-        ],
-        "data_lancamento": "1991"
-    },
     {
-        "titulo": "A Viagem de Ernesto e Celestine",
+        "titulo": "Predador: Assassino de Assassinos",
         "titulo_original": null,
-        "id": "tt22352776",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZDIwYmI2YWEtNmUzMC00NmFhLTk0M2ItZjkxNjNlYTk5Yzg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Ernesto e Celestine viajam de volta ao país de Ernesto para consertar seu violino. Esta terra exótica é o lar dos melhores músicos do planeta. Porém, ao chegarem, os dois descobrem que todas as formas de música foram proibidas há anos.",
+        "id": "tt36463894",
+        "capa": "https://m.media-amazon.com/images/M/MV5BODc4MjBlY2YtNzY4Zi00MDI5LWI0OTItOTAwNDBmZTY5MTNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Três dos guerreiros mais ferozes da história da humanidade se tornam vítimas do maior assassino de assassinos.",
         "generos": [
+            "Adult Animation",
+            "Action",
             "Adventure",
             "Animation",
-            "Comedy",
-            "Crime",
-            "Drama",
-            "Family"
-            
+            "Sci-Fi",
+            "Thriller",
+            "Voltar ao início"
         ],
-        "data_lancamento": "2022"
+        "data_lancamento": "2025"
     },
     {
-        "titulo": "Mundo Estranho",
+        "titulo": "Mega Blood Moon: The Freelancer",
         "titulo_original": null,
-        "id": "tt10298840",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZGUzZGJiNDctNmUwZS00OWE4LWE2NTAtYWQ5ZDQxYzRiYzk5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt27196626",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYjkwZmUxZGYtODM2OS00NDU1LWI1ZDUtMGQ3ZTk1ZGZjNGQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "HD",
-        "descricao": "As diferenças entre uma lendária família de exploradores ameaçam fracassar sua mais recente e crucial missão.",
+        "descricao": "On his final workday, a Freelancer arrives early to find the office seemingly empty. As a Mega Blood Moon looms, he realizes he's not alone and must fight for survival.",
         "generos": [
-            "Computer Animation",
-            "Quest",
-            "Action",
-            "Adventure",
-            "Animation"
-            
+            "Comedy",
+            "Horror",
+            "Voltar ao início"
         ],
-        "data_lancamento": "2022"
+        "data_lancamento": "2025"
     },
     {
-        "titulo": "A Luz do Demônio",
+        "titulo": "Match, Meet, Murder",
         "titulo_original": null,
-        "id": "tt9271672",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYzM1Y2FjM2ItYjUwMC00ZTgxLTk4Y2ItMWU4NmUzMzQwYTA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Uma freira se prepara para realizar um exorcismo e fica cara a cara com uma força demoníaca com laços misteriosos com seu passado.",
+        "id": "tt35325347",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYTJjZGJiZDQtMjUxZi00OTVhLWJhOTYtMGM1NWJjOWIwN2IxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "A dating app connects Ruby with a handsome stranger who's smart, successful--and a former dating-show contestant. She soon discovers that the show wasn't the only secret he left off his profile.",
         "generos": [
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "My Family's Killer Affairs",
+        "titulo_original": null,
+        "id": "tt33049788",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTVlZTVmZDItNmYzYi00YmI5LWFlOGItYWJkODJlMzg2ZDhkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Single mom Nikki finds out that one of her eggs mistakenly got implanted into someone else during an IVF treatment 20 years ago. She is then shocked to meet Jenell, the daughter she never knew. On the surface Jenell seems perfect, but Nikki's daughter Erica suspects that there's much more to her surprise sister.",
+        "generos": [
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "My Amish Double Life",
+        "titulo_original": null,
+        "id": "tt35048234",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYjRiNmFjNDYtZmUxZC00MWY2LWE4YWUtNmQxMmU1YTQ1NWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "After her father's mysterious death, Emma, a young Amish woman, wants to experience something different, so, going behind her mother Mary's back, and with the help of her friend Rebecca, she escapes into the English world to have a rumspringa. Once there, she meets a Prince-Charming, Heath, who sweeps her off her feet. But her dream date with him gets interrupted when...Ler tudo",
+        "generos": [
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "Faça Ela Voltar",
+        "titulo_original": null,
+        "id": "tt32246771",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMDI5ZDc3Y2UtMTIyNC00Zjc3LTk0ZGUtN2U0ZmNmYjYzOTE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um irmão e uma irmã descobrem um ritual aterrorizante na casa isolada de sua nova mãe adotiva.",
+        "generos": [
+            "Supernatural Horror",
             "Horror",
             "Mystery",
-            "Thriller"
+            "Voltar ao início"
         ],
-        "data_lancamento": "2022"
+        "data_lancamento": "2025"
     },
     {
-        "titulo": "O Diário da Princesa",
+        "titulo": "The Last Woman Who Lived Here",
         "titulo_original": null,
-        "id": "tt0247638",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZGI5NWU2YjgtMjk1Zi00NWEwLTk0NmYtY2NiOTYzOTIyNTRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "SD",
-        "descricao": "Mia é uma jovem de 15 anos que vive com a mãe em Manhattan. Mas a visita de uma avó que não conhecia a faz descobrir que é a herdeira de um pequeno país europeu. Agora ela tem de decidir se aceita receber esse fardo ou se abdica do trono.",
+        "id": "tt35326016",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNDk0MDE3YTQtYWQ1Yi00MWRjLWI0MmYtMTM2M2Q1MmFkODhkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Charlotte and her husband Joel buy a house in the suburbs. But their new house is a \"murder house\", and Charlotte soon finds clues left by the former resident before her murder. Can she uncover the truth before she's next?",
         "generos": [
-            "Feel-Good Romance",
-            "High-Concept Comedy",
-            "Romantic Comedy",
-            "Teen Comedy",
-            "Teen Romance",
-            "Comedy",
-            "Family",
-            "Romance"
-            
+            "Thriller",
+            "Voltar ao início"
         ],
-        "data_lancamento": "2001"
+        "data_lancamento": "2025"
     },
     {
-        "titulo": "O Diário da Princesa 2: Casamento Real",
+        "titulo": "The Last Rodeo",
         "titulo_original": null,
-        "id": "tt0368933",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZjM2YTgzZTQtODc4OS00MDNmLTg0YWQtMmYzZmVmODM2OThhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt30908405",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYTI4NjcwODMtZGVhMi00ODhhLWIwODItZTQ4MmY0ZmU5OTliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um ex-montador de rodeio de 50 anos, separado de sua filha, decide pedalar novamente quando surge uma crise com seu neto, enfrentando seus demônios e considerando o maior sacrifício por sua família.",
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "The Jolly Monkey",
+        "titulo_original": null,
+        "id": "tt35882235",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNTdjODliZjctOTNlYS00ZDNlLWJjZDItY2Q2N2RjMzM5NTc2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "4K",
-        "descricao": "Agora estabelecida em Genóvia, a princesa Mia enfrenta uma nova revelação: ela está sendo preparada para um casamento negociado com um pretendente inglês.",
+        "descricao": "40 years ago, families disappeared near the isolated Jolly Monkey motel. Today, the family of the owners return to discuss what to do with the place. One by one they are killed by a someone dressed as the motel's mascot and need to escape.",
         "generos": [
-            "Romantic Comedy",
-            "Teen Comedy",
-            "Comedy",
-            "Family",
-            "Romance"
-            
+            "Horror",
+            "Voltar ao início"
         ],
-        "data_lancamento": "2004"
+        "data_lancamento": "2025"
     },
     {
-        "titulo": "As Panteras",
+        "titulo": "A Lista do Perigo: Quem Vai Escapar?",
         "titulo_original": null,
-        "id": "tt0160127",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNGI2YTQzMzUtYzM0Ni00YmIzLTkzZTUtOTE0YzMwM2U3ZWJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Três detetives com um chefe misterioso recuperam um software de identificação de voz roubado, usando artes marciais, suas habilidades e seu sex appeal.",
+        "id": "tt33362082",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNzhhMTRjM2EtZDE1Yi00NDc3LThiZGQtOWJmNjM1NDE3YTNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Daniel's list of past sexual partners falls into wrong hands. A hitman targets eliminating them. Daniel and friends race to stop the killer from harming his fiance Kristina and others on the list.",
         "generos": [
-            "Globetrotting Adventure",
+            "Comedy",
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "The Baby in the Basket",
+        "titulo_original": null,
+        "id": "tt26594761",
+        "capa": "https://m.media-amazon.com/images/M/MV5BYjAwNWNmMGYtMmMxYy00Njg4LWIwOTktMjMxOWEwMDc5ZDQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "A baby in a basket is left on the steps of an isolated monastery on a Scottish island. The nuns take it in, planning to care for it until a storm passes. Soon though, strange and unexplained events begin to happen at the convent.",
+        "generos": [
+            "Folk Horror",
+            "Supernatural Horror",
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2025"
+    },
+    {
+        "titulo": "Missão Suicida",
+        "titulo_original": null,
+        "id": "tt21301418",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZjc0MGViZWUtMTlkYi00ZGNlLWI2OWMtZWZjYWIzMzdmNDE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Depois de descobrir que a morte de sua esposa não foi um acidente, um ex-chefe da CIA é forçado a voltar ao submundo da espionagem, unindo-se a um inimigo para desvendar uma conspiração que desafia tudo o que ele achava que sabia.",
+        "generos": [
+            "Conspiracy Thriller",
             "Spy",
             "Action",
-            "Adventure",
-            "Comedy",
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2024"
+    },
+    {
+        "titulo": "Assassinos por Natureza",
+        "titulo_original": null,
+        "id": "tt0110632",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNmM2YTE4ZGEtOTFjNC00NTU1LTgwODYtNjE4ZGRmOTBmMzViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Duas vítimas de uma infância traumatizada tornam-se amantes e assassinos em série, irresponsavelmente glorificados pela mídia.",
+        "generos": [
+            "Dark Comedy",
+            "Dark Romance",
+            "Serial Killer",
             "Crime",
-            "Thriller"
-            
-        ],
-        "data_lancamento": "2000"
-    },
-    {
-        "titulo": "Blade Runner: O Caçador de Andróides",
-        "titulo_original": null,
-        "id": "tt0083658",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMWMwZjZjZjctMjI1ZC00MTRlLWE1MzktMDZjZDI1MjU2OTQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "SD",
-        "descricao": "Um corredor deberá perseguir é acabar com quatro replicantes que roubaram uma nave no espaço, e deberá regresar á Terra e encontrar seu criador.",
-        "generos": [
-            "Artificial Intelligence",
-            "Cyber Thriller",
-            "Cyberpunk",
-            "Dystopian Sci-Fi",
-            "Action"
-            
-        ],
-        "data_lancamento": "1982"
-    },
-    {
-        "titulo": "O Balconista",
-        "titulo_original": null,
-        "id": "tt0109445",
-        "capa": "https://m.media-amazon.com/images/M/MV5BN2FjMTA3MGYtZDRlMy00YzA3LThlMTYtMDg5ZTY2NDZiNGYxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um dia na vida de dois funcionários de lojas de conveniência chamados Dante e Randal enquanto eles irritam os clientes, falam sobre filmes e jogam hóquei no telhado da loja.",
-        "generos": [
-            "Buddy Comedy",
-            "Satire",
-            "Comedy"
-            
+            "Romance",
+            "Voltar ao início"
         ],
         "data_lancamento": "1994"
     },
     {
-        "titulo": "O Balconista 2",
+        "titulo": "Psicose 2",
         "titulo_original": null,
-        "id": "tt0424345",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZjI3YWE5NTQtYzY2NC00ZjY1LThhMzgtMDI2ZTlmMGIyZTJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "id": "tt0086154",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZjZhZDhiNTctOTIwYy00MGVmLWE1Y2ItMmZjZjllMWM3MjcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "qualidade": "4K",
-        "descricao": "Uma calamidade nas lojas de Dante e Randal os leva a procurar novos horizontes, porém eles acabam se estabelecendo no fast food Mooby's.",
+        "descricao": "Depois de vinte e dois anos internado em um sanatório, Norman Bates é considerado apto para se reintegrar à sociedade.",
         "generos": [
-            "Buddy Comedy",
-            "Comedy"
-            
-        ],
-        "data_lancamento": "2006"
-    },
-    {
-        "titulo": "Conan, o Bárbaro",
-        "titulo_original": null,
-        "id": "tt0816462",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZGVmOTcwN2ItNjAxOC00ODExLWE1ODQtNmQzZjk1Y2JhYTJkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Um guerreiro bárbaro sai para se vingar do malvado senhor da guerra que atacou sua aldeia e assassinou seu pai quando ele era criança.",
-        "generos": [
-            "Sword & Sandal",
-            "Sword & Sorcery",
-            "Action",
-            "Adventure",
-            "Fantasy"
-            
-        ],
-        "data_lancamento": "2011"
-    },
-    {
-        "titulo": "As Crônicas de Spiderwick",
-        "titulo_original": null,
-        "id": "tt0416236",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMTc4ZDI2MjUtZWU0NC00OGI4LWIxMjMtYWYwOGRhNmYxNDU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Após a separação dos pais, dois garotos gêmeos e sua irmã se mudam com a mãe para uma casa em ruínas. Por meio de um livro mágico, eles se vêem transportados para um mundo de fantásticas criaturas.",
-        "generos": [
-            "Coming-of-Age",
-            "Fairy Tale",
-            "Action",
-            "Adventure",
-            "Drama",
-            "Family",
-            "Fantasy",
-            "Thriller"
-            
-        ],
-        "data_lancamento": "2008"
-    },
-     {
-        "titulo": "Os Monstros",
-        "titulo_original": null,
-        "id": "tt14813212",
-        "capa": "https://m.media-amazon.com/images/M/MV5BOGY4NGVjOGItMzNiOC00ZDE2LThlMjUtNWY2YTU3OThkYWRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Uma família de símpaticos monstros se muda da Transilvânia para o subúrbio de uma pequena cidade americana, absolutamente alheios ao estranhamento que sua presença provoca em seus vizinhos comuns e convencionais.",
-        "generos": [
-            "Comedy",
-            "Family",
-            "Fantasy",
-            "Horror",
-            "Music",
-            "Mystery",
-            "Sci-Fi",
-            "Thriller"
-            
-        ],
-        "data_lancamento": "2022"
-    },
-    {
-        "titulo": "Loving: Uma História de Amor",
-        "titulo_original": null,
-        "id": "tt4669986",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZjQzMWYxNTctZTdmNi00NmQ4LWI1YjItNmVhZDNlZmE1NmQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Relata a história de amor de Richard e Mildred, um casal cuja detenção por casamento inter-racial nos anos 60 na Virgínia iniciou uma batalha legal que terminaria com a histórica decisão de 1967 na Suprema Corte.",
-        "generos": [
-            "Legal Drama",
-            "Period Drama",
-            "Biography",
-            "Drama",
-            "Romance"
-            
-        ],
-        "data_lancamento": "2016"
-    },
-    {
-        "titulo": "Brincando com o Natal",
-        "titulo_original": null,
-        "id": "tt15187842",
-        "capa": "https://m.media-amazon.com/images/M/MV5BNGVkYmYyYjItMWVlZC00NjllLTgwOWQtMThiZDllOGY4NjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Danielle returns to her hometown for the holidays with her young son Paul hoping to introduce him to some beloved holiday traditions, in particular the town's North Pole Express train.",
-        "generos": [
-            "Comedy",
-            "Romance"
-            
-        ],
-        "data_lancamento": "2021"
-    },
-    {
-        "titulo": "Mergulho",
-        "titulo_original": null,
-        "id": "tt22656762",
-        "capa": "https://m.media-amazon.com/images/M/MV5BMjZmYWI1MWYtMTA4OC00MTg0LThjYTEtYzJiYTBlYzA0YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "As complexidades dos relacionamentos quando colocadas em um cenário em que vencer é definido como o sonho final.",
-        "generos": [
-            "Water Sport",
-            "Drama",
-            "Sport"
-            
-        ],
-        "data_lancamento": "2022"
-    },
-    {
-        "titulo": "O Matador: Missão Resgate",
-        "titulo_original": null,
-        "id": "tt19713090",
-        "capa": "https://m.media-amazon.com/images/M/MV5BYTdiZmFkZGMtMDQyZC00MjdkLTg0MWItYTlmYWM3YzQ5ZmE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "HD",
-        "descricao": "Um assassino reformado concorda em cuidar de uma adolescente, mas quando se envolve com pessoas desagradáveis, ele tem de a resgatar.",
-        "generos": [
-            "One-Person Army Action",
-            "Action",
+            "Psychological Horror",
+            "Psychological Thriller",
+            "Serial Killer",
+            "Slasher Horror",
             "Crime",
-            "Thriller"
-            
+            "Horror",
+            "Mystery",
+            "Thriller",
+            "Voltar ao início"
         ],
-        "data_lancamento": "2022"
+        "data_lancamento": "1983"
     },
     {
-        "titulo": "The VelociPastor",
+        "titulo": "Psicose 3",
         "titulo_original": null,
-        "id": "tt1843303",
-        "capa": "https://m.media-amazon.com/images/M/MV5BZTQyZDEwMDQtOTYyYS00ZmRkLWI0Y2EtNTRhNjhiZTJmMDVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "qualidade": "4K",
-        "descricao": "Depois de perder seus pais, um padre viaja para a China, onde herda uma habilidade misteriosa que lhe permite se tornar um dinossauro. Horrorizado com esse novo poder, uma prostituta o convence a usá-lo para combater o crime.",
+        "id": "tt0091799",
+        "capa": "https://m.media-amazon.com/images/M/MV5BOTYwM2Q2ZWQtZTFkYS00NTRiLWIxMGMtMWJkMzhkMzhkOTliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Norman Bates se apaixona por uma freira fugitiva que se hospeda no Motel Bates, ao lado de um vagabundo e uma repórter curiosa. Enquanto isso, \"Màe\" ainda está assistindo.",
         "generos": [
-            "B-Action",
-            "B-Horror",
-            "Dinosaur Adventure",
-            "Parody",
-            "Superhero",
-            "Supernatural Horror",
+            "Slasher Horror",
+            "Horror",
+            "Mystery",
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "1986"
+    },
+    {
+        "titulo": "Psicose IV: O Começo",
+        "titulo_original": null,
+        "id": "tt0102724",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMTA0M2M5YTQtYjhkMC00ZWE5LWE3OTctMjE4MzNiNzYwYTNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "Norman Bates relembra a sua infância com a sua mãe abusiva, enquanto teme que o seu futuro filho herde o seu transtorno de dupla personalidade.",
+        "generos": [
+            "Psychological Horror",
+            "Slasher Horror",
+            "Horror",
+            "Mystery",
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "1990"
+    },
+    {
+        "titulo": "Gente como a Gente",
+        "titulo_original": null,
+        "id": "tt0081283",
+        "capa": "https://m.media-amazon.com/images/M/MV5BODkyODllNDQtMTRjZS00ZGM5LWFmYmQtMzlhZjNhZjgwOGVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "4K",
+        "descricao": "A morte acidental do filho mais velho de uma família coloca uma profunda tensão na relação entre a mãe áspera, o pai atencioso e o filho mais novo que se sente culpado.",
+        "generos": [
+            "Psychological Drama",
+            "Drama",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "1980"
+    },
+    {
+        "titulo": "A Sociedade dos Amigos do Diabo",
+        "titulo_original": null,
+        "id": "tt0098354",
+        "capa": "https://m.media-amazon.com/images/M/MV5BMGFiOTBmZmEtMWY4My00OGVmLTk5NjktNTk1Mjc1MDcxMzhiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Um adolescente comum descobre que sua família é parte de uma horrível orgia de culto da elite social.",
+        "generos": [
+            "Body Horror",
+            "Dark Comedy",
+            "Satire",
+            "Comedy",
+            "Horror",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "1989"
+    },
+    {
+        "titulo": "Borderlands: O Destino do Universo Está em Jogo",
+        "titulo_original": null,
+        "id": "tt4978420",
+        "capa": "https://m.media-amazon.com/images/M/MV5BZjMwNDZjMzctOGQwZC00NTdkLTk2MTAtYmMzNDYxNmI5OTVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma infame caçadora de recompensas retorna ao lugar onde cresceu, o caótico planeta Pandora, e forma uma aliança inesperada com uma equipe de desajustados para encontrar a filha desaparecida do homem mais poderoso do universo.",
+        "generos": [
+            "Action Epic",
+            "Adventure Epic",
+            "Dark Comedy",
+            "Quest",
+            "Space Sci-Fi",
             "Action",
             "Adventure",
             "Comedy",
-            "Fantasy"
+            "Sci-Fi",
+            "Thriller",
+            "Production design",
+            "Worldbuilding",
+            "Action sequences",
+            "Performance",
+            "Adaptation",
+            "Character development",
+            "Direction",
+            "Pacing",
+            "Voltar ao início"
         ],
-        "data_lancamento": "2018"
+        "data_lancamento": "2024"
+    },
+    {
+        "titulo": "Papai",
+        "titulo_original": null,
+        "id": "tt7461686",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNDg0Njk0ZjYtZGIyMy00MDkzLWI3MDYtNjUxMWQzMTkxNzIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Uma mulher que está pegando um táxi no JFK conversa com o taxista sobre os relacionamentos importantes em suas vidas.",
+        "generos": [
+            "Drama",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2023"
+    },
+    {
+        "titulo": "Ghostlight",
+        "titulo_original": null,
+        "id": "tt30321095",
+        "capa": "https://m.media-amazon.com/images/M/MV5BOTgzMTk2M2MtMmNhMi00MDdlLTk5ZDAtYjYyMDA2YjE4OTUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "Quando um trabalhador da construção civil inesperadamente se junta à produção de Romeu e Julieta em um teatro local, o drama no palco começa a espelhar sua própria vida.",
+        "generos": [
+            "Comedy",
+            "Drama",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2024"
+    },
+    {
+        "titulo": "The Dark Room",
+        "titulo_original": null,
+        "id": "tt23219968",
+        "capa": "https://m.media-amazon.com/images/M/MV5BNDQwMjZhYzktZjM4Mi00NjQwLWE1NmItNTVmNGI1NTk1Y2UwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "qualidade": "HD",
+        "descricao": "As murders grip a small town, a photog uncovers something sinister while developing photos for a local religious leader. As the body count rises, he is pursued by a mysterious woman, throwing his own sanity into question by his doctor.",
+        "generos": [
+            "Thriller",
+            "Voltar ao início"
+        ],
+        "data_lancamento": "2023"
     }
 ]

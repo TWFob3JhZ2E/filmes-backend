@@ -1,378 +1,466 @@
 
 [
-    {
-        "titulo": "The Boys",
-        "titulo_original": "The Boys",
-        "id": "76479",
-        "capa": "https://image.tmdb.org/t/p/w500/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg",
+{
+        "titulo": "Cela 211",
+        "titulo_original": "Celda 211",
+        "id": "246025",
+        "capa": "https://image.tmdb.org/t/p/w500/zeMmOTrm25ooHdYQxjM1kRViszZ.jpg",
         "qualidade": "HD",
-        "descricao": "Na trama, conhecemos um mundo em que super-heróis são as maiores celebridades do planeta, e rotineiramente abusam dos seus poderes ao invés de os usarem para o bem.",
-        "generos": [
-            "Sci-Fi & Fantasy",
-            "Action & Adventure"
-        ],
-        "data_estreia": "2019-07-25"
-    },
-     {
-        "titulo": "Você é Minha Primavera",
-        "titulo_original": "너는 나의 봄",
-        "id": "126698",
-        "capa": "https://image.tmdb.org/t/p/w500/tWYjugKwHy6aTiKDdDxtsHKltEj.jpg",
-        "qualidade": "HD",
-        "descricao": "Com infâncias traumáticas, a recepcionista de um hotel e um psiquiatra formam um vínculo profundo depois de se envolverem em um complexo caso de assassinato.",
-        "generos": [
-            "Drama"
-        ],
-        "data_estreia": "2021-07-05"
-    },
-    {
-        "titulo": "Silicon Valley",
-        "titulo_original": "Silicon Valley",
-        "id": "60573",
-        "capa": "https://image.tmdb.org/t/p/w500/4ptpmWBVD9HY9hMh8Cbs6SMiy7p.jpg",
-        "qualidade": "HD",
-        "descricao": "Ambientada no Vale do Silício, região da Califórnia fértil em inovações tecnológicas e científicas, a série mostra um grupo de desenvolvedores que cria novo um programa com o objetivo de impressionar um bilionário excêntrico do ramo tecnológico.",
-        "generos": [
-            "Comédia"
-        ],
-        "data_estreia": "2014-04-06"
-    },
-    {
-        "titulo": "Castle",
-        "titulo_original": "Castle",
-        "id": "1419",
-        "capa": "https://image.tmdb.org/t/p/w500/diXBeMzvfJb2iJg3G0kCUaMCzEc.jpg",
-        "qualidade": "HD",
-        "descricao": "Richard Castle é um dos autores de livros de crimes mais bem-sucedidos do mundo. Mas quando seu estilo de vida de estrela de rock não é suficiente, este bad boy encontra a bela e inteligente detetive Kate Beckett.",
+        "descricao": "Durante uma rebelião em um presídio, um advogado de direitos humanos precisa se passar por detento para sobreviver. Até que o caos e o luto revelam seu lado mais sombrio.",
         "generos": [
             "Drama",
             "Crime"
         ],
-        "data_estreia": "2009-03-09"
+        "data_estreia": "2025-02-05"
     },
     {
-        "titulo": "Até Onde Ele Vai",
-        "titulo_original": "Até Onde Ele Vai",
-        "id": "282244",
-        "capa": "https://image.tmdb.org/t/p/w500/fPD25mkMzJ3nC46khaT9cbtnhOl.jpg",
+        "titulo": "Cassandra",
+        "titulo_original": "Cassandra",
+        "id": "248982",
+        "capa": "https://image.tmdb.org/t/p/w500/9ZkaVSaotpJ0vUv6OIR1c5Ris5o.jpg",
         "qualidade": "HD",
-        "descricao": "Morador de uma comunidade do Rio de Janeiro, Michael cresceu conflitando com a própria realidade, até que o ataque surpresa de uma facção o faz chegar ao limite.",
+        "descricao": "Uma família se muda para uma casa inteligente antiga e descobre que ela é controlada por uma assistente virtual que faz de tudo para mantê-los lá.",
         "generos": [
-            "Drama"
+            "Sci-Fi & Fantasy"
         ],
-        "data_estreia": "2025-03-10"
+        "data_estreia": "2025-02-06"
     },
     {
-        "titulo": "Meu Secretário Perfeito",
-        "titulo_original": "나의 완벽한 비서",
-        "id": "233100",
-        "capa": "https://image.tmdb.org/t/p/w500/4mXngCm1HA33JN5sEN4k8F2co3a.jpg",
+        "titulo": "Os Assassinatos de Åre",
+        "titulo_original": "Åremorden",
+        "id": "224021",
+        "capa": "https://image.tmdb.org/t/p/w500/1TUSNZdN1HWSGDMhjre0y33y1Me.jpg",
         "qualidade": "HD",
-        "descricao": "O dorama que acompanha Kang Ji Yun, uma CEO confiante e bem-sucedida de uma empresa de caça-talentos. Apesar de sua competência profissional, Ji Yun é desorganizada em sua vida pessoal. Seu secretário, Yu Eun Ho, é um profissional eficiente e pai solteiro de uma criança de seis anos, que a auxilia nas tarefas cotidianas.",
+        "descricao": "Alvo de uma investigação interna, uma policial de Estocolmo decide descansar numa região conhecida pelo esqui. Até que o desaparecimento de uma garota acaba com essa paz.",
         "generos": [
             "Drama",
-            "Comédia"
-        ],
-        "data_estreia": "2025-01-03"
-    },
-    {
-        "titulo": "Pergunte às Estrelas",
-        "titulo_original": "별들에게 물어봐",
-        "id": "154822",
-        "capa": "https://image.tmdb.org/t/p/w500/jO8eCh0rLGQj7c1TwHqcCAvJegD.jpg",
-        "qualidade": "HD",
-        "descricao": "De dois mundos diferentes e com missões separadas, uma astronauta e um turista na mesma estação espacial acabam se apaixonando.",
-        "generos": [
-            "Comédia",
-            "Sci-Fi & Fantasy",
-            "Drama"
-        ],
-        "data_estreia": "2025-01-04"
-    },
-     {
-        "titulo": "A Grande Descoberta",
-        "titulo_original": "Genombrottet",
-        "id": "279283",
-        "capa": "https://image.tmdb.org/t/p/w500/xMuTaOGVjXcBIa7etcw4abudbjZ.jpg",
-        "qualidade": "HD",
-        "descricao": "Com um duplo homicídio sem solução por 16 anos, um detetive e um genealogista decidem trabalhar juntos para pegar o assassino antes que o caso seja arquivado.",
-        "generos": [
-            "Drama",
-            "Crime"
-        ],
-        "data_estreia": "2025-01-07"
-    },
-     {
-        "titulo": "Paradise",
-        "titulo_original": "Paradise",
-        "id": "245927",
-        "capa": "https://image.tmdb.org/t/p/w500/wWoZDnP8eu4bpEnKF0WQ6VNF2j4.jpg",
-        "qualidade": "HD",
-        "descricao": "Se passa em uma comunidade idílica habitada por alguns dos indivíduos mais proeminentes do mundo. Mas um assassinato chocante acaba com essa tranquilidade, desencadeando uma investigação de alto risco.",
-        "generos": [
-            "Drama",
-            "Crime"
-        ],
-        "data_estreia": "2025-01-26"
-    },
-    {
-        "titulo": "Heróis de Plantão",
-        "titulo_original": "중증외상센터",
-        "id": "217553",
-        "capa": "https://image.tmdb.org/t/p/w500/7Y2oM2Zleve7FosmsfRDzlIKdpQ.jpg",
-        "qualidade": "HD",
-        "descricao": "Buscando criar um centro de traumatologia de alto nível, um médico veterano de guerra usa suas habilidades e seu jeitão direto para ensinar a equipe a salvar vidas.",
-        "generos": [
-            "Drama"
-        ],
-        "data_estreia": "2025-01-24"
-    },
-    {
-        "titulo": "Beleza Fatal",
-        "titulo_original": "Beleza Fatal",
-        "id": "158596",
-        "capa": "https://image.tmdb.org/t/p/w500/gnqG5Ou3esy5OkhEK5w42vdaq9I.jpg",
-        "qualidade": "HD",
-        "descricao": "Uma jovem órfã e sua nova família se unem em uma busca de vingança contra os responsáveis por suas tragédias pessoais.",
-        "generos": [
-            "Soap",
-            "Drama",
-            "Mistério",
-            "Crime"
-        ],
-        "data_estreia": "2025-01-27"
-    },
-    {
-        "titulo": "Hooligan",
-        "titulo_original": "Kibic",
-        "id": "280872",
-        "capa": "https://image.tmdb.org/t/p/w500/qVjcFke33khnnewk50c5ZCqUvGG.jpg",
-        "qualidade": "HD",
-        "descricao": "Para o jovem Kuba, de 17 anos, é difícil não seguir os passos do pai, um hooligan que acabou de sair da cadeia. Afinal, futebol é família.",
-        "generos": [
-            "Drama",
-            "Crime"
-        ],
-        "data_estreia": "2025-01-29"
-    },
-     {
-        "titulo": "Chespirito: Sem Querer Querendo",
-        "titulo_original": "Chespirito: Sin querer queriendo",
-        "id": "279060",
-        "capa": "https://image.tmdb.org/t/p/w500/92o8RbmUmb0iRxslTaKOKf8L5rt.jpg",
-        "qualidade": "HD",
-        "descricao": "Uma jornada pela ascensão à fama do Roberto Gómez Bolaños, mais conhecido como Chespirito, o artista que criou os personagens icônicos “Chaves”, “Chapolin” e muitas outras histórias e bordões que conquistaram o coração de milhões.",
-        "generos": [
-            "Drama",
-            "Comédia"
-        ],
-        "data_estreia": "2025-06-05"
-    },
-    {
-        "titulo": "Baylen: Uma Vida sem Filtro",
-        "titulo_original": "Baylen Out Loud",
-        "id": "279644",
-        "capa": "https://image.tmdb.org/t/p/w500/s6WmXso7NHPl3IVvaSSUGSOD5iv.jpg",
-        "qualidade": "HD",
-        "descricao": "Acompanhe a jornada de Baylen Dupree, uma jovem que vive com a Síndrome de Tourette. Apesar dos desafios diários, Baylen, sua família e seu namorado de longa data não têm medo de rir e abraçar o caos que torna seu dia a dia único.",
-        "generos": [
-            "Reality"
-        ],
-        "data_estreia": "2025-01-13"
-    },
-    {
-        "titulo": "Sara: A Mulher nas Sombras",
-        "titulo_original": "Sara - La donna nell'ombra",
-        "id": "291256",
-        "capa": "https://image.tmdb.org/t/p/w500/dmEXwLTDQXQ1QRc6VqvNEFUotZf.jpg",
-        "qualidade": "HD",
-        "descricao": "A morte suspeita do filho leva uma ex-agente secreta a voltar à ativa, investigando uma série de crimes que ficam cada vez mais sinistros.",
-        "generos": [
-            "Mistério",
-            "Drama",
-            "Crime"
-        ],
-        "data_estreia": "2025-06-03"
-    },
-    {
-        "titulo": "Grandes Jogadas com Shaquille O'Neal",
-        "titulo_original": "Power Moves with Shaquille O'Neal",
-        "id": "290865",
-        "capa": "https://image.tmdb.org/t/p/w500/9IiWveIRCxNZ1nlw7rhkruS57md.jpg",
-        "qualidade": "HD",
-        "descricao": "Nesta série documental, as lendas da NBA Shaquille O'Neal e Allen Iverson tentam reviver o legado da Reebok e encontrar uma estrela em ascensão para representar a marca.",
-        "generos": [
-            "Documentário"
-        ],
-        "data_estreia": "2025-06-04"
-    },
-    {
-        "titulo": "Sem Piedade",
-        "titulo_original": "광장",
-        "id": "232766",
-        "capa": "https://image.tmdb.org/t/p/w500/esS8EbjU3i7N40cemWIeM20Tzn8.jpg",
-        "qualidade": "HD",
-        "descricao": "Depois de sair de sua gangue, um ex-criminoso volta para descobrir a verdade por trás da morte do irmão, embarcando em uma jornada de vingança incansável.",
-        "generos": [
-            "Action & Adventure"
-        ],
-        "data_estreia": "2025-06-06"
-    },
-    {
-        "titulo": "Sobreviventes",
-        "titulo_original": "The Survivors",
-        "id": "284605",
-        "capa": "https://image.tmdb.org/t/p/w500/4oDFJSrlvhO09ggCLKbf1zOXBX2.jpg",
-        "qualidade": "HD",
-        "descricao": "Há quinze anos, uma tragédia envolvendo três jovens abalou uma pacata cidade. Agora, a morte misteriosa de uma mulher relembra um passado que todos preferiam esquecer.",
-        "generos": [
-            "Drama",
+            "Crime",
             "Mistério"
         ],
-        "data_estreia": "2025-06-06"
+        "data_estreia": "2025-02-06"
     },
     {
-        "titulo": "GOLPE ROMÂNTICO: Quem é Jason Porter, p***a?",
-        "titulo_original": "ROMCON: Who the F**k Is Jason Porter?",
-        "id": "281984",
-        "capa": "https://image.tmdb.org/t/p/w500/sbQnuOMvAsfR5kKUN9Ov5DAYaSc.jpg",
+        "titulo": "Vinagre de Maçã",
+        "titulo_original": "Apple Cider Vinegar",
+        "id": "241501",
+        "capa": "https://image.tmdb.org/t/p/w500/ls7v7QPGvmYqHkaetrWX8eRjkPL.jpg",
         "qualidade": "HD",
-        "descricao": "Um documentário arrebatador revela como o romance perfeito da corretora de imóveis Heather Rovet com “Jace” desmoronou ao descobrir que ele era Jason Porter, um criminoso condenado com histórico de golpes românticos. Ao entrar em contato com outras vítimas, Heather se transforma de amante desiludida a investigadora determinada, arriscando tudo para expor o padrão de manipulação e buscar justiça.",
+        "descricao": "Duas mulheres promovem fórmulas de bem-estar para curar doenças letais, enganando, intencionalmente ou não, o mundo todo e virando suas vidas de cabeça para baixo.",
         "generos": [
-            "Documentário"
+            "Drama",
+            "Crime"
         ],
-        "data_estreia": "2025-06-13"
+        "data_estreia": "2025-02-06"
     },
     {
-        "titulo": "UM BOM GAROTO",
-        "titulo_original": "굿보이",
-        "id": "231280",
-        "capa": "https://image.tmdb.org/t/p/w500/xNge2upiP2FLppTyKhouT7Gbm1y.jpg",
+        "titulo": "Newtopia",
+        "titulo_original": "뉴토피아",
+        "id": "233742",
+        "capa": "https://image.tmdb.org/t/p/w500/58nXDbMVYpsNQ1POP5ZxbSMaqFb.jpg",
         "qualidade": "HD",
-        "descricao": "Onze anos depois, a polícia retoma o recrutamento de ex-atletas. Antes vistos como heróis, esses medalhistas agora enfrentam a dura realidade. Apesar das dívidas, das tragédias inesperadas e do preconceito na corporação, os atletas, cada um com sua história, montam uma força-tarefa especial para combater crimes hediondos com o ímpeto e as habilidades que os moldaram no esporte.",
+        "descricao": "Jae-yoon, militar, e sua namorada, Young-joo, terminam por ligação devido a vários mal-entendidos. Só que um surto de zumbis assola o mundo. O país declara emergência, um avião cai no centro da capital, e Jae-yoon e sua unidade ficam presos no topo de um arranha-céu em Seul. Young-joo enfrenta as ruas cheias de zumbis para chegar até ele. Será que o amor dos dois sobreviverá ao apocalipse?",
         "generos": [
-            "Crime",
-            "Comédia",
+            "Sci-Fi & Fantasy",
             "Action & Adventure",
+            "Comédia",
             "Drama"
         ],
-        "data_estreia": "2025-05-31"
+        "data_estreia": "2025-02-07"
     },
     {
-        "titulo": "Mentiras, a Série",
-        "titulo_original": "Mentiras, La Serie",
-        "id": "290321",
-        "capa": "https://image.tmdb.org/t/p/w500/lSauolGT9Ku5nx9R1emFB9DGsDF.jpg",
+        "titulo": "The Hunting Party",
+        "titulo_original": "The Hunting Party",
+        "id": "247723",
+        "capa": "https://image.tmdb.org/t/p/w500/zy87kVh0gcHzFNkSqT32Sp8s7wv.jpg",
         "qualidade": "HD",
-        "descricao": "Após descobrirem que Emmanuel Mijares está morto, Daniela, Dulce, Yuri e Lupita são chamadas a uma mansão misteriosa. Forçadas a interagir, as tensões entre elas se intensificam rapidamente, e as mentiras que elas escondem há anos vêm à tona. Mas, aos poucos, essas mulheres começam a se questionar, a refletir e a perceber que têm muito mais em comum do que jamais imaginaram.",
-        "generos": [
-            "Comédia",
-            "Soap"
-        ],
-        "data_estreia": "2025-06-13"
-    },
-    {
-        "titulo": "Mentirosos",
-        "titulo_original": "We Were Liars",
-        "id": "215522",
-        "capa": "https://image.tmdb.org/t/p/w500/cLwxFcO4pyji3YwkKBnM42a0yQf.jpg",
-        "qualidade": "HD",
-        "descricao": "Um ano após o misterioso acidente que a deixou com amnésia, Cadence, de 17 anos, volta à Ilha Beechwood, perto de Martha's Vineyard, em busca de respostas. Três gerações da distinta família Sinclair se reúnem em sua utopia de verão privada, e ninguém fala sobre o acidente, nem seus amigos de infância, \"Os Mentirosos\", nem seu primeiro amor, Gat, forçando-a a desvendar a verdade sozinha.",
-        "generos": [
-            "Mistério"
-        ],
-        "data_estreia": "2025-06-18"
-    },
-    {
-        "titulo": "Contagem Regressiva",
-        "titulo_original": "Countdown",
-        "id": "256317",
-        "capa": "https://image.tmdb.org/t/p/w500/o67cJGmKTs2B5Qr6wzdPod9f1Dz.jpg",
-        "qualidade": "HD",
-        "descricao": "Quando um agente do Departamento de Segurança Nacional é morto à luz do dia, o detetive da Polícia de Los Angeles Mark Meachum é recrutado para uma força-tarefa com agentes disfarçados de todas as agências de segurança para investigar. Mas a caçada ao assassino revela uma trama mais sinistra do que todos poderiam imaginar, dando início a uma corrida contra o tempo para salvar uma cidade inteira.",
+        "descricao": "Segue uma pequena equipe de investigadores que são reunidos para rastrear e capturar os assassinos mais perigosos, todos os quais acabaram de escapar de uma prisão secreta que supostamente não existe.",
         "generos": [
             "Drama",
-            "Crime",
-            "Mistério"
+            "Crime"
         ],
-        "data_estreia": "2025-06-25"
+        "data_estreia": "2025-01-19"
     },
     {
-        "titulo": "Stick",
-        "titulo_original": "Stick",
-        "id": "248830",
-        "capa": "https://image.tmdb.org/t/p/w500/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg",
+        "titulo": "A Fronteira Oriental",
+        "titulo_original": "Przesmyk",
+        "id": "253370",
+        "capa": "https://image.tmdb.org/t/p/w500/fSoAgDdR4bxkU7VvYn3Z8uHtUj6.jpg",
         "qualidade": "HD",
-        "descricao": "Pryce Cahill estava rumo à elite do golfe quando uma crise em campo arruinou sua carreira. Agora, aposta tudo para treinar Santi, uma promessa adolescente com enorme potencial, e talvez se salvar.",
+        "descricao": "Em um ponto estratégico crítico para a Europa, uma espiã polonesa devastada tenta se afastar do mundo do serviço secreto.",
+        "generos": [
+            "War & Politics",
+            "Action & Adventure",
+            "Mistério"
+        ],
+        "data_estreia": "2025-01-31"
+    },
+    {
+        "titulo": "Sobrevivendo à Queda dos Black Hawks",
+        "titulo_original": "Surviving Black Hawk Down",
+        "id": "282201",
+        "capa": "https://image.tmdb.org/t/p/w500/keDBieYscTMIPJg0jhJA5spyt8a.jpg",
+        "qualidade": "HD",
+        "descricao": "Com detalhes incríveis, soldados norte-americanos e guerreiros da Somália relembram a Batalha de Mogadíscio e a famosa queda de três helicópteros Black Hawk em 1993.",
+        "generos": [
+            "Documentário",
+            "War & Politics"
+        ],
+        "data_estreia": "2025-02-10"
+    },
+    {
+        "titulo": "Irmandade Ariana: Terror Nos Estados Unidos",
+        "titulo_original": "The Takedown: American Aryans",
+        "id": "282633",
+        "capa": "https://image.tmdb.org/t/p/w500/jCeX3P7yWmRPWjhONfFHFGea6ge.jpg",
+        "qualidade": "HD",
+        "descricao": "O agente especial, Rich Boehning, enfrenta uma das gangues criminosas mais violentas dos EUA, a Irmandade Ariana do Texas.",
+        "generos": [
+            "Documentário"
+        ],
+        "data_estreia": "2025-02-06"
+    },
+    {
+        "titulo": "Sweetpea",
+        "titulo_original": "Sweetpea",
+        "id": "218347",
+        "capa": "https://image.tmdb.org/t/p/w500/feoDYCy0AUD031gLqBmA9gC4pw1.jpg",
+        "qualidade": "HD",
+        "descricao": "A série é baseada no livro homônimo de C.J.\n\nEla é continuamente esquecida para uma promoção no trabalho, o cara de quem ela gosta não se compromete, e seu pai está muito, muito doente. Então, tudo em sua vida vira de cabeça para baixo. Rhiannon é levada ao limite e perde o controle.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ],
+        "data_estreia": "2024-10-10"
+    },
+    {
+        "titulo": "Us",
+        "titulo_original": "Us รักของเรา",
+        "id": "252621",
+        "capa": "https://image.tmdb.org/t/p/w500/d2vXHicwpxMStJoaIol9JFErkPu.jpg",
+        "qualidade": "HD",
+        "descricao": "Descrição não disponível",
+        "generos": [
+            "Drama"
+        ],
+        "data_estreia": "2025-01-18"
+    },
+    {
+        "titulo": "Dopamine",
+        "titulo_original": "도파민",
+        "id": "281920",
+        "capa": "https://image.tmdb.org/t/p/w500/gP69rZJ3XM5heG0dTKyjr0cg9zf.jpg",
+        "qualidade": "HD",
+        "descricao": "Woo Kang, um novato em jogos, decide seguir seus amigos e visitar um clube gay pela primeira vez.\n\nMas no banheiro do clube, seus amigos o provocam dizendo:\n\n\"As pessoas realmente fazem isso no banheiro aqui.\"\n\n\"Posso tentar?\"\n\nPensando que tudo é uma piada, Woo Kang se depara com o inesperado.\n\nEnquanto ele processa o que viu, alguém se aproxima dele...",
+        "generos": [
+            "Drama"
+        ],
+        "data_estreia": "2025-01-19"
+    },
+    {
+        "titulo": "Breeze By The Sea",
+        "titulo_original": "不如海邊吹吹風",
+        "id": "245042",
+        "capa": "https://image.tmdb.org/t/p/w500/vzxunQ6M6kHwj0fGOcH4nDKMe8F.jpg",
+        "qualidade": "HD",
+        "descricao": "Embora Bai Yin Mo seja um ator superstar que acabou de ganhar um prêmio de Melhor Ator, ele tem sido atormentado por rumores de que é difícil trabalhar com ele. Após uma série de escândalos, ele é forçado a tirar \"férias\" nas Ilhas Kinmen. Li Hai Nuo, o gerente da pousada da propriedade de férias Seaside Breeze, ficou emocionado ao receber a reserva de Yin Mo, pois ela estava lutando com os negócios na baixa temporada. No entanto, Hai Nuo logo descobre que o superstar é excepcionalmente difícil de lidar, pois o estilo de vida ao qual ele está acostumado é completamente diferente dos locais. Embora os dois estejam inicialmente em desacordo, o ator começa a se aquecer em relação a Hai Nuo depois de aprender sobre sua história familiar e experimentar o calor familiar de sua avó.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ],
+        "data_estreia": "2024-12-14"
+    },
+    {
+        "titulo": "นิทาน ดวงดาว ความรัก",
+        "titulo_original": "นิทาน ดวงดาว ความรัก",
+        "id": "237330",
+        "capa": "https://image.tmdb.org/t/p/w500/apDkL8pCpNw5U7EziC0fJeSZVpH.jpg",
+        "qualidade": "HD",
+        "descricao": "Descrição não disponível",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ],
+        "data_estreia": "2024-10-19"
+    },
+    {
+        "titulo": "Rivalidade Amigável",
+        "titulo_original": "선의의 경쟁",
+        "id": "259288",
+        "capa": "https://image.tmdb.org/t/p/w500/8LuzX83fwFZqvvrq2FRFUFnEZ0g.jpg",
+        "qualidade": "HD",
+        "descricao": "Woo Seul Gi, uma garota inteligente e reservada criada em um orfanato, é transferida para Chaehwa, uma escola de elite só para garotas. Embora fosse a melhor aluna de sua escola anterior, ela agora enfrenta uma concorrência ainda maior, principalmente de Yoo Je Yi, uma garota influente e rica que cria um laço complexo com Seul Gi que oscila entre amizade e rivalidade. Enquanto Seul Gi tenta sobreviver a esse novo ambiente competitivo, ela acaba se envolvendo em uma rede de segredos sobre a escola, os alunos, e até mesmo a misteriosa morte de seu pai. Agora, Seul Gi e Je Yi precisarão encontrar uma forma de resolver a crescente tensão que existe entre elas ou suas respectivas ambições as levarão a um final amargurado.",
+        "generos": [
+            "Mistério",
+            "Drama"
+        ],
+        "data_estreia": "2025-02-10"
+    },
+    {
+        "titulo": "Kick Kick Kick Kick",
+        "titulo_original": "킥킥킥킥",
+        "id": "255697",
+        "capa": "https://image.tmdb.org/t/p/w500/aSbnEBfk8ls6WHegZh2GcF8eXKO.jpg",
+        "qualidade": "HD",
+        "descricao": "O ator Ji Jin-hee e o ex-astro PD Jo Young-sik trabalham juntos para lançar uma empresa de conteúdo que visa 3 milhões de assinantes.",
+        "generos": [
+            "Comédia",
+            "Drama"
+        ],
+        "data_estreia": "2025-02-05"
+    },
+    {
+        "titulo": "Proteja os Irmãos Águia",
+        "titulo_original": "독수리 5형제를 부탁해!",
+        "id": "271890",
+        "capa": "https://image.tmdb.org/t/p/w500/8oSba1zIlg0C67WezXWVnGNfkBe.jpg",
+        "qualidade": "HD",
+        "descricao": "Dez dias após o casamento, Ma Kwang Sook perde o marido num acidente e acaba assumindo o comando da Cervejaria Eagle, se tornando o pilar da família e recebendo certas “heranças”, como a dívida do negócio, quatro cunhados que ainda não se sentem confortáveis com ela e o boato de ser uma mulher cruel que acabou com o marido. Ela se sente distante dos cunhados que têm personalidades diferentes: Chun Soo, o segundo, vive escondendo seus problemas; Heung Soo, o terceiro, vive sentindo falta da glória dos palcos; Beom Soo, o quarto, é frio e tenta ostentar uma vida de perfeição e Kang Soo, o mais novo, é inocente e ingênuo. Ela resolve reconstruir a cervejaria apesar da realidade caótica. Porém, quando Han Dong Seok, um presidente enérgico, aparece, os planos dela tomam um rumo diferente, e Ma Kwang Sook precisa proteger a família durante um turbilhão de emoções.",
+        "generos": [
+            "Família",
+            "Comédia",
+            "Drama"
+        ],
+        "data_estreia": "2025-02-01"
+    },
+    {
+        "titulo": "Good Girls",
+        "titulo_original": "Good Girls",
+        "id": "71715",
+        "capa": "https://image.tmdb.org/t/p/w500/d6gA2IHRLqtHcmSqkk91Xw0wtEv.jpg",
+        "qualidade": "HD",
+        "descricao": "Três pacatas donas de casa bolam um roubo ao supermercado local para sair do buraco e conquistar a independência.",
+        "generos": [
+            "Comédia",
+            "Drama",
+            "Crime"
+        ],
+        "data_estreia": "2018-02-26"
+    },
+    {
+        "titulo": "Os Últimos Dias de Ptolemy Grey",
+        "titulo_original": "The Last Days of Ptolemy Grey",
+        "id": "155493",
+        "capa": "https://image.tmdb.org/t/p/w500/pC3VnWNxmVIrR7Akf1DsBK42XTK.jpg",
+        "qualidade": "HD",
+        "descricao": "Ao subitamente perder seu cuidador de confiança, Ptolemy Grey é deixado aos cuidados da adolescente órfã Robyn. Quando eles descobrem  um tratamento que restaurará as memórias aturdidas pela demência de Ptolemy, uma jornada se inicia rumo a verdades chocantes.",
+        "generos": [
+            "Drama"
+        ],
+        "data_estreia": "2022-03-11"
+    },
+    {
+        "titulo": "Alexa e Katie",
+        "titulo_original": "Alexa & Katie",
+        "id": "76874",
+        "capa": "https://image.tmdb.org/t/p/w500/3SXMiueevOuCBPPxkoLsQ0Xnd7J.jpg",
+        "qualidade": "HD",
+        "descricao": "Alexa luta contra um câncer. Mas, ao lado da melhor amiga, ela também está começando o ensino médio. E está pronta para o que der e vier.",
         "generos": [
             "Comédia"
         ],
-        "data_estreia": "2025-06-03"
+        "data_estreia": "2018-03-23"
     },
     {
-        "titulo": "Cortina de Fumaça",
-        "titulo_original": "Smoke",
-        "id": "215995",
-        "capa": "https://image.tmdb.org/t/p/w500/dkxMAOiRz1zjlgFAMc3P72xSB3u.jpg",
+        "titulo": "O Sucessor",
+        "titulo_original": "Vivir sin permiso",
+        "id": "82516",
+        "capa": "https://image.tmdb.org/t/p/w500/3rXXJuuBZeeoGira74z1dWJvsU3.jpg",
         "qualidade": "HD",
-        "descricao": "Quando um investigador de incêndios se une, contra a vontade, com uma detetive, a corrida para deter dois incendiários dá início a um jogo perverso de segredos e suspeitas.",
+        "descricao": "Sofrendo de Alzheimer, o chefão do narcotráfico da Galícia planeja se aposentar e deixar o império para um herdeiro. Isso se o seu braço direito permitir.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ],
+        "data_estreia": "2018-09-24"
+    },
+    {
+        "titulo": "Desaparecidos",
+        "titulo_original": "Gone",
+        "id": "76284",
+        "capa": "https://image.tmdb.org/t/p/w500/oN3HhdwOVtA38RlaMPVy4btLDtF.jpg",
+        "qualidade": "HD",
+        "descricao": "A sobrevivente de um caso de sequestro de crianças altamente divulgado se une a um agente do FBI responsável por seu resgate para resolver pessoas desaparecidas e casos de sequestro.",
         "generos": [
             "Drama",
             "Crime"
         ],
-        "data_estreia": "2025-06-26"
+        "data_estreia": "2017-11-13"
     },
     {
-        "titulo": "Coração de Ferro",
-        "titulo_original": "Ironheart",
-        "id": "114471",
-        "capa": "https://image.tmdb.org/t/p/w500/xrGttFuJt5dTlKKa0IcZPpYq249.jpg",
+        "titulo": "Além da Ilha",
+        "titulo_original": "Além da Ilha",
+        "id": "92844",
+        "capa": "https://image.tmdb.org/t/p/w500/aCMsBsnAFXsgsvj4WgomK7WpzZD.jpg",
         "qualidade": "HD",
-        "descricao": "Ambientada após os acontecimentos de Pantera Negra: Wakanda Para Sempre, Coração de Ferro coloca a tecnologia contra a magia quando Riri, uma jovem inventora determinada a deixar sua marca no mundo, retorna à sua cidade natal, Chicago. Sua abordagem única para construir armaduras de ferro é brilhante, mas, na busca de suas ambições, ela se envolve com o misterioso e encantador Parker Robbins, também conhecido como \"O Capuz\".",
+        "descricao": "Depois de ganharem 200 milhões de reais em uma aposta de loteria, Beto, Guta, Sheila, Bia e Cardoso decidem celebrar a conquista durante um passeio de barco. Como nenhum deles sabe o necessário para navegar, o grupo acaba perdido em uma ilha deserta e misteriosa.",
         "generos": [
-            "Sci-Fi & Fantasy",
-            "Crime"
+            "Comédia"
         ],
-        "data_estreia": "2025-06-24"
+        "data_estreia": "2018-09-06"
     },
     {
-        "titulo": "Aniela",
-        "titulo_original": "Aniela",
-        "id": "288915",
-        "capa": "https://image.tmdb.org/t/p/w500/dcQsD6mUUchYQ0OCFUE6pnTp5xR.jpg",
+        "titulo": "Um Amor de Cinema",
+        "titulo_original": "멜로무비",
+        "id": "243964",
+        "capa": "https://image.tmdb.org/t/p/w500/r89dQ1SAKRuBZMmp2YL4Yekfwxn.jpg",
         "qualidade": "HD",
-        "descricao": "Depois que o marido rico a deixa sem nada, uma socialite de Varsóvia precisa usar a única ferramenta que lhe restou para sobreviver: a inteligência.",
+        "descricao": "Um cinéfilo e uma diretora novata vivem um romance intenso, porém breve. Agora que a trama da vida os aproximou novamente, será que a história terá um novo fim?",
         "generos": [
             "Comédia",
             "Drama"
         ],
-        "data_estreia": "2025-06-11"
+        "data_estreia": "2025-02-14"
     },
     {
-        "titulo": "A Funerária: Dinheiro e Cinzas",
-        "titulo_original": "The Mortician",
-        "id": "291926",
-        "capa": "https://image.tmdb.org/t/p/w500/tPaSPqAEnBezwNOUYyhH3iVPsJF.jpg",
+        "titulo": "Se a Vida Te Der Tangerinas...",
+        "titulo_original": "폭싹 속았수다",
+        "id": "219246",
+        "capa": "https://image.tmdb.org/t/p/w500/k42rlc5drUiSl9s8lqeM9dLjHQw.jpg",
         "qualidade": "HD",
-        "descricao": "Conta a história sombria de uma infame funerária familiar de Los Angeles que, durante anos, se envolveu em práticas moralmente questionáveis e desumanas, incluindo cremações em massa e roubo de mortos.",
+        "descricao": "Em Jeju, a união entre uma jovem ousada e um rapaz esforçado se transforma em uma história de obstáculos e triunfos, provando que o amor pode perdurar por gerações.",
+        "generos": [
+            "Drama"
+        ],
+        "data_estreia": "2025-03-07"
+    },
+    {
+        "titulo": "Cat's Eyes",
+        "titulo_original": "Cat's Eyes",
+        "id": "222176",
+        "capa": "https://image.tmdb.org/t/p/w500/sLrUScBosE83TSwCoeM8jBylZid.jpg",
+        "qualidade": "HD",
+        "descricao": "Em 2023, na Cidade Luz, Alexia, Tatá e Sylia se reencontram após anos de separação. Ao mesmo tempo, uma pintura que pertenceu ao seu pai, que desapareceu há mais de dez anos em um misterioso incêndio em sua galeria de arte, ressurgiu durante uma prestigiosa exposição na Torre Eiffel. Determinadas a descobrir a verdade sobre o destino do pai, elas assumem todos os riscos para recuperar as pinturas.",
+        "generos": [
+            "Action & Adventure",
+            "Comédia"
+        ],
+        "data_estreia": "2024-11-11"
+    },
+    {
+        "titulo": "Bateau Mouche: O Naufrágio da Justiça",
+        "titulo_original": "Bateau Mouche: O Naufrágio da Justiça",
+        "id": "286323",
+        "capa": "https://image.tmdb.org/t/p/w500/bBwp5AjofA5qfE0jxa1CFVNolpd.jpg",
+        "qualidade": "HD",
+        "descricao": "Série documental sobre o naufrágio do navio turístico Bateau Mouche IV, um desastre marcado pela ganância, negligência e impunidade.",
         "generos": [
             "Documentário",
             "Crime"
         ],
-        "data_estreia": "2025-06-01"
+        "data_estreia": "2025-03-18"
     },
     {
-        "titulo": "Homicídio nos EUA: Gabby Petito",
-        "titulo_original": "American Murder: Gabby Petito",
-        "id": "283197",
-        "capa": "https://image.tmdb.org/t/p/w500/3W8cNeTeurC0My9pM5ufyxdy0OI.jpg",
+        "titulo": "Escândalo no Parlamento Inglês",
+        "titulo_original": "A Very English Scandal",
+        "id": "79299",
+        "capa": "https://image.tmdb.org/t/p/w500/xQU99bLRjTegRSGScLDVqpcx5QV.jpg",
         "qualidade": "HD",
-        "descricao": "O que aconteceu nos dias finais de Gabby Petito? Nesta série emocionante sobre um crime real, amigos e familiares revelam a história de seu trágico assassinato.",
+        "descricao": "Líder do Partido Liberal, Jeremy Thorpe esconde que teve um caso com um homem e vive desesperado para que seu segredo não seja revelado. No entanto, enquanto Norman Scott estiver por perto, a sua brilhante carreira está em risco.",
         "generos": [
-            "Documentário",
+            "Drama"
+        ],
+        "data_estreia": "2018-05-20"
+    },
+    {
+        "titulo": "Barrabrava",
+        "titulo_original": "Barrabrava",
+        "id": "228963",
+        "capa": "https://image.tmdb.org/t/p/w500/tqbHtvD89gmc8Sk1xP0gb58AAHS.jpg",
+        "qualidade": "HD",
+        "descricao": "Após um conflito interno violento, dois irmãos são expulsos da organizada do time de futebol para o qual torcem. Sozinhos, sem dinheiro nem proteção política, eles iniciam uma guerra que testa seus laços.",
+        "generos": [
+            "Mistério",
+            "Drama",
             "Crime"
         ],
-        "data_estreia": "2025-02-17"
+        "data_estreia": "2023-06-22"
+    },
+    {
+        "titulo": "Sete Segundos",
+        "titulo_original": "Seven Seconds",
+        "id": "75540",
+        "capa": "https://image.tmdb.org/t/p/w500/mexUP20U3sPzu8jfGeRIHzI3TUC.jpg",
+        "qualidade": "HD",
+        "descricao": "Em uma sociedade que vive de tensão racial, manchetes sensacionalistas e um público que prefere ser entretido do que informado, sete segundos podem representar a diferença entre a vida e a morte. A tensão entre brancos e negros na cidade de Jersey aumenta quando um policial branco agride um jovem negro.",
+        "generos": [
+            "Crime",
+            "Drama"
+        ],
+        "data_estreia": "2018-02-23"
+    },
+    {
+        "titulo": "A Gangue de Bogotá",
+        "titulo_original": "Los Billis",
+        "id": "237554",
+        "capa": "https://image.tmdb.org/t/p/w500/a6qep5xwzSsMYrXNvEvhhMZk0ro.jpg",
+        "qualidade": "HD",
+        "descricao": "Inspirado em eventos reais, A Gangue de Bogotá expõe a ascensão de um grupo de amigos de Bogotá nos anos 80. A série segue uma geração em busca de sua identidade através da amizade improvável entre David e Léo, o irmão mais novo de Andréa, uma dos líderes do grupo.",
+        "generos": [
+            "Drama"
+        ],
+        "data_estreia": "2023-11-02"
+    },
+    {
+        "titulo": "A Cadeira",
+        "titulo_original": "The Chair",
+        "id": "99657",
+        "capa": "https://image.tmdb.org/t/p/w500/kz14K7vI2KNGyfTyBnYjBpA0pzQ.jpg",
+        "qualidade": "HD",
+        "descricao": "Sandra Oh e Jay Duplass estrelam esta série de comédia dramática sobre a chefe do departamento de inglês de uma grande universidade.",
+        "generos": [
+            "Drama",
+            "Comédia"
+        ],
+        "data_estreia": "2021-08-20"
+    },
+    {
+        "titulo": "Um Dia de Cada Vez",
+        "titulo_original": "One Day at a Time",
+        "id": "69017",
+        "capa": "https://image.tmdb.org/t/p/w500/yiQcmPm6pTYyAAp3Q9Ge2xMkf8b.jpg",
+        "qualidade": "HD",
+        "descricao": "Na nova versão do clássico da TV sobre uma família de imigrantes cubanos, a mãe recém-divorciada e a avó careta criam uma adolescente e um pré-adolescente.",
+        "generos": [
+            "Comédia"
+        ],
+        "data_estreia": "2017-01-06"
+    },
+    {
+        "titulo": "Traição e Redenção",
+        "titulo_original": "하이퍼나이프",
+        "id": "245079",
+        "capa": "https://image.tmdb.org/t/p/w500/py1HcJi82NwTAOkNPcNX6kw8DZ4.jpg",
+        "qualidade": "HD",
+        "descricao": "Seok, uma neurocirurgiã ambiciosa e genial, reencontra Deokhee, o professor que arruinou sua vida há muito tempo. Antes, os dois cirurgiões se gostavam mais do que tudo. Mas, agora que só resta ódio entre eles, Seok fica furiosa de tê-lo de volta em sua vida e jura se vingar.",
+        "generos": [
+            "Drama",
+            "Crime"
+        ],
+        "data_estreia": "2025-03-19"
+    },
+    {
+        "titulo": "Uma Família Perfeita",
+        "titulo_original": "Good American Family",
+        "id": "207411",
+        "capa": "https://image.tmdb.org/t/p/w500/A8re5I0nzEfsDX82ka5Rljgd5do.jpg",
+        "qualidade": "HD",
+        "descricao": "Contado sob vários pontos de vista, como meio de explorar questões de perspectiva, preconceito e trauma, este drama envolvente é inspirado nas histórias perturbadoras que cercam um casal do Centro-Oeste americano que adota uma menina com uma forma rara de nanismo. Mas, à medida que começam a criá-la ao lado de seus três filhos biológicos, o mistério surge em torno de sua idade e origem, e eles lentamente começam a suspeitar que ela pode não ser quem diz ser.",
+        "generos": [
+            "Drama"
+        ],
+        "data_estreia": "2025-03-19"
+    },
+    {
+        "titulo": "Side Quest",
+        "titulo_original": "Side Quest",
+        "id": "216412",
+        "capa": "https://image.tmdb.org/t/p/w500/IPCrLpAZVkPk9VzWqYtQCpOGaf.jpg",
+        "qualidade": "HD",
+        "descricao": "Aprofunde-se no universo de Mythic Quest nessas quatro histórias independentes. Siga as vidas de jogadores, donos de lojas de quadrinhos, músicos de orquestras itinerantes e membros do departamento de arte enquanto eles buscam por comunidade, sucesso e amor.",
+        "generos": [
+            "Comédia"
+        ],
+        "data_estreia": "2025-03-25"
     }
 ]
 
